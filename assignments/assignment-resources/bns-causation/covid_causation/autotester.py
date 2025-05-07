@@ -1468,23 +1468,6 @@ def sum_out_variable_test_4(student_modules):
     return score, details
 
 
-
-# def main():
-#     score, Details = minfill_test_1()  # max is  5
-#     print("Score is: {}\nDetails: {}".format(score, Details))
-#     score, Details = minfill_test_2()  # max is  5
-#     print("Score is: {}\nDetails: {}".format(score, Details))
-#     score, Details = nb_test_1()  # max is  5
-#     print("Score is: {}\nDetails: {}".format(score, Details))
-#     score, Details = nb_test_2()  # max is  5
-#     print("Score is: {}\nDetails: {}".format(score, Details))
-#     score, Details = problem_test_1()  # max is  5
-#     print("Score is: {}\nDetails: {}".format(score, Details))
-#     score, Details = problem_test_2()  # max is  5
-#     print("Score is: {}\nDetails: {}".format(score, Details))
-#
-#
-
 if __name__ == '__main__':
     import json
 
@@ -1510,7 +1493,6 @@ if __name__ == '__main__':
         f = open(filename, "w")
         f.write(json.dumps(create_test_results("error", f"Could not import solution. {IMPORT_ERROR}", 0, 0)))
         f.close()
-
         exit()
 
     test_groups = {
@@ -1529,29 +1511,29 @@ if __name__ == '__main__':
     }
 
     test_case_weight = {
-        ve_test_1: 3,
-        ve_test_2: 3,
-        ve_test_3: 3,
-        ve_test_4: 3,
-        ve_test_5: 3,
-        ve_test_6: 3,
-        ve_test_7: 3,
-        ve_test_8: 4,
-        multiply_factors_test_1: 2,
-        multiply_factors_test_2: 2,
+        ve_test_1: 2,
+        ve_test_2: 2,
+        ve_test_3: 2,
+        ve_test_4: 2,
+        ve_test_5: 2,
+        ve_test_6: 2,
+        ve_test_7: 2,
+        ve_test_8: 11,
+        multiply_factors_test_1: 1,
+        multiply_factors_test_2: 1,
         multiply_factors_test_3: 2,
-        multiply_factors_test_4: 1,
-        restrict_factor_test_1: 2,
-        restrict_factor_test_2: 2,
+        multiply_factors_test_4: 3,
+        restrict_factor_test_1: 1,
+        restrict_factor_test_2: 1,
         restrict_factor_test_3: 2,
-        restrict_factor_test_4: 1,
-        norm_test_1: 2,
+        restrict_factor_test_4: 3,
+        norm_test_1: 3,
         norm_test_2: 2,
-        norm_test_3: 3,
+        norm_test_3: 2,
         sum_out_variable_test_1: 2,
         sum_out_variable_test_2: 2,
-        sum_out_variable_test_3: 2,
-        sum_out_variable_test_4: 1,
+        sum_out_variable_test_3: 1,
+        sum_out_variable_test_4: 2,
         minfill_test_1: 3,
         minfill_test_2: 4
     }

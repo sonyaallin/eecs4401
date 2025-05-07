@@ -1,9 +1,11 @@
+import csv
 from bnetbase import Variable, Factor, BN, adultDatasetBN
 
 def multiply_factors(Factors):
     '''return a new factor that is the product of the factors in Fators
     @return a factor''' 
     ### YOUR CODE HERE ###
+    pass
 
 def restrict_factor(f, var, value):
     '''f is a factor, var is a Variable, and value is a value from var.domain.
@@ -12,18 +14,21 @@ def restrict_factor(f, var, value):
     constant factor
     @return a factor''' 
     ### YOUR CODE HERE ###
+    pass
 
 def sum_out_variable(f, var):
     '''return a new factor that is the product of the factors in Factors
        followed by the suming out of Var
     @return a factor'''       
     ### YOUR CODE HERE ###
+    pass
 
 def normalize(nums):
     '''take as input a list of number and return a new list of numbers where
     now the numbers sum to 1, i.e., normalize the input numbers
     @return a normalized list of numbers'''
     ### YOUR CODE HERE ###
+    pass
 
 def min_fill_ordering(Factors, QueryVar):
     '''Compute an elimination order given a list of factors using the min fill heuristic. 
@@ -32,6 +37,7 @@ def min_fill_ordering(Factors, QueryVar):
     factor upon elimination. The QueryVar must NOT part of the returned ordering using.
     @return a list of variables''' 
     ### YOUR CODE HERE ###
+    pass
         
 ###
 def VE(Net, QueryVar, EvidenceVars):
@@ -55,6 +61,7 @@ def VE(Net, QueryVar, EvidenceVars):
    Pr(A='a'|B=1, C='c') = 0.26
     @return a list of probabilities, one for each item in the domain of the QueryVar''' 
     ### YOUR CODE HERE ###
+    pass
 
 def NaiveBayesModel():
     '''
@@ -88,6 +95,7 @@ def NaiveBayesModel():
     "Salary": ['<50K', '>=50K']
     }
     ### YOUR CODE HERE ###
+    pass
 
 def explore(Net, question):
     '''    Input: Net---a BN object (a Bayes Net)
@@ -101,4 +109,5 @@ def explore(Net, question):
            @return a percentage (between 0 and 100)
     ''' 
     ### YOUR CODE HERE ###
+    pass
 

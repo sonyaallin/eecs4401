@@ -1,19 +1,13 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-
-from matplotlib import rc
-from scipy import stats
-
-
-sns.set()
-
 
 class Covid19Dataset():
     """
-    A class for datasets with case and fatality numbers stratified by age
+    Class designed to illustrate COVID case and fatality numbers stratified by age
     group for different countries.
+
+    See
+    https://jamanetwork.com/journals/jama/fullarticle/2762130
     """
 
     def __init__(self,
@@ -134,7 +128,7 @@ if __name__ == "__main__":
             'date': '9 March 2020, 4pm',
             'author': 'Istituto Superiore di Sanità \
                 (ISS, Italian National Institute of Health)',
-            'url': 'https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-\sorveglianza-integrata-COVID-19_09-marzo-2020.pdf'
+            'url': 'https://www.epicentro.iss.it/coronavirus/bollettino/Bollettino-sorveglianza-integrata-COVID-19_09-marzo-2020.pdf'
         }
     )
 

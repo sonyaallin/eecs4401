@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac887b71-b73a-40da-a845-ed6feba1b0fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../causation/adult-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/autograder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/bnetbase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/solution_complete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/starter-code/autograder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/starter-code/bnetbase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/starter-code/data/adult-dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/starter-code/data/test-data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/starter-code/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../causation/test-data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid_causation/A4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid_causation/autotester.py" beforeDir="false" afterPath="$PROJECT_DIR$/../covid_causation/autotester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid_causation/bnetbase.py" beforeDir="false" afterPath="$PROJECT_DIR$/../covid_causation/bnetbase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid_causation/causation-hw-spec.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../covid_causation/causation-hw-spec.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid_causation/covid-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../covid_causation/covid.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid_causation/covid.py" beforeDir="false" afterPath="$PROJECT_DIR$/../covid_causation/covid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid_causation/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/../covid_causation/solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid_causation/test_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../covid_causation/test_results.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2wmYMMROUBxDWZLT463Hy2AawI0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.autograder.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/sonyaallin/Desktop/CurrentCourses/EECS4401/eecs4401/assignments/assignment-resources/bns-causation/variable-elimination"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="autograder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="variable-elimination" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autograder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.autograder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac887b71-b73a-40da-a845-ed6feba1b0fb" name="Changes" comment="" />
+      <created>1746648166603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746648166603</updated>
+    </task>
+    <servers />
+  </component>
+</project>

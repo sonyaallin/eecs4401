@@ -71,7 +71,7 @@ def train_HMM(train_file_name):
     ####################
     # STUDENT CODE HERE
     ####################
-
+    prior, transition, emission = [], [], []
     return prior, transition, emission
     
 

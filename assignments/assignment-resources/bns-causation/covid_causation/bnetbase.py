@@ -302,8 +302,6 @@ class BN:
                 return v
         return None
 
-
-
 def adultDatasetBN():
 
     ms = Variable("MaritalStatus", ['Not-Married', 'Married', 'Separated', 'Widowed'])

@@ -229,7 +229,7 @@ def CausalModelConfounder():
    variables in COVID-19 data.
     '''
     ### READ IN THE DATA
-    df = pd.read_csv('covid-data.csv')
+    df = pd.read_csv('covid.csv')
 
     ### DOMAIN INFORMATION
     variable_domains = {
@@ -309,7 +309,7 @@ def CausalModelMediator():
    variables in COVID-19 data.
     '''
     ### READ IN THE DATA
-    df = pd.read_csv('covid-data.csv')
+    df = pd.read_csv('covid.csv')
 
     ### DOMAIN INFORMATION
     variable_domains = {
@@ -353,6 +353,7 @@ def CausalModelMediator():
 
     A = Variable("Age", variable_domains["Age"])
     F1 = Factor("P(A|C)", [A,C])
+
     #note probabilities that are initialized are bogus
     values = [['0-9', 'Italy', 0.33], ['10-19', 'Italy', 0.47], ['20-29', 'Italy', 0.47], ['30-39', 'Italy', 0.47], ['40-49', 'Italy', 0.47], ['50-59', 'Italy', 0.47], ['60-69', 'Italy', 0.47], ['70-79', 'Italy', 0.47], ['80', 'Italy', 0.47],
               ['0-9', 'China', 0.33], ['10-19', 'China', 0.47], ['20-29', 'China', 0.47], ['30-39', 'China', 0.47], ['40-49', 'China', 0.47], ['50-59', 'China', 0.47], ['60-69', 'China', 0.47], ['70-79', 'China', 0.47], ['80', 'China', 0.47]]
@@ -362,6 +363,7 @@ def CausalModelMediator():
 
     F = Variable("Fatality", variable_domains["Fatality"])
     F2 = Factor("P(F|C,A)", [F,C,A])
+
     #note probabilities that are initialized are bogus
     values = [['YES', 'Italy', '0-9', 0.33], ['YES', 'Italy', '10-19', 0.47], ['YES', 'Italy', '20-29', 0.47], ['YES', 'Italy', '30-39', 0.47], ['YES', 'Italy', '40-49', 0.47],
               ['YES', 'Italy', '50-59', 0.47], ['YES', 'Italy', '60-69', 0.47], ['YES', 'Italy', '70-79', 0.47], ['YES', 'Italy', '80', 0.47],
@@ -375,8 +377,10 @@ def CausalModelMediator():
               ['NO', 'China', '30-39', 0.47], ['NO', 'China', '40-49', 0.47],
               ['NO', 'China', '50-59', 0.47], ['NO', 'China', '60-69', 0.47], ['NO', 'China', '70-79', 0.47],
               ['NO', 'China', '80', 0.47]]
+
     for i in range(0,len(values)):  #replace bogus values
         values[i][3] = fatalities[i]
+
     F2.add_values(values)
 
     causalModel = BN('COVID Model',
