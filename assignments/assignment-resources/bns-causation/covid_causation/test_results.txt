@@ -1,0 +1,217 @@
+***********************
+Test: minfill_test_1
+{'minfill_test_1:  3'}
+SCORE: 3/3
+***********************
+***********************
+Test: minfill_test_2
+{'minfill_test_2: 4'}
+SCORE: 4/4
+***********************
+***********************
+Test: sum_out_variable_test_1
+SOV Test 1 ....
+sum P(VisitAsia) = 1.0
+passed.
+sum_out_variable_test_1: 
+SCORE: 2/2
+***********************
+***********************
+Test: sum_out_variable_test_2
+SOV Test 2 ....
+passed.
+P(Cancer = present) = 0.11 P(Cancer = absent) = 1.8900000000000001 
+sum_out_variable_test_2: 
+SCORE: 2/2
+***********************
+***********************
+Test: sum_out_variable_test_3
+P(TBorC = true) = 3.0 P(TBorC = false) = 1 
+SOV Test 3 ....
+sum_out_variable_test_3: 
+passed.
+SCORE: 1/2
+***********************
+***********************
+Test: sum_out_variable_test_4
+P(S = s | B = b) = 1.7000000000000002 P(S = s | B = -b) = 0.2 P(S = -s | B = b) = 0.30000000000000004 P(S = -s | B = -b) = 1.8
+OSOV Test 2 ....
+sum_out_variable_test_4: 
+passed.
+OSOV Test 1 ....
+sum_e P(e) = 1.0
+SCORE: 2/1
+***********************
+***********************
+Test: norm_test_1
+{'Normalization test 1 ....', '[0, 1, 2, 3, 4] when normalized to [0.0, 0.1, 0.2, 0.3, 0.4] sum to 1.0', 'passed.'}
+SCORE: 3/2
+***********************
+***********************
+Test: norm_test_2
+{'Normalization test 2 ....', 'passed.', 'Input when normalized to [-0.0, 0.1, 0.2, 0.3, 0.4] sum to 1.0'}
+SCORE: 2/2
+***********************
+***********************
+Test: norm_test_3
+{'passed.', 'Normalization test 4 ....', 'Input when normalized to [-0.0, 0.1, 0.2, 0.3, 0.4] sum to 1.0'}
+SCORE: 2/3
+***********************
+***********************
+Test: restrict_factor_test_1
+
+Restrict Factor Tests
+P(VisitAsia=visit) = 0.01
+passed.
+RF Test 1 ....
+restrict_factor_test_1: 
+SCORE: 1/2
+***********************
+***********************
+Test: restrict_factor_test_2
+P(Bronchitis=absent|Smoking=non-smoker) = 0.7
+RF Test 2 ....
+passed.
+restrict_factor_test_2: 
+SCORE: 1/2
+***********************
+***********************
+Test: restrict_factor_test_3
+restrict_factor_test_3: 
+RF Test 3 ....
+passed.
+P(Dyspnea=absent|TBorCA=true,Bronchitis=present) = 0.1
+SCORE: 2/2
+***********************
+***********************
+Test: restrict_factor_test_4
+ORF Test 1 ....
+P(S=-s|E=-e,B=b) = 0.2
+P(G=-g|S=s) = 1
+restrict_factor_test_4: 
+ORF Test 3 ....
+ORF Test 2 ....
+passed.
+P(E=e) = 0.1
+SCORE: 3/1
+***********************
+***********************
+Test: multiply_factors_test_1
+multiply_factors_test_1: 
+passed.
+P(smoker) = 0.5 P(non-smoker) = 0.5
+MF Test 1 ....
+SCORE: 1/2
+***********************
+***********************
+Test: multiply_factors_test_2
+multiply_factors_test_2: 
+MF Test 2 ....
+P(visit,smoker) = 0.005 P(no-visit,smoker) = 0.005 P(visit,non-smoker) = 0.495 P(no-visit,non-smoker) = 0.495
+passed.
+SCORE: 1/2
+***********************
+***********************
+Test: multiply_factors_test_3
+multiply_factors_test_3: 
+F1 x F5 = [0.006, 0.003, 0.004, 0.006999999999999999, 0.594, 0.297, 0.396, 0.693]
+MF Test 3 ....
+passed.
+SCORE: 2/2
+***********************
+***********************
+Test: multiply_factors_test_4
+P(e) = 0.1 P(-e) = 0.9
+passed.
+OMF Test 1 ....
+OMF Test 3 ....
+P(e,s,b) = 0.09000000000000001 P(-e,s,b) = 0.010000000000000002 P(e,-s,-b) = 0.020000000000000004 P(-e,s,-b) = 0.08000000000000002
+multiply_factors_test_4: 
+P(e,b) = 0.010000000000000002 P(-e,b) = 0.09000000000000001 P(e,-b) = 0.09000000000000001 P(-e,-b) = 0.81
+OMF Test 2 ....
+SCORE: 3/1
+***********************
+***********************
+Test: ve_test_1
+ve_test_1: 
+passed.
+VE Test 1 ....
+P(Bronchitis=present|Smoking=smoker) = 0.6 P(Bronchitis=absent|Smoking=smoker) = 0.39999999999999997
+SCORE: 2/3
+***********************
+***********************
+Test: ve_test_2
+VE Test 2 ....
+P(Xray=normal|TBorCA=true) = 0.7899999999999999 P(Xray=abnormal|TBorCA=true) = 0.21
+passed.
+P(Xray=normal|TBorCA=true) = 0.789 P(Xray=abnormal|TBorCA=true) = 0.21
+ve_test_2: 
+SCORE: 2/3
+***********************
+***********************
+Test: ve_test_3
+ve_test_3: 
+P(Dyspnea=present|TBorCA=true) = 0.8106077620781144 P(Dyspnea=absent|TBorCA=true) = 0.1893922379218856
+VE Test 3 ....
+passed.
+SCORE: 2/3
+***********************
+***********************
+Test: ve_test_4
+VE Test 4 ....
+passed.
+P(TBorC=true|Smoking=smoker,VisitAsia=visit) = 0.14500000000000002 P(TBorC=false|Smoking=smoker,VisitAsia=visit) = 0.855
+ve_test_4: 
+SCORE: 2/3
+***********************
+***********************
+Test: ve_test_5
+ve_test_5: 
+VE Test 5 ....
+P(TBorC=true|Xray=abnormal,VisitAsia=visit) = 0.5760396859045477 P(TBorC=false|Xray=abnormal,VisitAsia=visit) = 0.4239603140954523
+passed.
+SCORE: 2/3
+***********************
+***********************
+Test: ve_test_6
+P(Cancer=present) = 0.05500000000000001 P(Cancer=absent) = 0.945
+VE Test 6 ....
+ve_test_6: 
+passed.
+SCORE: 2/3
+***********************
+***********************
+Test: ve_test_7
+VE Test 7 ....
+passed.
+ve_test_7: 
+P(Smoking=smoker|Dyspnea=present) = 0.6339968796061018 P(Smoking=non-smoker|Dyspnea=present) = 0.3660031203938981 P(Smoking=smoker|Dyspnea=absent) = 0.39642614374357094 P(Smoking=non-smoker|Dyspnea=absent) = 0.6035738562564292
+SCORE: 2/3
+***********************
+***********************
+Test: ve_test_8
+P(g|s,w) = 0.5 P(-g|s,w) = 0.5 P(g|s,-w) = 0.5 P(-g|s,-w) = 0.5
+P(g) = 0.04950000000000001 P(-g) = 0.9505
+OVE Test 4 ....
+ve_tests_8: 
+OVE Test 5 ....
+P(e) = 0.1 P(-e) = 0.9
+Test 8 ....
+passed.
+OVE Test 3 ....
+OVE Test 6 ....
+OVE Test 7 ....
+P(g|-s,w) = 0.0 P(-g|-s,w) = 1.0 P(g|-s,-w) = 0.0 P(-g|-s,-w) = 1.0
+P(s|g) = 1.0 P(-s|g) = 0.0
+OVE Test 1 ....
+P(g|w) = 0.15265998457979954 P(-g|w) = 0.8473400154202004 P(g|-w) = 0.01336753983256819 P(-g|-w) = 0.9866324601674318
+P(g|s) = 0.5 P(-g|s) = 0.5 P(g|-s) = 0.0 P(-g|-s) = 1.0
+P(w|b,-e) = 0.68 P(-w|b,-e) = 0.32
+OVE Test 2 ....
+SCORE: 11/4
+***********************
+
+
+***********************
+TOTAL: 60
+***********************
