@@ -1,0 +1,237 @@
+['/Users/JaglalLab/Desktop/auto_grader_futoshiki/submissions/nikaifen/A3', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python310.zip', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lib-dynload', '/Users/JaglalLab/Library/Python/3.10/lib/python/site-packages', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages']
+---starting test_simple_FC---
+score: 1
+
+---finished test_simple_FC---
+
+---starting test_simple_GAC---
+score: 1
+
+---finished test_simple_GAC---
+
+---starting three_queen_FC---
+
+score: 1
+---finished three_queen_FC---
+
+---starting three_queen_GAC---
+HERE 1
+score: 1
+---finished three_queen_GAC---
+
+---begin test_1 fc---
+CSP SimpleEqs solved. CPU Time used = 0.00012899999999999023
+CSP SimpleEqs  Assignments = 
+Var--X  =  2     Var--Y  =  1     Var--Z  =  1     Var--W  =  4     
+bt_search finished
+Search made 11 variable assignments and pruned 14 variable values
+
+score: 1
+---end test_1 fc---
+
+---begin test_1 gac---
+CSP SimpleEqs solved. CPU Time used = 0.00019799999999998985
+CSP SimpleEqs  Assignments = 
+Var--X  =  2     Var--Y  =  1     Var--Z  =  1     Var--W  =  4     
+bt_search finished
+Search made 4 variable assignments and pruned 9 variable values
+
+score: 1
+---end test_1 gac---
+
+---begin test_2 fc---
+CSP ParityEqs solved. CPU Time used = 0.00011200000000000099
+CSP ParityEqs  Assignments = 
+Var--X  =  3     Var--Y  =  2     Var--Z  =  1     
+bt_search finished
+Search made 9 variable assignments and pruned 16 variable values
+
+score: 1
+---end test_2 fc---
+
+---begin test_2 gac---
+CSP ParityEqs solved. CPU Time used = 0.00016599999999999948
+CSP ParityEqs  Assignments = 
+Var--X  =  3     Var--Y  =  2     Var--Z  =  1     
+bt_search finished
+Search made 4 variable assignments and pruned 9 variable values
+
+score: 1
+---end test_2 gac---
+
+---begin test_3 fc---
+CSPParityEqs unsolved. Has no solutions
+bt_search finished
+Search made 10 variable assignments and pruned 19 variable values
+
+score: 1
+---end test_3 fc---
+
+---begin test_3 gac---
+CSPParityEqs unsolved. Has no solutions
+bt_search finished
+Search made 2 variable assignments and pruned 11 variable values
+
+score: 1
+---end test_3 gac---
+
+---begin test_tiny_adder_FC---
+
+score: 5
+---end test_tiny_adder_FC---
+
+---begin test_tiny_adder_GAC---
+
+score: 5
+---end test_tiny_adder_GAC---
+
+---begin test_no_pruning_FC---
+
+score: 3
+---end test_no_pruning_FC---
+
+---begin test_no_pruning2_FC---
+
+score: 3
+---end test_no_pruning2_FC---
+
+---begin test_no_pruning_GAC---
+
+score: 6
+---end test_no_pruning_GAC---
+
+---starting test_gac_10queens---
+
+score: 4
+---finished test_gac_10queens---
+
+---starting test_fc_10queens---
+
+score: 4
+---finished test_fc_10queens---
+
+---starting test_DWO_GAC---
+
+score: 5
+---finished test_DWO_GAC---
+---starting test_DWO_FC---
+
+
+score: 5
+---finished test_DWO_FC---
+
+---STARTING MODEL TESTS---
+
+---starting model_1_import---
+
+score: 1
+---finished model_1_import---
+
+---starting model_2_import---
+
+score: 1
+---finished model_2_import---
+
+---starting check_model_1_constraints_enum_rewscols---
+
+score: 1
+---finished check_model_1_constraints_enum_rewscols---
+
+---starting check_model_1_constraints_enum_ineqs---
+
+score: 1
+---finished check_model_1_constraints_enum_ineqs---
+---starting check_model_2_constraints_enum_ineqs---
+
+score: 1
+---finished check_model_2_constraints_enum_ineqs---
+---starting check_model_2_constraints_enum_rewscols---
+
+score: 1
+---finished check_model_2_constraints_enum_rewscols---
+
+---starting check_model_1_constraints_FC---
+Failed FC propagation test on model 1
+score: 0
+---finished check_model_1_constraints_FC---
+---starting check_model_2_constraints_FC---
+
+score: 1
+---finished check_model_2_constraints_FC---
+---starting check_model_1_constraints_GAC---
+
+score: 1
+---finished check_model_1_constraints_GAC---
+---starting check_model_2_constraints_GAC---
+
+score: 1
+---finished check_model_2_constraints_GAC---
+---starting unsolvable model 1---
+CSPFutoshiki Model 1 detected contradiction at root
+CSPFutoshiki Model 1 unsolved. Has no solutions
+bt_search finished
+Search made 0 variable assignments and pruned 50 variable values
+
+score: 4
+---finished unsolvable model 1---
+
+---starting unsolvable model 2---
+CSPFutoshiki Model 2 detected contradiction at root
+CSPFutoshiki Model 2 unsolved. Has no solutions
+bt_search finished
+Search made 0 variable assignments and pruned 63 variable values
+
+score: 4
+---finished unsolvable model 2---
+
+---starting binary model 1---
+
+score: 2
+---finished binary model 1---
+
+---starting nary model 2---
+
+score: 2
+---finished nary model 2---
+
+---starting check_out_of_domain_tuple_model_1---
+
+score: 4
+---finished check_out_of_domain_tuple_model_1---
+
+---starting check_out_of_domain_tuple_model_2---
+
+score: 4
+---finished check_out_of_domain_tuple_model_2---
+
+---starting test_big_problem_model1---
+
+score: 5
+---finished test_big_problem_model1---
+
+---starting test_big_problem_model2---
+
+score: 5
+---finished test_big_problem_model2---
+
+---starting test_full_run_model1---
+CSP Futoshiki Model 1 solved. CPU Time used = 0.030904999999997074
+CSP Futoshiki Model 1  Assignments = 
+Var--(1,1)  =  2     Var--(1,2)  =  1     Var--(1,3)  =  6     Var--(1,4)  =  3     Var--(1,5)  =  7     Var--(1,6)  =  5     Var--(1,7)  =  4     Var--(2,1)  =  6     Var--(2,2)  =  4     Var--(2,3)  =  2     Var--(2,4)  =  5     Var--(2,5)  =  3     Var--(2,6)  =  7     Var--(2,7)  =  1     Var--(3,1)  =  1     Var--(3,2)  =  2     Var--(3,3)  =  3     Var--(3,4)  =  6     Var--(3,5)  =  5     Var--(3,6)  =  4     Var--(3,7)  =  7     Var--(4,1)  =  3     Var--(4,2)  =  5     Var--(4,3)  =  7     Var--(4,4)  =  4     Var--(4,5)  =  1     Var--(4,6)  =  6     Var--(4,7)  =  2     Var--(5,1)  =  7     Var--(5,2)  =  3     Var--(5,3)  =  5     Var--(5,4)  =  2     Var--(5,5)  =  4     Var--(5,6)  =  1     Var--(5,7)  =  6     Var--(6,1)  =  5     Var--(6,2)  =  7     Var--(6,3)  =  4     Var--(6,4)  =  1     Var--(6,5)  =  6     Var--(6,6)  =  2     Var--(6,7)  =  3     Var--(7,1)  =  4     Var--(7,2)  =  6     Var--(7,3)  =  1     Var--(7,4)  =  7     Var--(7,5)  =  2     Var--(7,6)  =  3     Var--(7,7)  =  5     
+bt_search finished
+Search made 49 variable assignments and pruned 192 variable values
+
+score: 5
+---finished test_full_run_model1---
+
+---starting test_full_run_model2---
+CSP Futoshiki Model 2 solved. CPU Time used = 0.5991309999999999
+CSP Futoshiki Model 2  Assignments = 
+Var--(1,1)  =  2     Var--(1,2)  =  1     Var--(1,3)  =  6     Var--(1,4)  =  3     Var--(1,5)  =  7     Var--(1,6)  =  5     Var--(1,7)  =  4     Var--(2,1)  =  6     Var--(2,2)  =  4     Var--(2,3)  =  2     Var--(2,4)  =  5     Var--(2,5)  =  3     Var--(2,6)  =  7     Var--(2,7)  =  1     Var--(3,1)  =  1     Var--(3,2)  =  2     Var--(3,3)  =  3     Var--(3,4)  =  6     Var--(3,5)  =  5     Var--(3,6)  =  4     Var--(3,7)  =  7     Var--(4,1)  =  3     Var--(4,2)  =  5     Var--(4,3)  =  7     Var--(4,4)  =  4     Var--(4,5)  =  1     Var--(4,6)  =  6     Var--(4,7)  =  2     Var--(5,1)  =  7     Var--(5,2)  =  3     Var--(5,3)  =  5     Var--(5,4)  =  2     Var--(5,5)  =  4     Var--(5,6)  =  1     Var--(5,7)  =  6     Var--(6,1)  =  5     Var--(6,2)  =  7     Var--(6,3)  =  4     Var--(6,4)  =  1     Var--(6,5)  =  6     Var--(6,6)  =  2     Var--(6,7)  =  3     Var--(7,1)  =  4     Var--(7,2)  =  6     Var--(7,3)  =  1     Var--(7,4)  =  7     Var--(7,5)  =  2     Var--(7,6)  =  3     Var--(7,7)  =  5     
+bt_search finished
+Search made 49 variable assignments and pruned 192 variable values
+
+score: 5
+---finished test_full_run_model2---
+
+Score: 99/100; Did not pass all tests.

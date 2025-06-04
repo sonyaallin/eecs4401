@@ -1,0 +1,4 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I have learned that Othello is an incredibly complex game for such a simple premise. Though the rules were few and simple, but the ability of one tile to change the board in diagonal, horizontal, and vertical positions makes it very troublesome to develop heuristics for. Also, it is prudent to cache minimax values in two global values in some instances as min and max functions could output different values given symmetrical circumstances. However, this is not the case for Othello since the oddness and eveness of the tiles predicts who's turn it has to be.

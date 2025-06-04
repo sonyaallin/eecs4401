@@ -1,0 +1,8 @@
+The most important and interesting thing I have learned from the Bayesian Network module is the observation. In 
+our assignment example of POS, tags are not directly observed, but we are aim to predict the tags sequence given 
+sentences which consist of sequence of words. HMM introduces the idea of adding observations so that we can 
+update our beliefs of certain tags. For example, "The", "This" are very likely belongs to the tag 'DET'. Also, there are 
+some interesting cases, e.g. "answer", this word is likely to be 'NOUN', and it also likely to be a 'VERB'. Now we can 
+use the transistion to help us to determine. So 'VERB' case has the higher possibility if it is after 'PRONOUN' and 
+'NOUN' case has the higher possibility if it is after 'DET'. Moreover, the inferencing algorithm is also important in 
+HMM.

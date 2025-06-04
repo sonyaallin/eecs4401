@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think the most significant I learned from this assignment was that implementing algorithms that 
+we've been learning for the past two years, isn't as hard as I thought. I also really enjoyed seeing first-hand
+how complex time complexity is. There were points in the alternative distance code, where I wrote a function
+that iterated through another set, but through it's findings I was able to cut down on overall runtime AND get
+more accurate values. I really enjoyed this assignment, it seemed very scary in the beginning but after I 
+started working on it I realized how simple it is. 

@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+The most significant thing I have learned from this assignment is how much better GAC checking
+is than forward checking. It is crazy to see that just from checking all constraints no matter
+how many unassigned variables there are in them instead of if there is only one, that drastic
+drop in number of variable assignments and pruned variables. On the 6x6 starter grid, forward
+checking results in 15000ish variable assignments and 6900 pruned values while GAC only assigns
+an exact 36 variables one for each square and prunes 179. Literally 0.2% of the previous amount
+of assignments. This really shows how even what seems like slight optimizations can really change
+the performance of your algorithm. While investigating CSPs I also learned that CSPs can be used to
+generate composition and harmonizations in music theory while taking into account fingering or
+melody. I was always told you could combine any two majors you want and find something to do in
+post-secondary but music and computer science seems like a stretch and even still you can find
+something like this that combines two radically different subjects.

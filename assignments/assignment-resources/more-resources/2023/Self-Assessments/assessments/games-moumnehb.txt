@@ -1,0 +1,11 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+From the games module I have learned how significant it is to have increase the
+speed of the algorithm. As well, it is has shown me that increasing the speed of
+the algorithm can be done in many ways. I have also learned that not taking into
+account the stage in which the game is at or whether an opponent is not playing
+optimally can impact the strength of the AI. However, the minimax algorithm is
+the safe strategy for playing against almost all players whether they play optimally
+or not. Lastly, the games module has shown me that we do not need compute the entire
+tree in order to reach an optimal solution.
+

@@ -1,0 +1,7 @@
+I learned from the Constraint Search Problems is the way they differ from the path-finding search problems
+that was introduced in Sokoban. We can save a lot of space from not having to remember the paths and only
+concerning ourselves with the end configuration, and we can use heuristics slightly differently where in this
+case we use a heuristic to pick the next variable to attempt to configure.
+I also learned a great deal about pruning in the propagators and how they will greatly affect the runtime of
+the search algorithm. I ran the Backtracking algorithms with and without the minimal degree heuristic and
+the runtime difference was very significant.

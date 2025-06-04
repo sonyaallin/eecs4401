@@ -1,0 +1,10 @@
+What is the most significant thing you have learned from the Bayesian Network
+module?
+
+As with Most of the other topics weve covered so far, i've noticed that its
+very important to optimize the way you represent you data by finding whats the
+best kind of model to use before the AI. I also found very much to be true the
+concept of 'garbage in garbage out'. This is probably a result of the fact that
+with these hypertuned models that depend heavily on the math being correct,
+every last calculation has to be right other wise the math will fail and by
+result, the whole system will collapse.

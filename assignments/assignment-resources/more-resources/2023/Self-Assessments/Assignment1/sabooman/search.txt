@@ -1,0 +1,15 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+In this assignment, we came across several types of searches, their advantages, and disadvantages. The most significant thing I
+learned is when to use one search over the other. In the case of heuristic search, we use heuristic value
+such that we attain an approximate measure of how close we are to finding our solution. Using manhattan 
+distance as a heuristic, we attain the distance between a box and the closest storage, adding them up. 
+This heuristic assumes the other obstacles and edge cases are not worth considering. Thus, we have an admissible, 
+but flawed heuristic. Our alternate heuristic, which we write in the assignment, bridges the flaws and reduces
+the time required for the search, providing better approximates. Weighted a-star search, on the other hand, 
+introduces a weight such that f(node) = g(node) + weight(h(node)), where g(node) is the cost of reaching the node
+and h(node) is the heuristic value of each node. Iterative weighted a-star search is one step ahead of weighted a-star search.
+We alter the weights such that we return the optimum path with the least f(node) value. In iterative gbfs search,
+we return the optimum path with the least g(node), improving the quality of a regular greedy first search 
+(that only expands node with the lowest h-value). 

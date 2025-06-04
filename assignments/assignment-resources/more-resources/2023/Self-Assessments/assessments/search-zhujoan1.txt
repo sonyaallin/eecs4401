@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned from the search module is that there isn't 
+one type of search method that is good for all searches, there are different trade offs
+to consider depending on the what you are searching like if there is a cost involved. 
+Another thing I learned particuarly from working on this assignment is that 
+its hard to come up with a good heuristic and theres a lot of edge cases to consider and 
+sometimes adding more/certain constraints that seem like it would improve the heuristic will sometimes 
+even make the search slower than how it was before. :(

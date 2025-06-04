@@ -1,0 +1,35 @@
+# What do the calculations tell us about fairness?
+
+From answering questions 1 and 2, we know that for 99% of women in the test set our model
+predicted a salary >= 50K with lower probability once it knew the participant was female. Meanwhile, for all men
+in the training set our model predicted a salary of >= 50K with greater or equal probability once it knew
+the participant was male. So we can conclude that the model's predictions are not separated from
+gender given the evidence.
+
+From answering questions 3 and 4, we know the probability of actually having a salary >= 50K
+given a predicted salary >= 50K is smaller for women than it is for men. This implies that our model's
+salary prediction for women is less accurate than the salary predictions for men.
+
+From question 5 and 6, we observe that the model predicted a salary of >=50K for only 8% of women
+meanwhile it predicted a salary of >=50K for 25% of men. Thus, the model does not achieve demographic parity.
+
+Based on the above observations I would not use this model to recommend starting
+salaries at a firm. If a new employee has qualifications (e.g. education)
+which justify a higher starting salary, then gender should not be a factor in approving the higher salary.
+Our model may not adhere to this reasoning since we observed that evidence which included education level
+was not able to separate predicted salary from gender.
+
+# Reflection
+
+The most significant thing I learned from the Bayesian Networks module is that
+Bayesian Networks are an effective graphical tool for encoding our assumptions about the independence of
+variables and can be used to make inferences under uncertainty. I learned that when making such inferences
+conditional independence assumptions present in the network's structure can simplify specification of the joint
+distribution. I learned about the data structures (factors) a computer uses to perform variable elimination,
+and how to manipulate these factors to obtain a conditional probability distribution. I also learned that using the
+min-fill heuristic on polytrees allows the variable elimination algorithm to run in time linear in the number of
+variables.
+
+I understood that naive bayes nets are simple and can be a good start for making inferences using real world data. Lastly,
+I leanred of the various methods for assessing fairness of models.
+

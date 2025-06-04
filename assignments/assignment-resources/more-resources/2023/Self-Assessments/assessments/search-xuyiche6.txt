@@ -1,0 +1,15 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+When listening to lectures about searching algorithms, they are all theories.
+When I was doing this assignment, I actually found pseudocode in algorithm
+is pretty different from codes in hands-on assignment.
+
+The most important part is that accuracy is not all of the algorithm. When implementing
+heur_alternate, it was a difficult time to find both efficient and accurate
+way to implement it. Make it accurate enough will increase the complexity and thus does not
+comply with the time limit. It was pretty interesting to explore and test though.
+
+Besides, those weekly quizzes are very useful and helpful for me to summarize the week's learning.
+For example, questions like finding out where the iteration terminates gives me opportunity to
+practice the algorithm for different ways of searching.

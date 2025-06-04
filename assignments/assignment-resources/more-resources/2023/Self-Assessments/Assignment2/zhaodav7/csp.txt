@@ -1,0 +1,4 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I have learned is that GAC is incredibly powerful when paired with smaller constraints. The nary model worked but took significantly longer than the binary model on larger grids. This is representative of direct solution methods that take much longer to solve the same problem due to the large amount of variations to consider at the beginning with an empty grid. 

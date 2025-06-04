@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+The most significant thing that I learned in the CSP module is forward checking,
+because I learned how looking forward in the problem can reduce by a lot the
+number of tries that is required to solve a search problem. The key thing about
+FC that I found genius is the pruning of values because it provides information
+about the paths that should not be taken as they will lead to a deadend.
+Therefore, I think that the concept of looking ahead to avoid undesirable
+results is the most significant thing I have learned in the CSP module.

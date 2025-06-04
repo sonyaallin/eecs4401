@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+I learned alot about heuristics during this module. I think the most significant thing I learned
+was that a more detailed heurstic does not always lead to a better solution. It seems obvious in retrospect
+but I had assumed that if we caluclate more and more we would keep getting better and better models, and with
+infinite computation time this is probably true. But somethings are just to insignificant and the time spent
+to factor it in isn't worth it. When I started my heuristic for a1 I tried to have like 5 different things being
+checked but this slowed down computation to the point that nothing was been calucalted. Instead finding one 
+specific parameter and focusing on it yeilded the best results.

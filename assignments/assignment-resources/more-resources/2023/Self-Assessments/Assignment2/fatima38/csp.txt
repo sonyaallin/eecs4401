@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Both FC and GAC are effective algorithms for solving CSPs. FC can sometimes lead to incorrect assignments during its run
+which causes a lot of backtracking. However, GAC is very powerful in its ability to prune so that less backtracking is
+required and solutions are found faster. Still there are ways that even GAC can be improved to better its efficiency.
+The idea of supports really helps reduce redundant assignment searches. I quite enjoyed learning about this module
+because the logic puzzles I do mimic the csp problem setup, and it was interesting to see how a program could solve the
+puzzle using some of the same logic that humans use but sometimes missing the obvious.

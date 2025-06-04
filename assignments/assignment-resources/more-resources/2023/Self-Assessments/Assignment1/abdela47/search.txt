@@ -1,0 +1,12 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+Before taking this course, I used to believe that AI was achieved through machine learning as it was more math based
+with its neural networks being used to train a neural network to map. However, I was surprised to see that we can use
+AI a more logic based coding format to search for a goal state (in a sense mapping from the start space to the goal)
+through criteria we have set for the program. I learned from the search module that we can use some of that learning
+method to improve upon the result of a search based on previous results but using a more logical approach as opposed to
+the more mathematical approach used in machine learning. Furthermore, it seems to me that you can always improve upon a
+search but sometimes the improvement in accuracy (decreasing wrong states explored) costs more time than if we just
+continued and let it fail on it s own. This was interesting as there was a bit of an inverse relation between how
+streamline a solution we want or how quick a solution we want. (Optimal vs Quick).

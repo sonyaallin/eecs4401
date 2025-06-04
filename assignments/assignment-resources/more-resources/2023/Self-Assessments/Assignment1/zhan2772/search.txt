@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned is the way to improve a search algorithm.
+Different ways of optimize the algorithm will result different outcomes. Depending
+on our preference, we can choose different method to meet our needs, For instance,
+we could use Iterative Depending A* Search to save memory usage. Or we could use
+greedy search to get a solution faster, but the solution may not be optimal one.
+Like what we have done during this assignment, we can even run a search algorithm
+iteratively and using the previous result to keep improving the solution. This is
+something I never thought about before. When we build an application, we want it
+to show some content faster to improve user's experience. If the customer has more
+powerful machine,we can keep search for a better solution. By using this concept,
+we can effectively eliminate long blank screen time.

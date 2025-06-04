@@ -1,0 +1,12 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I have learned from the csp module is that
+there are no one fit all algorithm for constraint satisfaction problems. We
+were introduced to some algorithms that take advantage of key intuitions to
+cut down the searches where each new one was on average better than the rest
+but can still have cases where they are significantly worse. For example,
+forward checking is about 100 times faster than backtracking, but it also has
+the possibility to do worse than backtracking given such an edge case. Each
+problem needs careful consideration of how each algorithm takes shortcuts so
+that a goal can be found from the search efficiently.

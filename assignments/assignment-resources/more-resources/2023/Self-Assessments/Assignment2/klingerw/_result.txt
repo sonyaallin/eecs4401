@@ -1,0 +1,205 @@
+
+******************************
+TESTING MODEL 1
+******************************
+0 out of 10 boards modeled and solved correctly using model 1
+
+******************************
+TESTING MODEL 2
+******************************
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.0006519999999999998
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V21  =  2     Var--V22  =  3     Var--V23  =  1     Var--V31  =  3     Var--V32  =  1     Var--V33  =  2     
+bt_search finished
+Search made 9 variable assignments and pruned 14 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.0034339999999999996
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  3     Var--V31  =  3     Var--V32  =  4     Var--V33  =  1     Var--V34  =  2     Var--V41  =  4     Var--V42  =  3     Var--V43  =  2     Var--V44  =  1     
+bt_search finished
+Search made 16 variable assignments and pruned 36 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.023985999999999993
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V15  =  5     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  5     Var--V25  =  3     Var--V31  =  3     Var--V32  =  4     Var--V33  =  5     Var--V34  =  1     Var--V35  =  2     Var--V41  =  4     Var--V42  =  5     Var--V43  =  2     Var--V44  =  3     Var--V45  =  1     Var--V51  =  5     Var--V52  =  3     Var--V53  =  1     Var--V54  =  2     Var--V55  =  4     
+bt_search finished
+Search made 25 variable assignments and pruned 78 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.19218300000000002
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V15  =  5     Var--V16  =  6     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  3     Var--V25  =  6     Var--V26  =  5     Var--V31  =  3     Var--V32  =  4     Var--V33  =  5     Var--V34  =  6     Var--V35  =  1     Var--V36  =  2     Var--V41  =  4     Var--V42  =  3     Var--V43  =  6     Var--V44  =  5     Var--V45  =  2     Var--V46  =  1     Var--V51  =  5     Var--V52  =  6     Var--V53  =  1     Var--V54  =  2     Var--V55  =  3     Var--V56  =  4     Var--V61  =  6     Var--V62  =  5     Var--V63  =  2     Var--V64  =  1     Var--V65  =  4     Var--V66  =  3     
+bt_search finished
+Search made 36 variable assignments and pruned 139 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.02245600000000003
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V15  =  5     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  5     Var--V25  =  3     Var--V31  =  3     Var--V32  =  4     Var--V33  =  5     Var--V34  =  1     Var--V35  =  2     Var--V41  =  4     Var--V42  =  5     Var--V43  =  2     Var--V44  =  3     Var--V45  =  1     Var--V51  =  5     Var--V52  =  3     Var--V53  =  1     Var--V54  =  2     Var--V55  =  4     
+bt_search finished
+Search made 25 variable assignments and pruned 78 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.19403899999999996
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V15  =  5     Var--V16  =  6     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  3     Var--V25  =  6     Var--V26  =  5     Var--V31  =  3     Var--V32  =  4     Var--V33  =  5     Var--V34  =  6     Var--V35  =  1     Var--V36  =  2     Var--V41  =  4     Var--V42  =  3     Var--V43  =  6     Var--V44  =  5     Var--V45  =  2     Var--V46  =  1     Var--V51  =  5     Var--V52  =  6     Var--V53  =  1     Var--V54  =  2     Var--V55  =  3     Var--V56  =  4     Var--V61  =  6     Var--V62  =  5     Var--V63  =  2     Var--V64  =  1     Var--V65  =  4     Var--V66  =  3     
+bt_search finished
+Search made 36 variable assignments and pruned 139 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.0034570000000000434
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  3     Var--V31  =  3     Var--V32  =  4     Var--V33  =  1     Var--V34  =  2     Var--V41  =  4     Var--V42  =  3     Var--V43  =  2     Var--V44  =  1     
+bt_search finished
+Search made 16 variable assignments and pruned 36 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.0034480000000000066
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  3     Var--V31  =  3     Var--V32  =  4     Var--V33  =  1     Var--V34  =  2     Var--V41  =  4     Var--V42  =  3     Var--V43  =  2     Var--V44  =  1     
+bt_search finished
+Search made 16 variable assignments and pruned 36 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.02292000000000005
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V15  =  5     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  5     Var--V25  =  3     Var--V31  =  3     Var--V32  =  4     Var--V33  =  5     Var--V34  =  1     Var--V35  =  2     Var--V41  =  4     Var--V42  =  5     Var--V43  =  2     Var--V44  =  3     Var--V45  =  1     Var--V51  =  5     Var--V52  =  3     Var--V53  =  1     Var--V54  =  2     Var--V55  =  4     
+bt_search finished
+Search made 25 variable assignments and pruned 78 variable values
+N-ary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.003606999999999916
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  3     Var--V14  =  4     Var--V21  =  2     Var--V22  =  1     Var--V23  =  4     Var--V24  =  3     Var--V31  =  3     Var--V32  =  4     Var--V33  =  1     Var--V34  =  2     Var--V41  =  4     Var--V42  =  3     Var--V43  =  2     Var--V44  =  1     
+bt_search finished
+Search made 16 variable assignments and pruned 36 variable values
+10 out of 10 boards modeled and solved correctly using model 2
+
+******************************
+TESTING MODEL 3
+******************************
+Binary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.0008810000000000207
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  3     Var--V13  =  2     Var--V21  =  2     Var--V22  =  1     Var--V23  =  3     Var--V31  =  3     Var--V32  =  2     Var--V33  =  1     
+bt_search finished
+Search made 9 variable assignments and pruned 17 variable values
+Binary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.0028850000000000264
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  3     Var--V12  =  1     Var--V13  =  2     Var--V14  =  4     Var--V21  =  2     Var--V22  =  4     Var--V23  =  3     Var--V24  =  1     Var--V31  =  1     Var--V32  =  2     Var--V33  =  4     Var--V34  =  3     Var--V41  =  4     Var--V42  =  3     Var--V43  =  1     Var--V44  =  2     
+bt_search finished
+Search made 17 variable assignments and pruned 65 variable values
+Binary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.01601599999999992
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  5     Var--V12  =  2     Var--V13  =  1     Var--V14  =  4     Var--V15  =  3     Var--V21  =  1     Var--V22  =  4     Var--V23  =  5     Var--V24  =  3     Var--V25  =  2     Var--V31  =  2     Var--V32  =  5     Var--V33  =  3     Var--V34  =  1     Var--V35  =  4     Var--V41  =  3     Var--V42  =  1     Var--V43  =  4     Var--V44  =  2     Var--V45  =  5     Var--V51  =  4     Var--V52  =  3     Var--V53  =  2     Var--V54  =  5     Var--V55  =  1     
+bt_search finished
+Search made 27 variable assignments and pruned 153 variable values
+Binary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.06905899999999998
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  5     Var--V12  =  6     Var--V13  =  3     Var--V14  =  4     Var--V15  =  1     Var--V16  =  2     Var--V21  =  6     Var--V22  =  1     Var--V23  =  4     Var--V24  =  5     Var--V25  =  2     Var--V26  =  3     Var--V31  =  4     Var--V32  =  5     Var--V33  =  2     Var--V34  =  3     Var--V35  =  6     Var--V36  =  1     Var--V41  =  3     Var--V42  =  4     Var--V43  =  1     Var--V44  =  2     Var--V45  =  5     Var--V46  =  6     Var--V51  =  2     Var--V52  =  3     Var--V53  =  6     Var--V54  =  1     Var--V55  =  4     Var--V56  =  5     Var--V61  =  1     Var--V62  =  2     Var--V63  =  5     Var--V64  =  6     Var--V65  =  3     Var--V66  =  4     
+bt_search finished
+Search made 44 variable assignments and pruned 427 variable values
+Binary model check passed
+CSP funpuzz_csp solved. CPU Time used = 21.605932
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  1     Var--V12  =  2     Var--V13  =  4     Var--V14  =  3     Var--V15  =  6     Var--V16  =  5     Var--V21  =  6     Var--V22  =  3     Var--V23  =  1     Var--V24  =  2     Var--V25  =  5     Var--V26  =  4     Var--V31  =  5     Var--V32  =  6     Var--V33  =  3     Var--V34  =  1     Var--V35  =  4     Var--V36  =  2     Var--V41  =  2     Var--V42  =  4     Var--V43  =  5     Var--V44  =  6     Var--V45  =  3     Var--V46  =  1     Var--V51  =  3     Var--V52  =  5     Var--V53  =  2     Var--V54  =  4     Var--V55  =  1     Var--V56  =  6     Var--V61  =  4     Var--V62  =  1     Var--V63  =  6     Var--V64  =  5     Var--V65  =  2     Var--V66  =  3     
+bt_search finished
+Search made 63 variable assignments and pruned 797 variable values
+Binary model check passed
+CSP funpuzz_csp solved. CPU Time used = 0.00637400000000099
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  2     Var--V12  =  4     Var--V13  =  3     Var--V14  =  1     Var--V21  =  4     Var--V22  =  3     Var--V23  =  1     Var--V24  =  2     Var--V31  =  1     Var--V32  =  2     Var--V33  =  4     Var--V34  =  3     Var--V41  =  3     Var--V42  =  1     Var--V43  =  2     Var--V44  =  4     
+bt_search finished
+Search made 19 variable assignments and pruned 94 variable values
+6 out of 10 boards modeled and solved correctly using model 3
+
+******************************
+TESTING FC
+******************************
+---starting test_simple_FC---
+
+[]
+---finished test_simple_FC---
+
+---starting three_queen_FC---
+
+[]
+---finished three_queen_FC---
+
+
+4x4 KenKen Puzzle Model:
+CSP funpuzz_csp solved. CPU Time used = 0.0013519999999971333
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  3     Var--V12  =  1     Var--V13  =  2     Var--V14  =  4     Var--V21  =  2     Var--V22  =  4     Var--V23  =  3     Var--V24  =  1     Var--V31  =  1     Var--V32  =  2     Var--V33  =  4     Var--V34  =  3     Var--V41  =  4     Var--V42  =  3     Var--V43  =  1     Var--V44  =  2     
+bt_search finished
+Search made 57 variable assignments and pruned 167 variable values
+---Oh, yeah! Solved 4x4 KenKen Puzzle Model!---
+
+
+5x5 KenKen Puzzle Model:
+CSP funpuzz_csp solved. CPU Time used = 0.01657300000000106
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  5     Var--V12  =  2     Var--V13  =  1     Var--V14  =  4     Var--V15  =  3     Var--V21  =  1     Var--V22  =  4     Var--V23  =  5     Var--V24  =  3     Var--V25  =  2     Var--V31  =  2     Var--V32  =  5     Var--V33  =  3     Var--V34  =  1     Var--V35  =  4     Var--V41  =  3     Var--V42  =  1     Var--V43  =  4     Var--V44  =  2     Var--V45  =  5     Var--V51  =  4     Var--V52  =  3     Var--V53  =  2     Var--V54  =  5     Var--V55  =  1     
+bt_search finished
+Search made 589 variable assignments and pruned 2472 variable values
+---Oh, yeah! Solved 5x5 KenKen Puzzle Model!---
+
+
+6x6 KenKen Puzzle Model:
+CSP funpuzz_csp solved. CPU Time used = 2.802569000000002
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  5     Var--V12  =  6     Var--V13  =  3     Var--V14  =  4     Var--V15  =  1     Var--V16  =  2     Var--V21  =  6     Var--V22  =  1     Var--V23  =  4     Var--V24  =  5     Var--V25  =  2     Var--V26  =  3     Var--V31  =  4     Var--V32  =  5     Var--V33  =  2     Var--V34  =  3     Var--V35  =  6     Var--V36  =  1     Var--V41  =  3     Var--V42  =  4     Var--V43  =  1     Var--V44  =  2     Var--V45  =  5     Var--V46  =  6     Var--V51  =  2     Var--V52  =  3     Var--V53  =  6     Var--V54  =  1     Var--V55  =  4     Var--V56  =  5     Var--V61  =  1     Var--V62  =  2     Var--V63  =  5     Var--V64  =  6     Var--V65  =  3     Var--V66  =  4     
+bt_search finished
+Search made 82469 variable assignments and pruned 400568 variable values
+---Oh, yeah! Solved 6x6 KenKen Puzzle Model!---
+
+
+******************************
+TESTING GAC
+******************************
+---starting test_simple_GAC---
+Failed simple GAC test: variable domains don't match expected results.
+[]
+---finished test_simple_GAC---
+
+---starting three_queen_GAC---
+Failed three queens GAC test: variable domains don't match expected results
+[]
+---finished three_queen_GAC---
+
+
+4x4 KenKen Puzzle Model:
+CSP funpuzz_csp solved. CPU Time used = 0.007743999999998863
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  3     Var--V12  =  1     Var--V13  =  2     Var--V14  =  4     Var--V21  =  2     Var--V22  =  4     Var--V23  =  3     Var--V24  =  1     Var--V31  =  1     Var--V32  =  2     Var--V33  =  4     Var--V34  =  3     Var--V41  =  4     Var--V42  =  3     Var--V43  =  1     Var--V44  =  2     
+bt_search finished
+Search made 108 variable assignments and pruned 84 variable values
+---Oh, yeah! Solved 4x4 KenKen Puzzle Model!---
+
+
+5x5 KenKen Puzzle Model:
+CSP funpuzz_csp solved. CPU Time used = 2.471889000000001
+CSP funpuzz_csp  Assignments = 
+Var--V11  =  5     Var--V12  =  2     Var--V13  =  1     Var--V14  =  4     Var--V15  =  3     Var--V21  =  1     Var--V22  =  4     Var--V23  =  5     Var--V24  =  3     Var--V25  =  2     Var--V31  =  2     Var--V32  =  5     Var--V33  =  3     Var--V34  =  1     Var--V35  =  4     Var--V41  =  3     Var--V42  =  1     Var--V43  =  4     Var--V44  =  2     Var--V45  =  5     Var--V51  =  4     Var--V52  =  3     Var--V53  =  2     Var--V54  =  5     Var--V55  =  1     
+bt_search finished
+Search made 29460 variable assignments and pruned 29026 variable values
+---Oh, yeah! Solved 5x5 KenKen Puzzle Model!---
+
+
+6x6 KenKen Puzzle Model:
+TIMEOUT occurred while testing 6x6 KenKen Puzzle: 'Traceback (most recent call last):\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/funpuzz_tests.py", line 234, in model_6x6\n    solver.bt_search(prop)\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/cspbase.py", line 455, in bt_search\n    status = self.bt_recurse(propagator, var_ord, val_ord, 1)  # now do recursive search\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/cspbase.py", line 511, in bt_recurse\n    if self.bt_recurse(propagator, var_ord, val_ord, level + 1):\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/cspbase.py", line 511, in bt_recurse\n    if self.bt_recurse(propagator, var_ord, val_ord, level + 1):\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/cspbase.py", line 511, in bt_recurse\n    if self.bt_recurse(propagator, var_ord, val_ord, level + 1):\n  [Previous line repeated 10 more times]\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/cspbase.py", line 503, in bt_recurse\n    status, prunings = propagator(self.csp, var)\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/propagators.py", line 186, in prop_GAC\n    if con.has_support(varu, valu):\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/cspbase.py", line 286, in has_support\n    if self.tuple_is_valid(t):\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/cspbase.py", line 294, in tuple_is_valid\n    if not var.in_cur_domain(t[i]):\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/cspbase.py", line 134, in in_cur_domain\n    if self.is_assigned():\n  File "/Users/susanjaglal/Desktop/Assignment2/students/klingerw/utilities.py", line 32, in toHandler\n    raise TO_exc()\nutilities.TO_exc\n'
+
+******************************
+TESTING MRV
+******************************
+Passed 4 out of 4 MRV tests
+
+
+******************************
+SUMMARY SCORE FOR ASSIGNMENT 2:
+******************************
+Model1 Score: 0/10
+Model2 Score: 10.0/10
+Model3 Score: 12.0/20
+FC Score: 25.0/25
+GAC Score: 8.0/25
+MRV Score: 10.0/10
+******************************
+TOTAL Score: 65.0/100

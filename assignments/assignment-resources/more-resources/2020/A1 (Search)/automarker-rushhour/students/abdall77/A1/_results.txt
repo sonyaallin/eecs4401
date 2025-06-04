@@ -1,0 +1,22 @@
+####################
+# Assignment 1
+####################
+
+Overall: 0/75
+====================
+Test Case: [function=test_anytime_gbfs]	[[46, 4, 0]/25]
+	Given more time, anytime gbfs improved the length of solutions for 46/50 problems.
+Given more time, anytime gbfs worsened the length of solutions for 0/50 problems.
+Given the same time, regular BFS performed better than anytime gbfs on 4/50 problems.
+====================
+Test Case: [function=test_anytime_weighted_astar]	[[33, 49, 1, 0]/25]
+	With heur_min_moves, anytime astar solved 33 of 50 problems.
+More time resulted in the same performance on 49/50 problems.
+More time improved performance of anytime astar on 1/50 problems.
+More time worsened performance of anytime astar on 0/50 problems.
+====================
+Test Case: [function=test_heuristic]	[[8, 21, 13, 8]/25]
+	8/50 problems were solved using Best First Search with the student heuristic and not solved with the min_moves heuristic.
+21/50 problems were solved using Best First Search with the student heuristic and the min_moves heuristic.
+13/50 problems were not solved using Best First Search with any heuristic.
+8/50 problems were not solved using Best First Search with the student heuristic, yet were solved using the min_moves heuristic.

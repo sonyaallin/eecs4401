@@ -1,0 +1,12 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Through the games unit assignment I learned more about the alpha beta pruning through the more
+hands on coding of the pruning method which shed some light on parts of alpha beta pruning that I had previously
+misunderstood.  Furthermore, I learned the value of caching and ordering as they really helped speed up the pruning
+which in turn sped up the search. This was most apparent in the alpha-beta pruning function where the choices that were
+most likely the best choice were checked first thanks to the ordering and getting the utility of repeat board states was
+quicker thanks to caching. I learned that contemporary game playing agents often use sampling techniques. I learned that
+Alpha Go used a lot of electricity to train.
+
+This assignment was the best of the assignments in this course!!!!! :D

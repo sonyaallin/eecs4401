@@ -1,0 +1,6 @@
+What I learned from this assignment is how making artificial intelligent algorithms to play
+games can be very hard and costly. It makes it more impressive that A.I. machines like
+Deep Blue can beat the best Chess grandmaster at chess, especially since Chess is very complicated,
+and AlphaGo even more so since Go has more moves than Chess. I see now that it's not enough to
+follow a generic A.I. algorithm, but heurisitics will still play a big role in alpha-beta pruning
+so that we expand the fewest amount of branches.

@@ -1,0 +1,156 @@
+####################
+# Assignment 1
+####################
+
+Overall: 67/100
+====================
+Test Case: [function=test_fval_XDP_function]	[6/6]
+	
+====================
+Test Case: [function=test_fval_XUP_function]	[6/6]
+	
+====================
+Test Case: [function=test_fval_function]	[8/8]
+	
+====================
+Test Case: [function=test_goal_fn]	[6/10]
+	Goal states correctly detected 27 of 49 times.
+Example of incorrect calculation:
+Action= "move_vehicle(gv, E)", S2064, g-value = 28, (From S1989)Vehicle Statuses    1 is at (34, 31)
+    10 is at (6, 27)
+    11 is at (1, 19)
+    12 is at (54, 12)
+    13 is at (3, 16)
+    14 is at (31, 2)
+    15 is at (15, 35)
+    16 is at (25, 18)
+    17 is at (44, 42)
+    18 is at (30, 9)
+    19 is at (43, 1)
+    2 is at (33, 38)
+    20 is at (5, 6)
+    21 is at (44, 41)
+    22 is at (20, 47)
+    23 is at (15, 33)
+    24 is at (3, 37)
+    25 is at (12, 30)
+    26 is at (36, 14)
+    27 is at (42, 43)
+    28 is at (28, 8)
+    29 is at (4, 15)
+    3 is at (31, 0)
+    30 is at (42, 19)
+    31 is at (30, 4)
+    32 is at (19, 26)
+    33 is at (53, 38)
+    34 is at (23, 19)
+    35 is at (26, 41)
+    36 is at (2, 39)
+    37 is at (47, 44)
+    38 is at (10, 22)
+    39 is at (32, 21)
+    4 is at (34, 13)
+    5 is at (1, 7)
+    6 is at (6, 43)
+    7 is at (1, 10)
+    8 is at (35, 34)
+    9 is at (23, 24)
+    gv is at (32, 11)
+
+...............................3........................
+1111111........................3...........1111111111111
+11111111111....................1111111111111111111111111
+........................................................
+..............................333333333.................
+........................................................
+.....222222222222222222222222222222222222222222222222222
+.55555555555555555555555555555555555555555555555........
+............................222222222222222222222222....
+11111.........................11111111111111111111111111
+.77777777777777777777777777777777777777777..............
+................................gE......................
+1111111111111111111111111111111111111111111111111.....11
+..................................44....................
+....................................22222222222222222222
+....2222222222222.......................................
+...11111111111111111111111111111111111111111............
+........................................................
+.........................1111111111111111111111111111...
+.1.....................33333333333333333..33............
+.1......................................................
+.1..............................33333333................
+.1........3333333333333333..............................
+.1......................................................
+.1.....................999999999999999999999999999999999
+.1......................................................
+.1.................3333333333333333.....................
+.1....1111111111111111111111111111111111................
+.1......................................................
+.1......................................................
+.1..........2222222222222222222.........................
+.1................................111111111.............
+.1......................................................
+.1.............222222222222222..........................
+.1.................................88888888888888888....
+.1.............111111111111111111111111111111111111.....
+.1......................................................
+.1.2222222222222222222..................................
+333333333333333333333333.........2...................333
+..333333333333333333333333333333.2......................
+.................................2......................
+222222222222..............333....2..........222222222222
+.................................2..........1111111111..
+......66666666666666666666666666666.......2.............
+33333333333333333333333333................2....333333333
+..........................................2.............
+..........................................2.............
+....................22222222222222222222222222222222222.
+
+====================
+Test Case: [function=test_heuristic]	[8/15]
+	Best First Search, with basic heuristic distance, solved 45/60 problems.
+Best First Search, with an 'improved' heuristic, solved 48/60 problems.
+Best First Search, with YOUR heuristic, solved 36/60 problems.
+You outperformed the 'improved' benchmark 30 times.
+Score for this portion of the assignment: 8.2/15.
+
+====================
+Test Case: [function=test_iterative_gbfs]	[7/15]
+	
+Got TIMEOUT during problem 5 while testing anytime gbfs
+
+Got TIMEOUT during problem 20 while testing anytime gbfs
+
+Got TIMEOUT during problem 48 while testing anytime gbfs
+
+--> WARNING: Some anytime solutions were outperformed by best first search.
+Anytime gbfs, with with a basic heuristic distance, solved 45/60 problems.
+Anytime gbfs, with an 'improved' heuristic, solved 48/60 problems.
+Anytime gbfs, with YOUR heuristic, solved 29/60 problems.
+You outperformed the 'improved' benchmark 20 times.
+Score for this portion of the assignment: 7/15.
+
+====================
+Test Case: [function=test_iterative_weighted_astar]	[5/15]
+	Got TIMEOUT during problem 5 while testing weighted a-star
+Got TIMEOUT during problem 20 while testing weighted a-star
+A runtime error occurred while testing weighted a-star: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/HW/A1/automarker-2sec/auto_grader/student_grader/assignment/A1_tests.py", line 535, in test_iterative_weighted_astar\n    final, stats = stu_solution.iterative_astar(s0, heur_fn=stu_solution.heur_alternate, weight=weight, timebound=astartimebound)\n  File "../students/qamarzoh/A1/solution.py", line 236, in iterative_astar\n    r = weighted_astar(initial_state, heur_fn, weight, timebound - t, (r[0].index, r[0].index, math.inf))\nAttributeError: \'bool\' object has no attribute \'index\'\n'
+Got TIMEOUT during problem 48 while testing weighted a-star
+Weighted astar, with a basic heuristic distance, solved 44/60.
+Weighted astar, with an 'improved' heuristic, solved 45/60 problems.
+Weighted astar, with YOUR heuristic, solved 17/60 problems.
+You outperformed the 'improved' benchmark in terms of length 3 times.
+Score for this portion of the assignment: 5/15.
+
+====================
+Test Case: [function=test_min_dist]	[7/10]
+	Correct distances computed 40 of 60 times.
+
+====================
+Test Case: [function=test_weighted_astar]	[14/15]
+	State counts decreased of gvals increased with lower weight for problem 6
+
+*************************************
+Weighted a-star expanded more nodes as weights decreased 9 of 10 times
+Score is 13.5 of 15.
+*************************************

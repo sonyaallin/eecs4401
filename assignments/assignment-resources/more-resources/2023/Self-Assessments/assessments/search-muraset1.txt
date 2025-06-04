@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I've learned from the search module is how
+important heuristics can be for search problems. Many of the simpler search
+problems that are often shown as examples in CS courses can be solved fairly
+well (optimal solution and within a reasonable amount of time) by just using
+the appropriate search strategy (e.g. BFS, DFS, UCS, etc.). However, this
+course made me realize that more practical search problems like the Sokoban
+puzzle require more than just a good search strategy. These search problems
+can be very specific and complex in terms of what the most optimal step to
+take is. For example, in Sokoban puzzles, you need to consider how the robots,
+boxes, storage spots, and obstacles interact throughout possible steps to find
+the optimal path (or even any path).

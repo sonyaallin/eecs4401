@@ -1,0 +1,10 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The most significant thing I've learned from the Games AI unit is that preparing for the worst leads to the best outcome.
+When deciding what strategy to use/ move to make, the AI analyses what move is most advantageous for their opponent (as you would
+in real life two-player games) and assumes that move will be made. This way, if the opponent doesn't play their best, it's 
+advantageous for the player, and if the opponent does, it is clear to see what the outcome would be, and if the game is worth 
+pursuing. If the game is not worth pursuing, no more time/ space resources (in the case of humans, usually mental or monetary 
+resources) need to be spent on the game since there's no way of winning. Another thing I've learned is the continued importance
+of caching and the power of the dictionary data type when it comes to accessing cached elements. 

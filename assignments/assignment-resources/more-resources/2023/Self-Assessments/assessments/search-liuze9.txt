@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned from the search module is how to make good search algorithms.
+I learned about differnt types of searches like hueristic searches, uniform cost search, and A*.
+I learned about what conditions make a good search like admissibility and consistency and how making an algorithm iterative can save time and space.
+I learned how to prove when certain algorithms will give an optimal solution, how much storage it will take, and what the runtime will be.
+Another thing that I learned which helps me make search algorithms is how to pick good heuristics by picking a heuristic that solves a simpler problem.

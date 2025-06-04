@@ -1,0 +1,13 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Surprisingly, the thing that I found most interesting in this unit was the
+miniMax algorithm. When I first saw it, I didn't quite understand how it
+worked or why it worked (if you can't tell, I'm a little behind for this
+class), however, having successfully (at least I think successfully)
+implemented said algorithm into the assignment, I find that it is not as
+complicated as I initially thought and that I actually kinda like this one
+with its simplicity. On the other hand, I'm still not entirely sure what's
+going on with the alpha beta algorithm despite implementing (I hope correctly)
+it in the assignment. That one I'll have to figure out while I study for
+the exam.

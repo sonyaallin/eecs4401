@@ -1,0 +1,1 @@
+Exception when training. ('divide by zero encountered in log',)

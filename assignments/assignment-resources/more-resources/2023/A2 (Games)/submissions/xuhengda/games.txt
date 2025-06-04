@@ -1,0 +1,50 @@
+I started to implement the utility function. This function is simple. I implemented 
+by using the docstring. Then, I started to think of minmax implementation.
+
+The first trouble I met is I do not understand how to play mancalas. Then, I checked
+the introduction videos. Also, I do search on the Internet for finding a online mancalas
+games. After doing those, I understand the games and know a little about how to win the
+games. This is really helpful. Based on the lecture code, I began to implement. The first
+point I stucked is, the example showing on lecture slides has one goal for both players.
+Max player want to max the number but min player want to min the number.
+
+But in this game, both players have two shops. They both want to maximize the number of 
+mancalas in their own storages. Then, I go back to check the definition of mancalas game rules.
+It is important to realize that the number of stones in one game is constant. This is a simple
+logistic. If one player have more stones in storages, the other player has less stones in storages.
+Thus, the both two players have same goals. 
+
+During the thinking period, I checked almost every posts on the piazza. By doing that, I know
+the first player goes into select_minmax is the max player. Then, the max player want to maximize his
+own utility. Min player wants to minimize the max player's utility.
+
+The implementation is easy because the code logic is not hard to think. Also, thanks for the tips on 
+the piazza posts(for example, using get_possible_moves() to check the terminal states).
+
+After completing the minmax, I started to implement the limit condition for testing the correctness.
+The limit is like the depth of the tree. For example, the limit 5 means we only expand the search 
+tree at depth 4. So, I implemented based on my thought to decrease the limit when pass to next level.
+
+After doing the limit, I started to implement the alphabeta cut. The lecture slides totally told me how
+to implement this. The pesudocode of alphabeta is super clear on the slides. Sametime, I implemented
+the limit condition because I found alphabeta just has one more steps than minmax which is cutting.
+
+The cache idea is also not hard. I used the dictionary to store the utility and pocket chosen by current board
+and player. I put the caching check at the function start and caching update at the end of function.
+
+When doing the cache condition, I met the problem. The time improve is low. Then, I think if the board at the terminal
+state or reaching the limit bound, the cache check is slower than just return. So, I put the caching check after 
+the terminal and limit check.
+
+After doing this, the time improve cannot reach the full(20/20). I asked at piazza. And, I also check others' posts
+with the caching topic. I found a post that using recursion steps to test if caching improve the time. So, I write
+a dictionary to record recursion steps. steps[cache] and steps[non-cache]. If enter the function and caching,
+steps[cache] += 1. After doing these, I found every recursive steps with caching is lower than non caching. After I 
+asked a post about marking scheme of this function. I started to implement the uct_select.
+
+At first, I do not understant how to implement because it is empty. On the slides, it only shows the formula.
+The main reason is I rely on the pesudocode most. So, I try to implement by myself. After checking the two links
+under the uct_select section, I understant how to implement the function.
+
+For the herusitic, I just think, for each player turn, if we can capture, we will have a advantage to win
+the game. So, based on this idea, I implement the herustic.

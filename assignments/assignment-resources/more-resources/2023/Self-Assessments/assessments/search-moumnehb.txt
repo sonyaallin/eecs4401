@@ -1,0 +1,12 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+I have learned he importance of having a good heuristic. Taking into consideration
+a search's surroundings and how they impact the path to solution, has been eye opening.
+As well, realizing when a search must end and when no possible solutions are available,
+is a powerful tool that can be widely applied. This module has taught me to think
+from multiple perspectives as opposed to just one. By doing so, a clear image of
+the problem can be formulated allowing for better curated solutions. This module
+has also shown me that different kinds of searches as better for different problems.
+As well, it has shown me how there could be several different solutions to a problem
+that lead to the same end result (i.e. reaching the bench mark, but having a different
+solution). 

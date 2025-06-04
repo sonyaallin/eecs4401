@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I have learned from the csp module is how to make good csp solving alogirthms.
+I learned techniques to make good csp solving algorithms like gac and forward checking.
+I learned about good heuristics when choosing what varibles to assign first like the degree heuristic or the MRV heuristic.
+How with MRV it can produce a skinnier tree at the top and how failures can be detected much faster.
+I also learned just how significant of a difference these techniques can make. 
+How forward checking is 100 times faster than normal backtracking and how forard checking combined with the MRV heuristic can produce a search 10000 as fast.

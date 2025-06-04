@@ -1,0 +1,10 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+The game module seemed super cool to me! Personally, I find the concept of
+building your heuristic well by understanding and pondering about
+strategies of how one can win the game extremely intriguing. For example, in Othello, how we can
+segregate the calculations of heuristic depending on which phase you are in
+(beginning, middle or starting) of the game. Moreover, I was interested in
+how you used ordering, cache and depth-limits to allow the prunings and make your Ai even faster.
+Later, I would love to develop my own agent for other two-player/multiplayer
+player games such as chess, poker, ludo etc.

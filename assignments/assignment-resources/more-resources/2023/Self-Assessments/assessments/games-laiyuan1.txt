@@ -1,0 +1,6 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+To choose the best next step, we need to consider about opponents. We always want to optimize our utility and minimize the opponents', and that's the idea behind MinMax algorithm. 
+However, we are actully using depth first search. Thus, the time required is very large as long as depth increases. To encounter this problem, we introduce the idea of alpha-beta pruning.
+In a nutshell, game unit is a little bit too short but it's actullay very useful for me, and we could explore a lot about bot player strategy based on the knowledge of this unit.

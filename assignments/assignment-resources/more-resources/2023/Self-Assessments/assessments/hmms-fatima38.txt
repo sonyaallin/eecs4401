@@ -1,0 +1,9 @@
+Bayesian Networks are an interesting concept that incorporate probabilities into solving problems. I found this to be a
+very important point since many real-world problems have uncertain outcomes that previous units simply could not model.
+The concept of building prior probabilities off of observed data is also very intuitive and the use of conditional
+probabilities for transitions felt very appropriate. I did have some confusion at first as to why emission probabilities
+were conditioned such that P(E) was with respect to the hidden state. However, the assignment helped to clarify what
+exactly the purpose of the emissions are and why they are structured in that way. Normally I do have some difficulties
+with probability, but learning about how they were used helped to improve my understanding of the various operations
+and formulas. That would be my most significant takeway of the unit; how probability can be used to solve/represent
+problems in a Bayesian network.

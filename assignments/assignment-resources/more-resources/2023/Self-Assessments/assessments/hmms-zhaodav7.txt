@@ -1,0 +1,1 @@
+While working on this assignment I learned that -inf from np.math is more than just a very small number. I had previously thought that it would just be coded as the smallest representable value, but this would be wrong as one -inf in a sum made all additional value differences indistinguishable from another sum with -inf.

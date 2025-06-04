@@ -1,0 +1,131 @@
+####################
+# Assignment 4
+####################
+
+Overall: 0/32
+====================
+Test Case: [function=multiply_factors_test_1]	[0/1]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 258, in multiply_factors_test_1\n    factor = stu_solution.multiply_factors([F2])\n  File "../students/laianna/A4/bnetbase.py", line 309, in multiply_factors\n    result = Factor(\'first factor\', [\'a\', \'b\'])\n  File "../students/laianna/A4/bnetbase.py", line 139, in __init__\n    size = size * v.domain_size()\nAttributeError: \'str\' object has no attribute \'domain_size\'\n'
+multiply_factors_test_1: 
+MF Test 1 ....
+====================
+Test Case: [function=multiply_factors_test_2]	[0/1]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 292, in multiply_factors_test_2\n    factor = stu_solution.multiply_factors([F1, F2])\n  File "../students/laianna/A4/bnetbase.py", line 309, in multiply_factors\n    result = Factor(\'first factor\', [\'a\', \'b\'])\n  File "../students/laianna/A4/bnetbase.py", line 139, in __init__\n    size = size * v.domain_size()\nAttributeError: \'str\' object has no attribute \'domain_size\'\n'
+MF Test 2 ....
+multiply_factors_test_2: 
+====================
+Test Case: [function=multiply_factors_test_3]	[0/1]
+	multiply_factors_test_3: 
+MF Test 3 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 337, in multiply_factors_test_3\n    factor = stu_solution.multiply_factors([F1, F5])\n  File "../students/laianna/A4/bnetbase.py", line 309, in multiply_factors\n    result = Factor(\'first factor\', [\'a\', \'b\'])\n  File "../students/laianna/A4/bnetbase.py", line 139, in __init__\n    size = size * v.domain_size()\nAttributeError: \'str\' object has no attribute \'domain_size\'\n'
+====================
+Test Case: [function=old_VE_tests]	[0/8]
+	OVE Test 6 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 651, in old_VE_tests\n    if probs1[0] == 0.5 and probs1[1] == 0.5 and probs2[0] == 0.0 and probs2[1] == 1.0:\nTypeError: \'NoneType\' object is not subscriptable\n'
+OVE Test 1 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 694, in old_VE_tests\n    if probs3[0] == 0.0 and probs3[1] == 1.0 and probs4[0] == 0.0 and probs4[1] == 1.0:\nTypeError: \'NoneType\' object is not subscriptable\n'
+OVE Test 7 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 610, in old_VE_tests\n    if probs[0] == 1 and probs[1] == 0:\nTypeError: \'NoneType\' object is not subscriptable\n'
+old_VE_tests: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 731, in old_VE_tests\n    if abs(probs[0] - 0.04950000000000001) < .0001 and abs(probs[1] - 0.9505) < .0001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+OVE Test 3 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 747, in old_VE_tests\n    if abs(probs[0] - 0.1) < 0.0001 and abs(probs[1] - 0.9) < 0.0001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 630, in old_VE_tests\n    if abs(probs[0] - 0.68) < 0.0001 and abs(probs[1] - 0.32) < 0.0001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+Test 8 ....
+OVE Test 5 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 673, in old_VE_tests\n    if probs1[0] == 0.5 and probs1[1] == 0.5 and probs2[0] == 0.5 and probs2[1] == 0.5:\nTypeError: \'NoneType\' object is not subscriptable\n'
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 714, in old_VE_tests\n    if abs(probs1[0] - 0.15265998457979954) < 0.0001 and abs(probs1[1] - 0.8473400154202004) < 0.0001 and abs(probs2[0] - 0.01336753983256819) < 0.0001 and abs(probs2[1] - 0.9866324601674318) < 0.0001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+OVE Test 4 ....
+OVE Test 2 ....
+====================
+Test Case: [function=old_multiply_factors_tests]	[0/3]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 803, in old_multiply_factors_tests\n    factor = stu_solution.multiply_factors([FB, FE])\n  File "../students/laianna/A4/bnetbase.py", line 309, in multiply_factors\n    result = Factor(\'first factor\', [\'a\', \'b\'])\n  File "../students/laianna/A4/bnetbase.py", line 139, in __init__\n    size = size * v.domain_size()\nAttributeError: \'str\' object has no attribute \'domain_size\'\n'
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 786, in old_multiply_factors_tests\n    factor = stu_solution.multiply_factors([FE])\n  File "../students/laianna/A4/bnetbase.py", line 309, in multiply_factors\n    result = Factor(\'first factor\', [\'a\', \'b\'])\n  File "../students/laianna/A4/bnetbase.py", line 139, in __init__\n    size = size * v.domain_size()\nAttributeError: \'str\' object has no attribute \'domain_size\'\n'
+OMF Test 3 ....
+OMF Test 1 ....
+OMF Test 2 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 830, in old_multiply_factors_tests\n    factor = stu_solution.multiply_factors([FE, FS])\n  File "../students/laianna/A4/bnetbase.py", line 309, in multiply_factors\n    result = Factor(\'first factor\', [\'a\', \'b\'])\n  File "../students/laianna/A4/bnetbase.py", line 139, in __init__\n    size = size * v.domain_size()\nAttributeError: \'str\' object has no attribute \'domain_size\'\n'
+old_multiply_factors_tests: 
+====================
+Test Case: [function=old_restrict_factor_tests]	[0/3]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 957, in old_restrict_factor_tests\n    factor = stu_solution.restrict_factor(FE, E, \'e\')\n  File "../students/laianna/A4/bnetbase.py", line 320, in restrict_factor\n    if len(old_scope()) == 1:\nTypeError: \'list\' object is not callable\n'
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 974, in old_restrict_factor_tests\n    factor = stu_solution.restrict_factor(FG, S, \'-s\')\n  File "../students/laianna/A4/bnetbase.py", line 320, in restrict_factor\n    if len(old_scope()) == 1:\nTypeError: \'list\' object is not callable\n'
+ORF Test 3 ....
+ORF Test 1 ....
+ORF Test 2 ....
+old_restrict_factor_tests: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 992, in old_restrict_factor_tests\n    factor = stu_solution.restrict_factor(FS, S, \'-s\')\n  File "../students/laianna/A4/bnetbase.py", line 320, in restrict_factor\n    if len(old_scope()) == 1:\nTypeError: \'list\' object is not callable\n'
+====================
+Test Case: [function=old_sum_out_variable_tests]	[0/2]
+	old_sum_out_variable_tests: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 916, in old_sum_out_variable_tests\n    values = (factor.get_value(["s", "b"]), factor.get_value(["s", "-b"]), factor.get_value(["-s", "b"]), factor.get_value(["-s", "-b"]))\nAttributeError: \'NoneType\' object has no attribute \'get_value\'\n'
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 899, in old_sum_out_variable_tests\n    value = factor.get_value_at_current_assignments()\nAttributeError: \'NoneType\' object has no attribute \'get_value_at_current_assignments\'\n'
+OSOV Test 2 ....
+OSOV Test 1 ....
+====================
+Test Case: [function=restrict_factor_test_1]	[0/1]
+	restrict_factor_test_1: 
+RF Test 1 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 397, in restrict_factor_test_1\n    factor = stu_solution.restrict_factor(F1, VisitAsia, \'visit\')\n  File "../students/laianna/A4/bnetbase.py", line 320, in restrict_factor\n    if len(old_scope()) == 1:\nTypeError: \'list\' object is not callable\n'
+
+Restrict Factor Tests
+====================
+Test Case: [function=restrict_factor_test_2]	[0/1]
+	restrict_factor_test_2: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 429, in restrict_factor_test_2\n    factor = stu_solution.restrict_factor(F5, Smoking, \'non-smoker\')\n  File "../students/laianna/A4/bnetbase.py", line 320, in restrict_factor\n    if len(old_scope()) == 1:\nTypeError: \'list\' object is not callable\n'
+RF Test 2 ....
+====================
+Test Case: [function=restrict_factor_test_3]	[0/1]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 464, in restrict_factor_test_3\n    factor = stu_solution.restrict_factor(F7, Dyspnea, \'absent\')\n  File "../students/laianna/A4/bnetbase.py", line 320, in restrict_factor\n    if len(old_scope()) == 1:\nTypeError: \'list\' object is not callable\n'
+RF Test 3 ....
+restrict_factor_test_3: 
+====================
+Test Case: [function=sum_out_variable_test_1]	[0/1]
+	sum_out_variable_test_1: 
+SOV Test 1 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 498, in sum_out_variable_test_1\n    value = factor.get_value_at_current_assignments()\nAttributeError: \'NoneType\' object has no attribute \'get_value_at_current_assignments\'\n'
+====================
+Test Case: [function=sum_out_variable_test_2]	[0/1]
+	SOV Test 2 ....
+sum_out_variable_test_2: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 530, in sum_out_variable_test_2\n    values = (factor.get_value(["present"]), factor.get_value(["absent"]))\nAttributeError: \'NoneType\' object has no attribute \'get_value\'\n'
+====================
+Test Case: [function=sum_out_variable_test_3]	[0/1]
+	sum_out_variable_test_3: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 566, in sum_out_variable_test_3\n    values = (factor2.get_value(["true"]), factor2.get_value(["false"]))\nAttributeError: \'NoneType\' object has no attribute \'get_value\'\n'
+SOV Test 3 ....
+====================
+Test Case: [function=ve_test_1]	[0/1]
+	VE Test 1 ....
+ve_test_1: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 31, in ve_test_1\n    if abs(probs[0] - 0.6) < 0.001 and abs(probs[1] - 0.4) < 0.001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+====================
+Test Case: [function=ve_test_2]	[0/1]
+	VE Test 2 ....
+ve_test_2: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 64, in ve_test_2\n    if abs(probs[0] - 0.789) < 0.001 and probs[1] == 0.21:\nTypeError: \'NoneType\' object is not subscriptable\n'
+====================
+Test Case: [function=ve_test_3]	[0/1]
+	VE Test 3 ....
+ve_test_3: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 96, in ve_test_3\n    if abs(probs[0] - 0.8106077620781144) < 0.001 and abs(probs[1] - 0.1893922379218856) < 0.001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+====================
+Test Case: [function=ve_test_4]	[0/1]
+	VE Test 4 ....
+ve_test_4: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 130, in ve_test_4\n    if abs(probs[0] - 0.145) < 0.001 and abs(probs[1] - 0.855) < 0.001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+====================
+Test Case: [function=ve_test_5]	[0/1]
+	VE Test 5 ....
+ve_test_5: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 164, in ve_test_5\n    if abs(probs[0] - 0.5760396859045477) < 0.001 and abs(probs[1] - 0.4239603140954523) < 0.001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+====================
+Test Case: [function=ve_test_6]	[0/1]
+	ve_test_6: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 194, in ve_test_6\n    if abs(probs[0] - 0.055) < 0.001 and abs(probs[1] - 0.945) < 0.001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+VE Test 6 ....
+====================
+Test Case: [function=ve_test_7]	[0/1]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/CSC384/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 230, in ve_test_7\n    if abs(probs1[0] - 0.6339) < 0.0001 and abs(probs1[1] - 0.366) < 0.0001 and abs(probs2[0] - 0.3964) < 0.0001 and abs(probs2[1] - 0.60357) < 0.0001:\nTypeError: \'NoneType\' object is not subscriptable\n'
+ve_test_7: 
+VE Test 7 ....

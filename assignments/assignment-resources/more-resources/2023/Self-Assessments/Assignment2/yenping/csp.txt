@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from the CSP module is to construct clear constraints. When working on funpuzz_csp.py, 
+I strongly realize how important it is to have explicit constraint definitions in CSP, and discover the complexity while implementing
+the constraint tuples. The critical point of constraint construction for this assignment is the "order". The variable order of 
+constraints and the value order of satisfying tuples are the two most important orders of constraint definition. Also, when constructing 
+the satisfying tuples, whether there exists repeated values should also be considered. Forward cheking and GAC enfore apply to all CSPs,
+but each CSP has their own constraint definition, and thus indicating that one of the most important things of CSPs are their unique 
+constraint definitions. 

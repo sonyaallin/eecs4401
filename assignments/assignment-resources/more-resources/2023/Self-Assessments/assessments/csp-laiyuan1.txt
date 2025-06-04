@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+CSP is much different compared to search module, we only consider the constraints instead of path cost.
+The way we find solutions is that first filter the domains that will obviously lead to a dead end, and then try
+different variable assignments until we found a solution that satisfy all the constraints.
+The thing I found very interesting for me is the idea behind binary constraints and n-aray constraints.
+Although they are equal and could be represented by each other, I found out n-aray constraints are much cheaper to
+implement. We will end up with a large number of constraints using binary constraints approche, which is very inefficient.

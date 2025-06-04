@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+In this search module, the significant things I believe is the accuracy the heuristic function
+and the efficiency of search method. We want to have a result in a quick and accuracy way. Although
+BF or uniform-cost search will search through a path, but it almost exhausts a complete possible path
+to get the most optimal one. As a result, the search must have a balance between accuracy and speed.
+To trade off, weight a* method use f(n) = g(n) + w*h(n), by adjusting weight,
+the method can produce an optimal solution with only having a partial search. And if time, we can loop through to find h with smaller weight
+
+However, even with great search method, a bad heuristic function will screw everything up. Putting more weight on a bad
+h(n) will cause inaccurate result and takes longer time to find a path.
+
+Conclusion, heuristic function and search method are very significant, a search can not be efficient without both.

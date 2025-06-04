@@ -1,0 +1,1 @@
+HMMs I could learn about the basic of the HMM models that directs to us to the world of "prediction" where we can find it everywhere in our lives such as word auto correction to text recognition. It is great to see the practical algorithm that we can be seen in our world.

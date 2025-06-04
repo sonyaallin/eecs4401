@@ -1,0 +1,17 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+In this unit, I understand how computer scientists approach game search. The
+min-max and Alpha-Beta algorithms provide a clear logic to trace the game tree.
+However, these two methods have a high runtime complexity and space complexity.
+Since most games have lots of possibilities for choosing the next move, we
+cannot apply these two methods independently. Often, we need some tricky methods
+to speed up the computing, such as caching, limit, ordering, etc. The idea is
+similar to what we do in the A* search. In addition, we may need to learn a bit
+about the game strategies to write a good heuristic. Since the runtime grows
+exponentially, the depth limit with a good heuristic is the best way to reduce
+the runtime. We should clearly define the max player and the min player on the
+design side. In addition, we should design wisely on the move of each player.
+Since some games like chess can have a very complicated move system, a clear 
+moves definition can help us efficiently design the min-max and alpha-beta
+search tree.

@@ -1,0 +1,3 @@
+HMM has been a lot of place. As long as it contains a sequential event, HMM can occur. For example, a series of events that cause lecture to cancel,
+weather, TA sick, prof sick etc. And for speech recognition, I realized you cannot take the word each by each. The transition and emission is also
+very important to the prediction of the word.

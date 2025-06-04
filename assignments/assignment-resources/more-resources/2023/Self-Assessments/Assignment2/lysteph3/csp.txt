@@ -1,0 +1,18 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned the comparable speed difference between n-ary CSPs and binary CSPs are extremely different, and upon trying them in the automarker, the binary constraints were magnitudes faster than the n-ary CSPs
+simply because they allowed the easy elimination of variable domain values, without having to check the entire constraint domain. This was my motivation for attempting to write the constraint tuples as binary constraints, 
+however I subsequently learned how difficult that problem can be, especially if you have a very large n-ary constraint. 
+
+On that note...
+While writing funpuzz_csp_model, I attempted using only binary constraints and I couldn't get a satisfactory solution while attempting to convert the n-ary constraints.
+Frustratingly, I found combinations of each variable's current domains to satisfy each constraint's mathematical operation, and used this n-ary combination to find the 2-permuation of each variable
+in such a way that the variables were corresponding to the 2-permutation of the correct combination. However, no matter how painstakingly hard I tried to implement this, the solution wouldn't work and returned
+None arrays.
+
+I can only assume that the answer isn't as simple as I thought it would be, perhaps it was a skill issue?
+
+Lastly, I found it very interesting how much of a speed difference that the MRV ordering provided. In one of the autotesters, without the MRV ordering the time it took to run on my machine (M1 macbook pro) was 7.949505 seconds.
+However, when MRV was implemented with forward checking it only took 0.238938 seconds. That's a speed increase of 33x, which was something that I thought was incredible, and it goes to show you that in certain circumstances the MRV ordering
+can work wonders.

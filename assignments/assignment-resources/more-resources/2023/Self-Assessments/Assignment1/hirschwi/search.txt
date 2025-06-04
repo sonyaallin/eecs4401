@@ -1,0 +1,5 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The search module was extremely interesting. I feel I have a solid basis both in the theoretical and practical components, though I do feel a touch more comfortable with the theory.
+I feel like the assignment was, at times, confusingly worded, even with help looking at piazza I wasn't sure what to do. For example, the assignment calls for iterative_weighted_astar, while the starter code only provides for iterative_astar. I saw on Piazza that these are intended to be separate, but I have no understanding of how they're meant to differ, and how they're meant to work together. I also felt confused regarding GBFS, because it feels to me that if the same (best) options are chosen each time, we'll never get iterative improvement. Unless the goal was not to use the Search engine provided, but that brings a whole host of other problems.

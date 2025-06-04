@@ -1,0 +1,12 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The search module taught me a lot about how ai algorithms find solutions. Heuristic functions
+in particular, were very significant in reducing the time it takes to find solutions. Search
+algorithms without heuristics can take a significant amount of time even with short depths
+due to exponential complexity. For heuristic functions, the effectiveness of the heuristic
+is crucial as it needs to allow an optimal solution to be found while still reducing the time
+to find it. Thus, I found that the emphasis on a heuristic function to be the most significant
+thing I learned from the search module as it entails the hardest detail (the skeleton
+of the algorithms is the same across different problems while heuristics are unique to the
+problem).

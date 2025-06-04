@@ -1,0 +1,5 @@
+Bayesian networks is a very powerful way to create models based on data inputed, they can help with calculating probability of stuff within the 
+bayesian network. HMM can be seen almost everywhere, we can use it to determine if it is going to rain or it can be used to correctly tag words like 
+this assignment. I learned that HMM can be applied to almost everything. Siri is one example that I would have never thought used HMM, however I now
+know that Siri probably used HMM to train and it is amazing how just based on some test data it can be trained to predict many other things. I also think
+HMM can be used for target ads and based on data collected they could probably create some HMM that will predict what ads would be good to show the user.

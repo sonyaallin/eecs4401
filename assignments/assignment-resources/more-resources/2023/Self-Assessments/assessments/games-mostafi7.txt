@@ -1,0 +1,12 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+From the games unit I learnt about the minimax strategy. Obviously in a technical 
+sense in this assignment but what really struck me is how the strategy actually 
+works. I understood from before that real world games have massive amounts 
+of possible moves so I assumed that an AI would need to have a very complex 
+strategy in order to consistently win games. The fact that minimax a strategy
+that simply limits what the opponent can do works quite often was a mind-opening
+realization. To be fair using minimax still requires a lot of work to implement
+since it needs to look at a large number of states but the underlying goal 
+of the strategy is quite trivial.

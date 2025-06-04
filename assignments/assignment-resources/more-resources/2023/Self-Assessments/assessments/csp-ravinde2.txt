@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I think this has given me some perspective on how logical programming might function. I did logical programming
+in CSC324 for a proof solver and I feel it is likely that logical programming uses something similar to csp 
+since logical programming is completely focused around setting contrainsts and finding values that satisify them. 
+It is really facsinating to see a concept I did in another course get more fleshed out in this course. It has gotten me
+curious now if I got write my own very basic logical programming language with an interpreter written in python. I'm also 
+curious about writing a csp in a logical programming language as it feel it would be a lot easier to setup the contraints
+and find satisfying values. 

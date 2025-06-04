@@ -1,0 +1,14 @@
+Throughout the assignment, I was constantly thinking about the caching feature that we were
+supposed to implement. I noticed that based on the way our caching works, when cache gets overly
+populated, the performance actually gets worse if caching is on. This is probably caused by the amount
+of time necessary to search for the results in the cache. Based off of this, I tried to reduce the amount
+of times that I store data in the cache. I was also thinking about whether or not I should be storing the
+results of states that got cut early during alpha-beta pruning. The conclusion that I arrived at is that I
+should not. The utility value that I get before that recursion terminates could potentially not be its optimal
+move and corresponding utility value. This is because the alpha/beta value that affects whether or not the
+cut is made is based off of the parent state's siblings, which is a pre-determined factor that has nothing
+to do with the current state that is getting pruned. I also noticed that although there is less recursive
+calls being made when the cache is on, the time taken to execute may actually be longer than when cache is off.
+My guess is that this might be how the cache is implemented and maybe there are methods of improvement to the
+cache that stores only the most important information so the time needed to fetch information from the cache
+can be reduced.

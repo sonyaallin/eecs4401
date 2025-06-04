@@ -1,0 +1,15 @@
+Same old, same old!  What have we learned about Bayesian Networks?  Have you discovered 
+that HMMs are everywhere?  Will you ever look at Siri the same way?  Help us understand 
+by answering the following question in 100-250 words:
+
+What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing that I have learnt from the Bayesian Network module is Hidden 
+Markov Models and their possibility to be able to structure different structures of problems 
+in a pleasant unified way. The simplicity of how Hidden Markov Models are defined and how they 
+could be used is revolutionary. In addition to Hidden Markov Models the forward algorithm and 
+Viterbi algorithm is an extremely efficient way to calculate the probability from the given 
+information. Also Hidden Markov Models have multiple potential uses for extremely advanced 
+technologies. Some examples of these include Speech Recognition, Machine Translations, and 
+Robot Tracking. These are the most significant things that I have learnt from the Bayesian Network
+module.

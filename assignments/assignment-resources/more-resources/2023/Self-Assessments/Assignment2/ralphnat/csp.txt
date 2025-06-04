@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from csp was how csp functions work. Specifically, how constraints
+are necessary and how the changing of them can affect how a function works. When doing this assignment, I often had to
+analyze the csp module in order to find inspiration for my ideas. Furthermore, I also learned how these problems
+can be applied to real life scenarios, such as solving a Sudoku puzzle, where the efficiency of your solution matters
+greatly, and if the solution is not efficient/ideal, there are great consequences. Overall, I learned many things which
+will definetely help in my Computer Science related studies and careers.

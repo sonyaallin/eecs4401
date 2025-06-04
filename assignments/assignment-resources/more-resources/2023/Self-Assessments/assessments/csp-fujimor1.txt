@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+One of the significant things I learned from the CSP module is the importance of choosing the right propagators and constraints. 
+
+First of all, I was astonished by how the choice of propagators results in a significant difference in runtime. 
+For instance, when I was playing with the code and intentionally commented out the initial propagation, the runtime increased dramatically. 
+Moreover, using GAC or Forward Checking rather than the plain backtracking algorithm as a propagator resulted in much less runtime. 
+
+Secondly, I learned the importance of how we construct the constraints and how they can affect time efficiency. 
+For example, the search time became faster when using n-ary all-different constraints instead of binary all-different constraints. 

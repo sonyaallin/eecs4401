@@ -1,0 +1,15 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+    There are many kinds of games with varying complexities. Even simple games
+such as the ones we worked with (2 player zero-sum discrete finite deterministic games)
+can be very complicated. Unlike the first unit (search), a solution is not determined
+by the first path searched as it is a 2-player game and the opponent chooses unfavourable
+states. Determining what the best move is requires very large searches and good heuristic
+functions to determine if not fully searched. Such tasks are impractical for humans and even
+ai cannot search very deep due to how quickly the number of searches increase (exponential).
+A game that is seemingly simple like Othello with only an 8x8 board will take an ai way too
+long to brute force to terminal states to determine the best move. As such, heuristic functions
+should be used based off good strategies and a depth limit needs to be used but that results
+in losing optimality. Such thinking is captivating, and I enjoyed learning the intricacies
+with games.

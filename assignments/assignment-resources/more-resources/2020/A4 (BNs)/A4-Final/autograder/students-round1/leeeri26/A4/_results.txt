@@ -1,0 +1,151 @@
+####################
+# Assignment 4
+####################
+
+Overall: 7/32
+====================
+Test Case: [function=multiply_factors_test_1]	[1/1]
+	passed.
+P(smoker) = 0.5 P(non-smoker) = 0.5
+multiply_factors_test_1: 
+MF Test 1 ....
+====================
+Test Case: [function=multiply_factors_test_2]	[1/1]
+	multiply_factors_test_2: 
+MF Test 2 ....
+passed.
+P(visit,smoker) = 0.005 P(no-visit,smoker) = 0.005 P(visit,non-smoker) = 0.495 P(no-visit,non-smoker) = 0.495
+====================
+Test Case: [function=multiply_factors_test_3]	[0/1]
+	MF Test 3 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 337, in multiply_factors_test_3\n    factor = stu_solution.multiply_factors([F1, F5])\n  File "../students//leeeri26/A4/bnetbase.py", line 330, in multiply_factors\n    return Factor(\'X\', [Factors[0].scope[0], Factors[0].scope[1], Factors[1].scope[1]])\nIndexError: list index out of range\n'
+multiply_factors_test_3: 
+====================
+Test Case: [function=old_VE_tests]	[1/8]
+	OVE Test 3 ....
+OVE Test 5 ....
+P(g|s,w) = 0 P(-g|s,w) = 1 P(g|s,-w) = 0 P(-g|s,-w) = 1
+P(w|b,-e) = 0 P(-w|b,-e) = 1
+P(g|w) = 0 P(-g|w) = 1 P(g|-w) = 0 P(-g|-w) = 1
+P(s|g) = 0 P(-s|g) = 1
+failed.
+P(g|-s,w) = 0 P(-g|-s,w) = 1 P(g|-s,-w) = 0 P(-g|-s,-w) = 1
+old_VE_tests: 
+Test 8 ....
+OVE Test 7 ....
+OVE Test 1 ....
+OVE Test 2 ....
+P(g|s) = 0 P(-g|s) = 1 P(g|-s) = 0 P(-g|-s) = 1
+P(g) = 0 P(-g) = 1
+OVE Test 6 ....
+P(e) = 0 P(-e) = 1
+OVE Test 4 ....
+passed.
+====================
+Test Case: [function=old_multiply_factors_tests]	[2/3]
+	P(e,s,b) = 0.9 P(-e,s,b) = 0.1 P(e,-s,-b) = 0.2 P(-e,s,-b) = 0.8
+P(e) = 0.1 P(-e) = 0.9
+failed.
+OMF Test 3 ....
+passed.
+old_multiply_factors_tests: 
+OMF Test 1 ....
+P(e,b) = 0.010000000000000002 P(-e,b) = 0.09000000000000001 P(e,-b) = 0.09000000000000001 P(-e,-b) = 0.81
+OMF Test 2 ....
+====================
+Test Case: [function=old_restrict_factor_tests]	[1/3]
+	failed.
+P(G=-g|S=s) = 0.5
+ORF Test 3 ....
+P(E=e) = 0.1
+ORF Test 2 ....
+passed.
+ORF Test 1 ....
+P(S=-s|E=-e,B=b) = 0.9
+old_restrict_factor_tests: 
+====================
+Test Case: [function=old_sum_out_variable_tests]	[0/2]
+	sum_e P(e) = 0.1
+failed.
+old_sum_out_variable_tests: 
+OSOV Test 1 ....
+OSOV Test 2 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 916, in old_sum_out_variable_tests\n    values = (factor.get_value(["s", "b"]), factor.get_value(["s", "-b"]), factor.get_value(["-s", "b"]), factor.get_value(["-s", "-b"]))\n  File "../students//leeeri26/A4/bnetbase.py", line 226, in get_value\n    index = index * v.domain_size() + v.value_index(variable_values[0])\n  File "../students//leeeri26/A4/bnetbase.py", line 67, in value_index\n    return self.dom.index(value)\nValueError: \'b\' is not in list\n'
+====================
+Test Case: [function=restrict_factor_test_1]	[1/1]
+	passed.
+P(VisitAsia=visit) = 0.01
+restrict_factor_test_1: 
+RF Test 1 ....
+
+Restrict Factor Tests
+====================
+Test Case: [function=restrict_factor_test_2]	[0/1]
+	RF Test 2 ....
+P(Bronchitis=absent|Smoking=non-smoker) = 0.6
+failed.
+restrict_factor_test_2: 
+====================
+Test Case: [function=restrict_factor_test_3]	[0/1]
+	P(Dyspnea=absent|TBorCA=true,Bronchitis=present) = 0.9
+failed.
+restrict_factor_test_3: 
+RF Test 3 ....
+====================
+Test Case: [function=sum_out_variable_test_1]	[0/1]
+	sum P(VisitAsia) = 0.01
+failed.
+SOV Test 1 ....
+sum_out_variable_test_1: 
+====================
+Test Case: [function=sum_out_variable_test_2]	[0/1]
+	SOV Test 2 ....
+sum_out_variable_test_2: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 530, in sum_out_variable_test_2\n    values = (factor.get_value(["present"]), factor.get_value(["absent"]))\n  File "../students//leeeri26/A4/bnetbase.py", line 226, in get_value\n    index = index * v.domain_size() + v.value_index(variable_values[0])\nIndexError: list index out of range\n'
+====================
+Test Case: [function=sum_out_variable_test_3]	[0/1]
+	sum_out_variable_test_3: 
+SOV Test 3 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 566, in sum_out_variable_test_3\n    values = (factor2.get_value(["true"]), factor2.get_value(["false"]))\n  File "../students//leeeri26/A4/bnetbase.py", line 226, in get_value\n    index = index * v.domain_size() + v.value_index(variable_values[0])\nIndexError: list index out of range\n'
+====================
+Test Case: [function=ve_test_1]	[0/1]
+	VE Test 1 ....
+ve_test_1: 
+failed.
+P(Bronchitis=present|Smoking=smoker) = 0 P(Bronchitis=absent|Smoking=smoker) = 1
+====================
+Test Case: [function=ve_test_2]	[0/1]
+	P(Xray=normal|TBorCA=true) = 0 P(Xray=abnormal|TBorCA=true) = 1
+VE Test 2 ....
+failed.
+ve_test_2: 
+====================
+Test Case: [function=ve_test_3]	[0/1]
+	ve_test_3: 
+VE Test 3 ....
+failed.
+P(Dyspnea=present|TBorCA=true) = 0 P(Dyspnea=absent|TBorCA=true) = 1
+====================
+Test Case: [function=ve_test_4]	[0/1]
+	ve_test_4: 
+failed.
+VE Test 4 ....
+P(TBorC=true|Smoking=smoker,VisitAsia=visit) = 0 P(TBorC=false|Smoking=smoker,VisitAsia=visit) = 1
+====================
+Test Case: [function=ve_test_5]	[0/1]
+	ve_test_5: 
+failed.
+P(TBorC=true|Xray=abnormal,VisitAsia=visit) = 0 P(TBorC=false|Xray=abnormal,VisitAsia=visit) = 1
+VE Test 5 ....
+====================
+Test Case: [function=ve_test_6]	[0/1]
+	P(Cancer=present) = 0 P(Cancer=absent) = 1
+failed.
+VE Test 6 ....
+ve_test_6: 
+====================
+Test Case: [function=ve_test_7]	[0/1]
+	ve_test_7: 
+P(Smoking=smoker|Dyspnea=present) = 0 P(Smoking=non-smoker|Dyspnea=present) = 1 P(Smoking=smoker|Dyspnea=absent) = 0 P(Smoking=non-smoker|Dyspnea=absent) = 1
+failed.
+VE Test 7 ....

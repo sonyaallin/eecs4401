@@ -1,0 +1,7 @@
+Self Assessment
+What is the most significant thing you have learned from the Bayesian Network module?
+The most significant thing I have learned from implementing A3 is the data preprocessing. After finishing A3, I find the hardest 
+part of HMM should be the data preprocessing. The performance of HMM depends on the probability distribution definitions, but there 
+are no specific rules of defining those probability distributions from the raw data. Although we do not have chance to gain experience
+on data preprocessing from this assigment, the given training and test data serve as perfect examples for us to reference when 
+we are actually dealing one in the future. 

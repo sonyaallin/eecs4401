@@ -1,0 +1,6 @@
+Some of the interesting things I learned from the games module is the min-max algorithm.
+It was interesting to learn how computers can use game trees to play games optimally.
+Another interesting thing I learned was methods people use to reduce the size of the game tree like alpha-beta pruning and using heuristics at depth limits.
+Learning how designing a heuristic to order the nodes searched was also quite interesting.
+The module gave me an idea on how computers can be used to solve certain types of games which also gave me interest in how computers can be used to solve
+other types of games.

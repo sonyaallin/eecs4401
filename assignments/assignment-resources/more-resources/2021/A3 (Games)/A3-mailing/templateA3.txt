@@ -1,0 +1,77 @@
+Hello {},
+
+Assignment 3 for CSC384 Introduction to Artificial Intelligence has been marked.
+
+Your assignment was evaluated automatically through a series of tests. The tests, and the marking criteria that was used, are as follows:
+
+(1) Test of Minimax implementation (includes tests of utility function) (%30 total)
+[function=test_minimax_max_node_1]: 5 points max (5%)
+[function=test_minimax_max_node_2]: 5 points max (5%)
+[function=test_minimax_min_node_1]: 5 points max (5%)
+[function=test_select_move_minimax]: 10 points max (10%)
+[function=test_compute_utility]: 5 points max (5%)
+
+(2) Test of Alpha-beta implementation (includes tests of utility function) (%30 max)
+[function=test_alphabeta_max_node_1]: 5 points max (5%)
+[function=test_alphabeta_max_node_2]: 5 points max (5%)
+[function=test_alphabeta_min_node_1]: 5 points max (5%)
+[function=test_select_move_alphabeta]: 10 points max (10%)
+[function=test_select_move_equal]: 5 points max (5%)
+
+(3) Test of State Caching (%10 max)
+[function=test_caching_big]: 4 points max (4%)
+[function=test_caching_xl]: 6 points max (6%)
+
+(3) Test of Node Ordering (%10 max)
+[function=test_ordering_1]: 5 points max (5%)
+[function=test_ordering_2]: 5 points max (5%)
+
+(5) Test of Depth Limit (%10 max)
+[function=test_depth]: 10 points max (10%)
+
+(6) Test of Heuristic Function (%10 max)
+
+The heuristic test pitted your heuristic against an agent playing with compute_utility over 10 games on a 6x6 board with varying depth limits. 
+
+Points were awarded as follows:
+
+0 points if compute_heuristic and compute_utility were identical
+4 points if # losses > # wins
+6 points if # losses = # wins
+10 points if # losses < # wins
+
+For your submission, results on basic tests were the following:
+[function=test_minimax_max_node_1]:  {}
+[function=test_minimax_max_node_2]:  {}
+[function=test_minimax_min_node_1]:  {}
+[function=test_select_move_minimax]:  {}
+[function=test_compute_utility]:  {}
+[function=test_alphabeta_max_node_1]:  {}
+[function=test_alphabeta_max_node_2]:  {}
+[function=test_alphabeta_min_node_1]:  {}
+[function=test_select_move_alphabeta]:  {}
+[function=test_select_move_equal]:  {}
+[function=test_caching_big]:  {}
+[function=test_caching_xl]:  {}
+[function=test_ordering_1]:  {}
+[function=test_ordering_2]:  {}
+[function=test_depth]:  {}
+=====================================   
+Subtotal:  {} 
+
+Your heuristic testing results:
+
+Wins:  {} - Losses:  {} - Ties:  {}
+
+[test_heuristic_mark]:  {}
+=====================================   
+Grand Total for A3:  {}  
+
+Any additional errors or issues encountered by the auto-marker while testing your work in the areas mentioned above can be found below:
+
+{}
+
+Your mark will be uploaded to MarkUs shortly.  Marks for written work based on manual review will also be uploaded to MarkUs and added to your score.
+
+Best regards,
+CSC384 TA.

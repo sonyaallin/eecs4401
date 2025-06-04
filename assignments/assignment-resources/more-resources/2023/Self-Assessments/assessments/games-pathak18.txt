@@ -1,0 +1,12 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I think this was probably my favourite assignment in CSC384. I found it quite
+fascinating that games like Othello, which we hear about so often are actually
+based on such simplistic algorithms like Minimax, and alpha-beta pruning. I'm
+curious to try my hands on the various other games which can be implemented with these
+algorithms. With this assignment, we were able to make an AI agent, which at 
+most times can beat humans as well. I never realized that making an AI game agent
+could be this straightforward. I like how practical and realistic this course and
+its assignments were. I think it really helped me get a better and clear understanding
+of the various algorithms involved in AI. 

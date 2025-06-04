@@ -1,0 +1,12 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+
+Well, perhaps the most significant thing I learned was Bayes' Theorem. Technically, I knew this theorem already, but I had mostly forgotten it.
+And I certainly never learned its significance.
+However, I did not understand the intuition behind the theorem until it became the backbone of Bayes Nets.
+The way that it allows us to abstract a hypothesis and the role of evidence is incredibly useful. I learned thoroughly that
+evidence should update our beliefs, not just change them. I have a deeper appreciation for this theorem now.
+
+I also learned that HMMs really are everywhere. Siri was originally built on HMMs and even now, she is just an HMM supplemented with 
+deep neural networks and LSTMNs. They are used to predict the weather and guide robots. I never even thought that mars rovers would be using ai.
+I assumed they were simply being guided based off visual data, however, the vast distances obviously make direct control all the time impractical.
+The level of abstraction that HMMs give allows so many problems to be formulated in their terms.

@@ -1,0 +1,6 @@
+I learned how most likely ai is handled in the real world. While I enjoyed the other units I got the feeling that they
+were to perfect we always had a perfect analysis of the situation. By introducing Bayes Net I feel its helps account
+for the uncertainty that machines would have. Sensors not detecting things correctly, and all that. It has left me 
+wondering how a Sokoban Solver could be handled if it was a bot in the real world that had to use sensors to get a sense
+of where everything is and then plan out a route to get the boxes in place. It would be a interesting merge of Bayes net 
+to identify what are boxes storage spaces robots and walls and Search Trees.

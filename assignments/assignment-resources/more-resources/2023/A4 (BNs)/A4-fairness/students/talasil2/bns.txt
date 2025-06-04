@@ -1,0 +1,13 @@
+- In 100-250 words or less, explain what the calculations above might tell you (or might not tell you!) about the "fairness" of your Naive Bayesian network. Would you be willing to use your model to recommend starting salaries for employees at a firm? Why or why not?
+
+  From Q1 and Q2, we saw that most(99.95%) women were predicted to have a lower salary when using their gender as a prior as compared to men, where using the Gender basis did not negatively impact the probability that they had a higher salary. These indicate that the predictions aren't separated from gender. We also notice a demographic disparity as only 8% of women are predicted to have a salary >= 50K, while more than 4 times that of men are predicted to have the same. This could be due to a biased sample or due to encoding of an existing societal bias.
+
+  In any case, it is questionable if this can be considered fair. I would be unwilling to use this model to recommend starting salaries for employees at a firm.  It may, for instance, suggest higher starting salaries for men than women with the same qualifications.
+
+- Then, in 100-250 words, respond to the question "***What is the most significant thing you have learned from the Bayesian Network module, overall?"**. This will complete our final "self-assessment exercise" for the term (and will be worth 0.25% of the course mark).*
+
+  This was a really interesting module! I knew of Naive Bayes from an ML perspective, but starting from directed probabilistic models and how they can be used to model joint distributions, and then understanding how the representation can be compacted was fun. Transforming intuitive insights into graphical ones through reasoning patterns , flow of probabilistic influence(d-separation) and factorization was insightful. I found it nifty to be able to selectively examine the impact of evidence on our prediction. While it can be considered a limitation to be unable to model pairwise or multi factor interactions, conversely, it can also be helpful sometimes. The discussion around model fairness was also great!
+
+- Last thing .... please let us know (briefly) if the self-assessment exercises have been of any value!! Should we continue the exercise next term? Is there anything we can do to make them better the next time around?
+
+  Personally, while I did appreciate the effort to get us to reflect on our learning, it sometimes felt like a tedious thing to get out of the way due to the word count requirement. I found myself racking my head to reach the word count rather than succinctly stating my key takeaways. Perhaps specifying a more structured self-assessment, but without a word limit requirement could be helpful.

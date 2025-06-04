@@ -1,0 +1,2 @@
+I fould out that Bayesian Networks are using prior probability to predict furture event. HMMs have very similar concept as deep learning(RNN), but with very strong assumption.The siri is much different to HMMs, and
+it's much complicated I think. The most significant thing I have learned from this module is that we can predict a lot of thing based on the previous information, which is so cool and powerful.

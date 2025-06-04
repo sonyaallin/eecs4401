@@ -1,0 +1,6 @@
+#In this file, please provide 100-250 words in answer to the following question:
+# What is the most significant thing you have learned from the hmm module?
+
+In this assignment, we used hmm tagging to determine the possible tags for a text. I particularly enjoyed exploring the scope of this module. Using Viterbi algorithms, we found the most likely tag for a sequence of words using the prior, transition, and emission table. This practical usage of the algorithm allowed me to think more about how we can use the knowledge in other predictors tasks such as weather prediction, computational finance, and the broader machine translation. I was intrigued by the use of abstracting the model in some aspects as we have hidden emissions. This heavy interdependence of probability with programming once again signifies how closely related various subfields can be with each other. 
+
+

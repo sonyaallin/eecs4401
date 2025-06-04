@@ -1,0 +1,22 @@
+1.
+I can say that the fairness of the model is not adequate. The probabilities of having over a salary 50K for women without considering gender
+are higher than when gender is considered nearly 100% over the time while the men have the opposite problem with 0 probabilities of having
+over a salary 50K for men without considering gender versus considering gender. It does classify people with a probability of having a salary >= 50K being greater than 0.5
+as having that salary amount over half of the time when looking at men and women which is a somewhat good but still not a good accuracy to generalize well. 
+This isn’t adequate and thus shouldn’t be used to recommend starting salaries as the model doesn’t perform as well as it should 
+having biases with gender and difficulty with predicting who has a good chance of getting a high salary (which means they are successful 
+employees).
+
+2.
+The most significant thing I have learned from the Bayesian Network module is that dictionaries are much more useful than I thought. It 
+was definitely harder to understanding how to code the model using lists instead of using dictionaries which seems like a better fit for
+this type of problem. Using dictionaries would have helped with understanding how the code works sine the keys could have been the values
+for the variables and the values would have been the probability. I used dictionaries extensively in my code to help me manage which variable
+assignments correspond to which values. It was helpful with the NaiveBayesModel as I could count all the events and access them quickly
+so that I could complete the calcutions in an easy manner.
+
+3.
+I would say that the self-assessment exercises were of no value to me particularly. It was mostly a struggle to write something I found
+significant because there wasn't much I could think of. I tried to put whatever I thought I learned but it wasn't really valuable to me.
+I would say this type of exercise wasn't very helpful to me. What could have been more useful would have been to describe the process of 
+how I solved the problem or at least attempted to do it. That would be more beneficial in my opinion.

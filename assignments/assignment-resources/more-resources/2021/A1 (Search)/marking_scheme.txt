@@ -1,0 +1,27 @@
+Hello,
+
+Assignment 1 for CSC384 Introduction to Artificial Intelligence has been
+marked.
+
+The assignment was evaluated automatically through a series of tests. These tests,
+and the marking criteria used, are as follows:
+
+(1) Test of the heuristic function in the context of best first search: 5 seconds (based on # solved; 25% max)
+— >= 10% awarded based on # solved relative to Manhattan distance
+— >= 20% awarded based on # solved relative to “better” benchmark 
+
+(2) Test of anytime best first search: 8 seconds (based on # solved and length; 25% max)
+— >= 15% awarded based on # solved relative to “better” benchmark 
+- points deducted if any anytime best first search solution is longer than a best first search solution
+
+(3) Test of the weighted a star function: 8 second (based on # solved and length; %25 max)
+— >= 15% awarded based on # solved relative to “better” benchmark 
+- points deducted if any weighted a star solution is longer than a best first search solution
+
+(4) Test of f-value computation (based on 10 test cases similar to test code provided to students; 10% max)
+
+(5) Test of manhattan distance heuristic (based on test cases similar to test code provided to students; 10% max)
+
+(6) Read of tips.txt (5 sensible tips for heuristics in given domain; 5% max)
+
+

@@ -1,0 +1,10 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+In the games unit, I learned that to develop a game AI for a turn based game, where its sort of like a search problem,
+but you're not finding a singular optimal path to the problem because you don't know your opponents move.
+So here the goal is rather  developing a strategy to pick the best possible moves. Pruning can always be done to
+reduce runtime because for any game with a big state space, the search tree gets big pretty quick. So by assuming that
+the opponent will always play optimally,depending on if you're a max or min player, you can choose to prune successors
+of a node, which can save a lot on time and space complexity because you will never get to the children of said node
+because the opponent would never choose it.

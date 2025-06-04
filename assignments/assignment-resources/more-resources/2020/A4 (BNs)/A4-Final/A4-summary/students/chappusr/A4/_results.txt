@@ -1,0 +1,150 @@
+####################
+# Assignment 4
+####################
+
+Overall: 11/32
+====================
+Test Case: [function=multiply_factors_test_1]	[1/1]
+	P(smoker) = 0.5 P(non-smoker) = 0.5
+MF Test 1 ....
+multiply_factors_test_1: 
+passed.
+====================
+Test Case: [function=multiply_factors_test_2]	[1/1]
+	MF Test 2 ....
+P(visit,smoker) = 0.005 P(no-visit,smoker) = 0.005 P(visit,non-smoker) = 0.495 P(no-visit,non-smoker) = 0.495
+multiply_factors_test_2: 
+passed.
+====================
+Test Case: [function=multiply_factors_test_3]	[1/1]
+	MF Test 3 ....
+multiply_factors_test_3: 
+passed.
+F1 x F5 = [0.006, 0.003, 0.004, 0.006999999999999999, 0.594, 0.297, 0.396, 0.693]
+====================
+Test Case: [function=old_VE_tests]	[1/8]
+	OVE Test 5 ....
+P(g|w) = 1.0 P(-g|w) = 0.0 P(g|-w) = 1.0 P(-g|-w) = 0.0
+OVE Test 3 ....
+OVE Test 6 ....
+P(w|b,-e) = 0 P(-w|b,-e) = 0
+P(g|s,w) = 1.0 P(-g|s,w) = 0.0 P(g|s,-w) = 1.0 P(-g|s,-w) = 0.0
+P(g|-s,w) = 0 P(-g|-s,w) = 0 P(g|-s,-w) = 0 P(-g|-s,-w) = 0
+Test 8 ....
+OVE Test 4 ....
+P(s|g) = 1.0 P(-s|g) = 0.0
+passed.
+OVE Test 2 ....
+old_VE_tests: 
+failed.
+P(g) = 1.0 P(-g) = 0.0
+OVE Test 1 ....
+OVE Test 7 ....
+P(g|s) = 1.0 P(-g|s) = 0.0 P(g|-s) = 0 P(-g|-s) = 0
+P(e) = 0.3191489361702128 P(-e) = 0.6808510638297873
+====================
+Test Case: [function=old_multiply_factors_tests]	[3/3]
+	P(e,s,b) = 0.09000000000000001 P(-e,s,b) = 0.010000000000000002 P(e,-s,-b) = 0.020000000000000004 P(-e,s,-b) = 0.08000000000000002
+old_multiply_factors_tests: 
+OMF Test 1 ....
+P(e) = 0.1 P(-e) = 0.9
+passed.
+OMF Test 2 ....
+OMF Test 3 ....
+P(e,b) = 0.010000000000000002 P(-e,b) = 0.09000000000000001 P(e,-b) = 0.09000000000000001 P(-e,-b) = 0.81
+====================
+Test Case: [function=old_restrict_factor_tests]	[1/3]
+	old_restrict_factor_tests: 
+ORF Test 3 ....
+ORF Test 2 ....
+ORF Test 1 ....
+P(E=e) = 0.1
+P(G=-g|S=s) = 0
+passed.
+P(S=-s|E=-e,B=b) = 0
+failed.
+====================
+Test Case: [function=old_sum_out_variable_tests]	[1/2]
+	OSOV Test 2 ....
+OSOV Test 1 ....
+old_sum_out_variable_tests: 
+P(S = s | B = b) = 1.7000000000000002 P(S = s | B = -b) = 0.2 P(S = -s | B = b) = 0 P(S = -s | B = -b) = 0
+passed.
+sum_e P(e) = 1.0
+failed.
+====================
+Test Case: [function=restrict_factor_test_1]	[1/1]
+	RF Test 1 ....
+restrict_factor_test_1: 
+P(VisitAsia=visit) = 0.01
+passed.
+
+Restrict Factor Tests
+====================
+Test Case: [function=restrict_factor_test_2]	[0/1]
+	restrict_factor_test_2: 
+P(Bronchitis=absent|Smoking=non-smoker) = 0
+failed.
+RF Test 2 ....
+====================
+Test Case: [function=restrict_factor_test_3]	[0/1]
+	restrict_factor_test_3: 
+failed.
+RF Test 3 ....
+P(Dyspnea=absent|TBorCA=true,Bronchitis=present) = 0
+====================
+Test Case: [function=sum_out_variable_test_1]	[1/1]
+	sum P(VisitAsia) = 1.0
+sum_out_variable_test_1: 
+SOV Test 1 ....
+passed.
+====================
+Test Case: [function=sum_out_variable_test_2]	[0/1]
+	P(Cancer = present) = 0.11 P(Cancer = absent) = 0 
+failed.
+sum_out_variable_test_2: 
+SOV Test 2 ....
+====================
+Test Case: [function=sum_out_variable_test_3]	[0/1]
+	P(TBorC = true) = 3.0 P(TBorC = false) = 0 
+sum_out_variable_test_3: 
+failed.
+SOV Test 3 ....
+====================
+Test Case: [function=ve_test_1]	[0/1]
+	VE Test 1 ....
+failed.
+ve_test_1: 
+P(Bronchitis=present|Smoking=smoker) = 1.0 P(Bronchitis=absent|Smoking=smoker) = 0.0
+====================
+Test Case: [function=ve_test_2]	[0/1]
+	ve_test_2: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 63, in ve_test_2\n    probs = stu_solution.VE(Asia, Dyspnea, [Tuberculosis])\n  File "students//chappusr/A4/bnetbase.py", line 566, in VE\n    gj = sum_out_variable(product,Zj)\n  File "students//chappusr/A4/bnetbase.py", line 428, in sum_out_variable\n    newFactor.add_values(T)\n  File "students//chappusr/A4/bnetbase.py", line 170, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//chappusr/A4/bnetbase.py", line 68, in value_index\n    return self.dom.index(value)\nValueError: \'true\' is not in list\n'
+VE Test 2 ....
+====================
+Test Case: [function=ve_test_3]	[0/1]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 95, in ve_test_3\n    probs = stu_solution.VE(Asia, Dyspnea, [TBorCA])\n  File "students//chappusr/A4/bnetbase.py", line 566, in VE\n    gj = sum_out_variable(product,Zj)\n  File "students//chappusr/A4/bnetbase.py", line 428, in sum_out_variable\n    newFactor.add_values(T)\n  File "students//chappusr/A4/bnetbase.py", line 170, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//chappusr/A4/bnetbase.py", line 68, in value_index\n    return self.dom.index(value)\nValueError: \'true\' is not in list\n'
+VE Test 3 ....
+ve_test_3: 
+====================
+Test Case: [function=ve_test_4]	[0/1]
+	ve_test_4: 
+VE Test 4 ....
+failed.
+P(TBorC=true|Smoking=smoker,VisitAsia=visit) = 1.0 P(TBorC=false|Smoking=smoker,VisitAsia=visit) = 0.0
+====================
+Test Case: [function=ve_test_5]	[0/1]
+	ve_test_5: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 163, in ve_test_5\n    probs = stu_solution.VE(Asia, TBorCA, [Xray])\n  File "students//chappusr/A4/bnetbase.py", line 566, in VE\n    gj = sum_out_variable(product,Zj)\n  File "students//chappusr/A4/bnetbase.py", line 428, in sum_out_variable\n    newFactor.add_values(T)\n  File "students//chappusr/A4/bnetbase.py", line 170, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//chappusr/A4/bnetbase.py", line 68, in value_index\n    return self.dom.index(value)\nValueError: \'true\' is not in list\n'
+VE Test 5 ....
+====================
+Test Case: [function=ve_test_6]	[0/1]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 193, in ve_test_6\n    probs = stu_solution.VE(Asia, Cancer, [])\n  File "students//chappusr/A4/bnetbase.py", line 566, in VE\n    gj = sum_out_variable(product,Zj)\n  File "students//chappusr/A4/bnetbase.py", line 428, in sum_out_variable\n    newFactor.add_values(T)\n  File "students//chappusr/A4/bnetbase.py", line 170, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//chappusr/A4/bnetbase.py", line 68, in value_index\n    return self.dom.index(value)\nValueError: \'true\' is not in list\n'
+VE Test 6 ....
+ve_test_6: 
+====================
+Test Case: [function=ve_test_7]	[0/1]
+	ve_test_7: 
+VE Test 7 ....
+failed.
+P(Smoking=smoker|Dyspnea=present) = 1.0 P(Smoking=non-smoker|Dyspnea=present) = 0.0 P(Smoking=smoker|Dyspnea=absent) = 1.0 P(Smoking=non-smoker|Dyspnea=absent) = 0.0

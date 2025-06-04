@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned is how to improve upon a solution that I developed just Like the iterative A* search. 
+I found out that inorder to tackle the more difficult edge cases and improve efficiency, simply coding isn't enough. 
+Through developing my heuristic, I ran into many obstacles and sometimes my improvements does nothing at all. 
+In the end, many improvements that wored were developed through actually playing the game and trying to think like a computer.
+I try to play the board in the worst way possible and putting the boxes in the worst positions.
+This way I am able to translate it into my code and use heuristics to help the search algorithm to avoid tyhese situations.

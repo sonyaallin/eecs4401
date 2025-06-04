@@ -1,0 +1,4 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I always imagined pathfinding in my head to be something that worked really similar to how A star works, but I now learned the exact process of how it functions, and that there are different versions of it. I also learned why its important to take both the current state and the cost of getting to another state into account when deciding what the next move should be. In practicality, its given me a better insight as to how bots in video games function and path find for certain objectives. I also tried playing sokoban, and realized the simple looking game has a lot more strategy involved than I originally thought and that its easy to get into a state where the puzzle is no longer completable, and so a lot of the simple search algorithms likely hit a lot of dead ends.

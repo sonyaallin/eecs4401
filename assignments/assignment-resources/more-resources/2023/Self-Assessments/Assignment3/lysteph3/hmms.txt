@@ -1,0 +1,4 @@
+In this module, the most significant thing I learned was how to properly implement the viterbi model and apply them to HMM models, and how relatively non
+complicated they are for the tasks that they can perform. I always would've thought that natural language processing models would've been more complicated 
+than just a few loops and a couple of probability tables. Now I know that whenever there is some sort of semantic processing for a given model. Even though
+it might have more stuff to it than just the hmm, I know that I'll be able to understand the basis of how some of these models work.

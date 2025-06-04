@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+When I first heard of A* search, I thought that A* was the same for every implementation.
+This project showed me that it's actually more similar to quicksort, where there is a 
+ton of research and discussion regarding how to pick the best heuristic. There is also
+a balancing act at play, where you want your heuristic to be informative enough about
+the future cost of a given path, but also not have such a high runtime that the search
+takes longer than it needs to. It's such a wide space for research and it's been really
+interesting seeing into it for the first time.

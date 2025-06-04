@@ -1,0 +1,4 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I've learned is how many edge cases you have to handle in sokoban, I tried thinking of all cases but wasn't able to account for them all. 

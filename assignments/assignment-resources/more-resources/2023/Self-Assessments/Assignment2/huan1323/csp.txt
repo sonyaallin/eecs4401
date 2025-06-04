@@ -1,0 +1,21 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+
+    Through the testing of this module, I find out that there is a significant
+difference on the runtime between nary constraints and binary constraints csps.
+    In the larger cases, nary constraints cps needs several seconds to solve the
+grid while binary gives out the solution in half second. This is because the
+nary constraints have larger scopes in the large grid. The larger scopes lead
+our FC algorithm to check more conditions and prunes less values when only a few
+variables are assigned. Since the FC algorithms can not prune values until there
+are only one variable unassigned in a row and a column. Therefore, the csp can
+not prune the repeats value in a row and a column right after a variable assigned.
+    For a GAC algorithm, although GAC works faster and smarter than FC, the nary
+constraints slow searching down. The binary constraints basically break a nary
+constraint into (n C 2) parts. This property allows the GAC to check more
+constraints with a smaller scope in the GAC_Queue. When it push constraints back,
+there will be fewer work to do.
+    Therefore, breaks the constraints into smaller scope can reduce a lot of
+time on our CSP algorithm. We should always try approaching binary constraints
+in our CSP.

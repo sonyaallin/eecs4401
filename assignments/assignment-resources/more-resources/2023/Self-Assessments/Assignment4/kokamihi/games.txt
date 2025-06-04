@@ -1,0 +1,13 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I particularly enjoyed learning about the minimax algorithm and the many improvements
+we made to it while studying this topic. I remember doing coding questions online where I often
+couldn't come up with a solution and often when I went to look for one people suggested running
+minimax which I wasn't familiar with, therefore I found this topic even more enjoyable as it helped
+me think of ways to solve those prior questions.
+I also found the idea of making an intelligent player to player versus in a board game pretty cool,
+back in csc148 we had to make a board game for Onitama game, in that we also made an AI but its
+moves were programmed to be completely random as we weren't expected to make a functional player.
+Its nice to see the progress made through assignments from first year to now, where we've made
+a player that's moves are more thought out that just random chance.

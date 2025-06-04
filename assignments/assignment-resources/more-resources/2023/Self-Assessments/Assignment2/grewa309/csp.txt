@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I was familiar with backtracking problems like sodoku. I even created a sodoku solver 
+after first year which can scan a sodoku board from your webcam live and solve it, and I 
+used backtracking for this. What I wasn't aware of was different techniques like forward checking 
+and GAC, which improve backtracking a lot in terms of time complexity. Add this along with heuristics we get 
+an alternative to simple backtracking that is most of the time, way faster(on average can be 100-1000x faster).
+ These techniques were quite intuitive and will  be something I want to employ more in the future. This was the most significant thing I learned
+from the CSP module

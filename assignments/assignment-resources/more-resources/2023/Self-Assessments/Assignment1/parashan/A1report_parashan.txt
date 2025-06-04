@@ -1,0 +1,106 @@
+Hello parashan,
+
+Assignment 1 for CSC384 Introduction to Artificial Intelligence has been marked.
+
+The assignment was evaluated automatically through a series of tests.  These tests included 40 problems much like those you were given with the assignment and were run in a controlled environment. Variation in marks between runs was small and less than 2 marks. Of note, all raw marks were inflated by 5% and, in some cases, marks from the automarker may have been raised based on a manual review. Any manual adjustments will appear on MarkUs. People generally solved fewer problems with their iterative_astar than with iterative_gbfs but at least one student solved all 40 within the time limit using iterative_astar. By contrast, the maximum number of problem solved with iterative_gbfs and test_heuristic was 38 of 40.
+
+The marking criteria used to grade your assignment were as follows:
+
+1. Test of f-value computation: check only 10 different weights for a specific state: totally 5%
+
+Your score on this test: 5/5
+
+2. Test of the heuristic function (marks based only on number of solves):
+
+solving ">1" and "<5" problems: 5%
+solving ">=5" and "<= manhattan benchmark": 5 + (0-4)%
+solving ">= manhattan benchmark" and "<= better benchmark": 5 + 5 + (0-10)%
+solving "> better benchmark" and "< better benchmark + 3": 5 + 5 + 10 + 3 = 23%
+solving " >= better benchmark + 3": 5 + 5 + 10 + 5 = 25%
+
+Your score on this test: 23/25
+
+3. Test of iterative best first search (marks based only on number of solves):
+
+solving ">1" and "<5" problems: 5%
+solving ">=5" and "<= manhattan benchmark": 5 + (0-4)%
+solving ">= manhattan benchmark" and "<= better benchmark": 5 + 5 + (0-10)%
+solving "> better benchmark" and "< better benchmark + 3": 5 + 5 + 10 + 3 = 23%
+solving " >= better benchmark + 3": 5 + 5 + 10 + 5 = 25%
+
+Your score on this test: 23/25
+
+4. Test of the iterative weighted A-star function:
+
+solving ">1" and "<5" problems: 5%
+solving ">=5" and "<= manhattan benchmark": 5 + (0-4)%
+solving ">= manhattan benchmark" and "<= better benchmark": 5 + 5 + (0-10)%
+solving ">= better benchmark" and in all solved ones outperform or equal to better benchmark in length:
+5 + 5 + 10 + (0-5)% of rest based on (# of length <= benchmark  - # of solved by better benchmark)
+solving ">= better benchmark" and not all solved ones outperform or equal to better benchmark in length:
+5 + 5 + 10 + (0-5)% of rest based on (# of solved - # of solved by better benchmark)
+
+Your score on this test: 21/25
+
+5. Test of Manhattan distance based heuristic on 40 problems: total 10%
+
+Your score on this test: 10/10
+
+6. Test of the weighted A-star function: total 10%
+
+State counts increase with lower weights: 5%
+Solutions refined with lower weights: 5%
+
+Your score on this test: 10/10
+
+Your total mark: 92/100
+
+Any manual adjustments to your mark will appear on MarkUs!
+
+Details produced by the automarker on your scores are below, along with any runtime errors.
+
+####################
+# Assignment 1
+####################
+
+Overall: 92.0/100
+====================
+Test Case: [function=test_fval_function]	[5.0/5]
+	
+====================
+Test Case: [function=test_heuristic]	[23/25]
+	The student outperformed the 'better' benchmark 27 times.
+Score for alternate heuristic portion: 23/25.
+Best First Search, with manhattan distance, solved 18/40 problems.
+Best First Search, with the student heuristic, solved 33/40 problems.
+Best First Search, with an alternate heuristic, solved 32/40 problems.
+====================
+Test Case: [function=test_iterative_gbfs]	[23/25]
+	The student outperformed the 'better' benchmark 15 times.
+--> Margin over benchmark: 1 problems.
+Anytime gbfs, with the student heuristic, solved 33/40 problems.
+Score for anytime_gbfs tests: 23/25.
+Anytime gbfs, with an alternate heuristic, solved 32/40 problems.
+Anytime gbfs, with manhattan distance, solved 18/40 problems.
+--> WARNING: Anytime solutions were outperformed by best first search.
+====================
+Test Case: [function=test_iterative_weighted_astar]	[21/25]
+	The student outperformed the 'better' benchmark 20 times.
+--> Margin over benchmark: 2 problems.
+Score for this portion of the assignment: 21/25.
+Iterative Weighted astar, with manhattan distance, solved 19/40.
+Iterative Weighted astar, with the student heuristic, solved 25/40 problems.
+Iterative Weighted astar, with an alternate heuristic, solved 23/40 problems.
+====================
+Test Case: [function=test_manhattan]	[10/10]
+	
+====================
+Test Case: [function=test_weighted_astar]	[10/10]
+	Weighted a-star expanded more nodes as weights decreased 5 of 5 times
+*************************************
+
+Score is 10 of 10.
+Of the 20 runs over 5 problems, 3 solutions were found with weighted a star in the time allotted.
+
+************************************* 
+

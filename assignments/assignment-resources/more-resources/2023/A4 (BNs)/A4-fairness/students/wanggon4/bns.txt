@@ -1,0 +1,32 @@
+Question 1:
+The first calculation shows that gender plays a impactful role when calculate of the probability that a female getting over 50K salary,
+while the second calculation shows how unimportant gender is when the target is a male. With the same work, occupation, education, and relationship status,
+female are often getting less salary.
+
+The third and forth calculation shows that with the prediction of getting over 50K salary, males tend to actually have a salary over 50K than female
+with a probability of 54% while female only has 37%
+
+The fifth and sixth calculation indicates when not considering gender, female still have weaker background than male to have over 50K salary
+
+In my opinion, the predictions are only 'fair' when the target of prediction is male as shown by calculation 2. In other cases,
+gender impacts greatly the prediction.
+
+I would not recommend to use this model to recommend starting salaries for employees at a firm, because how impactful gender is during the prediction,
+while gender itself should not be a great factor when hire employee or predicting starting salaries.
+
+Question 2
+Bayesian Networks are a powerful tool for probabilistic reasoning and decision-making under uncertainty.
+The most significant thing one can learn from the Bayesian Network module is the ability to model complex systems and
+make predictions based on available data. Bayesian Networks allow users to represent uncertain knowledge and dependencies
+between variables, which can be used to identify the most likely causes of an event or make predictions about the future.
+
+Moreover, the Bayesian Network module can be applied in various fields, such as finance, medicine, engineering, and
+social sciences. It can be used to identify risk factors in medical diagnoses, predict stock market trends, or
+identify the causes of equipment failure in engineering.
+
+Overall, the most significant thing that one can learn from the Bayesian Network module is its potential to
+handle uncertain and complex situations and provide a framework for making decisions based on available data.
+By mastering this tool, one can gain valuable insights and make informed decisions in various fields.
+
+Question 3
+The self-assessment exercises can help me to think deeper in some degree, and it is worth the time to do it.

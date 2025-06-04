@@ -1,0 +1,12 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The games unit was very interesting since it explored the fairly simple strategies that can be used to
+build smart AI players. Minimax is an algorithm that is easy to understand though in more complex games
+it became clear that it would be highly inefficient. The alpha-beta pruning addition was a improvement
+that was a little difficult for me to understand at first but going through examples in the tutorial helped
+improve my understanding.
+It was pretty interesting to learn about the kinds of games that have already been solved by AI and I had
+no idea how computationally expensive it was to teach and run the models. The use of the Monte Carlo algorithm
+to help overcome the limitations of the alpha-beta algorithm was also interesting especially since introducing
+a degree of probability in the system makes it feel like there is more chance of failure.

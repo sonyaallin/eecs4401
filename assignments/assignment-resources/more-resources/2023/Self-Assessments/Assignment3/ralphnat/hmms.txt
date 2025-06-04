@@ -1,0 +1,7 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+The most significant thing I learned from the Bayesian Network module was how we can use probabilities and
+statistic strategies to solve real world problems. Bayesian Networks give us a model to view and easily understand
+certain statistical problems, allowing us to deploy certain strategies, like Hidden Markov Models. Creating graphical models
+of statistical problems made them much easier to understand and allowed me to understand the assignment much better. Furthermore,
+prior to this assignemnt conditional probability problems was something I found confusing and often struggled with, but
+Bayesian networks helped a great deal in my understanding.

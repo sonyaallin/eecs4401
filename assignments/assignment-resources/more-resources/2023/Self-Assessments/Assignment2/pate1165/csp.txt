@@ -1,0 +1,7 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+The most significant thing I have learned from this csp module is the different ways we can improve our model and solve things much faster
+with things like forward checking, back checking, etc. I also noticed that although binary check has much more constraints, it actually
+solved it faster then n array ( probably due to the time and resources it takes to get all the possible permutations). I know learned 
+why many AIs need high performance hard ware and resources to compute bigger problems, and that our current csp structure takes up a lot of 
+resources in bigger problems.

@@ -1,0 +1,8 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+This is difficult for me to understand Game AI. Min Max and alphaBeta in theory is friendly
+to understand. However, with actual implementation it is so ambiguous and result in many potential bugs
+Since in recursion, tracing will be a hard job to do. Either get 100% correct, or get 0%. Recursion brings
+out potential problem, a lot. And failed on a single mistake is very common. Therefore, when working with recursion,
+It is really important to understand structure, rather than trail and error.

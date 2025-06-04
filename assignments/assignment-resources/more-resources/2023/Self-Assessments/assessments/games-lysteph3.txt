@@ -1,0 +1,11 @@
+Though I've stated this before in the first assignment, I will once reiterate how I learned that heuristic functions are 
+super hard to find. Especially in this instance pertaining to games, where there are two players. I tried many different
+iterations of the heuristic function, however I found that it was always struggling to produce a better result than the 
+compute_utility function. This is regardless of the fact that the pairity of the disks isn't a good metric for comparing 
+the winnability of the game, since at any point the other player is able to capture ever larger numbers of disks from you
+if you have a large number of disks at hand. The only metric that really matters in terms of pairity is the ending number.
+Having said that, I still found it ever difficult to beat this function in terms of speed and accuracy in the auto-grader.
+And It was just reassurance to me that finding good heuristic functions is always difficult. Though I suppose, another thing
+was the difference that alpha-beta pruning makes, given how simple it is to implement. The difference in speed between the
+minimax function and the alpha-beta implementation was stark. 
+

@@ -1,0 +1,4 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I found out one very interesting thing I have learnt during games unit is the types and properties of different games. I have played a lot of games, but I am never aware all these games can have may common properties, such as deterministic, discrete and finite. And depends on the properties of the games, the strategy of wining the game will be different. You can simply consider the following steps and choose the move that most likely to win. But in some case, the probability plays an important role. This is another application of the probability in real life.

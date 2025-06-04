@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I've learned from the CSP module is how the
+efficiency or runtime of an algorithm is often highly dependent on the problem
+being solved. For example, forward checking can be much faster than
+backtracking search, but it can also be much worse depending on the type of
+problem and even how the problem is defined (e.g. binary not-equal constraints
+vs. using n-ary all-different constraints). Learning about the weaknesses that
+certain algorithms have makes analyzing and comparing different algorithms
+very interesting because you have to consider what works and what tradeoffs
+have to be made. Combining what I've learned in the CSP module with what I've
+learned in the search module, I think I'm starting to understand how difficult
+it is to create effective and efficient AIs.

@@ -1,0 +1,15 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I have learnt from the csp module is the different ways (Forward
+Checking and Generalized Arc Consistency) we can prune the domain of variables to efficiently 
+reach the solution to a given CSP problem.
+
+Forward Checking Propagation only checks constraints with a single unassigned variable and checks
+if there exists at least one value in the domain of the variable that satisfies the constraint. If not,
+then it prompts the CSP algorithm to backtrack.
+
+Generalized Arc Consistency Propagation prunes the domain of variables if it does not satisfy all of the
+constraints that apply to it. If the domain of a variable is pruned, then it rechecks all previously
+checked constraints against the newly pruned domain to see if it still satisfies them. If a domain wipeout
+occurs then it prompts the CSP algorithm to backtrack.

@@ -1,0 +1,14 @@
+The most significant things I learned in the bayesian network module was how to 
+design, implement and apply HMM models in order to solve real world problems. 
+After having completed this module and the corresponding assignment I have 
+now gained an understanding of how HMM models function, as in how these models 
+are trained upon some training data to produce probability distributions which 
+can then be used to make predictions on unseen/test data. Furthermore, I have 
+also learned how inference algorithms such as the viterbi algorithm and variable 
+elimination make predictions using probability. Through the assignment, I have 
+also gained practical experience in designing, implementing and testing these 
+models and algorithms. Where I learned how to adjust/manipulate algorithms in 
+order to make more accurate predictions. This has given me a deeper understanding 
+of uncertainty in event spaces and likelihood of events(and conditional probability). 
+Ultimately, I believe I now have the ability to apply this knowledge in order to 
+solve real world problems(such as POS-tagging) through the use of HMMs.

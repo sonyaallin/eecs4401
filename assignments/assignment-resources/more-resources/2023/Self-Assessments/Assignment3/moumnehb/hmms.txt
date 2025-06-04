@@ -1,0 +1,10 @@
+This assignment and unit has broadened my view on how we can use models to simulate
+possible outcomes given previous experienced outcomes. the hidden Markov model
+allows us to model many different everyday scenarios that in turn allow us to
+"predict the future". It as has been very interesting to see how we can apply Bayes
+nets in to a real world application that is used many billions every day. The
+Bayesian network model has many application and POS tagging is merely one of them.
+By using independence and joint probabilities we can estimate accurately the different
+possible outcomes. This assignment has also taught me the the importance of good
+book keeping and how it can simplify many processes. 
+

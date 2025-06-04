@@ -1,0 +1,11 @@
+The most important thing I learned from this game moudule is that game AI makes 
+move decisions based on expecting its opponent to make optimal moves. That is, 
+game AI will assume its opponent always take optimal strategies, and compute the 
+best move given this assumption. This work requires a lot of sampling, especially 
+when at the early stage of the game in our Othello example since there are many 
+potential moves. It reveals that AI agents in real world like Alpha Go requires 
+a lot of computation power when playing. That is why one important part of creating 
+game agent is to increase efficiency. In our Othello example, one technique to 
+improve performance significantly is setting a search depth limit. But that means 
+our agent will not always find the optimal move if limit reached. So there's a 
+trade-off there.

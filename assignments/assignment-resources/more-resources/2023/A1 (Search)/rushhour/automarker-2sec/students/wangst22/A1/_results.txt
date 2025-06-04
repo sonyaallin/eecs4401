@@ -1,0 +1,58 @@
+####################
+# Assignment 1
+####################
+
+Overall: 100/100
+====================
+Test Case: [function=test_fval_XDP_function]	[6/6]
+	
+====================
+Test Case: [function=test_fval_XUP_function]	[6/6]
+	
+====================
+Test Case: [function=test_fval_function]	[8/8]
+	
+====================
+Test Case: [function=test_goal_fn]	[10/10]
+	Goal states correctly detected 49 of 49 times.
+
+====================
+Test Case: [function=test_heuristic]	[15/15]
+	Best First Search, with basic heuristic distance, solved 45/60 problems.
+Best First Search, with an 'improved' heuristic, solved 48/60 problems.
+Best First Search, with YOUR heuristic, solved 52/60 problems.
+You outperformed the 'improved' benchmark 51 times.
+Score for this portion of the assignment: 15/15.
+
+====================
+Test Case: [function=test_iterative_gbfs]	[15/15]
+	
+Got TIMEOUT during problem 15 while testing anytime gbfs
+
+--> WARNING: Some anytime solutions were outperformed by best first search.
+Anytime gbfs, with with a basic heuristic distance, solved 45/60 problems.
+Anytime gbfs, with an 'improved' heuristic, solved 48/60 problems.
+Anytime gbfs, with YOUR heuristic, solved 51/60 problems.
+You outperformed the 'improved' benchmark 44 times.
+Score for this portion of the assignment: 15/15.
+
+====================
+Test Case: [function=test_iterative_weighted_astar]	[15/15]
+	Got TIMEOUT during problem 15 while testing weighted a-star
+Weighted astar, with a basic heuristic distance, solved 44/60.
+Weighted astar, with an 'improved' heuristic, solved 45/60 problems.
+Weighted astar, with YOUR heuristic, solved 50/60 problems.
+You outperformed the 'improved' benchmark in terms of length 5 times.
+Score for this portion of the assignment: 15/15.
+
+====================
+Test Case: [function=test_min_dist]	[10/10]
+	Correct distances computed 60 of 60 times.
+
+====================
+Test Case: [function=test_weighted_astar]	[15/15]
+	
+*************************************
+Weighted a-star expanded more nodes as weights decreased 10 of 10 times
+Score is 15.0 of 15.
+*************************************

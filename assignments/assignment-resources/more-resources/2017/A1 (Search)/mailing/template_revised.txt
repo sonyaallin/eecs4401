@@ -1,0 +1,64 @@
+Hello,
+
+Assignment 2 for CSC384 Introduction to Artificial Intelligence has been
+marked.
+
+The assignment was evaluated automatically through a series of tests.  These tests, 
+and the marking criteria that was used, are as follows:
+
+(1) Tests of the first Hitori model: binary constraints (25% max; 6 tests total)
+- Checking that variables are initialized with correct domains; 
+- Testing row and col constraints; 
+- Checking for binary constraints;
+- Checking that BT fails to assign values to variables given students' constraints 
+when problem is unsolvable;   
+- Testing for correct number of constraints;  
+- Checking to ensure satisfying tuples for each constraint are initialized correctly.        
+(2) Tests of the second Hitori model: n-ary constraints (25% max; 5 tests total)
+Tests included: 
+- Checking that variables are initialized with correct domains; 
+- Checking row and col constraints; 
+- Checking to ensure constraints are ONLY n-ary constraints;
+- Checking to ensure unsolvable problems are not solved;
+- Checking that solutions based on model and found with various orderings are valid 
+Hitori solutions (3 tests, 20 second time limit).
+(3) Tests of MRV ordering (10% max; 6 tests total)
+Tests included: 
+- Test identical to that provided in test script (1 point)
+- Test of MRV with 3 different sized domains and x + y = z (1 point)
+- Test of MRV with 3 different size domains, where the largest domain would result in a 
+DWO (1 point)
+- Test of MRV after assigning variables (1 point)
+- Test of MRV with Forward Checking for nQueens (1 point)
+- 5 Tests of  MRV with Forward Checking for Hitori (results aggregated into 1 point)
+(4) Tests of DH ordering (10% max; 3 tests total)
+- Three tests of degree heuristic on simple CSP problems (not Hitori)
+(5) Tests of LCV ordering (20% max; 6 tests total)
+- Four tests of LCV heuristic on simple CSP problems (not Hitori)
+(6) Tests of Custom ordering (based on 5 runs of nQueens problem; 10% max)
+- 2 points awarded if custom ordering works but does not outperform MRV (on average)
+- 5 points awarded if custom ordering is equivalent to MRV (on average)
+- 7 points awarded if custom ordering outperforms MRV in terms of either # of variable 
+assignments or # of prunes (on average)
+- 10 points awarded if custom ordering outperforms MRV in terms of both # of variable 
+assignments and # of prunes (on average)
+
+For your submission, results were the following:
+    1. Tests of Hitori Model 1: 		    {:2d}/25 ({:2d}/6 tests passed)
+    2. Tests of Hitori Model 2: 	        {:2d}/25 ({:2d}/5 tests passed)
+    3. Tests of Custom ordering:			{:2d}/10 ({:2d}/10 tests passed)	    
+    4. Tests of degree heuristic ordering:	{:2d}/10 ({:2d}/3 tests passed)
+    5. Tests of LCV ordering: 			    {:2d}/20 ({:2d}/6 tests passed)			
+    6. Tests of MRV heuristic ordering: 	{:2d}/10 ({:2d}/6 tests passed)      		
+    =====================================
+    Lateness Penalties (if any):			{:3d}/100         
+    Total:						            {:3d}/100       
+
+Any additional errors or issues encountered by the auto-marker while testing your work in the areas mentioned above can be found below:
+
+{}
+
+Your mark will be uploaded to MarkUs shortly.
+
+Best regards,
+CSC384 TA.

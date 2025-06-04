@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+One of the most significant things I learned from this module is the difficulty involved
+with properly rationing accuracy vs speed for these kinds of search algorithms. The part
+that I struggled with the most in this assignment was definitely creating the alternate
+heuristic function. While I could easily see the problem with investing entirely in speed
+(given the results of running the search engines with the simplest heuristics function),
+I was having a lot of trouble with battering down the accuracy and not wasting so much
+time trying to compute better accuracy. I had severely underestimated how many iterations
+would be run for each kind of search algorithm and just how costly my implementations were
+in my desire for just a bit more accuracy. In the end, while I was able to get a better
+implementation with a more workable accuracy vs speed ratio, it's still not the best, and
+so I'm curious what the better implementation actually is.

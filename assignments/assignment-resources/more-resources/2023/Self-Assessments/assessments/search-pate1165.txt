@@ -1,0 +1,7 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+The most significant thing I have learned is the importance of a heuristic function. The heuristic function must encorporate many things
+and must also have checks for deadlocks. I think this assignment especially has taught me how to create a good heuristic function. The key
+is to start off with a simple base function and add simple low time complex check. I also saw the difference a good heuristic function could have.
+For example the first heuristic function we had did not solve much, now once I got rid of unessesary loops, I imporved it. At the end the most important
+thing is to check for deadlocks and this was the one that helped push the problems solved into 14+ range.

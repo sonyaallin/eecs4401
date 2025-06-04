@@ -1,0 +1,12 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The whole concept of introducing heurstics into our search algorithms was really interesting
+and mind-blowing. I didn't realize how adding a heuristics to our search can improve our search 
+result times by so much. What is more interesting is how applicable these heuristics are in 
+real life scenerios like games, maps, etc. This is a concept that I will differently try to 
+utilize in my future projects to get the best possible performance. Further, to balance 
+time and space using concepts like iterative deeping was a totally new concept to me and although
+simple, it is so useful. Usually I thought about either using BFS or DFS, but iterative deepining
+showed me a 3rd method which combines the two and takes the best of both searches to create 
+something really useful

@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+From the constraint search propagtion module, I learned more in depth about a goal oriented algorithm for a search
+problem. From 324, we ended the course with miniKaren I always wanted to know how it was implemented,
+with what BT, FC, GAC and the use of degree/MRV heuristics, it's fascinating how much time you  can save.
+I learned that with propagators, its a way of pruning useless states in the upcoming search operation so that you don't
+have to check the constraints when you get there which saves a lot of time. But it doesn't always save time since
+it can make things worse by doing checks that results in no pruning. But in reality, it pretty much always saves time,
+but that's just the thing with NP complete problems.

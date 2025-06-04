@@ -1,0 +1,12 @@
+Note that the 2020 competition was run by Parsa Mirdehghan: p.mirdehghan@gmail.com
+
+Initially, each agent competed with every other agent on board-dimension of 6 with a timeout of 10 seconds. Agents played each opponent 2x, one as the "light" player and one as the "dark" player. Games where an agent timed out were discarded as were games resulting in draws.
+
+Then, the 5 top ranking players played one another on board-dimension of 8 (which is a standard Othello board size) and a timeout of 10 seconds. Agents again played each opponent 2x, one as the "light" player and one as the "dark" player.
+
+Finally, the 3 top ranking players played one another on board-dimension of 8 (which is a standard Othello board size) and a timeout of 10 seconds. 
+
+The results were posted to a CSC384 YouTube Channel.  You can log into the YouTube channel using these credentials:
+
+USER: csc384utoronto
+PASSWORD: ut0r0nt0

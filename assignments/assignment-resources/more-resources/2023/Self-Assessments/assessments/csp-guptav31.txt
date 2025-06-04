@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from the csp module is how to generalize a problem.
+Many problems can be broken down into a list of constraints and variables, so this approach can
+help me formalize various problems with the same strategy.
+I also learned that staying up late to work on code is unadvisable. My automarker was not
+matching the automarker_output.txt, and I did not notice for a very long time. I was missing some of
+the combinations of binary constraints, which allowed some incorrect assignments to occur.
+Although I was able to refactor some of my code to make it faster, but I could not get it fast enough 
+for GAC and FC to work for 6x6 grids. I'm not sure what I'm missing in making it more efficient.

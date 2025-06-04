@@ -1,0 +1,7 @@
+The most significant things about baysian networks I learned is how it can be used 
+to make predictions in data. Whether that be some sort of line detector, siri's language 
+processing, or something else, bayesian networks are used all the time. Even the assignment that 
+we did specifically has so many useful applications. Learning about how we have to adapt our 
+baysian networks(hidden markov models) to involve any sort of emissions was also quite interesting. 
+This is very important in cases where we can't directly predict the state of a node in the markov mmodel,
+where we need to consider the emissions.

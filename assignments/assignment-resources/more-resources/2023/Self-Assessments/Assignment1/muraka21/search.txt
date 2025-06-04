@@ -1,0 +1,20 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most important thing I learned about the search module is that when
+choosing a search algorithm there are many things that should be taken
+into consideration, such as time constraints, number of iterations, storage
+used, depth traversed, and others. It is important to note that it is
+required to make decisions because you may want to use a storage efficient
+algorithm such as Depth First Search, which does not necessarily give
+the shortest path to the solution. So, there is always a trade-off and
+as developers we need to be aware and choose the one that has the
+characteristics that are important for the problem being solved.
+Something that emphasizes even more this idea of being aware of the
+trade-offs, is the checking that is done to remove nodes if some condition
+is satisfied, using DFS as an example again, it would not be interesting
+to use cycle checking with DFS, because cycle checking requires a lot of
+space, which goes against the main idea of DFS (to be space efficient).
+So, I think the most important thing that I learned from the search module
+is being aware of the trade-offs of each algorithm and the types of
+checking to be able to achieve the expected result.

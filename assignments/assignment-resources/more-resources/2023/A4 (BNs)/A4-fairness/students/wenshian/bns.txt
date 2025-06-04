@@ -1,0 +1,24 @@
+1. The calculation from question 1 and question 2 tell me that most if not all of the times, a person may have a higher salary if they are not female.
+Looking at the resulting number from question 1, we see that it is near 1. This means that given a person that is a Female, our model built based off of
+the stats gathered show that they are more likely to have a higher salary if they do not disclose their gender. The second they disclose their gender, the
+probability that their salary is >=50k will drop. Similar inferences can be made using the number obtained for question 2, which is 0. This means that
+given a person, if they disclose that they are male instead of keeping the gender unspecified, they are more likely to get a salary that is >=50k. Note that
+this does not mean females will never have a salary >=50k while male will always have a salary >=50k, it just means that in terms of the chance of
+having a salary above 50k, disclosing the gender is disadvantageous for females while advantageous for males. This is reflected by the resulting numbers
+from question 5(~8%) and question 6(~25%), which shows that a higher percentage of men have the prediction of having a salary >=50k than women. Although the accuracies
+of the predictions of salary being >=50k are ~57% and ~66% for women and men respectively, which I think has a mediocre accuracy, I would not use this model
+to recommend starting salaries for employeees at a firm. Although the model got the correct prediction approximately 60% of the time, it is potentially overpaying
+the other 40% of the people that got such a prediction but do not actually have such a salary. We also have not looked at how accuractely it predicts both >=50k and
+<50k salary overall since some personnel with potential could be missed if the model underpredict and recommend a lower starting salary than he/she should have deserved.
+Lastly, the model does contain gender biases between men and women and this does bring in the murky ethical issues of fairness between different genders.
+
+2. From the Bayesian Network module, I think the most significant thing I have learned is the practice of the chain rule of probability and the simplification
+of certain conditional probabilities given the conditional independency between the variables. Previously, I was only somewhat familiar with the most basic 
+version of the Bayes Theorem since I consider myself not very comfortable with statistics, but after going through this specific assignment, I got more comfortable with
+looking at the drawn out graphs between the different variables, their dependencies, the concept of hypergraphs, and also the "blocking" concept. With this, 
+I was able to understand the ideas behind variable elimination and the different operations we perform on factors(sum, multiply, restrict).
+
+3. I'm not sure how to improve on the self-assessment exercise for the next time around, but when I was doing these, most of the time I find myself thinking what was core
+concept that I was initially the most clueless about. I'm not sure if this counts as "the most significant thing I've learned" for some people, but to me I think it's
+just a self reminder that this concept (the most significant thing that I selected) is something that I was not familiar with and couldn't pick up easily and should be
+thoroughly reviewed if necessary in the future.

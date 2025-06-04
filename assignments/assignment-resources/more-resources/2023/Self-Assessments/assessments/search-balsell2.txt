@@ -1,0 +1,4 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned a lot of this from the search module, but the most significant one I would say is heuristics. How to design them is a subject I knew very little about, and the tips and tricks explained in class really helped me out during the assigment, even though it is a very complex and empirical process. The concept of admissability is also very interesting, as I had never heard about it before, and I found that taking admisssability into account when designing an heuristic function really does help to discard non-viable options, and helps focusing on the elements that are important.

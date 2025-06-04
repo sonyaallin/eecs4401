@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing that I have learned from the module is the importance of a
+well made heuristic. The heuristic is basically the brain of the AI. 
+Making a heuristic too large and complicated only "clouds" up the AI's "thinking". 
+So outside the box thinking has to be used to create better heuristics. 
+Heuristics can always be made better but making them better requires quite a bit of thought.  
+One more thing that I took away was a deeper understanding and appreciation of how beautifully 
+complicated these programs can be. Which gave me a tremendous respect to the people who originally 
+came up with such ideas and innovation.

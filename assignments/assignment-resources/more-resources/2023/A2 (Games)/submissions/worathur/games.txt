@@ -1,0 +1,17 @@
+In this assignment, I learned that many games have branching factors which make it infeasible to explore all terminal
+nodes in the game tree. In such cases, limits of computation introduce uncertainty into games of perfect information.
+I learned that when agents need to terminate their search at a non-terminal node, a good evaluation function
+is crucial to choosing moves with high expected utility. In particular, a good evaluation function
+should preserve the ordering of terminal nodes under the utility function. Moreover, for non-terminal nodes the
+heuristic value should be highly correlated with the expected utility of the action leading to that node.
+
+I gained a deeper understanding of how the minimax algorithm operates and why it is an ideal strategy when the opponent
+always makes the best possible move. I learned how alpha-beta pruning uses assumptions about the opponent behaving rationally
+in order to speed up search and avoid searching nodes which do not affect the final solution.  When implementing alpha-beta
+pruning I had to clarify my understanding of the algorithm as I was unsure about why alpha and beta values should be propagated
+down the tree in the recursive calls. I learned how state caching can be beneficial in any game where a player's response
+time is valued.
+
+I learned that MCTS is an effective anytime search algorithm for games by using rollouts to develop better estimates of
+the expected utility of a node. I gained a deeper understanding of the upper cost bound metric and how it allows us to
+balance conflicting goals of exploration and exploitation.

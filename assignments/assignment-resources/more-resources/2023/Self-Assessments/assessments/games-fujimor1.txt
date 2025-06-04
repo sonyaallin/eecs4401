@@ -1,0 +1,10 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Through the games unit, I learned about fundamental game theory and how the minimax algorithm has evolved over 
+time to face the challenge of computational efficiency. It was very cool to see that various techniques 
+(alpha-beta pruning, expectimax, etc.) have emerged to increase the computational speed while maintaining 
+the accuracy or performance of the game AI. Moreover, since I had prior knowledge of Reinforcement Learning (RL) 
+techniques such as DQN and MCTS, I was surprised to see the connection between classic game AI which we learned in this course, 
+and more recent technology such as RL. I would like to explore more into how the traditional methods have evolved to 
+RL and contributed to recent success in the field of game AI such as Alpha-Go.

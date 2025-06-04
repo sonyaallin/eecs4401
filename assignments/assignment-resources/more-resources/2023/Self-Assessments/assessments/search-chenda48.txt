@@ -1,0 +1,4 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned from this search module is how to improve a heuristic using domain specific information. The improvements I made to the Manhattan heuristic were due to utilizing specifics related to the Sokoban game. For example, I figured out that even before reaching the end of a search space, certain box placements would lead to a dead state where further expansion would be futile in trying to find a solution. This modification is only useful in Sokoban, but it is because it is so niche that incorporating it led to many extra boards being solved by the search engine. A robust heuristic is not possible in the context of search problems, simply because each search problem has unique rules that need to be followed in order to reach the goal of the problem. 

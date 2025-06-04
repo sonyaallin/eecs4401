@@ -1,0 +1,4 @@
+    The most significant thing I learned about HMMS and bayes nets (which HMM is a type of) is their widespread use and their versatility is usage across many different
+    fields and applications. How they can be useful to describe and predict the evolution of models and events that are not directly observable.
+    Their multiple applications interested me. From speech and handwriting recognition to POS like that we did.
+    In terms of learning, learning how to implement and use a HMM was useful, while it was in python the general concept can be applied over languages and then be used in other applications.

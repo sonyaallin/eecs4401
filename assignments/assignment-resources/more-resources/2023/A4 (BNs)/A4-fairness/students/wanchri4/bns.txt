@@ -1,0 +1,9 @@
+The most significant thing that I have learned from the Bayesian Network module is how to set up and create a Bayesian
+Network from some dataset, how to implement variable elimination and how the algorithm works, and the various
+helper function (such as multiply factors, restrict factors, etc.) that are need in order to perform a proper
+variable elimination algorithm. In addition, I also learned how the ways and different types of ordering of the
+variables can influence the overall time complexity of the algorithm, therefore it is important to take that into
+consideration when performing a variable elimination.
+
+The self-assessments in the exercises have been of value because it allowed me to reflect and review the work that I
+have done for the assignments. This seems like a nice thing to continue into the next term.

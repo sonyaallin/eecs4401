@@ -1,0 +1,8 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+
+I guess the most significant thing I've learned from Bayesian Networks is that
+it's not that difficult to predict. There's always a lot of hype about the
+intelligence behind prediction but it all comes down to algorithm and algorithm
+design. It also made me realize that this prediction can get better, as humans
+evolve and time goes on, it'll only get easier to predict outcomes since our
+datasets just keep growing. Very cool and very interesting.

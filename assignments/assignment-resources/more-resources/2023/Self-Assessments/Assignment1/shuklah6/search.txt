@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned how to identify key characteristics of a problem and recurring problems that the algorithm suffered from,
+which helped me in improving my alternate heuristic. As I went through each test case that I was failing, I saw all the
+places where my alternate heuristic was failing and identified patterns that repeated through these cases
+(for example, walls and other obstacles blocking the path of a box, a box hogging a storage which blocks
+another storage location from being accessible, and others). Some of these problems I was able to work through, however,
+some of these I struggled with for days, and I ultimately could not solve.

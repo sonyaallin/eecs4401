@@ -1,0 +1,4 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I have learned in this module is how the computer program can do to solve an issue. Normally, we will have to tell what the program needs to do step by step to obtain the final answer. However, in this module, we just need to tell the program what we want, that is the constraints. Then the program will solve the issue using the algorithm. This could be a lot easier and faster to solve certain issues like the schedule planning. So, we just need to set the constraints for each person’s availabilities, then we can use the CSP algorithm to find the plan that works for everybody. If we solve the issue with the old fashion, then we may need to check all the possibilities to find out there is no solution. But if we use CSP with GAC propagation, the program will be much efficient.

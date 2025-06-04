@@ -1,0 +1,412 @@
+####################
+# Assignment 4
+####################
+
+Overall: 0/51
+====================
+Test Case: [function=multiply_factors_test_1]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 305, in multiply_factors_test_1
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=multiply_factors_test_2]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 336, in multiply_factors_test_2
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=multiply_factors_test_3]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 380, in multiply_factors_test_3
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=norm_test_1]	[0/1]
+	AttributeError was raised: 'NoneType' object has no attribute 'normalize'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 21, in norm_test_1
+    normalized_nums = stu_solution.normalize([i for i in range(5)])
+AttributeError: 'NoneType' object has no attribute 'normalize'
+
+====================
+Test Case: [function=norm_test_2]	[0/1]
+	AttributeError was raised: 'NoneType' object has no attribute 'normalize'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 39, in norm_test_2
+    normalized_nums = stu_solution.normalize([i for i in range(0,-5,-1)])
+AttributeError: 'NoneType' object has no attribute 'normalize'
+
+====================
+Test Case: [function=norm_test_3]	[0/1]
+	AttributeError was raised: 'NoneType' object has no attribute 'normalize'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 57, in norm_test_3
+    normalized_nums = stu_solution.normalize([i for i in range(4,-5,-1)])
+AttributeError: 'NoneType' object has no attribute 'normalize'
+
+====================
+Test Case: [function=old_VE_tests]	[0/8]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 645, in old_VE_tests
+    Parameters = makeQ3(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 73, in makeQ3
+    E = stu_solution.Variable('E', ['e', '-e'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=old_multiply_factors_tests]	[0/3]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 823, in old_multiply_factors_tests
+    Parameters = makeQ3(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 73, in makeQ3
+    E = stu_solution.Variable('E', ['e', '-e'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=old_restrict_factor_tests]	[0/3]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 994, in old_restrict_factor_tests
+    Parameters = makeQ3(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 73, in makeQ3
+    E = stu_solution.Variable('E', ['e', '-e'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=old_sum_out_variable_tests]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 935, in old_sum_out_variable_tests
+    Parameters = makeQ3(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 73, in makeQ3
+    E = stu_solution.Variable('E', ['e', '-e'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=restrict_factor_test_1]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 442, in restrict_factor_test_1
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=restrict_factor_test_2]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 474, in restrict_factor_test_2
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=restrict_factor_test_3]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 508, in restrict_factor_test_3
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=sum_out_variable_test_1]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 543, in sum_out_variable_test_1
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=sum_out_variable_test_2]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 575, in sum_out_variable_test_2
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=sum_out_variable_test_3]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 609, in sum_out_variable_test_3
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=ve_test_1]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 74, in ve_test_1
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=ve_test_2]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 106, in ve_test_2
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=ve_test_3]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 139, in ve_test_3
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=ve_test_4]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 171, in ve_test_4
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=ve_test_5]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 205, in ve_test_5
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=ve_test_6]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 239, in ve_test_6
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'
+
+====================
+Test Case: [function=ve_test_7]	[0/2]
+	AttributeError was raised: 'NoneType' object has no attribute 'Variable'
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 53, in run
+    grade, details = test_case.execute(path_modules)    # Run test case and return TestCaseResult
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/test_case.py", line 70, in execute
+    value = self._function(assignment_module)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/utils/test_tools.py", line 10, in _wrapper
+    return func(*args, **kwargs)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 270, in ve_test_7
+    Parameters = makeBN(stu_solution)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/dependencies/A4_test_cases.py", line 3, in makeBN
+    VisitAsia = stu_solution.Variable('Visit_To_Asia', ['visit', 'no-visit'])
+AttributeError: 'NoneType' object has no attribute 'Variable'

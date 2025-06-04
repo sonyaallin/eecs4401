@@ -1,0 +1,13 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+The most significant thing that I learned from the CSP module is the power
+of diligently reducing the domain of possibilities. Without the constant reduction
+in domain, finding a solution is much more difficult and time consuming. As well,
+the CSP module has opened my eyes to the different ways we are able to look at a
+problem. This has shown me that looking at things with less intuitive perspective
+may be the key solving a problem. Moreover, the abundance of perspectives is
+each unique and beneficial in their own way. There are always multiple ways to
+solve a problem, and the solution/implementation you choose often depends on
+what you value more. Lastly, looking at how all the elements in a problem can be
+connected displays the extensive ways that their connections can be represented.
+

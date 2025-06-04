@@ -1,0 +1,10 @@
+Othello Mailer
+
+Script use to mail results of A3 automarking 
+
+To run:
+
+$python3 mailing.py
+
+Note to use this uncomment lines that connect to SMTP server
+Template is in the A3template.txt file

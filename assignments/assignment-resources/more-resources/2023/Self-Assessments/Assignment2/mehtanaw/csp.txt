@@ -1,0 +1,17 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant things I learned from the CSP module is how to form CSPs, 
+and the several algorithms used to efficiently solve CSP problems. Through the 
+final assignment of the module, I gained practical experience in constructing a 
+CSP for a specific problem. This taught me how to create variables and constraints; 
+and how to tie these elements together by determining all satisfying assignments
+(of variables) and then adding these assignments and variables to the constraints. 
+Ultimately, I have gained the confidence and technical ability to create CSP for 
+several other types of problems. Furthermore, I have developed a complete understanding
+of several CSP algorithms used to solve CSP problems such as Backtracking Search, 
+Forward Checking and GAC. Both through the lectures and through implementing some 
+of these algorithms on our assignment, I know understand how these algorithms work 
+together and work with the elements of a CSP to solve a problem and provide some 
+solution. Going forward, I believe I now have the capability of applying this 
+knowledge to many other CSP problems.

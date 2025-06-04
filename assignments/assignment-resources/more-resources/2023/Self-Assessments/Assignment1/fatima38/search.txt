@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+There are many different types of search algorithms that can be used to solve a problem. The heuristic search is an
+interesting option that allows a search to have extra information. However, from the assignment it became clear that
+finding a good, admissible heuristic can be quite difficult as search problems increase in complexity. Encoding the
+distance to the goal from a certain state is difficult to conceptualize and requires some heavy thinking. Aside from
+the heuristic search, the uninformed search algorithms were each well suited for separate problem types, for example
+depth first search is best to reduce memory usage. Its interesting to see how to decide what might be the best search
+algorithm to use for a particular problem.

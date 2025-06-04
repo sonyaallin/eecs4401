@@ -1,0 +1,7 @@
+This unit was one of the most enjoyable in the course so far especially since I tried to connect my learning with the world around me.
+In fact, when we learned about Hidden Markov Models, one connection I was able to make was with the writing app that I use on my laptop.
+This app is able to convert my handwriting to text. Perhaps, it also uses Hidden Markov Models for handwriting recognition.
+This also leads to the most significant thing I learned from this unit which was that Bayesian networks and Hidden Markov Models despite being
+simple can be used to represent relationships and make predictions about a wide variety of problems.
+Despite them being simple, they are still really effective. This was emphasized to me in the assignment as I made tiny improvements
+to my training tables and noticed huge improvements in prediction accuracy.

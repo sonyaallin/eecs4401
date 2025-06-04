@@ -1,0 +1,95 @@
+Hello {},
+
+Assignment 4 for CSC384 Introduction to Artificial Intelligence has been
+auto-marked.  Auto-marking results accept for 90% of your A4 grade; an additional 10% will be based on the TA's review of your question3.pdf (this review is not yet complete).
+
+Auto-marking involved a series of tests.  These tests were as follows:
+
+(1) Tests of the multiply factor function (10%)
+(2) Tests of the normalize factor function (5%)
+(3) Tests of the restrict factor function (10%)
+(4) Tests of the sum out factor function (10%)
+(5) Tests of variable elimination (25%)
+
+(6) Tests to evaluate question 2a (5%)
+- 5 points if VE(medical, v3, [v2, v1]) = VE(medical, v3, [v1])
+
+(7) Tests to evaluate question 2b (5%)
+- 5 points if VE(medical, v1, [v3, v4, v2]) = VE(medical, v1, [v3, v4]) AND VE(medical, v1, [v3, v4, v5]) != VE(medical, v1, [v3, v4, v5, v2])
+
+(8) Tests to evaluate question 2c (10%)
+- 1.8 points if VE(medical, v0, []) <=  VE(medical, v0, [v1]) 
+- 1.8 points if VE(medical, v0, [v1]) <=  VE(medical, v0, [v1 v2]) 
+- 1.8 points if VE(medical, v0, [v1 v2]) <=  VE(medical, v0, [v1 v2 v3]) 
+- 1.8 points if VE(medical, v0, [v1 v2 v3]) <=  VE(medical, v0, [v1 v2 v3 v4]) 
+- 1.8 points if VE(medical, v0, [v1 v2 v3 v4]) <=  VE(medical, v0, [v1 v2 v3 v4 v5]) 
+- 1 point if VE(medical, v0, [v1, v2, v3, v4, v5]) calculated correctly
+
+(9) Tests to evaluate question 2d (10%)
+- 1.8 points if VE(medical, v0, []) >=  VE(medical, v0, [v1]) 
+- 1.8 points if VE(medical, v0, [v1]) >=  VE(medical, v0, [v1 v2]) 
+- 1.8 points if VE(medical, v0, [v1 v2]) >=  VE(medical, v0, [v1 v2 v3]) 
+- 1.8 points if VE(medical, v0, [v1 v2 v3]) >=  VE(medical, v0, [v1 v2 v3 v4]) 
+- 1.8 points if VE(medical, v0, [v1 v2 v3 v4]) >=  VE(medical, v0, [v1 v2 v3 v4 v5]) 
+- 1 point if VE(medical, v0, [v1, v2, v3, v4, v5]) calculated correctly
+
+For your submission, results of the automarking component were as follows:
+    1. Tests of Multiply Factor: 		    
+	[function=multiply_factors_test_1]: {}/2
+	[function=multiply_factors_test_2]: {}/2
+	[function=multiply_factors_test_3]: {}/2
+	[function=old_multiply_factors_tests]: {}/3
+    Total Multiply Factor Tests: {}%
+
+    2. Tests of Normalize Factor:
+	[function=norm_test_1]: {}/1
+	[function=norm_test_2]: {}/1
+	[function=norm_test_3]: {}/1 	
+    Total Normalize Factor Tests: {}%
+
+    3. Tests of Restrict Factor: 
+	[function=restrict_factor_test_1]: {}/2
+	[function=restrict_factor_test_2]: {}/2
+	[function=restrict_factor_test_3]: {}/2
+	[function=old_restrict_factor_tests]: {}/3
+    Total Restrict Factor Tests: {}%
+
+    4. Tests of Sum Out Factor: 	
+	[function=sum_out_variable_test_1]: {}/2
+	[function=sum_out_variable_test_2]: {}/2
+	[function=sum_out_variable_test_3]: {}/2
+	[function=old_sum_out_variable_tests]: {}/2
+    Total Sum Out Factor Tests: {}%
+
+    5. Tests of Variable Elimination: 	
+	[function=ve_test_1]  {}/2
+	[function=ve_test_2]: {}/2
+	[function=ve_test_3]: {}/2
+	[function=ve_test_4]: {}/2
+	[function=ve_test_5]: {}/2
+	[function=ve_test_6]: {}/2
+	[function=ve_test_7]: {}/2
+	[function=old_VE_tests]: {}/8	
+    Total VE Tests: {}%
+
+    Total For Functional Tests: {}/60
+
+    6. Q2a: {}/5		    			
+    7. Q2b: {}/5		    			
+    8. Q2c: {}/10		    			
+    9. Q2d: {}/10		    			
+
+    Total For Q2 Tests: {}/30
+
+    =====================================
+    Grand Total: {}/90        
+
+Any additional errors or issues encountered by the auto-marker while testing your work in 
+the areas mentioned above can be found below:
+
+{results}
+
+Your mark will be uploaded to MarkUs once the TA has completed a review of question 3.
+
+Best regards,
+CSC384 TA.

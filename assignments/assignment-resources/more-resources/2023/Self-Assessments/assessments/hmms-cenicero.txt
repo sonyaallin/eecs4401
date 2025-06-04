@@ -1,0 +1,3 @@
+This assignment helped me a great deal on understanding how we can use HMMs to train an AI
+and then use it to make queries that works in a probabilistic way. This also helped me solidify
+my understanding of how the forward algorithm and the Viterbi algorithms work.

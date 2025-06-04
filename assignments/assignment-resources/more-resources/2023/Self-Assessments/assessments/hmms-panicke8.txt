@@ -1,0 +1,8 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing I've learned from the Bayesian Network module is that humans use statistics (learned and innate) 
+to help make informed decisions. This same principle extends to AI. Using conditional probabilities helps determine the 
+liklihood of certain options being correct, in the same ways humans do. When it comes to langauge semantics specifically, as seen
+with the Parts of Speech Tagging, there are always exceptions to the rule, and babies often make the mistake of 
+overregularizing or underregularizing rules because they're following the probabiliities in their brains after being exposed
+to a training set of lanugage their whole life. A lot of components of life like langauge and decision making, rely on statistics. 

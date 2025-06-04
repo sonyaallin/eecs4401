@@ -1,0 +1,25 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+What I learned from this assignment is that there will always be trade-offs between
+the efficiency and accuracy of a search problem. Often times, if we want the optimal
+solution, we must sacrifice efficiency in order to explore the search space completely.
+In the case of Sokoban, the search space is extremely vast, which results in longer
+search times. 
+
+To account for this, we use iterative search methods to gradually strengthen our bounds
+(cost, heuristic, f_val) in order to potentially reach our goal state with lower costs. 
+Furthermore, it is possible to sacrifice optimality and settle for sub-optimality with
+a non-admissible heuristic if prioritizing efficiency over accuracy, although it may affect
+iterative implementtations. (piazza @50)
+
+What I found most challenging was coming up with a heuristic that remains admissable whilst
+not introducing too much complexity to the computation of the heuristic. My initial approach
+ignored obstacles, whilst attempting to calculate the most realistic manhattan distances between
+each box and storage. It was significantly more complex, and resulted in multiple box-to-box comparisons in order to ensure no two boxes were on the same storage space, whilst still calculating the manhattan distance of each box to its nearest (un-occupied) storage space. This proved to be too complex of a heuristic and only 4 problems were solved, much worse than the benchmark.
+
+My second attempt took into account obstacles present in the SokobanState, hence allowing the
+pruning of states which were deadlocked in a sense, with no ability to reach a final goal state
+if even one box is deadlocked. This approach was also less computationally taxing, as it mostly
+utilized searching in a set (avg. O(1)), reducing the complexity significantly and allowing more
+cases to pass. 

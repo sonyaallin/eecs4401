@@ -1,0 +1,8 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The most interesting part of the games unit is the game algorithms like minimax and alpha-beta cuts.
+It was very interesting to see that relatively-complex games can be broken down to the series of steps for
+each player, and the result of the game can be calculated even before the game started using such relatively-simple
+algorithms. This unit showed me that any game (or life situation) after bringing it to the certain level of abstraction
+can be analyzed and predicted with the very high performance.

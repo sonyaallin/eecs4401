@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+CSP feels like a more formal algorithm when compared to normal search. When initially reading the task, I had imagined
+a different implementation of base CSP, where instead of doing tuples, we would use a function to verify satisfying terms
+The CSP base model is very easy to call and use, but at the cost of space complexity, and difficulty in ititial setup. This
+model feels like it would be better to model constraints of "musth happen" rather than "cannot happen", as it's more direct
+when defining the tuples for satisfying the constraints. For CSP in general, the form it can take is very generalized in the 
+idea that despite the model using a list of tuples to check satisfying assignments, we can still use it to make binary ne 
+constraints or nary ad constraints, which intuitivly are very different, and takes work to set up, but still worked out.  

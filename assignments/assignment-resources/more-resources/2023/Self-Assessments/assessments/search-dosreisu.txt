@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The main thing I learned was that it is harder than I expected to make a very good heuristic. I managed to make one that was decent rather quickly
+but trying to make it solve all 20 in under 2 seconds was more complicated than I anticipated.
+
+Another significant thing I learned was how small details really impacted performance of the algorithms. I had under 14 solved in 2 seconds for both 
+iterative weighted a star and iteravtive GBFS until I moved a singular if statement out of the main loop and it suddenly became all 20 in under 2 
+seconds. There were other improvements to speed I had done before but they didn't impact the result directly and it was the if that tipped the
+scale which was really cool to see.

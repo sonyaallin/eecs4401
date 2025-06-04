@@ -1,0 +1,7 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I've learned through this module is that although we've learned quite
+a few searching methods, they build on one another. Even when writing code, it's easy to spot similarities
+and it make it even more clear how much faster one can be. It's also just fun to compare this module to 
+the last one and see each methods applicability based on whether the paths are necessary or not.

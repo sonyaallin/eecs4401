@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+# What is the most significant thing you have learned from the csp module?
+
+In this assignment, we used forward checking and Generalised Arc constraint as two forms 
+of constraint propagators. Constraint propagators aim to search for values that satisfy the 
+constraints. With the two propagators, we learned a way to prioritize the goals, 
+instead of the paths. We learned a way to account for constraints in finding suitable values 
+for searches. In forward checking, we pruned values from the domains that could hinder the search
+in the future. In Generalised Arc constraint, we prune values from the domains that are 
+arc-inconsistent. We also represent the states using variables, constraints, domains to generate
+more efficient algorithms.
+
+
+

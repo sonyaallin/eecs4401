@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned how there are different types of propagation algorithms and how they can be optimized
+by using different variable ordering heuristics. These propogation algorithms with a backtracking algorithm can
+help us solve complex problems such as finding the right set of values for a soduko game in a matter of
+seconds, when it would take the average human hours to do. Furthermore, from this assignment I can see
+how important it is to create good constraints as they can greatly impact the ability of a problem to be solved
+and even the time complexity. Overall, This showed me how important constraint search
+problems are in the field of artifical intelligence. 

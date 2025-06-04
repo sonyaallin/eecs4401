@@ -1,0 +1,13 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I learned many things in the Game section. One of them was that it can be
+very expensive to create AIs to play games, because they need to traverse
+through many if not all possible states to find the best move. This could be
+seen in the A4, where solving Othello games larger than 4x4 becomes very
+expensive to solve. I also found very interesting to learn about the minimax
+algorithm, which takes into consideration two players, one that is trying to
+win (maximize their utility) and one that is trying to not let the other win
+(minimizing the other player's utility). This strategy was very fun to learn
+because it shows the possible outcomes of the game when two players are
+playing optimally, and the end we can find the final outcome of the game
+and this can be easily visualized by using a Game Tree.

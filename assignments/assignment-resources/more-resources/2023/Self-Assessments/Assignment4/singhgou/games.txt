@@ -1,0 +1,24 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learnt that we can break down 2-player turn-by-turn games (like Othello, Chess, Tic-Tac-Toe) into
+a collection of states with weights to dictate the outcome preference for each player (the utility).
+According to the utility, we can decide which is the best move to take for a given player.
+
+We can use these utility values with the Mini-Max algorithm in order to determine the best course of
+action for a given player: where the given player would find the highest utility move from a given
+set of moves, and the opponent would find the lowest utility move from the next set of moves, so on
+and so forth, turn-by-turn until the game reaches a terminal state. Based on that, we can find a
+potential path with the highest utility for the given player. The disadvantage of this algorithm
+is that it is highly space & time inefficient.
+
+In order to make the above algorithm’s run-time more efficient, we use the Alpha-Beta algorithm, which
+prunes all nodes that are below a certain utility threshold for a given player, in order to save time 
+and space by not expanding game states with a lower utility potential. This algorithm can be made more 
+efficient by doing a quick analysis of the given nodes and re-order them in order to explore the nodes 
+with the highest potential first and maximize the chances of pruning unnecessary nodes.
+
+These two algorithms can further be improved by including a depth limit (which searches the state space 
+until a given depth after which it uses a heuristic function to find the utility of the given state), a 
+cache (which stores all previously explored game states and their given utility value in order to not 
+re-expand them and waste resources).

@@ -1,0 +1,13 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I really enjoyed this unit since I've always enjoyed playing video games and 
+developing an AI bot that could play by itself and against others was very rewarding. 
+In fact, I have always tried to come up with the best strategies when playing 
+games on my own, but thinking about different strategies to win in Othello when 
+developing my own heuristic made for a really good learning experience. Moreover, 
+this whole course has really taught me the importance of heuristics and how they 
+can influence the outcome of the whole algorithm. This was emphasized when I saw 
+drastic improvements in my agent's performance as I incorporated different strategies 
+into the heuristic. This unit also revealed how assuming the best moves from the opponent 
+is also essential with the min max algorithm.

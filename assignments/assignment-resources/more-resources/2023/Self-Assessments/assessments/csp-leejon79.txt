@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+One of the most significant things I've learned in this module is just how much faster
+and better things can go by implementing constraints to the problem. On the surface,
+the propagator functions are written/used for this assignment look terribly inefficient
+and look like needlessly complicated work (they are O(n^3) or O(n^4) I believe), however
+once implemented, the functions ran a lot faster than I anticipated. It's also surprising
+how adding these constraints can reduce the need for complex heuristics, given the one
+used in this assignment is infinitely simpler than the ones created for the previous
+assignment. I also feel that overall, it's much simpler to implement and conceptualize a
+proper problem-solving function with constraints with a simple heuristic function rather
+than trying to make the solver just run some super all-encompassing heuristic to do everything
+without constraints.

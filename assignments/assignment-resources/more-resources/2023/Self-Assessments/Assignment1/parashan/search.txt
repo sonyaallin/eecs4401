@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+After A1, I learned that I am not good at writing heuristics. I was not very good at the sokoban game so it was very hard
+for me to determine whether or not a particular state was good. I had created a heuristic that was very simple
+My heuristic had two main components; one was to compute smallest manhattan distance from a box -> storage. 
+The other component was to penalize a box ending up in a corner. I attempted to incorporate robots into my 
+heuristic but none of them were working very well so I just stuck with this one which worked best.

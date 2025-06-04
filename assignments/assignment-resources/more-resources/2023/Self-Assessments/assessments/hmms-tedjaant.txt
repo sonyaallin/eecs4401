@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have elarned from the baysian network module?
+
+The most significant thing that I have learned from the baysian network module is that
+hmms are conceptually more simpler than previously thought. These AI algorithms that assign
+or predict states are just maximization problems on all possible states and decides on
+the most probable state based on its observations. When we train the hmm, we just adjust
+probabilities proportional to factors such as placement and frequency so that we can use
+the probability tables to decide on unseen tests. We take advantage of probability rules
+and assumptions to cut down on the operations to save computational costs. This is why
+hmms are more common than we think, seeing its uses in many programs today.

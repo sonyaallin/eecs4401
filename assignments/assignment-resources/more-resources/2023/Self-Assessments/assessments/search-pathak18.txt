@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I found while working on this assignment is how we can
+use a general class like StateSpace in order to develop a complicated search problem 
+like Sokoban or even the water jugs problem. Sokoban has to consider so many possible 
+states with the robots and there are different possible paths, but still, the basic 
+search algorithms like A*, greedy best-first search can be used to find a possible 
+path for this problem. I also found the process of finding an alternate heuristic 
+very fascinating since it is so open-ended and we have so much flexibility on how we 
+want to improve our search heuristic. 

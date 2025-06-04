@@ -1,0 +1,13 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+From doing this assignment, I learned how difficult it is to come up with an improved heuristic function. 
+This was my main lesson because it was counterintuitive to sink more time into the calculation of the Heuristic 
+function so that you can account for more variables so that the improved heuristic can reduce the overall runtime 
+of the search algorithm. Initially, I tried changing the way I measured distance between the boxes, though it didn’t 
+give much of an improvement at all, but increasing the number of things I accounted for yielded a great improvement.
+So I learned that heuristics need not be novel things, but we can incrementally better them carefully while taking
+into account the overall runtime of the heuristic. I also learned how useful caching and hashing is for speed savings.
+Though the way I implemented it takes worst case up to every state on the board, which is exponential memory cost.
+Perhaps in other attempts, I’ll figure out a way to reduce the overall memory cost for hashing, and storing previous states.
+

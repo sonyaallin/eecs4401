@@ -1,0 +1,10 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Although we did learn about BFS, DFS, and heuristics. We only looked at this topic as it
+related to path finding where we want to get to a specific goal node or state. In this unit
+we looked at how we can leverage DFS to create player for games that chooses the most
+optimal moves. We looked at how we can use a search tree to find the best move keeping in
+mind that the opponent player may very well make the best possible move. Moreover, we looked at
+how to improve these searches with the likes of heuristics, depth limits, ordering, etc. 
+

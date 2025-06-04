@@ -1,0 +1,8 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Although this unit was interesting, I didnt learn anything. Being close to the end of the semester, my will power to continue
+has dissapeared. The material in this unit seemed very intersting and will likely be somthing that I come back to in the future,
+although for the time being, I must throw in the towel. There was nothing wrong with this course and at times I enjoyed
+it very much, but this assignment combined with the workload of my other CS courses was far too much to handle. Hopefully
+after exams I will come back to this assignment and try to complete it.

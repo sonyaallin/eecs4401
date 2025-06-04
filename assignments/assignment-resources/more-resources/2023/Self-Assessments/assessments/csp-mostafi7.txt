@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I have learned from this module is that CSP’s 
+are everywhere. Although I had not known what a CPS was formally, I was 
+interacting with them on almost a day-to-day basis. From my daily game of wordle 
+or choosing which events I could attend in a given time frame to planning a 
+vacation and many more. Not only that but I was able to formalize the strategies
+that I was using to solve the CSP’s I was interacting with daily. What I took 
+away from the module is formal ways to solve CSP’s and to try and identify a CSP
+since I already know how to solve them.

@@ -1,0 +1,11 @@
+1. A* doesnt significantly improve with time because the definition of optimal efficiency is the set of nodes 
+expanded, as opposed to the number of expansions (which is what A*'s # of iterations). This could possibly result 
+in a node expanded by A* multiple times, even an exponential # of times, so in those cases, other algos can 
+outpeform it.
+
+2. Min moves falls short when the goal vehicle blocked by other cars that must be moved so that the goal
+ vehicle can reach the goal, so the number of min moves is higher than what
+
+3. I dont think I'll have enough time to code it, but I think a key improvment would be to calculate the distance 
+from the goal PLUS the number of vehicles in the way (that would ideally be moved) on the path to the goal.
+

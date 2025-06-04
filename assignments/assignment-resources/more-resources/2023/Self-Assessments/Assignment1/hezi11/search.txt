@@ -1,0 +1,5 @@
+﻿#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+
+The most significant thing I have learned from the search module is how different searching algorithms work in real-life coding scenarios. At first glance at these searching algorithms after implementing the heuristic function, I have no idea what to start with. Then I started thoroughly reading through the given files, search.py. I learned that you need to initialize a search engine first and then use the search function to search for solutions, so weighted A* is easily implemented. However, when it comes to iterative weighted A* and gbf, I was stuck for a while since I was ignorant of what condition to stop searching, so I learned about the OS time and set a time bound for the ending point of searching. Then I set some variables such as cost bound, weight and update them for potential better results of the search algorithm. So this is the whole process of how I went through the search algorithm part of the project.

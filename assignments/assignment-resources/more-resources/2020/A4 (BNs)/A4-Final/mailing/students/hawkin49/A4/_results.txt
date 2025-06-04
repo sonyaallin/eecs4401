@@ -1,0 +1,487 @@
+####################
+# Assignment 4
+####################
+
+Overall: 0/51
+====================
+Test Case: [function=multiply_factors_test_1]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=multiply_factors_test_2]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=multiply_factors_test_3]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=norm_test_1]	[0/1]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=norm_test_2]	[0/1]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=norm_test_3]	[0/1]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=old_VE_tests]	[0/8]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=old_multiply_factors_tests]	[0/3]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=old_restrict_factor_tests]	[0/3]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=old_sum_out_variable_tests]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=restrict_factor_test_1]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=restrict_factor_test_2]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=restrict_factor_test_3]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=sum_out_variable_test_1]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=sum_out_variable_test_2]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=sum_out_variable_test_3]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=ve_test_1]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=ve_test_2]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=ve_test_3]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=ve_test_4]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=ve_test_5]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=ve_test_6]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block
+
+====================
+Test Case: [function=ve_test_7]	[0/2]
+	IndentationError was raised: expected an indented block (bnetbase.py, line 326)
+Traceback (most recent call last):
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/grade.py", line 54, in grade_assignment
+    test_case_result = assignment.run(test_case)
+  File "/Users/JaglalLab/Desktop/A4/A4-Final/autograder/auto_grader/student_grader/assignment/assignment.py", line 39, in run
+    module = imp.load_source(module_path, module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "../students/hawkin49/A4/bnetbase.py", line 326
+    def sum_out_variable(f, var):
+                                ^
+IndentationError: expected an indented block

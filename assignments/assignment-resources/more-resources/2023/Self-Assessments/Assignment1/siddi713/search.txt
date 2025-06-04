@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant I learned from the search module that using simple pruning rules are usually more effective than using more complex pruning rules.
+For example I tried various mappings such as mapping the closest storage point to its closest box then mapping that closest box to its closest robot but this
+was not effective < 7 solved with the way I had implemented it. I also tried to penalize the distance between the robot and the box but this was not effective either
+as for some game states the it thought it was best to move back and forth near the box instead of moving the box towards storage. Thing the helped me find my heuristics 
+was playing the game trying to solve the puzzles myself.

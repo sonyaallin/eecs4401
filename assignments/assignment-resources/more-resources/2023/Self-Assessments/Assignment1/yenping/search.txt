@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+Student: Ping Yen
+Student Number: 1004727263
+UTORid: yenping
+
+CSC384 Self-Assessment 
+Date: 02/03/2022
+
+	The most significant thing I learned from working on this assignment is that it is important to design a good heuristic function that can reflect the real-world scenario while retain the concept of "heuristic". Initially, I aimed to construct a heuristic that best represent the current state, but it turned out that the heuristic was actually "solving" the problem and became too complex. After few more trials, I observed the performance improving as I lowered the standard of my heuristic implementation, and I also gradually understood the concept of heuristic. Eventually, I successfully constructed a heuristic that performed better than the benchmarks. I learn two essential points of constructing heuristics from this process. First, considering the hard requirements or limitations of the problem can decrease the problem complexity, so try to incorporate as much requirements as possible. Second, observe the causes that block ideal optimal solutions, and incorporate a simpler version of such causes in heuristic value computation to better interpret the actual scenario.  

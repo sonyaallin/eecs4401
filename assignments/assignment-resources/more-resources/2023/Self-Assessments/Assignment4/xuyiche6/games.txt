@@ -1,0 +1,11 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+The game unit is quite fun! In this assignment, I enjoyed building the harder and harder AI to play against myself. 
+Well, to be honest, I barely won the machine… The AI with alphabeta and ordering considers way too much than me and I lost every time. 
+
+I am now more impressed by the power of searching and pruning algorithm. I prefer alpha-beta pruning more because it will cut off earlier and get better running time. 
+However, the running time of either minimax or the alphabeta is quite long and it most of the time will overtime with depth more than 6. 
+
+The ordering function took me most of the time and i put a lot of time trying to optimize its running time. However, it worked a little bit strange...
+
+Overall, this assignment is very fun and it leads me to the world of AI in computer games though the actual AI in those games is much complex than this one. 

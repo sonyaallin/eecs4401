@@ -1,0 +1,13 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?]]
+
+The most significant thing I have learned is that there are many different ways to search
+that have pros and cons. Even the most straightforward and seemingly efficient searches can
+take longer times than more complex searches such as BFS being worse (on average) then IDA.
+I have also learned that there are many variations of searches such as A* search that can have
+different results. Iterative A* search can be used to find a good weight and make the most optimal
+choices. Weighted search also helps to combine the heuristic value with the g value to produce a 
+more accurate search. The hardest part for me is finding a good heuristic function. To choose a good
+heuristic function, it must be both admissible and monotonic. The closer the heuristic is to the 
+optimal function, the better. However it is hard to do this, since we just want
+an estimate and also don't want to take too long.

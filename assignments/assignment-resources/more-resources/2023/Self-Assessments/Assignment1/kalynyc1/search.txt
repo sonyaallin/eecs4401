@@ -1,0 +1,13 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned is that when programming a heuristics algorithm,
+making optimistic calculations is never desirable because most of the times you will get wrong
+estimation.
+Therefore, we need to aim for more realistic results. However, in order to get a good estimation,
+we need to take a lot of edgecases and situations into consideration. For example, when programming
+heur_alternate() function I took into consideration heuristics of the path of each robot to the boxes that
+were closest to them. Then, I checked if the boxes were trapped on the map - because in that case there is no point 
+to proceed since there will be no solution. Making sure that each box must be stored at individual storage location was
+another constraint. 
+In order to get the best estimate we need to take as many as possible situations.

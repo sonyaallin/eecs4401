@@ -1,0 +1,15 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned that the most important part of a search algorithm is the heuristic. The more accurate the 
+heuristic is, the faster and more accurate the search can be. However, it is extremely difficult to create
+an accurate heuristic. Creating the search algorithms is fairly simple and straight forward, whereas
+when it comes to the heuristic it is more about trial an error. During the assignment I spent hours, trying
+different heuristics and in the end, the final heuristic could still have been better. While doing the 
+assignment, I realized that an accurate heuristic is key because it allows the search algorithm to know what
+state to expand next. For example, for the a* search we expand the state with the smallest f value, if the
+h value isn't even close to accurate we could end up expanding the unnecessary states which waste time. 
+This can be seen for the Manhattan distance heuristic since it only checks the distance from each box to the 
+target. It does not take into account the position of the robots. So, h-value doesn't change until a box is moved, 
+which means until then the search algorithm treats every successor state equally. Overall, I learned that 
+performing an effective search for a solution comes down to the heuristic function. 

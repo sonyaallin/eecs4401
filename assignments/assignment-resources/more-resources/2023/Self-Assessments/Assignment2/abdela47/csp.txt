@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Overall, I get how both GAC and FC check work but the implementation being asked of us in this assignment seems to be
+confusing me in certain aspects. I learned that csp is very useful for finding solutions but comes at the cost of time
+and depending on the implementation also space. This is shown in our assignment where the constraints contain tuples and
+not a function that would return a true if the constraint is satisfied. I realised that this means that to create an
+effective csp program one must be mindful of that and so it may be better in some cases to avoid implementing a csp
+while in other cases it may significantly improve quality overall. Moreover, I feel like I wasnt able to implement what
+I know in this assignment which shows me that you may understand how csp's work and what they do but implementing
+requires more.

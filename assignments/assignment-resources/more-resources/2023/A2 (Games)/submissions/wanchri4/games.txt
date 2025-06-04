@@ -1,0 +1,5 @@
+The most significant thingy I have learned from this exercise is the minimax algorithm and alpha-beta pruning. To be
+more specific I learned how to encode a minimax algorithm to solve and beat different states and configuration for
+any given puzzle state. In addition, I have learned how to optimize the algorithm by doing alpha-beta pruning
+as if the depth is unlimited we end up with a stack overflow. It was also interesting to see how caching states
+is also a great addition to optimizing the minimax algorithm as well.

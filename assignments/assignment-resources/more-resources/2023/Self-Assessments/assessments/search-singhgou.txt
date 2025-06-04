@@ -1,0 +1,27 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I have developed a much deeper understanding of the different Artificial Intelligence algorithms used to
+find the solution to a given problem, and how to make that solution more time/space efficient.
+
+Uniform Cost Search (or an algorithm with heuristic fn returning 0 for all cases) is guaranteed to return
+the best, lowest cost path at the cost of efficiency as it will have to expand many more states to find the 
+best solution.
+
+Iterative Greedy Best First search is bound to be extremely performance efficient at the cost of accuracy
+as the algorithm is solely reliant on the heuristic function for guidance, which simply gives a rough cost
+estimate.
+
+Iterative or Weighted A* are like the middle ground between the two, which results in much better performance
+efficiency compared to UCS and much better accuracy compared to GBFS, however the accuracy and efficiency of
+the algorithm is still reliant on how accurate the heuristic function is.
+
+A heuristic function helps in boosting the efficiency of algorithms by estimating the cost of reaching the
+goal state from a certain state. This allows the algorithm to expand paths that are estimated to be
+lower in cost first in order to not have to expand paths that are inefficient/unsolvable and find the
+solution faster. The accuracy & efficiency of an algorithm is reliant on how accurately a heuristic models
+the states. However, the more accurate you try to make the heuristic the slower it gets. Hence, there reaches
+a point of diminishing returns / increasing losses as you try to increase the accuracy of the heuristic.
+
+Therefore, for an algorithm to both be accurate and efficient, it must use Iterative / Weighted A* search
+with a heuristic function that is in the sweet spot of being both accurate and fast.

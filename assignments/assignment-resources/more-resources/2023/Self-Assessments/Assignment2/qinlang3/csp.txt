@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+After finishing A2, I found that csp search module is such a powerful tool when 
+dealing with constraint satisfication problems. I found that most significant thing
+of a csp module is how well the techniques we used for pruning domain values for 
+variables. Both FC and GAC are these techniques. FC method use the intuition of 
+looking head and prune potential values that violate constraints. GAC checks for 
+constraints consistency and it makes much more pruning. After implementing 
+those, from the test result, it shows that using GAC is faster than FC when the 
+board size and constraints size are large. And the reason why FC is slower than 
+GAC is that when the board or constraints size are large, FC does much more
+variable assignments and backtrackings than GAC, which means FC makes a lot of wrong 
+variable assignments and have to undo them, that slows down the computaion.

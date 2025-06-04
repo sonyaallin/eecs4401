@@ -1,0 +1,26 @@
+1. The data present is kinda weird to me, there are huge gap between male and female percentage
+between question 3,4 and 5,6 I can not tell it's becuase the data itself or becuase I impelement
+the BNS wrong. I would not use this module to recommend starting salaries for employees at a firm.
+ The reason is, everyone is different, and the data given cannot fully reflect a person’s true 
+ working ability, not to mention that there may be different meanings hidden behind these data.
+  For example, a person without salary may just retire but work. The ability may be much, 
+  much better than others. So in general, the total amount of data is not large enough, 
+  the types of data are not enough, and the meaning behind the data is not clear enough, 
+  so I don’t agree with using these things to define a person
+
+2. For Bayesian Network module this time I feel I have a better understanding of probilities.
+The possibility of a series of events, I believe that before there is no bn, it is just a string
+ of data for people, but now with the blessing of bn and computers, our calculations can become 
+ faster and more accurate, making it difficult to think before like using pen to calculate a series 
+ of idependent probability. But now with bn and cs the question of possibility has 
+ become more meaningful, but I have to doubt the meaning of bn. Can the probability of an event 
+ really be defined so simply as a value? If the set value itself is unreasonable, is the 
+ calculated result really meaningful? Well, this sounds more like a question of probability itself, 
+ like does a fifty-fifty percent coin really exist. Overall I think bn is kind of fun to calculate
+  the probability of a huge series of events， sounds like predicting the future lol
+
+3. I don't really think I leart a lot about BN in this Assignemnt, I'd say better add more autograder
+to each part, so that we can learn more by expolore what we did wrong each test case. Even now im not
+even sure which part of my code did wrong and really hard to debugg. Some more meaningful autograder
+could really really help me. tbh I can learn a lot just by those 2 simple test case if there are more
+I definatly can understand this part lot more

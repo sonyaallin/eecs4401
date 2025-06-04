@@ -1,0 +1,9 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I actually ended up watching the documentary about AlphaGo on Netflix as we did this unit because I had seen bits and
+pieces of it before. It's so cool to see how far a computer can come that such a complex game such as Go can be played
+reliably by a computer, but also insanely cool that a human player can still surprise a computer and win a game. Looking
+at the Wikipedia article for the match of Lee Sedol vs. AlphaGo in game 4 which Sedol won we see David Ormerud of a Go
+fan website say that he believed the loss and portions of the game around move 85 were lost by AlphaGo due to a known
+weakness in Monte Carlo tree search. It's really cool that something we learn in class can be applied to this huge
+milestone project in Artificial Intelligence.

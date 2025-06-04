@@ -1,0 +1,15 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned how unique to a specific problem a heuristic can be. The manhattan heuristic was fairly general, but attempting to improve on it,
+I found many different approaches that did not work given our time constraints. For example, in trying to allot boxes to a unique storage, but also the absolute closest
+storage such that the total cost would be the lowest possible with every box in a unique storage, the algorithm i wrote ended up being far too costly to be worth doing in most cases.
+I settled on simply assigning each box to the closest storage in the order that they're in inside the frozenset. There may be a faster way to do this, in fact, I found papers
+which may hold the key, although I did not read them to avoid any plaigarism.
+I also wrote an algorigthm that could predict if a box would get stuck on the way to its storage before it even encountered obstacles, but that proved too costly as well.
+The most interesting find was when I realized two things:
+    1. If a box is on the edge of the board, it can only be moved to a storage that is on the edge as well
+    2. A storage space can get cornered and blocked if it is surrounderd by other storage spaces and boxes are placed there (this can happen in problem 10, 16, 17, 18, 19)
+Implenting code to handle these situations lead to 15/20 solves with iterative weighted a star, but less solves with gbfs.
+Since, we are marking based on both gbfs and weighted a star, I left this code out, but I would love to revisit this.
+I cannot wait to see if there is a better heuristic for this.  

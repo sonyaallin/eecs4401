@@ -1,0 +1,222 @@
+<h2>Programming Assignment 1: Search (Individual assignment)</h2>
+<table style="border-collapse: collapse; width: 100%;" border="0">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<p><span style="font-size: 18pt;">Table of Contents.</span></p>
+<ol>
+<li><a href="#Critical"><span style="color: red;">Critical Warning</span></a></li>
+<li><a href="#Introduction">Introduction</a></li>
+<li><a href="#Formal">Formal Game Descriptaion</></li>
+<li><a href="#Starter">Starter Code</></li>
+<li><a href="#Details">Details of Starter Code</a></li>
+<li><a href="#Submit">What To Submit</a></li>
+<li><a href="#Job">Your Job</a></li>
+<li><a href="#AGBFS">Anytime Greedy Best First Search</a></li>
+<li><a href="#AWAS">Anytime Weighted A* Search</a></li>
+</ol>
+</td>
+<td style="width: 50%;">
+<p><img src="" alt="Image of Robot building Snowperson" /></p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<h3><a name="Critical"></a>Warning (Please read this)</h3>
+We are aware that solutions to this problem, or related ones, may exist on the internet. <span style="color: #e03e2d;"><strong>Do not use these solutions as this would be plagiarism.</strong></span> To earn marks on this assignment you must develop your own solutions. Also please consider the following points.
+<ul>
+<li><strong>Do not add any non-standard imports in the python files you submit</strong> (all imports already in the starter code must remain). All imports that are available on teach.cs are considered to be standard.</li>
+<li><strong>Do not change any of the supplied files except for<span style="color: #e03e2d;"> <code>solution.py</code> </span></strong></li>
+<li><span style="color: #e03e2d;"><strong>Make certain that your code runs on teach.cs using python3</strong></span>. You should all have an account on teach.cs and you can log in, download all of your code (including all of the supplied code) to a subdirectory of your home directory, and use the command <span style="font-size: 14pt;"><span style="color: #e03e2d;"><code>python3 autograder.py</code></span> </span>and test it there before you submit. Your code will be graded by running it on teach.cs, so the fact that it runs on your own system but not on teach is not a legitimate reason for a regrade.</li>
+<li>The test cases used in the autograder represent 50% of the test cases we will use during marking. The test cases you have are of similar difficulty, so the grade shown to you by the autograder will be a reasonable predictor of your final grade on the assignment. We will also look for certain things in the assignments (e.g., running them through code <span>plagiarism checkers, looking at assignments that fail all tests, etc.). If we have <strong>good reasons</strong> we will change your grade from that given by the autograder either up or down.</span></li>
+</ul>
+<h3><a name="Introduction"></a>Introduction</h3>
+<p>The goal of this assignment will be to program a robot to successfully build a snowman in a specific spot using snowballs on an obstacle course. The rules hold that only <strong>one</strong> snowball can be moved by the robot at a time, that snowballs can only be pushed by the robot and not pulled, and that neither the robot nor the snowballs can pass through obstacles (i.e. walls or other snowballs). While snowballs cannot pass through obstacles, <strong>small</strong> snowballs can be stacked on <strong>larger</strong> snowballs. More specifically, <strong>small</strong> snowballs can be stacked on <strong>large</strong> or <strong>medium</strong> snowballs and <strong>medium</strong> snowballs can be stacked on <strong>large</strong> ones. In addition, a robot cannot push more than one snowball at a time, i.e., if there are two snowballs in a row, the robot cannot push the the both of them simultaneously. The robot also cannot push a stack of snowballs; they must be pushed one at a time.</p>
+<p>The game is over when a snowman exists on the game board at the designated goal location. A snowman is a stack of three snowballs: a <strong>large</strong> snowball on the bottom, a <strong>medium</strong> sized snowball in the middle and a <strong>small</strong> snowball at the top.</p>
+<p>You may note that this game is a variant of a classic puzzle called Sokoban. Sokoban can be played online at <a class="instructure_file_link inline_disabled" href="https://www.sokobanonline.com/play" target="_blank" rel="noopener">this link</a>. The variation we are asking you to encode is slightly different as it involves snowballs instead of boxes, and snowballs can be stacked. A related game is called a good snowman is hard to build; a video walkthrough of this game can be found at <a class="instructure_file_link inline_disabled" href="https://www.youtube.com/watch?v=1HozNkueh4U" target="_blank" rel="noopener">this link</a>.</p>
+<h3><a name="Formal"></a>Formal Description</h3>
+<p>The Snowman Puzzle has the following formal description. Read the description carefully.</p>
+<ul>
+<ul>
+<li>The puzzle is played on grid board with N squares in the x-dimension and M squares in the y-dimension.</li>
+<li>Each state contains the x and y coordinates for the robot, the snowballs, the destination point for the snowman, and the obstacles.</li>
+<li>Each board initially contains three snowballs: a small, medium and large snowball.</li>
+<li>From each state, the robot can move Up, Down, Left, or Right. If a robot moves to the location of an unobstructed snowball, the snowball will move one square in the same direction. Snowballs and the robot cannot pass through walls or obstacles, however.</li>
+<li>The robot cannot push more than one snowball at a time. If two snowballs are in succession and the robot is adjacent to the smaller of the two, the robot may push the smaller snowball atop the larger one. However, the robot cannot push a large snowball atop a smaller one, nor can the robot move more than one snowball at a time. Movements that cause a snowball to travel more than one unit of the grid are also illegal.</li>
+<li>Each movement is of equal cost. Whether or not the robot is pushing an snowball does not change the cost.</li>
+<li>The goal is achieved when there is a stack of three snowballs on the game board and in the destination spot. This stack must have a large snowball on the bottom, a medium sized snowball in the middle, and a small snowball at the top.</li>
+</ul>
+</ul>
+<p>Ideally, we will want the robot to complete the snowman before the temperature rises and the snow starts to melt. This means that with each problem instance, you will be given a computation time constraint. You must attempt to provide some legal solution to the problem (i.e., a plan to build the snowman) within this constraint. Better plans will be plans that are shorter, i.e. that require fewer operators to complete. Your goal is to implement an anytime algorithm for this problem: one that generates better solutions (i.e., shorter plans) the more computation time it is given.</p>
+<h3><a name="Starter"></a>Starter Code</h3>
+<p>The code for this assignment consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files as a <a class="instructure_file_link" title="" target="_blank" data-api-endpoint="" data-api-returntype="File">zip archive</a>. In that zip you will find the following files.</p>
+<table class="intro" border="0" cellpadding="10">
+<tbody>
+<tr>
+<td colspan="2"><span style="color: #e03e2d;"><strong>Files you'll edit and submit on Markus:</strong></span></td>
+</tr>
+<tr>
+<td><code>solution.py</code></td>
+<td>Where all of your heuristics and anytime algorithms will reside.</td>
+</tr>
+<tr>
+<td><code>tips.txt</code></td>
+<td>Where your heuristic engineering 'tips' will reside..</td>
+</tr>
+<tr>
+<td colspan="2"><strong>Files you might want to look at <span style="color: #e03e2d;">(look but don't modify)</span>:</strong></td>
+</tr>
+<tr>
+<td><code>search.py</code></td>
+<td>This contains default implementations of search algorithms discussed in class.</td>
+</tr>
+<tr>
+<td><code>snowman.py</code></td>
+<td>This specifies the search to the snowman domain, specifically.</td>
+</tr>
+<tr>
+<td><code>test_problems.py</code></td>
+<td>This contains some example problems.</td>
+</tr>
+<tr>
+<td><code>autograder.py</code></td>
+<td>This is an autograder for you to check your solutions as you develop them. The autograder can be run with the command:
+<pre>python3 autograder.py</pre>
+Note: the autograder and snowperson environment use python3. Note that on teach.cs the default is python2.7, so you must use the prefix python3.
+<p>See the autograder tutorial in Assignment 0 for more information about using the autograder.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3><a name="Details"></a>Details of Starter Code</h3>
+<p>The ﬁle <code>search.py</code>, which is available from the website, provides a generic search engine framework and code to perform several different search routines. This code will serve as a base for your Snowman Puzzle solver. A brief description of the functionality of <code>search.py</code> follows. The code itself is documented and worth reading. The ﬁle <code>search.py</code> contains:
+<ul>
+<li>An object of class <code>StateSpace</code> represents a node in the state space of a generic search problem. The base class deﬁnes a ﬁxed interface that is used by the
+<code>SearchEngine</code> class to perform search in that state space.</li>
+
+<li>For the Snowman Puzzle problem, we will deﬁne a concrete sub-class that inherits from <code>StateSpace</code>. This concrete sub-class will inherit some of the utility methods that are implemented in the base class.</li>
+<li>Each <code>StateSpace</code> object <code>s</code> has the following key attributes: 
+<ul>
+<li>
+<code>s.gval</code>: the g value of that node, i.e., the cost of getting to that state.</li>
+<li>
+<code>s.parent</code>: the parent <code>StateSpace</code> object of <code>s</code>, i.e., the <code>StateSpace</code> object that has <code>s</code> as a successor. Will be <code>None</code> if <code>s</code> is the initial state.</li>
+<li>
+<code>s.action</code>: a string that contains that name of the action that was applied to <code>s.parent</code> to generate <code>s</code>. Will be <code>START</code> if <code>s</code> is the initial state.</li>
+</ul>
+</li>
+<li>An object of class
+<code>SearchEngine</code>
+and with the name
+<code>se</code>
+runs the search procedure. A
+<code>SearchEngine</code>
+object is initialized with a search strategy (&rsquo;depth ﬁrst&rsquo;, &rsquo;breadth ﬁrst&rsquo;, &rsquo;best ﬁrst&rsquo;, &rsquo;a star&rsquo; or &rsquo;custom&rsquo;) and a cycle checking level (&rsquo;none&rsquo;, &rsquo;path&rsquo;, or &rsquo;full&rsquo;).</li>
+
+<li>Note that SearchEngine depends on two auxiliary classes: 
+<ul>
+<li>An object of class sNode sn represents a node in the search space. Each object sn contains a StateSpace object and additional details: hval, i.e., the heuristic function value of that state and gval, i.e. the cost to arrive at that node from the initial state. An fval fn and weight are also tied to search nodes during the execution of a search, where applicable.</li>
+
+<li>An object of class Open is used to represent the search frontier. An Open object organizes the search frontier in the way that is appropriate for a given search strategy.</li>
+</ul>
+</li>
+<li>When a SearchEngine has a search strategy that is is set to &rsquo;custom&rsquo;, you will have to specify the way that f-values of nodes are calculated; these values will structure the order of the nodes that are expanded during your search.</li>
+
+<li>Once a SearchEngine object has been instantiated, you can set up a speciﬁc search with the command
+<code>init search(initial state,goal fn,heur fn, fval fn)</code>
+and execute that search with
+<code>search(timebound,costbound)</code>. The arguments are as follows: 
+<ul>
+<li><code>initial_state</code> will be an object of type <code>StateSpace</code>; it is your start state.</li>
+
+<li><code>goal_fn(s)</code> is a function which returns True if a given state <code>s</code> is a goal state and False otherwise.</li>
+
+<li><code>heur_fn(s)</code> is a function that returns a heuristic value for state <code>s</code>. This function will only be used if your search engine has been instantiated to be a heuristic search (e.g., best first).</li>
+
+<li><code>timebound</code> is a bound on the amount of time your code will execute the search. Once the run time exceeds the time bound, the search will stop; if no solution has been found, the search will return False.</li>
+
+<li><code>fval_fn(sNode)</code> deﬁnes f-values for states. This function will only be used by your search engine if it has been instantiated to execute a custom search. Note that this function takes in an <code>sNode</code> and that an <code>sNode</code> contains not only a state but additional measures of the state (e.g., a gval). The function will use the variables that are provided in order to arrive at an f-value calculation for the state contained in the <code>sNode</code>.</li>
+
+<li><code>costbound</code> is an optional bound on the cost of each state s that is explored. The parameter <code>costbound</code> should be a 3-tuple (g bound,h bound,g + h bound). If a node's g val is greated than g bound, h val  is greated thanh bound, or g val+ h val  is greated than g + h bound, that node will not be expanded. You will use <code>costbound</code> to implement pruning in both of the anytime searches described below.</li>
+</ul>
+</li>
+</ul>
+<p>For this assignment we have also provided<code>snowman.py</code>, which specializes <code>StateSpace</code> for the Snowman Puzzle problem. You will therefore not need to encode representations of Snowman Puzzle states or the successor function for Snowman Puzzle states! These have been provided to you so that you can focus on implementing good search heuristics and anytime algorithms. The ﬁle <code>snowman.py</code> contains:
+<ul>
+<li>An object of class SnowmanState, which is a StateSpace with these additional key attributes: 
+<ul>
+<li><code>s.width</code>: the width of the Snowman Puzzle board</li>
+
+<li><code>s.height</code>: the height of the Snowman Puzzle board</li>
+
+<li><code>s.robot</code>: position for the robot: a tuple (x, y), that denotes the robots x and y position.</li>
+
+<li>
+<code>s.snowballs</code>: positions for each snowball (or stack of snowballs) as keys of a dictionary. Each position is an (x, y) tuple. The value of each key is the index for that snowballs size (see below). Some values denote stacks of snowballs at a given location as well.</li>
+
+<li>
+<code>s.obstacles</code>: locations of all of the obstacles (i.e. walls) on the board. Obstacles, like robots and snowballs, are also tuples of (x, y) coordinates.</li>
+
+<li>
+<code>s.destination</code>: the target destination for the snowman: a tuple (x, y), that denotes the desired position for the completed snowman.</li>
+
+<li>
+<code>s.sizes</code>: contains key, value pairs that indicate snowball sizes or the presence of a snowball stack. The possible values are: &rsquo;b&rsquo; for a big snowball, &rsquo;m&rsquo; for a medium snowball and &rsquo;s&rsquo; for a small one. A &rsquo;G&rsquo; denotes a completed snowman. In addition, note that there are values to indicate stacks of snowballs on the board: &rsquo;A&rsquo; represents a medium snowball atop big one, &rsquo;B&rsquo; represents a small snowball atop big one and &rsquo;C&rsquo; represents a small snowball atop medium one. See Figure 2 for snowballs as they are represented by the ASCII visualizer you have been provided.</li>
+</ul>
+</li>
+
+<li>SnowmanState also contains the following key functions: 
+<ul>
+<li><code>successors()</code>: This function generates a list of SnowmanStates that are successors to a given SnowmanState. Each state will be annotated by the action that was used to arrive at the SnowmanState up,down,le ft,right.</li>
+
+<li><code>hashable state()</code>: This is a function that calculates a unique index to represents a particular SnowmanState. It is used to facilitate path and cycle checking.</li>
+
+<li><code>print state()</code>: This function prints a SnowmanState to stdout.</li>
+</ul>
+</li>
+
+<li>Note that SnowmanState depends on one auxiliary class called <code>Direction</code>, which is used to deﬁne the directions that the robot can move and the effect of this movement.</li>
+</ul>
+<p>The file <code>test_problems.py</code> contains a set of 20 initial states for Snowball Puzzle problems, which are stored in the tuple PROBLEMS. You can use these states to test your implementations. Additional testing instances will be provided with the evaluation details.
+<p>The file <code>snowman.py</code> comes with an ASCII visualizer for Snowball Puzzle problems (see Figure 2). 
+<p>The ﬁle <code>solution.py</code> contains the methods that need to be implemented.</p>
+<p>The file <code>tips.txt</code> will contain a description of your original heuristic (see below).
+<p>The ﬁle <code>autograder.py</code> runs some tests on your code to give you an indication of how well your methods perform.
+
+<hr />
+<h3><a name="Submit"></a>What to Submit</h3>
+<p>You will be using MarkUs to submit your assignment. MarkUs accounts for the course will <strong>be set up on Sept 24th</strong>. You will submit two files:</p>
+<ol>
+<li>Your modified <code>solution.py</code></li>
+<li>Your modified <code>tips.txt</code></li>
+</ol>
+<hr />
+<h3><a name="Job"></a>Your Job</h3>
+<p>To complete this assignment you must modify <code>solution.py</code> to:
+<ul>
+<li>Implement a Manhattan distance heuristic (heur manhattan distance(state)). This heuristic will be used to estimate how many moves a current state is from a goal state. The Manhattan distance between coordinates (x0,y0) and (x1,y1) is | x0 &minus; x1 | + | y0 &minus; y1 | . Your implementation should calculate the sum of Manhattan distances between each snowball (or stack of snowballs) and the target destination. Ignore the positions of obstacles in your calculations.</li>
+
+<li>Implement Anytime Greedy Best-First Search (anytime gbfs(initial state,heur fn,timebound)). Details regarding this algorithm are provided in the next section. Note that when we are testing your code, we will limit each run of your algorithm on teach.cs to 5 seconds. Instances that are not solved within this limit will provide an interesting evaluation metric: failure rate.</li>
+
+<li>Implement Anytime Weighted A* (anytime weighted astar(initial state,heur fn,weight,timebound)). Details regarding this algorithm are provided in the next section. Note that your implementation will require you to instantiate a SearchEngine object with a custom search strategy. To do this you must therefore an f-value function (fval function(sNode,weight)) and remember to provide this when you execute init search.</li>
+
+<li>Implement a non-trivial heuristic for the Snowman Puzzle that improves on the Manhattan distance heuristic (heur alternate(state)). We will provide a separate evaluation document that speciﬁes the performance we expect from your heuristic.</li>
+
+<li>Give ﬁve tips (NOT MORE than one sentence each) as if you were advising someone who was attempting this problem for this ﬁrst time on what to do. Write these tips in tips.txt.</li>
+</ul>
+<hr />
+<h3><a name="AGBFS"></a>Anytime Greedy Best-First Search</h3>
+<p>Greedy best-ﬁrst search expands nodes with lowest h(node) ﬁrst. The solution found by this algorithm may not be optimal. Anytime greedy-best ﬁrst search (which is called anytime gbfs in the code) continues searching after a solution is found in order to improve solution quality. Since we have found a path to the goal after the ﬁrst iteration, we can introduce a cost bound for pruning: if node has g(node) greater than the best path to the goal found so far, we can prune it. The algorithm returns either when we have expanded all non-pruned nodes, in which case the best solution found by the algorithm is the optimal solution, or when it runs out of time. We prune based on the g value of the node only because greedy best-ﬁrst search is not necessarily run with an admissible heuristic.</p>
+<p>Record the time when anytime gb fs is called with os.times()[0]. Each time you call search, you should update the time bound with the remaining allowed time. The automarking script will conﬁrm that your algorithm obeys the speciﬁed time bound.</p>
+<h3><a name="AWAS"></a>Anytime Weighted A* Search</h3>
+<p>Instead of A*s regular node-valuation formula f(node) = g(node) + h(node), Weighted A* introduces a weighted formula:</p>
+<pre>f(node) = g(node) + w * h(node)</pre>
+<p>where g(node) is the cost of the path to node, h(node) the estimated cost of getting from node to the goal, and w &ge; 1 is a bias towards states that are closer to the goal. Theoretically, the smaller w is, the better the ﬁrst solution found will be (i.e., the closer to the optimal solution it will be ... why??). However, different values of w will require different computation times.</p>
+<p>Since the solution that is found by Weighted A* may not be optimal when w &gt; 1, we can keep searching after we have found a solution. Anytime Weighted A* continues to search until either there are no nodes left to expand (and our best solution is the optimal one) or it runs out of time. Since we have found a path to the goal after the ﬁrst search iteration, we can introduce a cost bound for pruning: if node has a g(node)+h(node) value greater than the best path to the goal found so far, we can prune it.</p>
+<p>When you are passing in a f val function to init search for this problem, you will need to have speciﬁed the weight for the f val function. You can do this by wrapping the fval function(sN,weight) you have written in an anonymous function, i.e.,</p>
+<pre>wrapped fval function = (lambdasN : fval function(sN,weight))</pre>
+<p><strong>GOOD LUCK!</strong></p>
+</div>

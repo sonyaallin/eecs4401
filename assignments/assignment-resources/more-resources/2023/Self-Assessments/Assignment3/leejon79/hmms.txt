@@ -1,0 +1,10 @@
+To be completely honest, I haven't been able to learn as much
+as I wanted to for this unit due to my own personal workload
+from other courses all piling up. While I was able to figure
+out how to get the training portion properly, I had a lot of
+struggle with the prediction part of the assignment. As a
+result, the most I can say that I learned from this particular
+unit is that AI prediction is as difficult (and typically wonky)
+as I had previously heard it was. And that I have no, and
+haven't ever had, much hope for Siri to be what the common
+layman would refer to as good and reliable.

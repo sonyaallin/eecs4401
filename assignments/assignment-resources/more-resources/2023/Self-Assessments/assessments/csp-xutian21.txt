@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I've learned from this module is the importance of understanding the problem. In the beginning,
+I was very confused and I didn't know where to start. I had all the knowledge from class but i had no idea how to tackle
+this assignment. However as I spent much time reading the starter code, The shape of a solution forms in my head. As a
+result, I felt much more comfortable. This is because I understand how different classes work toGather to represent the
+graphs and pseudocode we had in class. In the end I felt the work is actually easy because they represent what we've
+learned in class in a very intuitive way.

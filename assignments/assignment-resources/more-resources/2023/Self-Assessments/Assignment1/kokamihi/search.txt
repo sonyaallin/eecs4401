@@ -1,0 +1,15 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+What is the most significant thing you have learned from the search module?
+
+One of the more important things I learnt was the concept of heuristics and
+how they can be applied to create a variety of differences in your search
+algorithm along with the versatility of search algorithms.Before this module
+when I thought of search algorithms I would think of things like pathfinding to a
+certain location or finding a certain object in a state space. I didn’t think
+it could be applied to solving a puzzle like we did in the Sokoban game assignment.
+Learnt how to create search algorithms and the differences between them,
+how we can trade cost for speed or optimality of our solution.
+The idea/concept of a state space and how to begin creating/using a search.
+This is a concept that can later be applied in other fields on cs and feels
+like an important building block to have in your arsenal

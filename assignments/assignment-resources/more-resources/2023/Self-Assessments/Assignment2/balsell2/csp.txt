@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Constraint propagators are the most significant thing I learned, especially GAC. 
+Propagating the constraints and pruning values without "searching" the variable
+tree can be really usefull, and I personally think that the ability to prune impossible
+values from the very begining of the problem could prove to be really usefull in other
+problems, reducing the time complexity of solving these problems significantly. I learnt
+how to implement this algorithm, by using a queue to keep track of all the constraints that
+might prune a value from a variable's domain, by adding all the constraints that affect
+a variable that has been pruned by a previous constraint.

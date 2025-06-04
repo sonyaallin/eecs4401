@@ -1,0 +1,11 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learned that there is different strategies to search in a game tree problem,
+and some might work better than others in some situations and vice versa. Searching
+a game tree is also very similar to regular search and heuristic is involved as well
+to make the search better. And I also learned that to make an ai always win no matter how the
+other player plays require a lot of planning and different searches depending on
+what the other player does and how it affects the resulting board. Time also plays a role 
+too since there could be a limit in how long a player takes to choose a move, so pruning
+is involved as well.

@@ -1,0 +1,13 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think the most important thing is that you can't have a heuristic that does
+everything for you. No matter what, it will be slow on some edge cases and you
+can't make it fast without introducing other slow cases.
+Also, you can see intuitively how you would solve the puzzle, but it is
+hard to express the amount of moves it would take to do that.
+You have an intuitive idea oh how you yourself would solve the puzzle,
+but it is hard to "design a magnet" so the AI does what you would do.
+Such as placing boxes in order, using certain robots if they are closers,
+making sure you don't trap any boxes. I have a bigger understanding
+about this now.

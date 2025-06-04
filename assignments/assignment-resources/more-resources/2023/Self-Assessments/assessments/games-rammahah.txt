@@ -1,0 +1,15 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+
+I found the games unit interesting becuase last semester I took a course on game
+theory and a big part of that course was games and finding the optimal solution
+to a game. So, it was nice to approach the topic from a different perspective
+in terms of AI and look into different algorithms that can be used to compute
+the best move for a player. It was also interesting how different aspects from
+other units played a role into this one when it comes to the algorithms. For
+example, a heuristic function is used to compute the utility value of the game
+states. So, in order to improve the algorithm, you would need to come up with
+better heuristic. Also, another aspect is pruning which is used when it comes to
+the alpha-beta pruning algorithm such that states that are definitely not going
+to have an impact on the min/max utility value are not explored.

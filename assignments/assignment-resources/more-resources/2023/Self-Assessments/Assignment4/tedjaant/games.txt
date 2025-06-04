@@ -1,0 +1,11 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The most significant thing that I have learned in the games unit is that both minimax
+and alpha beta pruning are very expensive algorithms with a runtime of O(b^d). This was
+made very apparent when this assignment ai struggles with a regular sized othello board.
+With pruning, the runtime is able to be reduced by up to O(b^(d/2)), but it is still very
+expensive. Many optimizations were added to this assignment to speed up computations as much
+as possible such as caching states and node ordering, which helped cut down the computations.
+However, it still leaves much to be desired for the future if a better algorithms are found to
+solve these problems.

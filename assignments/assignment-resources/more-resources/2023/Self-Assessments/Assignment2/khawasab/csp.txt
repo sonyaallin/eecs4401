@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most important thing I learned from the csp module is that there are payoffs
+between time and space efficiency. As we can see, in order to be time efficient
+in something like GAC search, it means we have to store extra things and then
+something like bookkeeping becomes an issue (something similar can be said
+about FC search). However, with just regular BT search, it is pretty standard
+with what you store (that being nothing) but it means that we are very slow
+because we have nothing we can look forward on.

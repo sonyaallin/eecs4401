@@ -1,0 +1,8 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Mostly I learnt how to win games. Since we spent so much time on predictions of
+success, it feels like now I know a new method in mastering certain games simply
+by completing them the way we would expect to find solutions. I learnt about the
+min-max and alpha-beta methods and I'm honestly excited to see how many other
+games I can work on in this way and automate a computer opponent. 

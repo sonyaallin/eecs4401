@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned a a great deal about how tiny factors like details about one's heuristic or 
+the weight chosen for the f function for a star can have a huge impact on the performance
+and speed of the search stats. It was very difficult to try and achieve a balance between
+accuracy and speed of the heuristic function, but at the same time it was very rewarding as
+I learned a lot of things about optimization and heuristics when trying to approach the problem.
+For example, having an inadmissable heuristic by increasing the weight led to faster results
+but a worse solution. Similarly a more accurate heuristic was not able to solve fast enough
+but had a more optimal path to the solution.

@@ -1,0 +1,2 @@
+solution, Exception encountered -- AiPlayerInterface.get_move() takes 2 positional arguments but 3 were given
+solution, Exception encountered -- 'int' object has no attribute 'name'

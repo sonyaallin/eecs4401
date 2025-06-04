@@ -1,0 +1,7 @@
+Overall a very interesting topic, basically the most significant thing I learn is to 
+predict a sequence of hidden variables from a set of observed variables, I think it 
+is related to machine learning maybe? I don't know.. I am interested in how to improve
+the viterbi algorithm to make this even faster, and just wondering if there is a 
+improved version of viterbi algorithm. Another interesting thing is I think viterbi algorithm 
+also relate to graph, maybe we can use that to find the shortest path in a map somehow. Right now
+I have a deeper understanding on siri I guess.. how siri observes me everyday..

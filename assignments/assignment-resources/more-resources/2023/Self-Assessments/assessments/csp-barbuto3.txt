@@ -1,0 +1,10 @@
+The most significant thing I learned from this csp module is the impact that the CSP search model is much more 
+versitile and adaptable to the problem at hand, and thus has many real-life applicatons. Although they have 
+different applications, it is much easier to apply the CSP model to a problem rather than search models geared 
+towards finding optimal solutions like BFS or A* search. The CSP model can be generalized to any problem where 
+the goal is not necessarily fast solutions, but instead just to find a configuration of variables that satisfies
+the constraints, which can very helpful in schedule building and other types of organizational problems. Although 
+performance is not a requirement of the search, I learned that simple improvements on the heuristics of the search 
+(i.e. propogators or variable orderings) can have a positive impact on the efficiency of the search. This might be 
+helpful in real-world applications if they are on a larger scale.
+

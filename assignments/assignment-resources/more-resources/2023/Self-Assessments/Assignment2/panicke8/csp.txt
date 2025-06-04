@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I've learned from the csp module is that developing a more general algorithm that works
+on a large set of problems leads to a lot of efficiences compared to designing completely different programs without sharable 
+components (as seen during the search module). In this case, these general propagators can be used in a variety of situations. 
+The funpuzz_csp_module along with the binary all-different constraint grid and the n-ary all-different constraint grid were 
+specific to solving funpuzz problems. Due to the modularity of the propagators, the most efficient propagator for a situation
+can be switched in as needed. Additionally, it is interesting how the AI checks for funpuzz solutions the same way a human 
+would logically approach it, just more systematically. Just like a person would keep a mental/ written tally of what placing a 
+certain value in a location would mean for the remaining values, the code has a list of pruned (variable, value) pairs to restore
+as needed. Using Generalized Arc Consistency (GAC) compared to regular Forward Checking (FC) greatly reduces the breadth of the
+search, therefore increasing the efficiency of the program. For testing, I solved the funpuzz boards myself, and compared it
+with the solutions in order to fix bugs in the code. 

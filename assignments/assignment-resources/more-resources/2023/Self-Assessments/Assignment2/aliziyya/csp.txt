@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learnt how important constraints are and how useful they can be for AI purposes. They 
+provide lots of optimization to search algorithms. I also learnt that they're an absolute 
+pain to create and ensure if they're all correct. Regardless, they are very important. I also
+learnt that there are many different ways to make small optimizations to those programs. Most 
+are influenced or derived from the way humans think about solving a problem. This is seen in 
+mrv! In addition, it is crazy to see how those optimizations improve runtime. Talking about runtime, 
+its also cool to see how long things actually take to be solved by an AI. 

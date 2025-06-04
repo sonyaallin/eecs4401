@@ -1,0 +1,6 @@
+In this assignment, I applied Hidden Markov Models onto a real-world problem which is NLP where I utilized
+the Viterbi algorithm to perform analysis on test data consisting of english sentences, which predicts the syntactic
+role of a word in a sentence based on training done using a HMM. This was overall my favourite assignment, with
+interesting elements of statistics being applied too. NLP has always been a fascinating subset of AI that I wanted
+to explore and this has given me a feel of what to expect in the future. I also realized the benefits of log probabilities
+when it comes to minimizing errors in computations, which I feel is an important takeaway.

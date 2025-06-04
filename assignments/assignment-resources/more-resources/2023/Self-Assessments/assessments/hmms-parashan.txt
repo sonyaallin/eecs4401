@@ -1,0 +1,9 @@
+I initially thought that the assumptions of HMM is very relaxed and not a good model of 
+the real world. Thus, I thought it would perform extremely poor in the NLP task at hand.
+
+However I was surprised that even with the assumptions, the model can still predict quite well.
+
+One Issue that I find with HMMs is that it can be quite expensive to compute the
+probabilities. The runtime is O(words * tags) and the memory is also O(words * tags).
+In this case, tags was a small fixed value, but for other tasks where there are more 
+possible classes to be assigned to, HMM can get expensive.

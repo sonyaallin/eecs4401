@@ -1,0 +1,15 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most important things I learned in the search module was the A* algorithm as 
+well as how to design, test and improve heuristics. Before taking this course, I 
+had already learned about some of the search algorithms covered in this class such 
+as BFS, DFS and greedy best-first. Yet, I had no knowledge of how A* was implemented 
+despite having prior interest in learning this algorithm for a personal project I was 
+creating (pathfinding algorithm visualizer). Now I have learned another algorithm which 
+can be applied to other problems I encounter and projects I want to develop. Another 
+important thing I learned was to work with developing and improving heuristics. Through 
+assignment 1, I have gained practical experience in designing a heuristic. Which has 
+given me the capability to improve heuristics through studying different test cases 
+and applying new conditions on heuristics (similar to what we did on the assignment). 
+Going forward, I feel confident in my ability to create heuristics for other problems.

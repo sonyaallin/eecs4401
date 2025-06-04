@@ -1,0 +1,62 @@
+95% of the assignment was evaluated automatically through a series of tests.  These tests, and the marking criteria that was used, are as follows:
+
+(1) Test of the heuristic function in the context of best first search
+(based on # solved in 5 seconds; 25% max).
+BASE SCORE:
+- 10 points for a basic working implementation that solved at least 5 problems
+- 15 points for an implementation that outperformed a basic benchmark (which solved 19 problems)
+- 20 points for an implementation that outperformed a "better" benchmark (which solved 30 problems) 
+BONUS:
+- 5 additional points  if you beat the benchmark by a margin of more than 2 problems
+(2) Test of anytime greedy best first search: fixed time bound 
+(based on # solved and length; 25% max)
+BASE SCORE:
+- 5 points for a basic working implementation that solved at least 5 problems
+- 10 points for an implementation that outperformed a basic benchmark (which solved 15 problems) 
+- 15 points for an implementation that outperformed a "better" benchmark (which solved 30 problems) 
+BONUS:
+- 5 additional points  if the lengths of any solution were shorter than the benchmark
+- 7.5 additional points  if the lengths of more than 1/2 of your solutions were shorter than the benchmark
+DEDUCTIONS:
+- 5 points if the length of any solution was LONGER than the corresponding one from regular best first search
+- 5 points if anytime greedy best first produced FEWER solutions than regular best first search
+(3) Test of the weighted a star function: fixed time bound 
+(based on # solved and length; %25 max)
+BASE SCORE:
+- 5 points for a basic working implementation that solved at least 5 problems
+- 10 points for an implementation that outperformed a basic benchmark (which solved 15 problems) 
+- 15 points for an implementation that outperformed a "better" benchmark (which solved 28 problems) 
+BONUS:
+- 5 additional points  if the lengths of any solution were shorter than the benchmark
+- 7.5 additional points  if the lengths of more than 1/2 of your solutions were shorter than the benchmark
+(4) An additional of 5 points was awarded to students solving 38 or more problems with BOTH anytime search implementations.
+(5) Test of f-value computation (based on 10 test cases similar to test code provided to students; 10% max)
+(6) Test of manhattan distance heuristic (based on test cases similar to test code provided to students; 10% max)
+(7) Read of tips.txt (5 sensible tips for heuristics for snowman domain; 5% max)
+
+For your submission, results were the following:
+    1. Tests of Heuristic Function: 		{:2f}/40 WERE SOLVED
+    -- Base Score: 				{:2f}/20 
+    -- Bonus: 					{:2f}/5   
+    2. Tests of Anytime GBFS: 			{:2f}/40 WERE SOLVED
+    % solutions <= len(benchmark)		{:2f}%
+    -- Base Score: 				{:2f}/15 
+    -- DEDUCTION (length): 			-{:2f}/5 
+    -- DEDUCTION (number): 			-{:2f}/5 
+    -- Bonus: 					{:2f}/7.5  
+    3. Tests of Weighted A-Star: 		{:2f}/40 SOLVED
+    % of solutions <= len(benchmark)		{:2f}%
+    -- Base Score: 				{:2f}/15  
+    -- Bonus: 					{:2f}/7.5     
+    4. Overall bonus:				{:2f}/5 
+    5. Tests of f-value computation:		{:2f}/10 
+    6. Tests of manhattan distance: 		{:2f}/10 			
+    7. Score for tips.txt: 			{:2f}/5   		
+    =====================================        
+    Total:					{:2f}/100       
+    Lateness Penalties (if any):		{:2f}/100 
+
+A copy of this, annotated with any errors encountered, will be emailed to your teach.cs account.
+
+Best regards,
+CSC384 TA.

@@ -1,0 +1,596 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Overall, I get how both GAC and FC check work but the implementation being asked of us in this assignment seems to be
+confusing me in certain aspects. I learned that csp is very useful for finding solutions but comes at the cost of time
+and depending on the implementation also space. This is shown in our assignment where the constraints contain tuples and
+not a function that would return a true if the constraint is satisfied. I realised that this means that to create an
+effective csp program one must be mindful of that and so it may be better in some cases to avoid implementing a csp
+while in other cases it may significantly improve quality overall. Moreover, I feel like I wasnt able to implement what
+I know in this assignment which shows me that you may understand how csp's work and what they do but implementing
+requires more.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned how there are different types of propagation algorithms and how they can be optimized
+by using different variable ordering heuristics. These propogation algorithms with a backtracking algorithm can
+help us solve complex problems such as finding the right set of values for a soduko game in a matter of
+seconds, when it would take the average human hours to do. Furthermore, from this assignment I can see
+how important it is to create good constraints as they can greatly impact the ability of a problem to be solved
+and even the time complexity. Overall, This showed me how important constraint search
+problems are in the field of artifical intelligence. 
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I really enjoyed this module in the course especially since CSP's were new to me.
+It was really fascinating to see how incorporating all the different techniques to the 
+original backtracking search algorithm was able to improve the time complexity 
+of the overall search. Some significant things that I was able to learn and confirm
+through the assignment was that forward checking does improve on backtracking for the most
+part and similarly GAC improved on forward checking when it came to time of the search.
+Furthermore, I remembered from tutorial that binary constraints tend to be better than 
+nary constraints since they are less expensive to compute. At the time, I just assumed this to 
+be true but had a hard time confirming if it was true. But after doing the assignment, i was really
+intrigued to test different nary constraint implementations against binary constraints and i tested
+how binary constraints would perform against trinary...nary constraints. In the end, it confirmed the
+original hypothesis that for the most part that the binary constraints implementation had a 
+faster search.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learnt how important constraints are and how useful they can be for AI purposes. They 
+provide lots of optimization to search algorithms. I also learnt that they're an absolute 
+pain to create and ensure if they're all correct. Regardless, they are very important. I also
+learnt that there are many different ways to make small optimizations to those programs. Most 
+are influenced or derived from the way humans think about solving a problem. This is seen in 
+mrv! In addition, it is crazy to see how those optimizations improve runtime. Talking about runtime, 
+its also cool to see how long things actually take to be solved by an AI. 
+I learned several things in the CSP module. The first is that forward-checking
+is a valuable optimization that can be made, and it's rather lightweight. I also
+learned about Generalized Arc Consistency, and I became curious about when one
+might be beneficial over the other. Generalized Arc Consistency is a stronger
+form of standard forward-checking, but it requires doing more work, and so it
+ends up taking more time to run than standard forward-checking. However, it
+might make up for it depending on how many more values it prunes, so it's an
+interesting trade-off. The second, and probably the most significant, is that
+heuristics can aid in reducing the number of bad assignments made when searching
+for a valid set of assignments. Using MRV made a significant impact on the
+number of assignments made in the provided tester. This made me curious about
+how much impact value-selection heuristics could make on the number of
+assignments made.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Constraint propagators are the most significant thing I learned, especially GAC. 
+Propagating the constraints and pruning values without "searching" the variable
+tree can be really usefull, and I personally think that the ability to prune impossible
+values from the very begining of the problem could prove to be really usefull in other
+problems, reducing the time complexity of solving these problems significantly. I learnt
+how to implement this algorithm, by using a queue to keep track of all the constraints that
+might prune a value from a variable's domain, by adding all the constraints that affect
+a variable that has been pruned by a previous constraint.The most significant thing I learned from this csp module is the impact that the CSP search model is much more 
+versitile and adaptable to the problem at hand, and thus has many real-life applicatons. Although they have 
+different applications, it is much easier to apply the CSP model to a problem rather than search models geared 
+towards finding optimal solutions like BFS or A* search. The CSP model can be generalized to any problem where 
+the goal is not necessarily fast solutions, but instead just to find a configuration of variables that satisfies
+the constraints, which can very helpful in schedule building and other types of organizational problems. Although 
+performance is not a requirement of the search, I learned that simple improvements on the heuristics of the search 
+(i.e. propogators or variable orderings) can have a positive impact on the efficiency of the search. This might be 
+helpful in real-world applications if they are on a larger scale.
+
+﻿Before completing this assignment, I had only a theoretical understanding of how forward checking and GAC works. But after implementing my own versions of forward these algorithms, I was able to gain a much stronger, practical understanding of how they work. In addition, by working with and debugging the program, I was able to appreciate just how much space a constraint table can take up. I found myself wanting to use an expression instead of supplying all valid assignments for constraints, and it made me gain a better understanding of the tradeoffs between choosing to use an expression and choosing to use a table / list of possible assignments.I learned from the Constraint Search Problems is the way they differ from the path-finding search problems
+that was introduced in Sokoban. We can save a lot of space from not having to remember the paths and only
+concerning ourselves with the end configuration, and we can use heuristics slightly differently where in this
+case we use a heuristic to pick the next variable to attempt to configure.
+I also learned a great deal about pruning in the propagators and how they will greatly affect the runtime of
+the search algorithm. I ran the Backtracking algorithms with and without the minimal degree heuristic and
+the runtime difference was very significant.What is the most significant thing you have learned from the CSP module?
+
+The most significant thing I have learned from the CSP module is how to construct constraints for a CSP problem. For the domain of each constraint, I had to decide what the values are and how to assign them to the proper variables. In this problem, I also had to figure out how to get all possible tuples by finding a unique set of values that would satisfy the cage constraint, then permuting on each unique tuple. Without permuting, it is possible that a problem with a solution becomes unsolvable, because then it would be able to satisfy the binary/all-diff constraints. Initially, I was unable to solve the 3x3 because I did not account for permutations. Additionally, I did not consider duplicates within a cage constraint when variables are in different rows and columns, leading to not solving the 6x6 at first. Through these problems, I learned how to reason what values can be in the domain of each constraint to solve the problems.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+From the constraint search propagtion module, I learned more in depth about a goal oriented algorithm for a search
+problem. From 324, we ended the course with miniKaren I always wanted to know how it was implemented,
+with what BT, FC, GAC and the use of degree/MRV heuristics, it's fascinating how much time you  can save.
+I learned that with propagators, its a way of pruning useless states in the upcoming search operation so that you don't
+have to check the constraints when you get there which saves a lot of time. But it doesn't always save time since
+it can make things worse by doing checks that results in no pruning. But in reality, it pretty much always saves time,
+but that's just the thing with NP complete problems.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+One of the things I learned was how modular CSP's actually are. As seen in cspbase.py, there are a lot of super short
+methods. Moreover I noticed that the code is easily reusable. All that needs to be done is to modify the funpuzz file
+to create problem applicable constraints. This is very cool to me as it is a global solution which we discussed in class
+but now I got to see it hands on.
+Another thing I learned was that even though GAC is usually considered better, depending on the board FC sometimes
+did better. I believe this is due to checking constraints that do not need to be checked as they may lead to nowhere.
+Another thing may be that with GAC we are testing more tuples whereas in FC we know exactly what tuples to play.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Both FC and GAC are effective algorithms for solving CSPs. FC can sometimes lead to incorrect assignments during its run
+which causes a lot of backtracking. However, GAC is very powerful in its ability to prune so that less backtracking is
+required and solutions are found faster. Still there are ways that even GAC can be improved to better its efficiency.
+The idea of supports really helps reduce redundant assignment searches. I quite enjoyed learning about this module
+because the logic puzzles I do mimic the csp problem setup, and it was interesting to see how a program could solve the
+puzzle using some of the same logic that humans use but sometimes missing the obvious.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+One of the significant things I learned from the CSP module is the importance of choosing the right propagators and constraints. 
+
+First of all, I was astonished by how the choice of propagators results in a significant difference in runtime. 
+For instance, when I was playing with the code and intentionally commented out the initial propagation, the runtime increased dramatically. 
+Moreover, using GAC or Forward Checking rather than the plain backtracking algorithm as a propagator resulted in much less runtime. 
+
+Secondly, I learned the importance of how we construct the constraints and how they can affect time efficiency. 
+For example, the search time became faster when using n-ary all-different constraints instead of binary all-different constraints. 
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I was familiar with backtracking problems like sodoku. I even created a sodoku solver 
+after first year which can scan a sodoku board from your webcam live and solve it, and I 
+used backtracking for this. What I wasn't aware of was different techniques like forward checking 
+and GAC, which improve backtracking a lot in terms of time complexity. Add this along with heuristics we get 
+an alternative to simple backtracking that is most of the time, way faster(on average can be 100-1000x faster).
+ These techniques were quite intuitive and will  be something I want to employ more in the future. This was the most significant thing I learned
+from the CSP module
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from the csp module is how to generalize a problem.
+Many problems can be broken down into a list of constraints and variables, so this approach can
+help me formalize various problems with the same strategy.
+I also learned that staying up late to work on code is unadvisable. My automarker was not
+matching the automarker_output.txt, and I did not notice for a very long time. I was missing some of
+the combinations of binary constraints, which allowed some incorrect assignments to occur.
+Although I was able to refactor some of my code to make it faster, but I could not get it fast enough 
+for GAC and FC to work for 6x6 grids. I'm not sure what I'm missing in making it more efficient.﻿#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+
+The most significant thing you have learned from the csp module is how to implement
+GAC propagator, MRV and different constraints model, and I have a better understanding for each concept in terms of coding. For the GAC propagator, I used a self-defined queue and followed the code template taught in lectures. This implementation took relatively less time than other functions in the project. For MRV, it is also simple as I first checked the variable that had the least amount of domain size, if any of them had the same size, then checked which one had the most constraints related to it. For the three constraints model, I struggled most of my time on the binary not equal constraints. The implementation is space-consuming since we need to store all possible pairs of values in satisfying tuples. Once the tuples are set, the rest becomes straight forward.The csp module has taught me an extremely generalizable way of solving problems. I somewhat struggle with the underlying concepts of Forward checking, but I find GACs quite intuitive.
+
+Forward checking caused me a lot of difficulty before I wrote it myself. I didn't understand how it was better than just moving forward, but this gave me a much better perspective on it.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+
+    Through the testing of this module, I find out that there is a significant
+difference on the runtime between nary constraints and binary constraints csps.
+    In the larger cases, nary constraints cps needs several seconds to solve the
+grid while binary gives out the solution in half second. This is because the
+nary constraints have larger scopes in the large grid. The larger scopes lead
+our FC algorithm to check more conditions and prunes less values when only a few
+variables are assigned. Since the FC algorithms can not prune values until there
+are only one variable unassigned in a row and a column. Therefore, the csp can
+not prune the repeats value in a row and a column right after a variable assigned.
+    For a GAC algorithm, although GAC works faster and smarter than FC, the nary
+constraints slow searching down. The binary constraints basically break a nary
+constraint into (n C 2) parts. This property allows the GAC to check more
+constraints with a smaller scope in the GAC_Queue. When it push constraints back,
+there will be fewer work to do.
+    Therefore, breaks the constraints into smaller scope can reduce a lot of
+time on our CSP algorithm. We should always try approaching binary constraints
+in our CSP.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+The most significant thing I have learned from this assignment is how much better GAC checking
+is than forward checking. It is crazy to see that just from checking all constraints no matter
+how many unassigned variables there are in them instead of if there is only one, that drastic
+drop in number of variable assignments and pruned variables. On the 6x6 starter grid, forward
+checking results in 15000ish variable assignments and 6900 pruned values while GAC only assigns
+an exact 36 variables one for each square and prunes 179. Literally 0.2% of the previous amount
+of assignments. This really shows how even what seems like slight optimizations can really change
+the performance of your algorithm. While investigating CSPs I also learned that CSPs can be used to
+generate composition and harmonizations in music theory while taking into account fingering or
+melody. I was always told you could combine any two majors you want and find something to do in
+post-secondary but music and computer science seems like a stretch and even still you can find
+something like this that combines two radically different subjects.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I have learnt in this assignment is the efficiency and speed
+of FC and GAC on CSP problems. In the past I have used back tracking to solve regular 
+sudoku I realized that it was extremely slow and I concluded that back tracking was almost 
+pointless. After this class I have realized that implementation of propagators such as FC 
+and GAC with MRV makes this problem so efficient. This entire idea of back tracking, FC, GAC 
+is so fascinating and impresive. In addition to this the concept of FC and GAC was very well 
+taught by prof sonya allin I was able to easy code FC and GAC. This was a very fun assignment 
+to work on.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned that FC can also hurt the overall performance if not implemented efficently#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Most interesting part of the CSP module was the practical application of the theory.
+How relatively easy we can solve complex puzzles like sudoku, queens problem and etc. where 
+each step involves some sort of constraint in the big picture.
+Most significant part was the GAC-based pruning technique.
+Very powerful technique as it considers all CSP problems on each step.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I've learned through this module is that although we've learned quite
+a few searching methods, they build on one another. Even when writing code, it's easy to spot similarities
+and it make it even more clear how much faster one can be. It's also just fun to compare this module to 
+the last one and see each methods applicability based on whether the paths are necessary or not.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most important thing I learned from the csp module is that there are payoffs
+between time and space efficiency. As we can see, in order to be time efficient
+in something like GAC search, it means we have to store extra things and then
+something like bookkeeping becomes an issue (something similar can be said
+about FC search). However, with just regular BT search, it is pretty standard
+with what you store (that being nothing) but it means that we are very slow
+because we have nothing we can look forward on.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The CSP module's most important/significant topic to me was actually being able to build the environment, establishing variables, constraints, and their scopes.
+Learning about how we build CSPs in the game Sudoku during lecture made it easier to understand working with funpuzz, and now I believe that I could implement
+a CSP problem for other board games which require different sets of game constraints with variables over iterative states like we would see in the previous search 
+module. Leaning about Forward Checking as well as GAC was also very useful, especially implementing the functions, which allowed me to discover how to work around the 
+constraints (although being given the CSPbase.py file made things very helpful). Overall, I would say this project (including A1 for it's module) really helped me understand
+what everything meant, as it forced me to learn about the pieces in order to put it all together. The past two assignments have been structured very well!#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The idea of how to encode a constraint satisfaction problem in a way that allows us to give it to a machine to solve. We were first introduced to csps in csc373 but didn’t delve much deeper into the topic.
+The requirements required to write out a csp formally is personally the most significant thing learnt as it can be used to think of other problems as CSP problems to solve. Since csp in np complete if a sol is found we can reduce other problems to a csp to solve in poly time, which is an interesting idea.
+
+I also enjoyed learning about propagators and the different kind of ways to solve a csp, BT, FC, GAC and how they work
+
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+CSP is much different compared to search module, we only consider the constraints instead of path cost.
+The way we find solutions is that first filter the domains that will obviously lead to a dead end, and then try
+different variable assignments until we found a solution that satisfy all the constraints.
+The thing I found very interesting for me is the idea behind binary constraints and n-aray constraints.
+Although they are equal and could be represented by each other, I found out n-aray constraints are much cheaper to
+implement. We will end up with a large number of constraints using binary constraints approche, which is very inefficient.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+One of the most significant things I've learned in this module is just how much faster
+and better things can go by implementing constraints to the problem. On the surface,
+the propagator functions are written/used for this assignment look terribly inefficient
+and look like needlessly complicated work (they are O(n^3) or O(n^4) I believe), however
+once implemented, the functions ran a lot faster than I anticipated. It's also surprising
+how adding these constraints can reduce the need for complex heuristics, given the one
+used in this assignment is infinitely simpler than the ones created for the previous
+assignment. I also feel that overall, it's much simpler to implement and conceptualize a
+proper problem-solving function with constraints with a simple heuristic function rather
+than trying to make the solver just run some super all-encompassing heuristic to do everything
+without constraints.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+This module showed me how various real-life problems can be solved by converting them
+to a CSP. When completing this assignment, I realized when running FC using n-ary constraints
+that it is possible for FC to take exponentially longer to solve a CSP compared to GAC.
+Whereas, GAC checks all constraints which results in a lot more pruning and a narrower search tree
+which explains how it reaches a satisfactory solution quicker. 
+
+Furthermore, I realized when implementing the cage constraints why pre-processing checks for 
+consistency are beneficial as it allowed me to detect issues with my constraint implementation
+prior to the search even running, which saved a lot of time. 
+
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+csp module provides the search with efficiency mostly depends on domain
+Normal BT search has no consideration for domain, result in a fat and long ass search tree.
+However, with FC, it reduces the possibility of assigning domain. Which increase efficient.
+And last, GAC, reduce domain and reduce size of search tree, which can highly improve from the backTracking
+search. Conclusion, csp module will be fast if pruned value in domain.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I have learned from the csp module is how to make good csp solving alogirthms.
+I learned techniques to make good csp solving algorithms like gac and forward checking.
+I learned about good heuristics when choosing what varibles to assign first like the degree heuristic or the MRV heuristic.
+How with MRV it can produce a skinnier tree at the top and how failures can be detected much faster.
+I also learned just how significant of a difference these techniques can make. 
+How forward checking is 100 times faster than normal backtracking and how forard checking combined with the MRV heuristic can produce a search 10000 as fast.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned the comparable speed difference between n-ary CSPs and binary CSPs are extremely different, and upon trying them in the automarker, the binary constraints were magnitudes faster than the n-ary CSPs
+simply because they allowed the easy elimination of variable domain values, without having to check the entire constraint domain. This was my motivation for attempting to write the constraint tuples as binary constraints, 
+however I subsequently learned how difficult that problem can be, especially if you have a very large n-ary constraint. 
+
+On that note...
+While writing funpuzz_csp_model, I attempted using only binary constraints and I couldn't get a satisfactory solution while attempting to convert the n-ary constraints.
+Frustratingly, I found combinations of each variable's current domains to satisfy each constraint's mathematical operation, and used this n-ary combination to find the 2-permuation of each variable
+in such a way that the variables were corresponding to the 2-permutation of the correct combination. However, no matter how painstakingly hard I tried to implement this, the solution wouldn't work and returned
+None arrays.
+
+I can only assume that the answer isn't as simple as I thought it would be, perhaps it was a skill issue?
+
+Lastly, I found it very interesting how much of a speed difference that the MRV ordering provided. In one of the autotesters, without the MRV ordering the time it took to run on my machine (M1 macbook pro) was 7.949505 seconds.
+However, when MRV was implemented with forward checking it only took 0.238938 seconds. That's a speed increase of 33x, which was something that I thought was incredible, and it goes to show you that in certain circumstances the MRV ordering
+can work wonders.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+CSP feels like a more formal algorithm when compared to normal search. When initially reading the task, I had imagined
+a different implementation of base CSP, where instead of doing tuples, we would use a function to verify satisfying terms
+The CSP base model is very easy to call and use, but at the cost of space complexity, and difficulty in ititial setup. This
+model feels like it would be better to model constraints of "musth happen" rather than "cannot happen", as it's more direct
+when defining the tuples for satisfying the constraints. For CSP in general, the form it can take is very generalized in the 
+idea that despite the model using a list of tuples to check satisfying assignments, we can still use it to make binary ne 
+constraints or nary ad constraints, which intuitivly are very different, and takes work to set up, but still worked out.  #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant things I learned from the CSP module is how to form CSPs, 
+and the several algorithms used to efficiently solve CSP problems. Through the 
+final assignment of the module, I gained practical experience in constructing a 
+CSP for a specific problem. This taught me how to create variables and constraints; 
+and how to tie these elements together by determining all satisfying assignments
+(of variables) and then adding these assignments and variables to the constraints. 
+Ultimately, I have gained the confidence and technical ability to create CSP for 
+several other types of problems. Furthermore, I have developed a complete understanding
+of several CSP algorithms used to solve CSP problems such as Backtracking Search, 
+Forward Checking and GAC. Both through the lectures and through implementing some 
+of these algorithms on our assignment, I know understand how these algorithms work 
+together and work with the elements of a CSP to solve a problem and provide some 
+solution. Going forward, I believe I now have the capability of applying this 
+knowledge to many other CSP problems.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I have learned from this module is that CSP’s 
+are everywhere. Although I had not known what a CPS was formally, I was 
+interacting with them on almost a day-to-day basis. From my daily game of wordle 
+or choosing which events I could attend in a given time frame to planning a 
+vacation and many more. Not only that but I was able to formalize the strategies
+that I was using to solve the CSP’s I was interacting with daily. What I took 
+away from the module is formal ways to solve CSP’s and to try and identify a CSP
+since I already know how to solve them.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+The most significant thing that I learned from the CSP module is the power
+of diligently reducing the domain of possibilities. Without the constant reduction
+in domain, finding a solution is much more difficult and time consuming. As well,
+the CSP module has opened my eyes to the different ways we are able to look at a
+problem. This has shown me that looking at things with less intuitive perspective
+may be the key solving a problem. Moreover, the abundance of perspectives is
+each unique and beneficial in their own way. There are always multiple ways to
+solve a problem, and the solution/implementation you choose often depends on
+what you value more. Lastly, looking at how all the elements in a problem can be
+connected displays the extensive ways that their connections can be represented.
+
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+The most significant thing that I learned in the CSP module is forward checking,
+because I learned how looking forward in the problem can reduce by a lot the
+number of tries that is required to solve a search problem. The key thing about
+FC that I found genius is the pruning of values because it provides information
+about the paths that should not be taken as they will lead to a deadend.
+Therefore, I think that the concept of looking ahead to avoid undesirable
+results is the most significant thing I have learned in the CSP module.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I've learned from the CSP module is how the
+efficiency or runtime of an algorithm is often highly dependent on the problem
+being solved. For example, forward checking can be much faster than
+backtracking search, but it can also be much worse depending on the type of
+problem and even how the problem is defined (e.g. binary not-equal constraints
+vs. using n-ary all-different constraints). Learning about the weaknesses that
+certain algorithms have makes analyzing and comparing different algorithms
+very interesting because you have to consider what works and what tradeoffs
+have to be made. Combining what I've learned in the CSP module with what I've
+learned in the search module, I think I'm starting to understand how difficult
+it is to create effective and efficient AIs.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned that it feels a lot simpler than search problems. It makes a lot of sense intuitively how CSP searches work as its basically like a process of elimination. Unfortunately, I can imagine exactly what needs to be done for a problem like the cage funpuzz. I completed getting the cage constraints, and getting the row column constraints from the other 2 functions, but whenever I try to add the row/column constraints to the CSP after adding the cage constraints, something goes wrong even though they work seperately. Overall, I have a good idea of how to think about these problems, but have trouble combining the different conditions in code.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I've learned from the csp module is that developing a more general algorithm that works
+on a large set of problems leads to a lot of efficiences compared to designing completely different programs without sharable 
+components (as seen during the search module). In this case, these general propagators can be used in a variety of situations. 
+The funpuzz_csp_module along with the binary all-different constraint grid and the n-ary all-different constraint grid were 
+specific to solving funpuzz problems. Due to the modularity of the propagators, the most efficient propagator for a situation
+can be switched in as needed. Additionally, it is interesting how the AI checks for funpuzz solutions the same way a human 
+would logically approach it, just more systematically. Just like a person would keep a mental/ written tally of what placing a 
+certain value in a location would mean for the remaining values, the code has a list of pruned (variable, value) pairs to restore
+as needed. Using Generalized Arc Consistency (GAC) compared to regular Forward Checking (FC) greatly reduces the breadth of the
+search, therefore increasing the efficiency of the program. For testing, I solved the funpuzz boards myself, and compared it
+with the solutions in order to fix bugs in the code. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learnt that adding an ordering heuristic makes a big differene in time taken to find a solution. 
+
+Before I had added the ord_mrv heuristic, my forward checking could not complete the funpuzz model for the 6x6 
+in automarker.py. It was also extremely slow for 5x5, it would take about 1 minute to solve. 
+However as soon as I implemented ord_mrv, it found the solution very quickly. 
+
+The intuition i learned is that with this particular heuristic, variables with the smallest domain are locked in place 
+before we go on to try other variables with much larger domains. This means that in many cases we decrease the search space
+significantly by prioritizing the locking down of the variables that are easy to assign a value for.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+The most significant thing I have learned from this csp module is the different ways we can improve our model and solve things much faster
+with things like forward checking, back checking, etc. I also noticed that although binary check has much more constraints, it actually
+solved it faster then n array ( probably due to the time and resources it takes to get all the possible permutations). I know learned 
+why many AIs need high performance hard ware and resources to compute bigger problems, and that our current csp structure takes up a lot of 
+resources in bigger problems.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I think I liked the idea of CSP search more than uninformed search problems since
+it is more focused on the idea of finding a final solution for the problem while 
+satisfying the given constraints for the problem. I also found it very interesting 
+how we can improve our search by using propagators like forward checking or GAC, 
+which restricts our problem domains, and removes obvious wrong domain values, thus 
+improving our search path. I found this assignment very interesting since we work 
+on real-life games or search problems like Soduku or variations like FunPuzz, which 
+makes the overall learning process more fun and interesting. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+After finishing A2, I found that csp search module is such a powerful tool when 
+dealing with constraint satisfication problems. I found that most significant thing
+of a csp module is how well the techniques we used for pruning domain values for 
+variables. Both FC and GAC are these techniques. FC method use the intuition of 
+looking head and prune potential values that violate constraints. GAC checks for 
+constraints consistency and it makes much more pruning. After implementing 
+those, from the test result, it shows that using GAC is faster than FC when the 
+board size and constraints size are large. And the reason why FC is slower than 
+GAC is that when the board or constraints size are large, FC does much more
+variable assignments and backtrackings than GAC, which means FC makes a lot of wrong 
+variable assignments and have to undo them, that slows down the computaion.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from csp was how csp functions work. Specifically, how constraints
+are necessary and how the changing of them can affect how a function works. When doing this assignment, I often had to
+analyze the csp module in order to find inspiration for my ideas. Furthermore, I also learned how these problems
+can be applied to real life scenarios, such as solving a Sudoku puzzle, where the efficiency of your solution matters
+greatly, and if the solution is not efficient/ideal, there are great consequences. Overall, I learned many things which
+will definetely help in my Computer Science related studies and careers.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from this module is the process of building a csp. When you have a problem that you want to solve using a csp the first step is to identify the variables that you want to solve for. The second step is to set the domain of each of the variables. The third step is to set the constraints on the variable. This step can be difficult, but it is crucial to solving the problem. It is important to correctly identify all the constraints and translate them into a form that can be used by the csp. From there the csp runs a search to find the solution. This relates back to the first module which involved search. From here, depending on the search algorithm used, the search goes through each variable and checks that assigning certain values to it won’t violate any constraints. Overall, it was interesting to see how csp’s work because I’ve introduced to them in other courses, but I never knew how the worked. Now, that I have had a chance to work with them, they don’t seem as difficult as I thought they would be, it is just important to break the problem down correctly using the three steps. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I think this has given me some perspective on how logical programming might function. I did logical programming
+in CSC324 for a proof solver and I feel it is likely that logical programming uses something similar to csp 
+since logical programming is completely focused around setting contrainsts and finding values that satisify them. 
+It is really facsinating to see a concept I did in another course get more fleshed out in this course. It has gotten me
+curious now if I got write my own very basic logical programming language with an interpreter written in python. I'm also 
+curious about writing a csp in a logical programming language as it feel it would be a lot easier to setup the contraints
+and find satisfying values. 
+#In this file, please provide 100-250 words in answer to the following question:
+# What is the most significant thing you have learned from the csp module?
+
+In this assignment, we used forward checking and Generalised Arc constraint as two forms 
+of constraint propagators. Constraint propagators aim to search for values that satisfy the 
+constraints. With the two propagators, we learned a way to prioritize the goals, 
+instead of the paths. We learned a way to account for constraints in finding suitable values 
+for searches. In forward checking, we pruned values from the domains that could hinder the search
+in the future. In Generalised Arc constraint, we prune values from the domains that are 
+arc-inconsistent. We also represent the states using variables, constraints, domains to generate
+more efficient algorithms.
+
+
+
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+In the beginning I was testing FC and GAC with binary_ne_grid and nary_ad_grid since I didn't have funpuzz
+solver finished. My tester was not able to solve CSP6 with nary_ad and FC, and when it did with other combinations of
+propagators and grids it took much longer than a second to solve. I thought the problem lied in FC, but after hours
+of trying to debug I gave up - I exactly followed the lecture's pseudocode and I still couldn't get it to work. In order
+to salvage some marks I decided to finish funpuzz, turns out once I got a functioning funpuzz generator everything
+worked. This led me to the conclusion that I had too few constraints in the case I failed, which made the grid too
+open ended and impossible to solve in a reasonable/fast time (I was waiting for upwards of 5 minutes for my algorithm to
+solve before I finished funpuzz and it still would not finish running).
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from the CSP module was that domain wipe out case is very important.
+I initially forgot this case and it took over a 1000sec to solve problem 5. Then I refered to the lecture
+slides and realized that I had missed that case. After implementing the domain wipe out case, I was able to
+decrease the time to 2.5sec, but I still could not solve problem 6. It took implementing old_mrv to solve
+problem 6 and it drastically reduced the time to solve problem 5 as well to 0.07sec. This taught that ordering
+of variables is crucial as well.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I have learnt from the csp module is the different ways (Forward
+Checking and Generalized Arc Consistency) we can prune the domain of variables to efficiently 
+reach the solution to a given CSP problem.
+
+Forward Checking Propagation only checks constraints with a single unassigned variable and checks
+if there exists at least one value in the domain of the variable that satisfies the constraint. If not,
+then it prompts the CSP algorithm to backtrack.
+
+Generalized Arc Consistency Propagation prunes the domain of variables if it does not satisfy all of the
+constraints that apply to it. If the domain of a variable is pruned, then it rechecks all previously
+checked constraints against the newly pruned domain to see if it still satisfies them. If a domain wipeout
+occurs then it prompts the CSP algorithm to backtrack.From this csp assignment, I could learn the idea of CSP problems to properly backtrack and use alternate of backtracking such as forward checking or GAC to make the problem more integrate-able in real life. However, I feel like the assignment is implemented inefficiently due to educational purpose. Later I wish I could see the real world case of CSP algorithms. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+From the csp module, the most significant thing I have learned is that when dealing with csps, efficiency and
+speed matters. When doing backtracking search, we can use propagators to look forward at the next decision and use
+some logic to determine ahead of time which assignments will not lead to solutions. This will prevent us from going into
+and expanding that solution, and will save alot of time. Also, we can use order heuristic to assign variables that
+lead to skinny trees, meaning less expansion and more depth. Using all these techniques, will improve the overall
+runtime and make previously untractable problems solvable. Hence, speed is one of the most important things when it
+comes to csp problems.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing that I have learned from the csp module is that
+there are no one fit all algorithm for constraint satisfaction problems. We
+were introduced to some algorithms that take advantage of key intuitions to
+cut down the searches where each new one was on average better than the rest
+but can still have cases where they are significantly worse. For example,
+forward checking is about 100 times faster than backtracking, but it also has
+the possibility to do worse than backtracking given such an edge case. Each
+problem needs careful consideration of how each algorithm takes shortcuts so
+that a goal can be found from the search efficiently.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned that there are different methods of search functions, which not just focus on path. For example, CSP searches
+focus on constraint satisfaction rather than paths. They care only about providing a solution rather than an optimal one
+. I learned that There are many different ways of implementing CSPs. The most effective method is an ARC consistency
+enforcer. You can also use heuristics in order to improve performance of CSP searches, similar to earlier searches we
+performed. More naive methods of CSP include CSP backtracking. CSP forward tracking can be greatly improved with an
+MRV heuristic. Up to 10,000 times better!!!
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I've learned from this module is the importance of understanding the problem. In the beginning,
+I was very confused and I didn't know where to start. I had all the knowledge from class but i had no idea how to tackle
+this assignment. However as I spent much time reading the starter code, The shape of a solution forms in my head. As a
+result, I felt much more comfortable. This is because I understand how different classes work toGather to represent the
+graphs and pseudocode we had in class. In the end I felt the work is actually easy because they represent what we've
+learned in class in a very intuitive way.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Well, I already know the backtracking algorithm one or two years ago when I was practicing leetcode, to solve
+those permutations, combinations question, and I know backtracking is kind of a brute force solution.
+After learning this module, I know a lot of ideas to improve on it, forward checking, GAC, MRV, etc.
+The most significant one is propagation, Propagation has to be applied during the search, potentially at every node of the
+search tree, and if the propagation itself is slow, then it won't help, it will slow 
+down the entire search tree. So algorithm is the most important, if you pick the correct 
+algorithm, then it will save you a lot of time.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+In my opinion, solving a CSP problem is like finding an equilibrium for all questions where each question is satisfied, just like parents taking care of babies.
+For this assignment, it is pretty annoying and time consuming that when implementing the three models, it took me a lot of time finding out why there were all None in solution and why my code entered with DWO.
+As the way I implemented the funpuzz_csp_model, I chose to use binary non equal, which is easier for me to understand and it also gives me better performance.
+From this module, the most important thing i learnt is the constraint propagation, which is Generalized Arc Consistency.
+Similar to forward checking, it can detect conflict earlier than FC and therefore saves us run time.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from the CSP module is to construct clear constraints. When working on funpuzz_csp.py, 
+I strongly realize how important it is to have explicit constraint definitions in CSP, and discover the complexity while implementing
+the constraint tuples. The critical point of constraint construction for this assignment is the "order". The variable order of 
+constraints and the value order of satisfying tuples are the two most important orders of constraint definition. Also, when constructing 
+the satisfying tuples, whether there exists repeated values should also be considered. Forward cheking and GAC enfore apply to all CSPs,
+but each CSP has their own constraint definition, and thus indicating that one of the most important things of CSPs are their unique 
+constraint definitions. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+    CSPs, at first, seemed very similar to searching. They involved finding solutions with
+certain restrictions so it seemed pointless to separate the two. However, after learning the
+material well, I saw some major differences (they still have some similarities though). One
+major difference that I found very significant about CSPs is how abstract it can be. The
+algorithm behind CSPs can be implemented to any CSP problem. For example, in this assignment,
+FC and GAC algorithms were implemented without ever referencing anything related to the
+problem itself. It is only the constraints themselves that are unique to the problem.
+    In addition, I found the complexities of such algorithms to be scarily large (search
+algorithms shared this problem). In order to combat such complexities, shrinking the domain
+through algorithms (like FC and GAC) was very effective. The effects of such algorithms were
+rather surprising as the algorithms themselves seemed rather complex.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I have learned in this module is how the computer program can do to solve an issue. Normally, we will have to tell what the program needs to do step by step to obtain the final answer. However, in this module, we just need to tell the program what we want, that is the constraints. Then the program will solve the issue using the algorithm. This could be a lot easier and faster to solve certain issues like the schedule planning. So, we just need to set the constraints for each person’s availabilities, then we can use the CSP algorithm to find the plan that works for everybody. If we solve the issue with the old fashion, then we may need to check all the possibilities to find out there is no solution. But if we use CSP with GAC propagation, the program will be much efficient.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I have learned is that GAC is incredibly powerful when paired with smaller constraints. The nary model worked but took significantly longer than the binary model on larger grids. This is representative of direct solution methods that take much longer to solve the same problem due to the large amount of variations to consider at the beginning with an empty grid. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from the csp module is that forward checking is not always better than
+backtracking though it might seem like it, and forward checking is even faster if performed with heuristics. 
+And also there are many ways to represent the types of constraints in the problem as in the assignment. 
+The constraints of a problem can be presented using binary constraints and/or higher order constraints, 
+and they are computed with similar methods. And from the assignment, using libraries like itertools 
+is a lot easier to compute the permutations compared to writing all the code on your own.

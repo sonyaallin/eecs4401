@@ -1,0 +1,4 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned that it feels a lot simpler than search problems. It makes a lot of sense intuitively how CSP searches work as its basically like a process of elimination. Unfortunately, I can imagine exactly what needs to be done for a problem like the cage funpuzz. I completed getting the cage constraints, and getting the row column constraints from the other 2 functions, but whenever I try to add the row/column constraints to the CSP after adding the cage constraints, something goes wrong even though they work seperately. Overall, I have a good idea of how to think about these problems, but have trouble combining the different conditions in code.

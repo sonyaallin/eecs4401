@@ -1,0 +1,9 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I actually had no idea that checkers was solved, so I looked into it and its all quite interesting. To date it is
+the largest game to be solved. 10^14 caluclations were involved over a 18 year period and it had a search space of 
+5x10^20. It was solved by a man named Jonathan Schaeffer, Schaeffer wanted his robot to beat Marion Tinsley the then
+worlds best checkers player.However after discovering that he had a lump on his pancreas Tinsley withdrew the game 
+and would soon after die so Schaeffer's robot would never truly beat him. This lead Schaeffer to work to solve the game
+as he wanted to show that his robot could have beat Tinsley

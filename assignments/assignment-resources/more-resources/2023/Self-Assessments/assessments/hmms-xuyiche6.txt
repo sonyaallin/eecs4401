@@ -1,0 +1,9 @@
+By generating the conditional probability table, such as transition table and emission table, and by using the directed acyclic graph, 
+the module could use these tables to train the model to identify the correct next occurance by comparing the likelihood of each events 
+based on their probabilities. Such module is called Bayesian Networks module. 
+It overcomes the difficulty that other network modules may not estimate the event in the case of lacking information of some events in 
+the training data. Specifically, in our assignment, there are some words not ever appeared in the training data, however, our model could 
+still do the prediction based on the probabilities of the each tags in the transition table. 
+The most significant thing I learnt from this module and the assignment is that the calculation of the conditional probability table. 
+It is useful to estimate the probability of one thing based on our experience on the previous thing. It was fun to dig into the human 
+language tagging.

@@ -1,0 +1,12 @@
+Othello Autograder
+
+Note autograding calculates 90 points
+An additional 10 points was calculated based on game play against a default agent
+For files used to facilitate game play, look in the gameplay folder
+
+To run the autograder:
+
+cd into the auto_grader folder
+
+$python3 auto_grader.py -d students
+

@@ -1,0 +1,10 @@
+In the search module I learned about heuristics. Going into the module,
+I thought I already knew what we were learning (because we started with
+search methods like BFS and DFS). However, after going through the entire
+module, I learned that while the importance of BFS and DFS cannot be
+overstated, they are not incredibly useful in helping an agent search
+through an environment. The reason for this is that they provide no
+indication of which direction might contain the goal. They simply search
+in an unopinionated manner. Heuristic searches are almost mandatory,
+since they provide the agent with the "intelligence" needed to find the
+goal in a timely manner (assuming a good heuristic of course).

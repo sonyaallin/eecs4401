@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+    CSPs, at first, seemed very similar to searching. They involved finding solutions with
+certain restrictions so it seemed pointless to separate the two. However, after learning the
+material well, I saw some major differences (they still have some similarities though). One
+major difference that I found very significant about CSPs is how abstract it can be. The
+algorithm behind CSPs can be implemented to any CSP problem. For example, in this assignment,
+FC and GAC algorithms were implemented without ever referencing anything related to the
+problem itself. It is only the constraints themselves that are unique to the problem.
+    In addition, I found the complexities of such algorithms to be scarily large (search
+algorithms shared this problem). In order to combat such complexities, shrinking the domain
+through algorithms (like FC and GAC) was very effective. The effects of such algorithms were
+rather surprising as the algorithms themselves seemed rather complex.

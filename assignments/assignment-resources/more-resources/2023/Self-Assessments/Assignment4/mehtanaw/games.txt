@@ -1,0 +1,14 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The most significant thing I learned from the games module was how games such as 
+checkers and chess(or other 2-player zero-sum discrete finite deterministic games)
+are played/performed when it is player vs computer. More specifically, I learned 
+how there are algorithms that use specific game info(states, initial state, terminal 
+positions, utility, etc) and then perform some strategy/algorithm(such as minimax or
+alphabeta) in order to make a move at each turn. Furthermore, I learned about several 
+of these algorithms and gained practical experience in implementing, debugging and 
+testing them. I also learned how to create good heuristic functions in order to assign 
+good values based of the current state of the board, such that the AI will make better 
+decisions. Going forward, I feel confident that I can apply these skills and this new 
+found knowledge to other similar game AI problems.

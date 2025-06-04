@@ -1,0 +1,6 @@
+The most important things I learned about this module is how to work with probabilities in general, 
+and how important are they in our day to day life. It was very interesting to learn about all the "hidden" 
+probability layers and the emisions, and how they interact with each other in order to produce a final probability. 
+HMMs are very important, and can be found everywere where some kind of decision making is performed. I think this 
+module will help me greatly in the future, not only in computer science, 
+but also any time a probability is involved in a certain situation. 

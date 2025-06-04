@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from the csp module is that forward checking is not always better than
+backtracking though it might seem like it, and forward checking is even faster if performed with heuristics. 
+And also there are many ways to represent the types of constraints in the problem as in the assignment. 
+The constraints of a problem can be presented using binary constraints and/or higher order constraints, 
+and they are computed with similar methods. And from the assignment, using libraries like itertools 
+is a lot easier to compute the permutations compared to writing all the code on your own.

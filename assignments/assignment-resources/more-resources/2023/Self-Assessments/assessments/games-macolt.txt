@@ -1,0 +1,13 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+As mentioned in the first unit, most of AI can be reduced to a search algorithm. This
+is probably more similar than both probability and CSPs. I also find, atleast for
+othello, that it's really hard to come up with a heuristic for the game. It's easy to
+think of just the difference in material that results in socre, but as with othello, 
+just because you're genearlly leading in score doesn't mean that you will be in a few 
+turns. Also, once you have a postition that is better, but not fully represnetable
+as a score value, how can you diffrentiate that in the heuristic to be better than 
+a similar state, with same score, but a worse position. For my example, it's if you 
+control the corners, as those cannot be turned. If I control a corner, how many more
+points in the heurisitc should I recieve? 

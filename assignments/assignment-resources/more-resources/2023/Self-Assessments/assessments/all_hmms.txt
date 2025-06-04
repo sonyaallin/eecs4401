@@ -1,0 +1,358 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+
+This module has shown me that HMMs are everywhere. This had made me
+think differently about voice assistants overall. That voice assistants definitely work using probability more than voice
+recognition as i have seen that they are sometimes way off with there interpretation of what was said. Another thing is
+that they would never be done training, everytime you correct what was said would alter the data. As individual correcting
+data points they would not correct the data by much however in the grand scheme with all users over several years the
+corrections will certainly take a more influential part.
+
+I learned many new things from the Bayesian Network module, however the most significant thing was 
+seeing how much of a difference the right algorithm for a problem makes. For example, when doing 
+the speech tagging assignment I first tried to go through the problem using different algorithms on 
+paper with rudimentary examples. I first used a brute force approach to tag each each word, basically 
+trying every possible combination and returning the path that gave the max probability. I recorded the 
+time complexity and then tried the viterbi algorithm with the same examples and noticed a significant 
+improvement in the time complexity. The viterbi algorithm pretty much removed paths that it knew it 
+no longer needed while the brute force approach looked at every path. This unit was one of the most enjoyable in the course so far especially since I tried to connect my learning with the world around me.
+In fact, when we learned about Hidden Markov Models, one connection I was able to make was with the writing app that I use on my laptop.
+This app is able to convert my handwriting to text. Perhaps, it also uses Hidden Markov Models for handwriting recognition.
+This also leads to the most significant thing I learned from this unit which was that Bayesian networks and Hidden Markov Models despite being
+simple can be used to represent relationships and make predictions about a wide variety of problems.
+Despite them being simple, they are still really effective. This was emphasized to me in the assignment as I made tiny improvements
+to my training tables and noticed huge improvements in prediction accuracy.The most significant thing I learnt from this unit is the usage of probability in AI. I especially liked how 
+markov models and their beauty. It was so cool to see the math involved and it was all just really simple. I 
+also liked the way we can set values for things we've never seen before and still get an output. The 
+viterbi algorithm was no exception to this. It seems complicated at first but after rationalizing and working 
+through it, you see how it all works and how easy it is to implement. Personally, I liked working with numpy
+again and found it enjoyable to make this run as efficiently as I know.
+The most important things I learned about this module is how to work with probabilities in general, 
+and how important are they in our day to day life. It was very interesting to learn about all the "hidden" 
+probability layers and the emisions, and how they interact with each other in order to produce a final probability. 
+HMMs are very important, and can be found everywere where some kind of decision making is performed. I think this 
+module will help me greatly in the future, not only in computer science, 
+but also any time a probability is involved in a certain situation. I learned that Bayesian networks are really useful in representing real-life scenarios and problems as events 
+that allow us to reason about the likelihood of those events. One of the powerful concepts of Bayesian nets,
+and more specifically, Hidden Markov Models is its structure. That is, its sequential structure and direction of
+events allows us to make inferences about events given likelihood or knowledge of previous events in concise ways.
+I learned that Natural Language Processing (and tools like Siri) is not as obscure of a concept as it may seem, 
+and I for sure will not look at Siri the same way, and overall, learning about Bayesian networks has changed 
+the way I view prediction-based models and AI in general.This assignment helped me a great deal on understanding how we can use HMMs to train an AI
+and then use it to make queries that works in a probabilistic way. This also helped me solidify
+my understanding of how the forward algorithm and the Viterbi algorithms work.What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing I have learned form the Bayesian Network module is how to implement and use the Viterbi Algorithm to train an HMM. Specifically, how to handle emission values where the observation and emission pair do not exist in the emission CPT. By setting the emission value to be close to 0 in that situation, the Viterbi Algorithm was able to achieve almost 100% accuracy on grader.py compared to less than 50% when the emission value was 1.  Additionally, I was also able to learn how to construct the prior, transition and emission CPTs from a training dataset and how to construct Trellis tables for use in the Viterbi Algorithm.
+For this module, i learned a lot about probability, from how markov models work in bayesian networks and why how the
+conditional independence only requires the previous state. This property makes it so the hidden markov model can populate
+ the initial, transistion and emission states much easier, so now P(X1:XN,E1:XN) can be computed easier. With the
+ viterbi algorithm, the maximization of P(X1:XN,E1:XN) given only observables and a training files to compute the P(X1)
+ can be done O(S^2*O), which is very fast compared to the exponential brute force solution.What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing I learned is how HMMs fully function. Before this assignment I was feeling a bit shakey
+on this topic (probabilities aren't my strongpoint) but after doing the assignment I can now say I understand how this
+works and how we gather the data (prior, transmission, emission) as well as its meaning and how to use it to get predictions.
+I was also surprised at the accuracy of this model as it is quite a simple model yet it gets around 90% accuracy on both
+test sets. I guess this taught me that even more complicated tasks can have 'simple' solutions and that a first step
+should always be to see if a simple solution can get the job done. 
+This task is also making me wonder if this model coudl be extended to start predicting actual words instead of tags. I have read a 
+bit on the topic and it seems some models were made with HMMs which is pretty interesting.
+Bayesian Networks are an interesting concept that incorporate probabilities into solving problems. I found this to be a
+very important point since many real-world problems have uncertain outcomes that previous units simply could not model.
+The concept of building prior probabilities off of observed data is also very intuitive and the use of conditional
+probabilities for transitions felt very appropriate. I did have some confusion at first as to why emission probabilities
+were conditioned such that P(E) was with respect to the hidden state. However, the assignment helped to clarify what
+exactly the purpose of the emissions are and why they are structured in that way. Normally I do have some difficulties
+with probability, but learning about how they were used helped to improve my understanding of the various operations
+and formulas. That would be my most significant takeway of the unit; how probability can be used to solve/represent
+problems in a Bayesian network.One of the crucial things I learned from the Bayesian Network module is its versatility and usefulness in various industrial fields.
+
+For instance, I was surprised that Bayesian Networks and HMMs are still widely used in the NLP field. In recent years, 
+numerous Deep Learning-based models and Deep Reinforcement Learning approaches have emerged and taken over existing methods. 
+Especially, DL models such as RNN and Transformers have become very popular that most of the engineers dive straight into 
+these sophisticated models without considering more classical methods such as BN and HMMs. 
+However, it turns out that these classic methods are as powerful as DL models in terms of predictability and generalizability. 
+I'm amazed that our HMM model performs well with the POS-tagging task without overfitting to the training data. 
+I would like to explore more about the practical applications of BN and how it can be applied to other 
+sequential analyses such as time series modeling and computational finance.What is the most significant thing you have learned from the Bayesian Network module?
+
+Well, perhaps the most significant thing I learned was Bayes' Theorem. Technically, I knew this theorem already, but I had mostly forgotten it.
+And I certainly never learned its significance.
+However, I did not understand the intuition behind the theorem until it became the backbone of Bayes Nets.
+The way that it allows us to abstract a hypothesis and the role of evidence is incredibly useful. I learned thoroughly that
+evidence should update our beliefs, not just change them. I have a deeper appreciation for this theorem now.
+
+I also learned that HMMs really are everywhere. Siri was originally built on HMMs and even now, she is just an HMM supplemented with 
+deep neural networks and LSTMNs. They are used to predict the weather and guide robots. I never even thought that mars rovers would be using ai.
+I assumed they were simply being guided based off visual data, however, the vast distances obviously make direct control all the time impractical.
+The level of abstraction that HMMs give allows so many problems to be formulated in their terms.I find Bayesian Networks extremely difficult, and not at all intuitive. I feel relatively confident in my ability to train the model, but in terms of how to use that training, I feel totally lost, and am unsure as to where to even begin. I'm half tempted to simply take a hopeful 42% for correct training, and take the L on the rest. I'm so lost, that I legitimately think it is more worth it to save my grace tokens for A4, and hope I can do better there with that time, rather than attempt to make something here. What have we learned about Bayesian Networks?  Have you discovered that HMMs are
+everywhere?  Will you ever look at Siri the same way?  Help us understand by
+answering the following question in 100-250 words:
+
+What is the most significant thing you have learned from the Bayesian Network module?
+
+The Bayesian Network basically connect the different processes of an event by
+the conditional probability. First, it needs some training data to create the
+CPT tables, which are the prior, transition and emission matrixes. For instance,
+the NLP analysis the words on POS tagging. From a lot of given sentences, we are
+able to observe the behaviors of different tags and words in the sentences.
+After the training, we can form the HMM model for the testing sentences and
+provide an analysis base on the maximum probability. However, there can still be
+mistakes in our analysis. Since the maximum probability have no guarantee, the
+HMM models are better to be used in some fields that allows mistakes. In
+addition, we need a huge amount of training data to keep our CPT table accurate.
+Therefore, we should be able to observe some significant rules in the past data.
+For instance, Siri, weather prediction and markets are some suitable fields for
+the HMM models. We can observe the rules in human actions on cellphone to
+construct Siri. For weather prediction, we are able to analyze the rule of
+weather in past days. Also, the customers deals implies some rules for the market
+and HMM models can help us to predict the future trend.
+
+The most important I learned this assignment was not to procrastinate and lose motivation...
+Seriously though, the most important I learned was the power of probability. It seems like such a
+simple tool: "How likely is this to occur?" But when you combine it with training data, 
+multiple, conditional and joint probabilities you can create a complicated that is amazing at
+predicting certain things. I also worked a lot with probability is CSC311 last semester and it
+still amazes me how well it works. I also read up on the application a hidden Markov model has in
+cryptanalysis. I'm not in info security but the base level decoding is super cool and its crazy that
+probability can help decrypt something. Most of the stuff is too high level for me but still, pretty
+awesome.Same old, same old!  What have we learned about Bayesian Networks?  Have you discovered 
+that HMMs are everywhere?  Will you ever look at Siri the same way?  Help us understand 
+by answering the following question in 100-250 words:
+
+What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing that I have learnt from the Bayesian Network module is Hidden 
+Markov Models and their possibility to be able to structure different structures of problems 
+in a pleasant unified way. The simplicity of how Hidden Markov Models are defined and how they 
+could be used is revolutionary. In addition to Hidden Markov Models the forward algorithm and 
+Viterbi algorithm is an extremely efficient way to calculate the probability from the given 
+information. Also Hidden Markov Models have multiple potential uses for extremely advanced 
+technologies. Some examples of these include Speech Recognition, Machine Translations, and 
+Robot Tracking. These are the most significant things that I have learnt from the Bayesian Network
+module.#What is the most significant thing you have learned from the Bayesian Network module?
+  
+The most interesting part of the Bayesian Network module was the ability to sort of predict what
+actions or situations led us to the current state using HMMs.  
+Relatively easy we can construct HMMs for real-life scenarios and reduce the amount of
+uncertainty behind different situations that led us to certain states.
+Especially interesting was the assignment where we could get familiar with
+very basic text recognition features.What is the most significant thing you have learned from the Bayesian Network module?
+
+I guess the most significant thing I've learned from Bayesian Networks is that
+it's not that difficult to predict. There's always a lot of hype about the
+intelligence behind prediction but it all comes down to algorithm and algorithm
+design. It also made me realize that this prediction can get better, as humans
+evolve and time goes on, it'll only get easier to predict outcomes since our
+datasets just keep growing. Very cool and very interesting.
+What is the most significant thing you have learned from the Bayesian Network
+module?
+
+As with Most of the other topics weve covered so far, i've noticed that its
+very important to optimize the way you represent you data by finding whats the
+best kind of model to use before the AI. I also found very much to be true the
+concept of 'garbage in garbage out'. This is probably a result of the fact that
+with these hypertuned models that depend heavily on the math being correct,
+every last calculation has to be right other wise the math will fail and by
+result, the whole system will collapse.
+The bayes net section cleared up a lot I previously did not know or assumed about bayes nets. For example, 
+in machine learning (CSC311) I didn't really understand fully how they worked, or the different ways we could
+express them. HMMs which are a specific type of bayes net are very intuitive and how they work, same with 
+the forward algorithm which represents previous accumulated probabilities as functions of the current timepoint.
+Essentially in both these types, we have two critical things that make them very useful. Conditional probability
+is determined between the immedtiate past timepoint from the current timepoint (since the previous stores 
+everything we need) and in order to find the best path from an HMM, we can simply look at the last time point in
+joint probability form since its analogous to the conditional probability of the last timepoint (its a ratio)!    The most significant thing I learned about HMMS and bayes nets (which HMM is a type of) is their widespread use and their versatility is usage across many different
+    fields and applications. How they can be useful to describe and predict the evolution of models and events that are not directly observable.
+    Their multiple applications interested me. From speech and handwriting recognition to POS like that we did.
+    In terms of learning, learning how to implement and use a HMM was useful, while it was in python the general concept can be applied over languages and then be used in other applications.
+I fould out that Bayesian Networks are using prior probability to predict furture event. HMMs have very similar concept as deep learning(RNN), but with very strong assumption.The siri is much different to HMMs, and
+it's much complicated I think. The most significant thing I have learned from this module is that we can predict a lot of thing based on the previous information, which is so cool and powerful.To be completely honest, I haven't been able to learn as much
+as I wanted to for this unit due to my own personal workload
+from other courses all piling up. While I was able to figure
+out how to get the training portion properly, I had a lot of
+struggle with the prediction part of the assignment. As a
+result, the most I can say that I learned from this particular
+unit is that AI prediction is as difficult (and typically wonky)
+as I had previously heard it was. And that I have no, and
+haven't ever had, much hope for Siri to be what the common
+layman would refer to as good and reliable.In this assignment, I applied Hidden Markov Models onto a real-world problem which is NLP where I utilized
+the Viterbi algorithm to perform analysis on test data consisting of english sentences, which predicts the syntactic
+role of a word in a sentence based on training done using a HMM. This was overall my favourite assignment, with
+interesting elements of statistics being applied too. NLP has always been a fascinating subset of AI that I wanted
+to explore and this has given me a feel of what to expect in the future. I also realized the benefits of log probabilities
+when it comes to minimizing errors in computations, which I feel is an important takeaway.HMM has been a lot of place. As long as it contains a sequential event, HMM can occur. For example, a series of events that cause lecture to cancel,
+weather, TA sick, prof sick etc. And for speech recognition, I realized you cannot take the word each by each. The transition and emission is also
+very important to the prediction of the word.
+The most significant thing I have learned from the Bayesian Network module is how we can use hmms to make predictions.
+I learned about algorithms like the Viterbi or forward pass which allows us to make good predictions even with uncertainty involved.
+In the assignment I learned how to train an hmm and gained experience on how implement a prediction algorithm to use the hmm to make POS predictions 
+on the words. Another useful thing I learned while doing the assignment is about the advantages of using log probabilities instead since multiplying 
+small probabilities often lead to zero probability an bad predictions.In this module, the most significant thing I learned was how to properly implement the viterbi model and apply them to HMM models, and how relatively non
+complicated they are for the tasks that they can perform. I always would've thought that natural language processing models would've been more complicated 
+than just a few loops and a couple of probability tables. Now I know that whenever there is some sort of semantic processing for a given model. Even though
+it might have more stuff to it than just the hmm, I know that I'll be able to understand the basis of how some of these models work.The most significant things I learned in the bayesian network module was how to 
+design, implement and apply HMM models in order to solve real world problems. 
+After having completed this module and the corresponding assignment I have 
+now gained an understanding of how HMM models function, as in how these models 
+are trained upon some training data to produce probability distributions which 
+can then be used to make predictions on unseen/test data. Furthermore, I have 
+also learned how inference algorithms such as the viterbi algorithm and variable 
+elimination make predictions using probability. Through the assignment, I have 
+also gained practical experience in designing, implementing and testing these 
+models and algorithms. Where I learned how to adjust/manipulate algorithms in 
+order to make more accurate predictions. This has given me a deeper understanding 
+of uncertainty in event spaces and likelihood of events(and conditional probability). 
+Ultimately, I believe I now have the ability to apply this knowledge in order to 
+solve real world problems(such as POS-tagging) through the use of HMMs.This assignment and unit has broadened my view on how we can use models to simulate
+possible outcomes given previous experienced outcomes. the hidden Markov model
+allows us to model many different everyday scenarios that in turn allow us to
+"predict the future". It as has been very interesting to see how we can apply Bayes
+nets in to a real world application that is used many billions every day. The
+Bayesian network model has many application and POS tagging is merely one of them.
+By using independence and joint probabilities we can estimate accurately the different
+possible outcomes. This assignment has also taught me the the importance of good
+book keeping and how it can simplify many processes. 
+
+I learned how the emissions are important to help us understand and make
+assumptions of what happened in a previous state in the process that we are
+analyzing. Another important thing that I learned in this topic is the
+"Blocking" in Baye's Nets. Blocking is important to be accounted for because
+if you are not given information about a certain node that connects to other
+nodes it could mean that we would have a block or not, in other words, having
+information about a node or not, could lead to two other nodes being
+independent or not. I found that really fascinating because I had never noticed
+this behavior where for example if we do not know that whether your body aches,
+the fact that you have Flu or Malaria are independent, now if we know that your
+body aches, now those two conditions become dependent. I will probably not look
+at Siri the same way, now I understand the amount of data that she needs to
+keep track of in order to better perform speech recognition. I also noticed
+that HMM could also be used in touch screen keyboards, because since the keys
+are so small they usually need to predict what are the most likely next key to
+be pressed so that they increase that key's touch area, creating a better user
+experience, instead of users always pressing the wrong keys.
+I learned a lot about probabilities and the best ways of going about finding them. I also learned that generally, more data is better as there is less variance of results. I found that HMMs were not as difficult to code as I would have thought, but there are still lots of places for error and its easy to get lost sometimes. In terms of existing language Hmms like siri or google asssistant, I do understand better now how they work, and same for predictive suggestions for example when you are writing an email and you are auto suggested a continuation of your current sentence.What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing I've learned from the Bayesian Network module is that humans use statistics (learned and innate) 
+to help make informed decisions. This same principle extends to AI. Using conditional probabilities helps determine the 
+liklihood of certain options being correct, in the same ways humans do. When it comes to langauge semantics specifically, as seen
+with the Parts of Speech Tagging, there are always exceptions to the rule, and babies often make the mistake of 
+overregularizing or underregularizing rules because they're following the probabiliities in their brains after being exposed
+to a training set of lanugage their whole life. A lot of components of life like langauge and decision making, rely on statistics. I initially thought that the assumptions of HMM is very relaxed and not a good model of 
+the real world. Thus, I thought it would perform extremely poor in the NLP task at hand.
+
+However I was surprised that even with the assumptions, the model can still predict quite well.
+
+One Issue that I find with HMMs is that it can be quite expensive to compute the
+probabilities. The runtime is O(words * tags) and the memory is also O(words * tags).
+In this case, tags was a small fixed value, but for other tasks where there are more 
+possible classes to be assigned to, HMM can get expensive.
+Bayesian networks is a very powerful way to create models based on data inputed, they can help with calculating probability of stuff within the 
+bayesian network. HMM can be seen almost everywhere, we can use it to determine if it is going to rain or it can be used to correctly tag words like 
+this assignment. I learned that HMM can be applied to almost everything. Siri is one example that I would have never thought used HMM, however I now
+know that Siri probably used HMM to train and it is amazing how just based on some test data it can be trained to predict many other things. I also think
+HMM can be used for target ads and based on data collected they could probably create some HMM that will predict what ads would be good to show the user.I found this assignment to be very interesting and relevant to what we
+see around us every day. NLP is a popular concept you hear about every day 
+but actually implementing a subset of that, was something that was very 
+fascinating to me.  Trying to predict states from observations is a ubiquitous 
+problem AI agents are faced with every day, like Siri, robots, etc. and we see 
+them solve these problems very easily in just a few seconds, but through Bayesian 
+networks, I was able to understand the whole process and technicalities that go 
+behind such a categorization or prediction process. The most important and interesting thing I have learned from the Bayesian Network module is the observation. In 
+our assignment example of POS, tags are not directly observed, but we are aim to predict the tags sequence given 
+sentences which consist of sequence of words. HMM introduces the idea of adding observations so that we can 
+update our beliefs of certain tags. For example, "The", "This" are very likely belongs to the tag 'DET'. Also, there are 
+some interesting cases, e.g. "answer", this word is likely to be 'NOUN', and it also likely to be a 'VERB'. Now we can 
+use the transistion to help us to determine. So 'VERB' case has the higher possibility if it is after 'PRONOUN' and 
+'NOUN' case has the higher possibility if it is after 'DET'. Moreover, the inferencing algorithm is also important in 
+HMM.The most significant thing I realized from this module was how we only need to need the previous state and the emmisions to guess the next 
+state. Before this course I thought that things like Siri would have a database of words and pronounciations and would pick the
+word with the most similar pronounciation. But the fact it uses HMMs makes way more sense and explains its accuracy since people pronounce
+stuff differently but the rules of language remain fairly constant. But yea overall I think learning HMMs are really helpful since
+I think it's really common and can help me create some cool side projects.What is the most significant thing you have learned from the Bayesian Network module?
+The most significant thing I learned from the Bayesian Network module was how we can use probabilities and
+statistic strategies to solve real world problems. Bayesian Networks give us a model to view and easily understand
+certain statistical problems, allowing us to deploy certain strategies, like Hidden Markov Models. Creating graphical models
+of statistical problems made them much easier to understand and allowed me to understand the assignment much better. Furthermore,
+prior to this assignemnt conditional probability problems was something I found confusing and often struggled with, but
+Bayesian networks helped a great deal in my understanding.When I previously thought about AI a big part of it involved the idea of 'training' a model and using it to predict certain values. 
+Learning about Bayesian Networks allowed me to get a better understanding of how this model is created and how it is used. This assignment 
+allowed me to further understand the concept of HMMs because it allowed me to understand each distribution in the HMM model and how it is 
+used. When it comes to HMMs it was also interesting to learn about emission values. I always thought predictions were based only on the 
+patterns observed. Emissions are basically extra variables that are used to improve predictions and when you think about it, it makes 
+sense. For example, when using Siri, it uses the words that you say to make predictions, but it might also use, for example, your location 
+as an emission value. I learned how most likely ai is handled in the real world. While I enjoyed the other units I got the feeling that they
+were to perfect we always had a perfect analysis of the situation. By introducing Bayes Net I feel its helps account
+for the uncertainty that machines would have. Sensors not detecting things correctly, and all that. It has left me 
+wondering how a Sokoban Solver could be handled if it was a bot in the real world that had to use sensors to get a sense
+of where everything is and then plan out a route to get the boxes in place. It would be a interesting merge of Bayes net 
+to identify what are boxes storage spaces robots and walls and Search Trees.#In this file, please provide 100-250 words in answer to the following question:
+# What is the most significant thing you have learned from the hmm module?
+
+In this assignment, we used hmm tagging to determine the possible tags for a text. I particularly enjoyed exploring the scope of this module. Using Viterbi algorithms, we found the most likely tag for a sequence of words using the prior, transition, and emission table. This practical usage of the algorithm allowed me to think more about how we can use the knowledge in other predictors tasks such as weather prediction, computational finance, and the broader machine translation. I was intrigued by the use of abstracting the model in some aspects as we have hidden emissions. This heavy interdependence of probability with programming once again signifies how closely related various subfields can be with each other. 
+
+
+Bayesian networks work on the principle of chaining probability of different outcomes based on the previous experiences we have had with an event,  individual states of each event, and the likelihood of an event causing another. By chaining these probabilities, we can find the most probable outcome of these events, or we can marginalize out the probabilities of prior events to find the probability of any individual event happening at a given time. This project made me realize how simple probabilties can be so powerful in computation. I can also develop a rough idea of how different problems like speech recognition, spam filters, dna sequencing can all utilize bayes nets for more accurate results. Bayes nets also reminded me a bit of neural networks with the chaining of event probabilities (similar to neurons), but I'm not sure if the similarities end there or not. The most significant thing I learned about bayesian network is good it is at text classification. I think it would be very simple to use 
+it to make a simple email spam filter. It felt much easier to use than a neural network like we used in 321 to do preditive text. I think
+we could make a bayesian network to do this and it would be cool to see how it would compare to the neural network from 321. I also wonder 
+if bayesian network are how insurance firms predict how liable is customer is to various health conditions or how likely they are to 
+crash their car.# In this file, please provide 100-250 words in answer to the following question:
+# What is the most significant thing you have learned from the hmm module?
+
+The most significant thing I've learnt is how Natural Language Processing works. It gave me a new perspective
+of how Siri and other virtual assistants make sense of what we tell them. I believe they use HMMs and the 
+Viterbi algorithm, though a much more complex and accurate version, to do so. And this assignment and the
+hmm module gave me a much deeper understanding of how they work together.
+
+For Task 1, we found the probability tables based on the training data. The prior table is a 1-dimensional
+array that contains the probability of a sentence starting with the respective index. The transition table
+is a 2-dimensional array that contains the probability of a word being a certain tag, given it is preceded
+by a respective tag (eg: transition[a][b] will give the prob of tag b following tag a in a sentence). The
+emission table is a dictionary with (TAG, word) tuples as keys and the probability as their values. The
+emission table contains the prob of word given TAG (eg: Pr(word|TAG) values).
+
+For Task 2, we develop an algorithm inspired by Viterbi that predicts the tag of a given word in sentences
+based on the probability values obtained from the training data set. We use Bayes' Theorem: 
+Pr(TAG|word) = Pr(word|TAG)*Pr(TAG)/Pr(word). From this theorem and the values we got from Task 1, we can
+accurately predict the tag that belongs to a given word in sentences.
+
+HMMs I could learn about the basic of the HMM models that directs to us to the world of "prediction" where we can find it everywhere in our lives such as word auto correction to text recognition. It is great to see the practical algorithm that we can be seen in our world.I learned that bayesian networks are very useful. They are prevalent everywhere and provide a fairly reliable way to make inferences based on past observations. I also learned that probability is a key concept and is very useful when used with machine learning. Coll properties such as bayesian inference and conditional probabilities help predict and aid in real like scenarios. Bayesian networks can be used as predication models or classifiers. Many systems today use bayesian inference as a core mechanic and are integral to society. Some of these techonlogies are chatbots, Siri, voice assistant, weather forecasting, and even medical devices. The applications are diverse and we have barely scratched the surface. I cannot wait to see what the future holds for Bayesian networks.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have elarned from the baysian network module?
+
+The most significant thing that I have learned from the baysian network module is that
+hmms are conceptually more simpler than previously thought. These AI algorithms that assign
+or predict states are just maximization problems on all possible states and decides on
+the most probable state based on its observations. When we train the hmm, we just adjust
+probabilities proportional to factors such as placement and frequency so that we can use
+the probability tables to decide on unseen tests. We take advantage of probability rules
+and assumptions to cut down on the operations to save computational costs. This is why
+hmms are more common than we think, seeing its uses in many programs today.The most significant thing I've learned is how using tool efficiently helps with accomplishing. In the beginning I tried to brute force the
+algorithm without using counter and numpy, which outputs an acceptable answer but it ruins slowly. After reading the documentation of counter
+and numpy carefullt I was able to use the different functions given by packages and make my runtime faster. It extends to real life as brute
+forcing is really inefficient and stresses you out. But if you can do things smart it makes a huge difference.Overall a very interesting topic, basically the most significant thing I learn is to 
+predict a sequence of hidden variables from a set of observed variables, I think it 
+is related to machine learning maybe? I don't know.. I am interested in how to improve
+the viterbi algorithm to make this even faster, and just wondering if there is a 
+improved version of viterbi algorithm. Another interesting thing is I think viterbi algorithm 
+also relate to graph, maybe we can use that to find the shortest path in a map somehow. Right now
+I have a deeper understanding on siri I guess.. how siri observes me everyday..By generating the conditional probability table, such as transition table and emission table, and by using the directed acyclic graph, 
+the module could use these tables to train the model to identify the correct next occurance by comparing the likelihood of each events 
+based on their probabilities. Such module is called Bayesian Networks module. 
+It overcomes the difficulty that other network modules may not estimate the event in the case of lacking information of some events in 
+the training data. Specifically, in our assignment, there are some words not ever appeared in the training data, however, our model could 
+still do the prediction based on the probabilities of the each tags in the transition table. 
+The most significant thing I learnt from this module and the assignment is that the calculation of the conditional probability table. 
+It is useful to estimate the probability of one thing based on our experience on the previous thing. It was fun to dig into the human 
+language tagging.Self Assessment
+What is the most significant thing you have learned from the Bayesian Network module?
+The most significant thing I have learned from implementing A3 is the data preprocessing. After finishing A3, I find the hardest 
+part of HMM should be the data preprocessing. The performance of HMM depends on the probability distribution definitions, but there 
+are no specific rules of defining those probability distributions from the raw data. Although we do not have chance to gain experience
+on data preprocessing from this assigment, the given training and test data serve as perfect examples for us to reference when 
+we are actually dealing one in the future. 	Learning Bayesian Networks has really opened me up to statistics. Before this unit, I've never really appreciated statistics but the markov models we learned and worked with is much more applicable. Through even this assignment, I see a lot of application with them and not just statistical theory being taught. Many daily activities can be modelled using markov models or hmms such as mood, natural disasters, language, health, etc. I definitely see such activities in a different after learning about bayesian nets.The probability is hard, however, after learning this module, I realized that probability can be used to solve a lot of problems in real life rather just dry theories. Using smart algorithms like the bayesian net, we can use simple concepts, i.e. conditional probability, to model really complex things. And it's very interesting to see the hidden Markov model. Because I never thought what to do if the observation do not give us a true result. By introducing hidden states that influenced by the observation we can resolve this issue. Then using cleaver algorithms like Viterbi we can efficiently find out the most likely result. After all, it is very exciting to learn such interesting concept.While working on this assignment I learned that -inf from np.math is more than just a very small number. I had previously thought that it would just be coded as the smallest representable value, but this would be wrong as one -inf in a sum made all additional value differences indistinguishable from another sum with -inf.What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing I learned from the Bayesian Network module is that probability is everywhere.
+And every decision we make depends on what happened in the past like HMMs. And it also gave me an idea on 
+how speech recognition and machine translations work. And for them to produce information with high accuracy, 
+a lot of past data must be accumulated and transformed to probably train the models. And the more data there is, 
+the better the model. If there isn't much data, then it will have to make a lot of predictions with no strong 
+evidence which can potentially give us inaccurate information.

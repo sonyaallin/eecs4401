@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I think I liked the idea of CSP search more than uninformed search problems since
+it is more focused on the idea of finding a final solution for the problem while 
+satisfying the given constraints for the problem. I also found it very interesting 
+how we can improve our search by using propagators like forward checking or GAC, 
+which restricts our problem domains, and removes obvious wrong domain values, thus 
+improving our search path. I found this assignment very interesting since we work 
+on real-life games or search problems like Soduku or variations like FunPuzz, which 
+makes the overall learning process more fun and interesting. 

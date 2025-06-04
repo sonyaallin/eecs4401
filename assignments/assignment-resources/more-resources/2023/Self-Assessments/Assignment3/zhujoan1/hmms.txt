@@ -1,0 +1,8 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing I learned from the Bayesian Network module is that probability is everywhere.
+And every decision we make depends on what happened in the past like HMMs. And it also gave me an idea on 
+how speech recognition and machine translations work. And for them to produce information with high accuracy, 
+a lot of past data must be accumulated and transformed to probably train the models. And the more data there is, 
+the better the model. If there isn't much data, then it will have to make a lot of predictions with no strong 
+evidence which can potentially give us inaccurate information.

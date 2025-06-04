@@ -1,0 +1,12 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learned how AI such as Stockfish and AlphaZero work. Instead of analyzing every single possible game state which
+will be far too computationally expensive than feasible, we use logic and strategies that have been developed by
+humans over centuries to guide our program. I also realized how we can make the AI more or less challenging
+depending on the complexity of our guiding heuristics.
+More specifically, I learned about minimax selection and alphabeta pruning. With minimax, on the assumption that our
+opponent picks the most optimal move on each turn, we used the logic that by removing the best options for the opponent
+through our moves can result in higher chances of us winning the game.
+AlphaBeta pruning allows us to narrow our search criteria to improve runtimes, by only allowing the algorithm to explore
+better or worse moves than the ones we've already found.

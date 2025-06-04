@@ -1,0 +1,23 @@
+What have we learned about Bayesian Networks?  Have you discovered that HMMs are
+everywhere?  Will you ever look at Siri the same way?  Help us understand by
+answering the following question in 100-250 words:
+
+What is the most significant thing you have learned from the Bayesian Network module?
+
+The Bayesian Network basically connect the different processes of an event by
+the conditional probability. First, it needs some training data to create the
+CPT tables, which are the prior, transition and emission matrixes. For instance,
+the NLP analysis the words on POS tagging. From a lot of given sentences, we are
+able to observe the behaviors of different tags and words in the sentences.
+After the training, we can form the HMM model for the testing sentences and
+provide an analysis base on the maximum probability. However, there can still be
+mistakes in our analysis. Since the maximum probability have no guarantee, the
+HMM models are better to be used in some fields that allows mistakes. In
+addition, we need a huge amount of training data to keep our CPT table accurate.
+Therefore, we should be able to observe some significant rules in the past data.
+For instance, Siri, weather prediction and markets are some suitable fields for
+the HMM models. We can observe the rules in human actions on cellphone to
+construct Siri. For weather prediction, we are able to analyze the rule of
+weather in past days. Also, the customers deals implies some rules for the market
+and HMM models can help us to predict the future trend.
+

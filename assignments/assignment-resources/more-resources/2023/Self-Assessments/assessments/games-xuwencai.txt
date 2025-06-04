@@ -1,0 +1,11 @@
+Learnt some pretty fancy game algorithm, and I
+believe I can use these algorithm to beat my friends.
+I think the minimax algorithm can be applied to a lot
+of games, not just othello, some other like connect 4,
+chess, tic-tac-toe, etc. If I have time, I want to implement
+those heuristic functions for those different games. 
+Also the optimization and the efficiency improvents are nice,
+something like cacheing, ordering.. It's like trading space 
+for time, and time is the most important in some cases..
+Overall a very interesting topic and a very interesting assignment
+since I really like playing games and implement them

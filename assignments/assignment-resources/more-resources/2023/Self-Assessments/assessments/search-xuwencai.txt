@@ -1,0 +1,11 @@
+In general, the most important thing I know is if a heuristic function is not implemented
+well, then it will not help on searching at all.
+
+If the heuristic function overestimates the cost, sometimes it will cause a lot of trouble.
+
+We should also implement the heuristic function as smart as possible. By that I mean be as much 
+accurate as you can to esticate the cost from the state to the goal.
+
+Also, before I only know bfs and dfs and dijkstra, and I think they are already really efficient,
+but there are a lot of eye opening things to me in search module.
+

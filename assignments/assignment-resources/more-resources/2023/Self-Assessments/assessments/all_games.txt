@@ -1,0 +1,552 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Through the games unit assignment I learned more about the alpha beta pruning through the more
+hands on coding of the pruning method which shed some light on parts of alpha beta pruning that I had previously
+misunderstood.  Furthermore, I learned the value of caching and ordering as they really helped speed up the pruning
+which in turn sped up the search. This was most apparent in the alpha-beta pruning function where the choices that were
+most likely the best choice were checked first thanks to the ordering and getting the utility of repeat board states was
+quicker thanks to caching. I learned that contemporary game playing agents often use sampling techniques. I learned that
+Alpha Go used a lot of electricity to train.
+
+This assignment was the best of the assignments in this course!!!!! :D#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I saw many algorithms that help computers and AI win games against real users.
+This gave me an insight on how the many games that I play that involve a computer
+player operate. The most significant thing that I learned was how heuristics can
+be used to make the AI make even smarter moves. For example, in this assignment
+I made states that had the players pieces on walls or corners worth more, and 
+this created an AI that was almost undefeatable. The cool thing is, there are
+many other heuristics I could've incorporated to make the AI even smarter. This
+is how computer games probably incorporate difficulty into the game. #You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I really enjoyed this unit since I've always enjoyed playing video games and 
+developing an AI bot that could play by itself and against others was very rewarding. 
+In fact, I have always tried to come up with the best strategies when playing 
+games on my own, but thinking about different strategies to win in Othello when 
+developing my own heuristic made for a really good learning experience. Moreover, 
+this whole course has really taught me the importance of heuristics and how they 
+can influence the outcome of the whole algorithm. This was emphasized when I saw 
+drastic improvements in my agent's performance as I incorporated different strategies 
+into the heuristic. This unit also revealed how assuming the best moves from the opponent 
+is also essential with the min max algorithm.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learnt how AI is actually created in games between two players. I thought it was some magical, 
+difficult thing but it turned out to be quite easy. The different algorithms show how efficiency 
+plays such a big part in making an Ai usable for production. It is also interesting to see how cashing 
+and ordering affect the program. Although I didn’t have the time to complete my own heuristic, I’ve 
+thought of a few ways I would have done it and it truly was difficult to create something that was
+both efficient and smart. Proper respect goes to the geniuses who create these cool heuristics!In the games unit, I learned how large (i.e. the number of possible states)
+that even a simple game of Othello has at small board sizes. Although the amount
+of free spaces decreases as you go deeper in the search tree, the amount of 
+possible states does not necesarrily decrease with it. This is because cells
+that are not empty can still be flipped in the future based on what the next move
+might be. This made me realize the power that good heuristics can have in terms
+of obtaining better results, and performance too. I also learned how much research
+has gone into development the methods we learned in the games unit, and that the
+results have been both promising and interesting in that we may have hit a wall
+as far as how efficient we can make our search algorithms.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?What I learned from this assignment is how making artificial intelligent algorithms to play
+games can be very hard and costly. It makes it more impressive that A.I. machines like
+Deep Blue can beat the best Chess grandmaster at chess, especially since Chess is very complicated,
+and AlphaGo even more so since Go has more moves than Chess. I see now that it's not enough to
+follow a generic A.I. algorithm, but heurisitics will still play a big role in alpha-beta pruning
+so that we expand the fewest amount of branches.What is the most significant thing you have learned from the games module?
+
+The most significant thing I have learned from the games module is how to program an AI to play a game by using minimax and alphabeta algorithms. Compared to the other assignments relating to game logic such as heuristics for Sokoban and constraints for Sudoku, I learned how minimax and alphabeta can be more universal. For Othello, it would be infeasible to create an AI based on constraints since there are little restrictions that would help the AI make a move, and heuristics would be difficult because each state may increase heuristic value but successive states may decrease heurisitic value. Using a recursive solution such as minimax and alphabeta is effective in determining moves because it gives a value to each move like heuristics and is not reliant on constraints, but also takes into account the game is played by two people.  #You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+In the games unit, I learned that to develop a game AI for a turn based game, where its sort of like a search problem,
+but you're not finding a singular optimal path to the problem because you don't know your opponents move.
+So here the goal is rather  developing a strategy to pick the best possible moves. Pruning can always be done to
+reduce runtime because for any game with a big state space, the search tree gets big pretty quick. So by assuming that
+the opponent will always play optimally,depending on if you're a max or min player, you can choose to prune successors
+of a node, which can save a lot on time and space complexity because you will never get to the children of said node
+because the opponent would never choose it.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I think one of the big takeways is how over-caching can actually slow down your code. I attempted to cache more than what was asked by looking
+at parallel states (eg mirrored or rotated) which required some matrix operations. Unfortunately, the cost of adding the operations was too 
+large and it ended up slowing the code down instead of speeding it up. Thus, I ended with just storing the basic state. 
+Also out of all the improvements we tried, alpha-beta pruning definitely had a big impact and was pretty cool to see, but I personally liked
+caching the best as it allowed to go from not being able to do something at all to solving it in seconds!
+When making my heuristic I also learned that sometimes what I think will be good additions to the heuristic end up making it worse. This was
+interesting because I based what I did on the strategy guide for Othello and to see some of their strategies not improve the AI was unexpected.
+After looking at it, I think it may have to do with the weighting of that piece of the strategy relative to the others and so it is important to 
+test different impact sizes.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The games unit was very interesting since it explored the fairly simple strategies that can be used to
+build smart AI players. Minimax is an algorithm that is easy to understand though in more complex games
+it became clear that it would be highly inefficient. The alpha-beta pruning addition was a improvement
+that was a little difficult for me to understand at first but going through examples in the tutorial helped
+improve my understanding.
+It was pretty interesting to learn about the kinds of games that have already been solved by AI and I had
+no idea how computationally expensive it was to teach and run the models. The use of the Monte Carlo algorithm
+to help overcome the limitations of the alpha-beta algorithm was also interesting especially since introducing
+a degree of probability in the system makes it feel like there is more chance of failure.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Before this unit, I hadn't realized how much of game AI can come down to human design as opposed
+to training datasets like in machine learning. Heuristics make another appearance in this unit, 
+and it reminds me that AI is more than just machine learning. We can actually apply strategies
+that we would normally use while playing games in designing our game AI.
+
+Alpha-beta search was really interesting. It becomes apparent really quickly that you need to
+optimize these search algorithms, since search trees get really big really quickly. Being able to 
+narrow down the tree in such a clever way was cool to learn.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Through the games unit, I learned about fundamental game theory and how the minimax algorithm has evolved over 
+time to face the challenge of computational efficiency. It was very cool to see that various techniques 
+(alpha-beta pruning, expectimax, etc.) have emerged to increase the computational speed while maintaining 
+the accuracy or performance of the game AI. Moreover, since I had prior knowledge of Reinforcement Learning (RL) 
+techniques such as DQN and MCTS, I was surprised to see the connection between classic game AI which we learned in this course, 
+and more recent technology such as RL. I would like to explore more into how the traditional methods have evolved to 
+RL and contributed to recent success in the field of game AI such as Alpha-Go.
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Although we did learn about BFS, DFS, and heuristics. We only looked at this topic as it
+related to path finding where we want to get to a specific goal node or state. In this unit
+we looked at how we can leverage DFS to create player for games that chooses the most
+optimal moves. We looked at how we can use a search tree to find the best move keeping in
+mind that the opponent player may very well make the best possible move. Moreover, we looked at
+how to improve these searches with the likes of heuristics, depth limits, ordering, etc. 
+
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The games unit was really fun. I learned that I cannot even begin to beat my own ai.
+I also learned that changing function and adding features later is really difficult, as
+it is very easy to forget to implement the new feature correctly everywhere. My state caching
+was only implented in minimax. I did not notice that it was not implemented in alphabeta until
+9 pm on the last day.
+
+Other than that, I really enjoyed the formalization of turn-based games that the minimax algorithm makes.
+I had know about game-playing AIs, but learning about how they were able to formalize a complex game and develop
+an algorithm for it was insane. The intuition I've gained in this course about how to take problems and formalize them
+into something much easier to work with is something I am sure will help me in the future. Especially since I develop games
+as a hobby. (or at least I try to)The games unit feels like a more specialized version of the search unit, which feels obvious to say, given the search unit's assignment being a game. The idea of minimax, while extremely efficient at determining "optimal" play, is interesting in the way that it can easily fall to an opponent making less than optimal moves, whereas if the AI had known what move would be taken in the future, it might make a different move in the present. I find the determinism inherent to that question fascinating, even if it is somewhat out of scope for the assignment. Alpha-beta pruning is a delightful idea, which, while intuitive and easy to understand why it's good, is also an inspired idea that not many people would think of, which I find to be true of many things in this class. #You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+In this unit, I understand how computer scientists approach game search. The
+min-max and Alpha-Beta algorithms provide a clear logic to trace the game tree.
+However, these two methods have a high runtime complexity and space complexity.
+Since most games have lots of possibilities for choosing the next move, we
+cannot apply these two methods independently. Often, we need some tricky methods
+to speed up the computing, such as caching, limit, ordering, etc. The idea is
+similar to what we do in the A* search. In addition, we may need to learn a bit
+about the game strategies to write a good heuristic. Since the runtime grows
+exponentially, the depth limit with a good heuristic is the best way to reduce
+the runtime. We should clearly define the max player and the min player on the
+design side. In addition, we should design wisely on the move of each player.
+Since some games like chess can have a very complicated move system, a clear 
+moves definition can help us efficiently design the min-max and alpha-beta
+search tree.
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I actually ended up watching the documentary about AlphaGo on Netflix as we did this unit because I had seen bits and
+pieces of it before. It's so cool to see how far a computer can come that such a complex game such as Go can be played
+reliably by a computer, but also insanely cool that a human player can still surprise a computer and win a game. Looking
+at the Wikipedia article for the match of Lee Sedol vs. AlphaGo in game 4 which Sedol won we see David Ormerud of a Go
+fan website say that he believed the loss and portions of the game around move 85 were lost by AlphaGo due to a known
+weakness in Monte Carlo tree search. It's really cool that something we learn in class can be applied to this huge
+milestone project in Artificial Intelligence.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learnt about minimax algorithm and the alpha beta pruning. I have been a huge 
+fan of chess (I have been playing chess since I was 6 years old) and computer chess 
+and I have wondered how stockfish (previous best chess computer) works. It was 
+extrememly fascinating to learn about these algorithms and how it is possible to 
+implement this algorithm in various discrete, finite games. I truly enjoyed learning 
+about all these algorithms and I am thrilled to employ this algorithm on chess after 
+this course. This course was very well taught by prof Sonya Allin and would like to 
+thank her for this experience.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The most interesting part of the games unit is the game algorithms like minimax and alpha-beta cuts.
+It was very interesting to see that relatively-complex games can be broken down to the series of steps for
+each player, and the result of the game can be calculated even before the game started using such relatively-simple
+algorithms. This unit showed me that any game (or life situation) after bringing it to the certain level of abstraction
+can be analyzed and predicted with the very high performance.#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Mostly I learnt how to win games. Since we spent so much time on predictions of
+success, it feels like now I know a new method in mastering certain games simply
+by completing them the way we would expect to find solutions. I learnt about the
+min-max and alpha-beta methods and I'm honestly excited to see how many other
+games I can work on in this way and automate a computer opponent. 
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I cemented my knowledge that a good working model can be a solid foundation for
+several things. For example, the model of having an initial state, a state
+space, a set of actions, and a goal is a very good model for all kinds of
+artificial intelligence and machine learning models. This is why we can apply
+this model when doing a search problem but we can also apply it here in the game
+problem.
+
+As someone whose hobby is to develop games, I was hoping we might get to cover
+an AI model for something like a robot in a first person shooter. While we may
+not have covered it explicitly, I can apply the concept of taking one model and
+applying it elsewhere to other areas of game development as well.
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learned about the idea of two player games and the strategies behind them, particularily minmax and alphabeta, which make use of seeing into future decisions 
+and making best choices in hopes to worsen the opponents possible moves or increase our scores for our own moves. This assignment taught me a lot on the 
+roles of minmax, and the use of heuristics at the end was a nice tie and nod to the beginning of the semester. The recursive nature of minmax and alphabeta
+makes sense as well, as each recursion is taking a step down a level of the tree, into an internal node or leaf node and deciding the best action to take in the mind
+of either the opponent or the player.#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I particularly enjoyed learning about the minimax algorithm and the many improvements
+we made to it while studying this topic. I remember doing coding questions online where I often
+couldn't come up with a solution and often when I went to look for one people suggested running
+minimax which I wasn't familiar with, therefore I found this topic even more enjoyable as it helped
+me think of ways to solve those prior questions.
+I also found the idea of making an intelligent player to player versus in a board game pretty cool,
+back in csc148 we had to make a board game for Onitama game, in that we also made an AI but its
+moves were programmed to be completely random as we weren't expected to make a functional player.
+Its nice to see the progress made through assignments from first year to now, where we've made
+a player that's moves are more thought out that just random chance.
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+To choose the best next step, we need to consider about opponents. We always want to optimize our utility and minimize the opponents', and that's the idea behind MinMax algorithm. 
+However, we are actully using depth first search. Thus, the time required is very large as long as depth increases. To encounter this problem, we introduce the idea of alpha-beta pruning.
+In a nutshell, game unit is a little bit too short but it's actullay very useful for me, and we could explore a lot about bot player strategy based on the knowledge of this unit.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Surprisingly, the thing that I found most interesting in this unit was the
+miniMax algorithm. When I first saw it, I didn't quite understand how it
+worked or why it worked (if you can't tell, I'm a little behind for this
+class), however, having successfully (at least I think successfully)
+implemented said algorithm into the assignment, I find that it is not as
+complicated as I initially thought and that I actually kinda like this one
+with its simplicity. On the other hand, I'm still not entirely sure what's
+going on with the alpha beta algorithm despite implementing (I hope correctly)
+it in the assignment. That one I'll have to figure out while I study for
+the exam.What did I learn from the games module?
+
+I learned about the MiniMax strategy which maximises a player's potential payoff 
+while minimizing his/her opponents'. This strategy can be employed in a variety of
+two-player zero sum games such as Chess, Go, and Othello. I also learned that checkers, 
+a childhood game of mine, has been solved, which means that assuming both sides play
+perfectly, the game's outcome can be correctly predicted from any position. The recursive
+nature of "solving" games is what makes it one of my favourite topics of AI. The fact that
+we must play based on our opponent, who plays based on how we play and so on. This was
+certainly my favourite topic in this course! 
+
+As a side note, Othello also brings back fun memories of CSC207 :D
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+This is difficult for me to understand Game AI. Min Max and alphaBeta in theory is friendly
+to understand. However, with actual implementation it is so ambiguous and result in many potential bugs
+Since in recursion, tracing will be a hard job to do. Either get 100% correct, or get 0%. Recursion brings
+out potential problem, a lot. And failed on a single mistake is very common. Therefore, when working with recursion,
+It is really important to understand structure, rather than trail and error.
+Some of the interesting things I learned from the games module is the min-max algorithm.
+It was interesting to learn how computers can use game trees to play games optimally.
+Another interesting thing I learned was methods people use to reduce the size of the game tree like alpha-beta pruning and using heuristics at depth limits.
+Learning how designing a heuristic to order the nodes searched was also quite interesting.
+The module gave me an idea on how computers can be used to solve certain types of games which also gave me interest in how computers can be used to solve
+other types of games.Though I've stated this before in the first assignment, I will once reiterate how I learned that heuristic functions are 
+super hard to find. Especially in this instance pertaining to games, where there are two players. I tried many different
+iterations of the heuristic function, however I found that it was always struggling to produce a better result than the 
+compute_utility function. This is regardless of the fact that the pairity of the disks isn't a good metric for comparing 
+the winnability of the game, since at any point the other player is able to capture ever larger numbers of disks from you
+if you have a large number of disks at hand. The only metric that really matters in terms of pairity is the ending number.
+Having said that, I still found it ever difficult to beat this function in terms of speed and accuracy in the auto-grader.
+And It was just reassurance to me that finding good heuristic functions is always difficult. Though I suppose, another thing
+was the difference that alpha-beta pruning makes, given how simple it is to implement. The difference in speed between the
+minimax function and the alpha-beta implementation was stark. 
+
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+As mentioned in the first unit, most of AI can be reduced to a search algorithm. This
+is probably more similar than both probability and CSPs. I also find, atleast for
+othello, that it's really hard to come up with a heuristic for the game. It's easy to
+think of just the difference in material that results in socre, but as with othello, 
+just because you're genearlly leading in score doesn't mean that you will be in a few 
+turns. Also, once you have a postition that is better, but not fully represnetable
+as a score value, how can you diffrentiate that in the heuristic to be better than 
+a similar state, with same score, but a worse position. For my example, it's if you 
+control the corners, as those cannot be turned. If I control a corner, how many more
+points in the heurisitc should I recieve? #You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The most significant thing I learned from the games module was how games such as 
+checkers and chess(or other 2-player zero-sum discrete finite deterministic games)
+are played/performed when it is player vs computer. More specifically, I learned 
+how there are algorithms that use specific game info(states, initial state, terminal 
+positions, utility, etc) and then perform some strategy/algorithm(such as minimax or
+alphabeta) in order to make a move at each turn. Furthermore, I learned about several 
+of these algorithms and gained practical experience in implementing, debugging and 
+testing them. I also learned how to create good heuristic functions in order to assign 
+good values based of the current state of the board, such that the AI will make better 
+decisions. Going forward, I feel confident that I can apply these skills and this new 
+found knowledge to other similar game AI problems.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+From the games unit I learnt about the minimax strategy. Obviously in a technical 
+sense in this assignment but what really struck me is how the strategy actually 
+works. I understood from before that real world games have massive amounts 
+of possible moves so I assumed that an AI would need to have a very complex 
+strategy in order to consistently win games. The fact that minimax a strategy
+that simply limits what the opponent can do works quite often was a mind-opening
+realization. To be fair using minimax still requires a lot of work to implement
+since it needs to look at a large number of states but the underlying goal 
+of the strategy is quite trivial.#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+From the games module I have learned how significant it is to have increase the
+speed of the algorithm. As well, it is has shown me that increasing the speed of
+the algorithm can be done in many ways. I have also learned that not taking into
+account the stage in which the game is at or whether an opponent is not playing
+optimally can impact the strength of the AI. However, the minimax algorithm is
+the safe strategy for playing against almost all players whether they play optimally
+or not. Lastly, the games module has shown me that we do not need compute the entire
+tree in order to reach an optimal solution.
+
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I learned many things in the Game section. One of them was that it can be
+very expensive to create AIs to play games, because they need to traverse
+through many if not all possible states to find the best move. This could be
+seen in the A4, where solving Othello games larger than 4x4 becomes very
+expensive to solve. I also found very interesting to learn about the minimax
+algorithm, which takes into consideration two players, one that is trying to
+win (maximize their utility) and one that is trying to not let the other win
+(minimizing the other player's utility). This strategy was very fun to learn
+because it shows the possible outcomes of the game when two players are
+playing optimally, and the end we can find the final outcome of the game
+and this can be easily visualized by using a Game Tree.
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I got a much better insight as to how AI works in video games, and that most of the time an optimal decision is not chosen because it may be too computationally difficult to find, and thus a 'good enough' one is chosen. I also learned that sometimes, 'good enough' may not actually be a good decision in the long run based on the kind of heuristic used. I also find it interesting that this sort of AI picks the best possible option for the opponent as well when searching for a path, which means that if the full game tree is known, it will almost always have the best possible outcome. However, I think that if the tree is not known and it is simply guessing what could be the best move, then things could go unexpected down the line.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The most significant thing I've learned from the Games AI unit is that preparing for the worst leads to the best outcome.
+When deciding what strategy to use/ move to make, the AI analyses what move is most advantageous for their opponent (as you would
+in real life two-player games) and assumes that move will be made. This way, if the opponent doesn't play their best, it's 
+advantageous for the player, and if the opponent does, it is clear to see what the outcome would be, and if the game is worth 
+pursuing. If the game is not worth pursuing, no more time/ space resources (in the case of humans, usually mental or monetary 
+resources) need to be spent on the game since there's no way of winning. Another thing I've learned is the continued importance
+of caching and the power of the dictionary data type when it comes to accessing cached elements. #You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+After A4, I learned that I am not good at writing heuristics. I was not very good at the othello game so it was very hard
+for me to determine whether or not a particular state was good. I had created a heuristic that was very simple
+My heuristic had two main components:
+Compute heuristic description:
+
+1. Count # of corners owned by a player
+    - +1 score for each corner
+2. Count # of lines owned by a player
+    - +board_size -1 for each line from a corner
+
+Then I compute two scores, one for ai color and one for opponent color and subtract (ai_score - opponent_score) to compute the heuristic value#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I learned a lot on this assignment, the main thing I learned was how AI's work in games. I learned about the different ways 
+an AI can choose a move like minimax, alphabeta and many more. There are also way to improve the performance by pruning branches 
+and even keeping track of things you have encountered before. I also learned again how important heuristics are, and a good heuristics 
+can make or break your AI. I did not know heuristics played such a big part in AI. I also learned how AIs in games somewhat work and why
+some times AIs break, and why people are able to make AIs so powerful and hard to beat because it literally will make the best move possible and
+will also thing of future outcomes as well.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I think this was probably my favourite assignment in CSC384. I found it quite
+fascinating that games like Othello, which we hear about so often are actually
+based on such simplistic algorithms like Minimax, and alpha-beta pruning. I'm
+curious to try my hands on the various other games which can be implemented with these
+algorithms. With this assignment, we were able to make an AI agent, which at 
+most times can beat humans as well. I never realized that making an AI game agent
+could be this straightforward. I like how practical and realistic this course and
+its assignments were. I think it really helped me get a better and clear understanding
+of the various algorithms involved in AI. The most important thing I learned from this game moudule is that game AI makes 
+move decisions based on expecting its opponent to make optimal moves. That is, 
+game AI will assume its opponent always take optimal strategies, and compute the 
+best move given this assumption. This work requires a lot of sampling, especially 
+when at the early stage of the game in our Othello example since there are many 
+potential moves. It reveals that AI agents in real world like Alpha Go requires 
+a lot of computation power when playing. That is why one important part of creating 
+game agent is to increase efficiency. In our Othello example, one technique to 
+improve performance significantly is setting a search depth limit. But that means 
+our agent will not always find the optimal move if limit reached. So there's a 
+trade-off there.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I learned that minimaxing is a really effctive way to create an AI for 2 player games   
+with finite state space. I always assumed AIs for games like that used some really 
+advanced heuristics and didn't know how they could predict what move the other player
+would make. But using minimaxing makes a lot of sense and I will keep it in mind
+in case I make an AI for a 2 player game in the future.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Although this unit was interesting, I didnt learn anything. Being close to the end of the semester, my will power to continue
+has dissapeared. The material in this unit seemed very intersting and will likely be somthing that I come back to in the future,
+although for the time being, I must throw in the towel. There was nothing wrong with this course and at times I enjoyed
+it very much, but this assignment combined with the workload of my other CS courses was far too much to handle. Hopefully
+after exams I will come back to this assignment and try to complete it.#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+
+I found the games unit interesting becuase last semester I took a course on game
+theory and a big part of that course was games and finding the optimal solution
+to a game. So, it was nice to approach the topic from a different perspective
+in terms of AI and look into different algorithms that can be used to compute
+the best move for a player. It was also interesting how different aspects from
+other units played a role into this one when it comes to the algorithms. For
+example, a heuristic function is used to compute the utility value of the game
+states. So, in order to improve the algorithm, you would need to come up with
+better heuristic. Also, another aspect is pruning which is used when it comes to
+the alpha-beta pruning algorithm such that states that are definitely not going
+to have an impact on the min/max utility value are not explored.
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I actually had no idea that checkers was solved, so I looked into it and its all quite interesting. To date it is
+the largest game to be solved. 10^14 caluclations were involved over a 18 year period and it had a search space of 
+5x10^20. It was solved by a man named Jonathan Schaeffer, Schaeffer wanted his robot to beat Marion Tinsley the then
+worlds best checkers player.However after discovering that he had a lump on his pancreas Tinsley withdrew the game 
+and would soon after die so Schaeffer's robot would never truly beat him. This lead Schaeffer to work to solve the game
+as he wanted to show that his robot could have beat Tinsley#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+The game module seemed super cool to me! Personally, I find the concept of
+building your heuristic well by understanding and pondering about
+strategies of how one can win the game extremely intriguing. For example, in Othello, how we can
+segregate the calculations of heuristic depending on which phase you are in
+(beginning, middle or starting) of the game. Moreover, I was interested in
+how you used ordering, cache and depth-limits to allow the prunings and make your Ai even faster.
+Later, I would love to develop my own agent for other two-player/multiplayer
+player games such as chess, poker, ludo etc.
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learned how AI such as Stockfish and AlphaZero work. Instead of analyzing every single possible game state which
+will be far too computationally expensive than feasible, we use logic and strategies that have been developed by
+humans over centuries to guide our program. I also realized how we can make the AI more or less challenging
+depending on the complexity of our guiding heuristics.
+More specifically, I learned about minimax selection and alphabeta pruning. With minimax, on the assumption that our
+opponent picks the most optimal move on each turn, we used the logic that by removing the best options for the opponent
+through our moves can result in higher chances of us winning the game.
+AlphaBeta pruning allows us to narrow our search criteria to improve runtimes, by only allowing the algorithm to explore
+better or worse moves than the ones we've already found.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+What I learned in the games unit reinforced my learning from A1. Simple/ A combination of simple heuristics
+out performs complex heuristics. I was trying to implement a heuristic that would take future mobility into account
+but that would result in the code timing out. I decided to go with a simpler one that just factored in the current boards
+mobility and with the addition of my other 2 heuristics (try to play in corners and maximize captures) I was able to get a
+working heuristic that would work for an 8x8 board. This also gave me an insight into how chess algorithms are most likely designed as 
+I have seen some chess engines that ask for parameters such as depth limit.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learnt that we can break down 2-player turn-by-turn games (like Othello, Chess, Tic-Tac-Toe) into
+a collection of states with weights to dictate the outcome preference for each player (the utility).
+According to the utility, we can decide which is the best move to take for a given player.
+
+We can use these utility values with the Mini-Max algorithm in order to determine the best course of
+action for a given player: where the given player would find the highest utility move from a given
+set of moves, and the opponent would find the lowest utility move from the next set of moves, so on
+and so forth, turn-by-turn until the game reaches a terminal state. Based on that, we can find a
+potential path with the highest utility for the given player. The disadvantage of this algorithm
+is that it is highly space & time inefficient.
+
+In order to make the above algorithm’s run-time more efficient, we use the Alpha-Beta algorithm, which
+prunes all nodes that are below a certain utility threshold for a given player, in order to save time 
+and space by not expanding game states with a lower utility potential. This algorithm can be made more 
+efficient by doing a quick analysis of the given nodes and re-order them in order to explore the nodes 
+with the highest potential first and maximize the chances of pruning unnecessary nodes.
+
+These two algorithms can further be improved by including a depth limit (which searches the state space 
+until a given depth after which it uses a heuristic function to find the utility of the given state), a 
+cache (which stores all previously explored game states and their given utility value in order to not 
+re-expand them and waste resources).
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+From the games unit, I could learn the basics of the 'how the AI works and thinks' and learnt to develop an algorithm that searches and finds a solution which can be
+implemented in real life. This was an interesting assignment since this is the by far most practical assignment in this course as well as in my journey through computer
+science. Now I can know how to implement, explain and measure the minmax node and alphabeta pruning process.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learned some very important things in the games unit. I learned how many games today use the minimax algorithm to run the AI. The Minmax algorithm is a very important algorithm that works by calculating in a tree, which choice will maximize the children, which are then calculated by recursively picking the choice that will minimize its children. This will continue until is a base case is reached and there must be a utility function used to determine the final value. There are many heuristic functions that can be used as a utility function. The http://www.radagast.se/othello/Help/strategy.html helped me to find many good strategies to use in developing my heuristic. The Minimax algorithm is another instance of a search algorithm in AI, and is an example of DFS search. This makes me realize how important search algorithms are and how techniques like pruning, caching, and depth-limiting can cause significant speed boosts to runtime.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The most significant thing that I have learned in the games unit is that both minimax
+and alpha beta pruning are very expensive algorithms with a runtime of O(b^d). This was
+made very apparent when this assignment ai struggles with a regular sized othello board.
+With pruning, the runtime is able to be reduced by up to O(b^(d/2)), but it is still very
+expensive. Many optimizations were added to this assignment to speed up computations as much
+as possible such as caching states and node ordering, which helped cut down the computations.
+However, it still leaves much to be desired for the future if a better algorithms are found to
+solve these problems.The biggest thing I have learned is the complexity of making a search algorithm efficient. It takes a lot of finesse
+trying to make my search algorithm behaved like a human instead of brute forcing. As a result It really opened my eyes
+about what can AI do and how they achieve it. I found a well developed AI algorithm is really close to how a human
+brain works. It takes estimates and work based on those estimates but it's much faster and efficient.Learnt some pretty fancy game algorithm, and I
+believe I can use these algorithm to beat my friends.
+I think the minimax algorithm can be applied to a lot
+of games, not just othello, some other like connect 4,
+chess, tic-tac-toe, etc. If I have time, I want to implement
+those heuristic functions for those different games. 
+Also the optimization and the efficiency improvents are nice,
+something like cacheing, ordering.. It's like trading space 
+for time, and time is the most important in some cases..
+Overall a very interesting topic and a very interesting assignment
+since I really like playing games and implement them#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+The game unit is quite fun! In this assignment, I enjoyed building the harder and harder AI to play against myself. 
+Well, to be honest, I barely won the machine… The AI with alphabeta and ordering considers way too much than me and I lost every time. 
+
+I am now more impressed by the power of searching and pruning algorithm. I prefer alpha-beta pruning more because it will cut off earlier and get better running time. 
+However, the running time of either minimax or the alphabeta is quite long and it most of the time will overtime with depth more than 6. 
+
+The ordering function took me most of the time and i put a lot of time trying to optimize its running time. However, it worked a little bit strange...
+
+Overall, this assignment is very fun and it leads me to the world of AI in computer games though the actual AI in those games is much complex than this one. #You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+One significant thing I learned while working on this assignment is that I focus on a player at a time. Initially I intended
+to model both players within the recursive calls, but I soon realize that it will be too complicated and redundant since
+I am working with a zero-sum game model. Additionally, discover a method to reduce search space is very crucial. It is 
+necessary to have high responsiveness for a game AI, and thus discovering a fine search space reduction method is important.
+Last but not least, I learn that finding features that critically determine the game result is important for the game AI.
+Different features may affect the game outcomes differently, and weighting those features appropriately in the heuristic
+allows us to build a smarter game AI.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+    There are many kinds of games with varying complexities. Even simple games
+such as the ones we worked with (2 player zero-sum discrete finite deterministic games)
+can be very complicated. Unlike the first unit (search), a solution is not determined
+by the first path searched as it is a 2-player game and the opponent chooses unfavourable
+states. Determining what the best move is requires very large searches and good heuristic
+functions to determine if not fully searched. Such tasks are impractical for humans and even
+ai cannot search very deep due to how quickly the number of searches increase (exponential).
+A game that is seemingly simple like Othello with only an 8x8 board will take an ai way too
+long to brute force to terminal states to determine the best move. As such, heuristic functions
+should be used based off good strategies and a depth limit needs to be used but that results
+in losing optimality. Such thinking is captivating, and I enjoyed learning the intricacies
+with games.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I found out one very interesting thing I have learnt during games unit is the types and properties of different games. I have played a lot of games, but I am never aware all these games can have may common properties, such as deterministic, discrete and finite. And depends on the properties of the games, the strategy of wining the game will be different. You can simply consider the following steps and choose the move that most likely to win. But in some case, the probability plays an important role. This is another application of the probability in real life.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I have learned that Othello is an incredibly complex game for such a simple premise. Though the rules were few and simple, but the ability of one tile to change the board in diagonal, horizontal, and vertical positions makes it very troublesome to develop heuristics for. Also, it is prudent to cache minimax values in two global values in some instances as min and max functions could output different values given symmetrical circumstances. However, this is not the case for Othello since the oddness and eveness of the tiles predicts who's turn it has to be.#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learned that there is different strategies to search in a game tree problem,
+and some might work better than others in some situations and vice versa. Searching
+a game tree is also very similar to regular search and heuristic is involved as well
+to make the search better. And I also learned that to make an ai always win no matter how the
+other player plays require a lot of planning and different searches depending on
+what the other player does and how it affects the resulting board. Time also plays a role 
+too since there could be a limit in how long a player takes to choose a move, so pruning
+is involved as well.

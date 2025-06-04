@@ -1,0 +1,17 @@
+####################
+# Assignment 3
+####################
+
+Overall: 0/4
+====================
+Test Case: [function=test_simple_FC]	[1/1]
+	
+====================
+Test Case: [function=test_simple_GAC]	[1/1]
+	
+====================
+Test Case: [function=test_three_queen_FC]	[1/1]
+	
+====================
+Test Case: [function=test_three_queen_GAC]	[1/1]
+	HERE 1

@@ -1,0 +1,27 @@
+1. In 100-250 words or less, explain what the calculations above might tell you (or might not tell you!) about the "fairness" of your Naive Bayesian network.
+Would you be willing to use your model to recommend starting salaries for employees at a firm?  Why or why not?
+------ ANSWER-------------
+So it seems like women are earning less than men overall, so I would not use this model to recommedn starting starting salaries at a firm.
+Since the data displays more men who are earning higher than women then our model is giving these results so this means that it is likely
+to make recommendations to higher more men and give them a higher salary. This means that the bias will have a domino effect in a sense
+because if more men keep getting hired and get paid more than women then the datasets will keep representing this and the model will
+keep enforcing the same suggestion ( with even more confidence each time). Ideally you want a model that does not discriminate by gender
+and gives all its employees the salary that they deserve. Another problem with this model is that we are only accounting for two types of salary
+(<50K and >=50K) which means that it is not really descriptive enough for more types of employees and can be too broad for the people hiring.
+
+2. Then, in 100-250 words, respond to the question "What is the most significant thing you have learned from the Bayesian Network module, overall?".
+This will complete our final "self-assessment exercise" for the term (and will be worth 0.25% of the course mark).
+------ ANSWER-------------
+I find that the chain rule is quite fascinating. I personally have not really enjoyed statistics at all. I remember when I was in second year and
+I was praying to just pass the course so that I could move on and not have to retake STA256, so I sometimes find statistics a bit intimidating...
+however, I took the time over the weekend to watch the profs videos and I found it very cool to draw graph and then see how it connected to the chain rule.
+I also really like how having this chain rule simplifies probabilities that at first glance can feel like you really really need to wrap your head aorund them!
+Overall, it was an interesting chapter but I would hoped to have more time to explore these topics instead of having to do it under minimal sleep.
+
+
+3. Last thing .... please let us know (briefly) if the self-assessment exercises have been of any value!!
+Should we continue the exercise next term?  Is there anything we can do to make them better the next time around?
+------ ANSWER-------------
+I think that the self-assesment exercises are great! I feel like they helped me think more about how I code and
+how I was solving problems throughout this semester. For example, in one of the assignments it was very important
+to think about coding efficiency and after seeing the big impact it can have, I'm more mindful of this moving forward.

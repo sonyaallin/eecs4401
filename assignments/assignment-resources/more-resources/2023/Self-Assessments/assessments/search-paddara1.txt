@@ -1,0 +1,5 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+I learned a lot about heuristics, gval (cost of getting to this state), hval (the
+estimated distance from a state to a goal state), fval. I also learned that
+a search can get stuck on a certain state if your heuristic is insufficient.

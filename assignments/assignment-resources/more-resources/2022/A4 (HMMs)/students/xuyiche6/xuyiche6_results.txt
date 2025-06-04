@@ -1,0 +1,11 @@
+Exception when training. 'X'
+Exception when training. ('X',)
+Exception when training. 'X'
+Exception when testing prior.
+Exception when testing prior.
+Exception when testing transition. 'NoneType' object has no attribute 'shape'
+Exception when testing transition. loop of ufunc does not support argument 0 of type NoneType which has no callable exp method
+Exception when testing emission. 'NoneType' object is not subscriptable
+Exception when testing emission. 'NoneType' object is not iterable
+Exception when tagging small corpus. (2, 'No such file or directory')
+Exception when tagging large corpus. (2, 'No such file or directory')

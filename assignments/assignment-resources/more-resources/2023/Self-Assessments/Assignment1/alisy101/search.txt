@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I feel like I learned the most from doing quizes instead of the actual assignment. During the
+assignment I was more focused on thinking of all the edge cases rather than the actual theory behind
+heuristics. When doing quizes, I have to go over my notes and lecture material in order to feel comfortable
+answering all the questions. Thus I feel like I learn more. However with the assignment, I rarely had to refer 
+to lecture materials or my notes. But a key takeaway from this assignment that I learned is that how manipulating
+the heuristic function can greatly impact the final outcome of a search.

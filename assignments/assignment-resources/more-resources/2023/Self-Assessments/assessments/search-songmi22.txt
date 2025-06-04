@@ -1,0 +1,5 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+From this search module, the most significant thing that I learnt is the variety of different search algorithm that can be
+used and tweaked to achieve different things or achieve something better than original. Also search module helped me to learn
+the concept of AI with algorithmic thinking.

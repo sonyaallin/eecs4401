@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+From the csp module, the most significant thing I have learned is that when dealing with csps, efficiency and
+speed matters. When doing backtracking search, we can use propagators to look forward at the next decision and use
+some logic to determine ahead of time which assignments will not lead to solutions. This will prevent us from going into
+and expanding that solution, and will save alot of time. Also, we can use order heuristic to assign variables that
+lead to skinny trees, meaning less expansion and more depth. Using all these techniques, will improve the overall
+runtime and make previously untractable problems solvable. Hence, speed is one of the most important things when it
+comes to csp problems.

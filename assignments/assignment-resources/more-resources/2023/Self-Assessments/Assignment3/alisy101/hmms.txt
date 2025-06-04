@@ -1,0 +1,8 @@
+I learned many new things from the Bayesian Network module, however the most significant thing was 
+seeing how much of a difference the right algorithm for a problem makes. For example, when doing 
+the speech tagging assignment I first tried to go through the problem using different algorithms on 
+paper with rudimentary examples. I first used a brute force approach to tag each each word, basically 
+trying every possible combination and returning the path that gave the max probability. I recorded the 
+time complexity and then tried the viterbi algorithm with the same examples and noticed a significant 
+improvement in the time complexity. The viterbi algorithm pretty much removed paths that it knew it 
+no longer needed while the brute force approach looked at every path. 

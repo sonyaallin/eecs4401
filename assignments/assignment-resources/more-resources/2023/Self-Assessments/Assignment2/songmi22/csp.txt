@@ -1,0 +1,1 @@
+From this csp assignment, I could learn the idea of CSP problems to properly backtrack and use alternate of backtracking such as forward checking or GAC to make the problem more integrate-able in real life. However, I feel like the assignment is implemented inefficiently due to educational purpose. Later I wish I could see the real world case of CSP algorithms. 

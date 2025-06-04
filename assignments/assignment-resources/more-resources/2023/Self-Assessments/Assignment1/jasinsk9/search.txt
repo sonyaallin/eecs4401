@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think what I learned the most was how difficult it is to design a proper heuristic for
+such a simple sounding game as Sokoban. It seems to be a super simple idea but it took
+me a long time to design a heuristic that worked even remotely well because there are so
+many simple things that as a human player I never would have considered could happen. When
+would the box ever get stuck in a corner? Well, when it's AI with no brain. Even after completing
+my heuristic it is still not perfect by any means and not very good in my opinion. I can only
+imagine how difficult it must be for other things and am even more impressed about projects I
+have seen in the past such as Chess and Go bots and especially OpenAI's DOTA 2 project.

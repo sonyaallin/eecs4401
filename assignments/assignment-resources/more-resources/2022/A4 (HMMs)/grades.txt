@@ -1,0 +1,2 @@
+utorid, prior_a, prior_b, transition_a, transition_b, emission_a, emission_b, tagging_small, tagging_large
+singhgou, 7,7,7,7,7,7,30.97855964815833,21.045150747417985,0,75.0,78.0

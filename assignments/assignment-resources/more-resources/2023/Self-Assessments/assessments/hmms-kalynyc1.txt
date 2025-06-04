@@ -1,0 +1,8 @@
+#What is the most significant thing you have learned from the Bayesian Network module?
+  
+The most interesting part of the Bayesian Network module was the ability to sort of predict what
+actions or situations led us to the current state using HMMs.  
+Relatively easy we can construct HMMs for real-life scenarios and reduce the amount of
+uncertainty behind different situations that led us to certain states.
+Especially interesting was the assignment where we could get familiar with
+very basic text recognition features.

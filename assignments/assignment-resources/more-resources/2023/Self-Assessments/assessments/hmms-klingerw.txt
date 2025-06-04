@@ -1,0 +1,8 @@
+The bayes net section cleared up a lot I previously did not know or assumed about bayes nets. For example, 
+in machine learning (CSC311) I didn't really understand fully how they worked, or the different ways we could
+express them. HMMs which are a specific type of bayes net are very intuitive and how they work, same with 
+the forward algorithm which represents previous accumulated probabilities as functions of the current timepoint.
+Essentially in both these types, we have two critical things that make them very useful. Conditional probability
+is determined between the immedtiate past timepoint from the current timepoint (since the previous stores 
+everything we need) and in order to find the best path from an HMM, we can simply look at the last time point in
+joint probability form since its analogous to the conditional probability of the last timepoint (its a ratio)!

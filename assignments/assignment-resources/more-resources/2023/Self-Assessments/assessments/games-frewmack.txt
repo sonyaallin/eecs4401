@@ -1,0 +1,11 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+Before this unit, I hadn't realized how much of game AI can come down to human design as opposed
+to training datasets like in machine learning. Heuristics make another appearance in this unit, 
+and it reminds me that AI is more than just machine learning. We can actually apply strategies
+that we would normally use while playing games in designing our game AI.
+
+Alpha-beta search was really interesting. It becomes apparent really quickly that you need to
+optimize these search algorithms, since search trees get really big really quickly. Being able to 
+narrow down the tree in such a clever way was cool to learn.

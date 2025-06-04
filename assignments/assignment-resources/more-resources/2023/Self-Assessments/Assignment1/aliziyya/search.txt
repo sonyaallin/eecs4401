@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think I've learnt a lot about how the different search algorithms can be implemented. Looking at the
+starter code alone, the way the code is designed is so modular and incorporates many different forms
+of searches while also facilitating costs, weights, etc. I also found out that the size of a problem 
+correlates to the search heuristic time. For the alternate heuristic, it was interesting to see that as 
+the problem got larger; the more complicated things are. Even handling obstacles in a smaller setting
+is very complicated as you must consider all the different scenarios where things can go wrong.

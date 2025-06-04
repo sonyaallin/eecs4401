@@ -1,0 +1,5 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+From the games unit, I could learn the basics of the 'how the AI works and thinks' and learnt to develop an algorithm that searches and finds a solution which can be
+implemented in real life. This was an interesting assignment since this is the by far most practical assignment in this course as well as in my journey through computer
+science. Now I can know how to implement, explain and measure the minmax node and alphabeta pruning process.

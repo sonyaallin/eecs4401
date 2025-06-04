@@ -1,0 +1,7 @@
+When I previously thought about AI a big part of it involved the idea of 'training' a model and using it to predict certain values. 
+Learning about Bayesian Networks allowed me to get a better understanding of how this model is created and how it is used. This assignment 
+allowed me to further understand the concept of HMMs because it allowed me to understand each distribution in the HMM model and how it is 
+used. When it comes to HMMs it was also interesting to learn about emission values. I always thought predictions were based only on the 
+patterns observed. Emissions are basically extra variables that are used to improve predictions and when you think about it, it makes 
+sense. For example, when using Siri, it uses the words that you say to make predictions, but it might also use, for example, your location 
+as an emission value. 

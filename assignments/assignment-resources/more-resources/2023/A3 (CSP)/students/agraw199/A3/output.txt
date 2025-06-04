@@ -1,0 +1,239 @@
+['/Users/JaglalLab/Desktop/auto_grader_futoshiki/fake_students/agraw199/A3', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python310.zip', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lib-dynload', '/Users/JaglalLab/Library/Python/3.10/lib/python/site-packages', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages']
+---starting test_simple_FC---
+score: 1
+
+---finished test_simple_FC---
+
+---starting test_simple_GAC---
+score: 1
+
+---finished test_simple_GAC---
+
+---starting three_queen_FC---
+
+score: 1
+---finished three_queen_FC---
+
+---starting three_queen_GAC---
+HERE 1
+score: 1
+---finished three_queen_GAC---
+
+---begin test_1 fc---
+CSP SimpleEqs solved. CPU Time used = 0.00011700000000000599
+CSP SimpleEqs  Assignments = 
+Var--X  =  2     Var--Y  =  1     Var--Z  =  1     Var--W  =  4     
+bt_search finished
+Search made 11 variable assignments and pruned 14 variable values
+
+score: 1
+---end test_1 fc---
+
+---begin test_1 gac---
+CSP SimpleEqs solved. CPU Time used = 0.00020599999999999785
+CSP SimpleEqs  Assignments = 
+Var--X  =  2     Var--Y  =  1     Var--Z  =  1     Var--W  =  4     
+bt_search finished
+Search made 4 variable assignments and pruned 9 variable values
+
+score: 1
+---end test_1 gac---
+
+---begin test_2 fc---
+CSP ParityEqs solved. CPU Time used = 0.00011200000000000099
+CSP ParityEqs  Assignments = 
+Var--X  =  3     Var--Y  =  2     Var--Z  =  1     
+bt_search finished
+Search made 9 variable assignments and pruned 16 variable values
+
+score: 1
+---end test_2 fc---
+
+---begin test_2 gac---
+CSP ParityEqs solved. CPU Time used = 0.00019399999999999973
+CSP ParityEqs  Assignments = 
+Var--X  =  3     Var--Y  =  2     Var--Z  =  1     
+bt_search finished
+Search made 4 variable assignments and pruned 8 variable values
+
+score: 1
+---end test_2 gac---
+
+---begin test_3 fc---
+CSPParityEqs unsolved. Has no solutions
+bt_search finished
+Search made 10 variable assignments and pruned 19 variable values
+
+score: 1
+---end test_3 fc---
+
+---begin test_3 gac---
+CSPParityEqs unsolved. Has no solutions
+bt_search finished
+Search made 2 variable assignments and pruned 10 variable values
+
+score: 1
+---end test_3 gac---
+
+---begin test_tiny_adder_FC---
+
+score: 5
+---end test_tiny_adder_FC---
+
+---begin test_tiny_adder_GAC---
+
+score: 5
+---end test_tiny_adder_GAC---
+
+---begin test_no_pruning_FC---
+
+score: 3
+---end test_no_pruning_FC---
+
+---begin test_no_pruning2_FC---
+
+score: 3
+---end test_no_pruning2_FC---
+
+---begin test_no_pruning_GAC---
+
+score: 6
+---end test_no_pruning_GAC---
+
+---starting test_gac_10queens---
+
+score: 4
+---finished test_gac_10queens---
+
+---starting test_fc_10queens---
+
+score: 4
+---finished test_fc_10queens---
+
+---starting test_DWO_GAC---
+
+score: 5
+---finished test_DWO_GAC---
+---starting test_DWO_FC---
+
+
+score: 5
+---finished test_DWO_FC---
+
+---STARTING MODEL TESTS---
+
+---starting model_1_import---
+
+score: 1
+---finished model_1_import---
+
+---starting model_2_import---
+
+score: 1
+---finished model_2_import---
+
+---starting check_model_1_constraints_enum_rewscols---
+
+score: 1
+---finished check_model_1_constraints_enum_rewscols---
+
+---starting check_model_1_constraints_enum_ineqs---
+
+score: 1
+---finished check_model_1_constraints_enum_ineqs---
+---starting check_model_2_constraints_enum_ineqs---
+
+score: 1
+---finished check_model_2_constraints_enum_ineqs---
+---starting check_model_2_constraints_enum_rewscols---
+
+score: 1
+---finished check_model_2_constraints_enum_rewscols---
+
+---starting check_model_1_constraints_FC---
+Failed FC propagation test on model 1
+score: 0
+---finished check_model_1_constraints_FC---
+---starting check_model_2_constraints_FC---
+
+score: 1
+---finished check_model_2_constraints_FC---
+---starting check_model_1_constraints_GAC---
+Failed GAC propagation test on model 1
+score: 0
+---finished check_model_1_constraints_GAC---
+---starting check_model_2_constraints_GAC---
+
+score: 1
+---finished check_model_2_constraints_GAC---
+---starting unsolvable model 1---
+CSPfutoshiki detected contradiction at root
+CSPfutoshiki unsolved. Has no solutions
+bt_search finished
+Search made 0 variable assignments and pruned 25 variable values
+
+score: 4
+---finished unsolvable model 1---
+
+---starting unsolvable model 2---
+CSPfutoshiki detected contradiction at root
+CSPfutoshiki unsolved. Has no solutions
+bt_search finished
+Search made 0 variable assignments and pruned 28 variable values
+
+score: 4
+---finished unsolvable model 2---
+
+---starting binary model 1---
+
+score: 2
+---finished binary model 1---
+
+---starting nary model 2---
+
+score: 2
+---finished nary model 2---
+
+---starting check_out_of_domain_tuple_model_1---
+Failed while testing propagator (): a constraint fails on a valid input
+score: 0
+---finished check_out_of_domain_tuple_model_1---
+
+---starting check_out_of_domain_tuple_model_2---
+
+score: 4
+---finished check_out_of_domain_tuple_model_2---
+
+---starting test_big_problem_model1---
+One or more runtime errors occurred while using  on a large problem: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/auto_grader_futoshiki/fake_students/agraw199/A3/A2_test_cases_aux.py", line 1394, in test_big_problem\n    prop_GAC(csp)\n  File "/Users/JaglalLab/Desktop/auto_grader_futoshiki/fake_students/agraw199/A3/futoshiki_csp.py", line 31, in futoshiki_csp_model_1\n    for i in range(len(futo_grid)):\nTypeError: object of type \'CSP\' has no len()\n'
+score: 0
+---finished test_big_problem_model1---
+
+---starting test_big_problem_model2---
+One or more runtime errors occurred while using  on a large problem: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/auto_grader_futoshiki/fake_students/agraw199/A3/A2_test_cases_aux.py", line 1394, in test_big_problem\n    prop_GAC(csp)\n  File "/Users/JaglalLab/Desktop/auto_grader_futoshiki/fake_students/agraw199/A3/futoshiki_csp.py", line 115, in futoshiki_csp_model_2\n    for i in range(len(futo_grid)):\nTypeError: object of type \'CSP\' has no len()\n'
+score: 0
+---finished test_big_problem_model2---
+
+---starting test_full_run_model1---
+CSPfutoshiki detected contradiction at root
+CSPfutoshiki unsolved. Has no solutions
+bt_search finished
+Search made 0 variable assignments and pruned 115 variable values
+CSPfutoshiki unsolved. Has no solutions
+bt_search finished
+Search made 216 variable assignments and pruned 964 variable values
+One or more runtime errors occurred while trying a full run using FC on : 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/auto_grader_futoshiki/fake_students/agraw199/A3/A2_test_cases_aux.py", line 1458, in test_full_run\n    if check_solution(var_array,greater_thans,less_thans):\n  File "/Users/JaglalLab/Desktop/auto_grader_futoshiki/fake_students/agraw199/A3/A2_test_cases_aux.py", line 179, in check_solution\n    if not check_list(row_sol):\n  File "/Users/JaglalLab/Desktop/auto_grader_futoshiki/fake_students/agraw199/A3/A2_test_cases_aux.py", line 202, in check_list\n    solution_list.sort()\nTypeError: \'<\' not supported between instances of \'NoneType\' and \'NoneType\'\n'
+score: 0
+---finished test_full_run_model1---
+
+---starting test_full_run_model2---
+CSP futoshiki solved. CPU Time used = 0.03622900000000001
+CSP futoshiki  Assignments = 
+Var--V00  =  2     Var--V01  =  1     Var--V02  =  6     Var--V03  =  3     Var--V04  =  7     Var--V05  =  5     Var--V06  =  4     Var--V10  =  6     Var--V11  =  4     Var--V12  =  2     Var--V13  =  5     Var--V14  =  3     Var--V15  =  7     Var--V16  =  1     Var--V20  =  1     Var--V21  =  2     Var--V22  =  3     Var--V23  =  6     Var--V24  =  5     Var--V25  =  4     Var--V26  =  7     Var--V30  =  3     Var--V31  =  5     Var--V32  =  7     Var--V33  =  4     Var--V34  =  1     Var--V35  =  6     Var--V36  =  2     Var--V40  =  7     Var--V41  =  3     Var--V42  =  5     Var--V43  =  2     Var--V44  =  4     Var--V45  =  1     Var--V46  =  6     Var--V50  =  5     Var--V51  =  7     Var--V52  =  4     Var--V53  =  1     Var--V54  =  6     Var--V55  =  2     Var--V56  =  3     Var--V60  =  4     Var--V61  =  6     Var--V62  =  1     Var--V63  =  7     Var--V64  =  2     Var--V65  =  3     Var--V66  =  5     
+bt_search finished
+Search made 49 variable assignments and pruned 192 variable values
+
+score: 5
+---finished test_full_run_model2---
+
+Score: 79/100; Did not pass all tests.

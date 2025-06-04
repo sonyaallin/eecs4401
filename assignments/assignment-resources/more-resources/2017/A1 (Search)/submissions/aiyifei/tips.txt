@@ -1,0 +1,38 @@
+1. Manhattan Distance whatever if you add weight on it. It seems really good at the beginning. 
+But while you getting to problem 13, it's really a disaster to use Manhattan.
+
+2. Assign infinity to those dead cases so that the robot won't explore them in most cases. The more nodes
+you eliminate, the faster you can do.
+
+3. Most common dead cases 1: all destination and snowballs are far on another side of the robot.
+eg: ###########
+    ## s X ?  #
+    #	b     #
+    #	m     #
+    #		  #
+    #		  #
+    ###########
+In this case, it's useless to move robot right
+
+I didn't actually solve the case:
+#########
+#       # 
+#XA     #
+#       #
+#####   # , the robot just roaming at some useless point instead pushing the large snowball.
+#  b    #
+#  ?    # 
+#########
+Guess it's due to there are too many useless cases add to heap before. Need to figure out a way to increase the value of those cases which are kind of similar to case above. But I failed to implement the check stuff
+
+4. Most common dead cases 2: snowball is stuck in corner or side which cannot be pulled to destination.
+eg: ###########			############
+	#	X     #         #  X	   #
+	#		 b#         #       b# #
+	#		  #  or 	#		#  #
+	#		  #			#		   #
+	#		  #			#          #
+	###########			############
+
+5. Adding check is a tradeoff. Be careful with it. I added too many check before and the performance got worse indeed. Instead of checking, we can also do some predictions in our function. Such as we could ignore other snowballs, try to use bfs to search when can we push one single snowball to destination as our basic distance 
+for each snow ball. But I am not sure how efficient this would be. Maybe it cost much more performance.

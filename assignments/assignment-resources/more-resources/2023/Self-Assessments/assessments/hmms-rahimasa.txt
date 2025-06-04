@@ -1,0 +1,5 @@
+The most significant thing I realized from this module was how we only need to need the previous state and the emmisions to guess the next 
+state. Before this course I thought that things like Siri would have a database of words and pronounciations and would pick the
+word with the most similar pronounciation. But the fact it uses HMMs makes way more sense and explains its accuracy since people pronounce
+stuff differently but the rules of language remain fairly constant. But yea overall I think learning HMMs are really helpful since
+I think it's really common and can help me create some cool side projects.

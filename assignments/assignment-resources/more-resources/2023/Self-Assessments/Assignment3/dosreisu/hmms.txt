@@ -1,0 +1,10 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing I learned is how HMMs fully function. Before this assignment I was feeling a bit shakey
+on this topic (probabilities aren't my strongpoint) but after doing the assignment I can now say I understand how this
+works and how we gather the data (prior, transmission, emission) as well as its meaning and how to use it to get predictions.
+I was also surprised at the accuracy of this model as it is quite a simple model yet it gets around 90% accuracy on both
+test sets. I guess this taught me that even more complicated tasks can have 'simple' solutions and that a first step
+should always be to see if a simple solution can get the job done. 
+This task is also making me wonder if this model coudl be extended to start predicting actual words instead of tags. I have read a 
+bit on the topic and it seems some models were made with HMMs which is pretty interesting.

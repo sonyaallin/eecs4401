@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learned that there are different methods of search functions, which not just focus on path. For example, CSP searches
+focus on constraint satisfaction rather than paths. They care only about providing a solution rather than an optimal one
+. I learned that There are many different ways of implementing CSPs. The most effective method is an ARC consistency
+enforcer. You can also use heuristics in order to improve performance of CSP searches, similar to earlier searches we
+performed. More naive methods of CSP include CSP backtracking. CSP forward tracking can be greatly improved with an
+MRV heuristic. Up to 10,000 times better!!!

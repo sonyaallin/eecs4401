@@ -1,0 +1,6 @@
+The most significant thing I learnt from this unit is the usage of probability in AI. I especially liked how 
+markov models and their beauty. It was so cool to see the math involved and it was all just really simple. I 
+also liked the way we can set values for things we've never seen before and still get an output. The 
+viterbi algorithm was no exception to this. It seems complicated at first but after rationalizing and working 
+through it, you see how it all works and how easy it is to implement. Personally, I liked working with numpy
+again and found it enjoyable to make this run as efficiently as I know.

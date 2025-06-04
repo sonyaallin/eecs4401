@@ -1,0 +1,5 @@
+The most significant thing I learned about bayesian network is good it is at text classification. I think it would be very simple to use 
+it to make a simple email spam filter. It felt much easier to use than a neural network like we used in 321 to do preditive text. I think
+we could make a bayesian network to do this and it would be cool to see how it would compare to the neural network from 321. I also wonder 
+if bayesian network are how insurance firms predict how liable is customer is to various health conditions or how likely they are to 
+crash their car.

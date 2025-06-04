@@ -1,0 +1,11 @@
+####################
+# Assignment 2
+####################
+
+Overall: 0/50
+====================
+Test Case: [function=test_fval_function]	[10/10]
+	
+====================
+Test Case: [function=test_manhattan]	[[40, 0]/40]
+	

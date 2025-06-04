@@ -1,0 +1,16 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned from the search module is that developing a search algorithm can be 
+based on optimizations humans make when searching. After playing a few rounds of Sokoban, for instance, I learned
+several tricks I could implement in my alternate heuristic. For example in Sokoban, if an object is in a corner, 
+it cannot be moved back out and is stuck there. Therefore, unless there is a storage location in that spot, corners must be 
+avoided. I also decided to focus on the distances between the robots and boxes, and the storage location and boxes in relation
+to the space around them. Printing out a run, and seeing how the basic AI solved the problem compared to me was 
+very useful and I think this can apply to other search problems too. For instance, I saw robots wander around 
+aimlessly (which made me implement a robot removal once it was done with its job) and almost put different boxes 
+in the same storage location at different points. 
+Instead, a person could see that it would be easier to put one box there, and then remove that storage location from the
+viable locations list. A human brain would automatically have removed it, but the AI needs to be told to. Not assuming 
+these basic rules and checking for them instead is important. 
+

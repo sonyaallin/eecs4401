@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+The learned a lot from this module. One of the things I learned is making even a tiny change to a
+heuristic can result in a drastically different search. But the most significant thing I learned was
+the importantce of not complicating a heuristic. I implemented a solution that would push a box into a storage
+and move any boxes neccessary and limit it to one box per storage and made sure to keep track of all that data. 
+However that solution got less cases right than my BFS solution and my Manhatten solution. This is because
+by putting so many constraints we are limiting what can actually be called a good state and we make it harder for 
+the search.

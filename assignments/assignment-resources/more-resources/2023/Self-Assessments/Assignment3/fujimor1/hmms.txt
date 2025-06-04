@@ -1,0 +1,10 @@
+One of the crucial things I learned from the Bayesian Network module is its versatility and usefulness in various industrial fields.
+
+For instance, I was surprised that Bayesian Networks and HMMs are still widely used in the NLP field. In recent years, 
+numerous Deep Learning-based models and Deep Reinforcement Learning approaches have emerged and taken over existing methods. 
+Especially, DL models such as RNN and Transformers have become very popular that most of the engineers dive straight into 
+these sophisticated models without considering more classical methods such as BN and HMMs. 
+However, it turns out that these classic methods are as powerful as DL models in terms of predictability and generalizability. 
+I'm amazed that our HMM model performs well with the POS-tagging task without overfitting to the training data. 
+I would like to explore more about the practical applications of BN and how it can be applied to other 
+sequential analyses such as time series modeling and computational finance.

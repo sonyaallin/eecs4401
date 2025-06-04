@@ -1,0 +1,715 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+Before taking this course, I used to believe that AI was achieved through machine learning as it was more math based
+with its neural networks being used to train a neural network to map. However, I was surprised to see that we can use
+AI a more logic based coding format to search for a goal state (in a sense mapping from the start space to the goal)
+through criteria we have set for the program. I learned from the search module that we can use some of that learning
+method to improve upon the result of a search based on previous results but using a more logical approach as opposed to
+the more mathematical approach used in machine learning. Furthermore, it seems to me that you can always improve upon a
+search but sometimes the improvement in accuracy (decreasing wrong states explored) costs more time than if we just
+continued and let it fail on it s own. This was interesting as there was a bit of an inverse relation between how
+streamline a solution we want or how quick a solution we want. (Optimal vs Quick).#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I feel like I learned the most from doing quizes instead of the actual assignment. During the
+assignment I was more focused on thinking of all the edge cases rather than the actual theory behind
+heuristics. When doing quizes, I have to go over my notes and lecture material in order to feel comfortable
+answering all the questions. Thus I feel like I learn more. However with the assignment, I rarely had to refer 
+to lecture materials or my notes. But a key takeaway from this assignment that I learned is that how manipulating
+the heuristic function can greatly impact the final outcome of a search.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned a a great deal about how tiny factors like details about one's heuristic or 
+the weight chosen for the f function for a star can have a huge impact on the performance
+and speed of the search stats. It was very difficult to try and achieve a balance between
+accuracy and speed of the heuristic function, but at the same time it was very rewarding as
+I learned a lot of things about optimization and heuristics when trying to approach the problem.
+For example, having an inadmissable heuristic by increasing the weight led to faster results
+but a worse solution. Similarly a more accurate heuristic was not able to solve fast enough
+but had a more optimal path to the solution.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think I've learnt a lot about how the different search algorithms can be implemented. Looking at the
+starter code alone, the way the code is designed is so modular and incorporates many different forms
+of searches while also facilitating costs, weights, etc. I also found out that the size of a problem 
+correlates to the search heuristic time. For the alternate heuristic, it was interesting to see that as 
+the problem got larger; the more complicated things are. Even handling obstacles in a smaller setting
+is very complicated as you must consider all the different scenarios where things can go wrong.
+In the search module I learned about heuristics. Going into the module,
+I thought I already knew what we were learning (because we started with
+search methods like BFS and DFS). However, after going through the entire
+module, I learned that while the importance of BFS and DFS cannot be
+overstated, they are not incredibly useful in helping an agent search
+through an environment. The reason for this is that they provide no
+indication of which direction might contain the goal. They simply search
+in an unopinionated manner. Heuristic searches are almost mandatory,
+since they provide the agent with the "intelligence" needed to find the
+goal in a timely manner (assuming a good heuristic of course).#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned a lot of this from the search module, but the most significant one I would say is heuristics. How to design them is a subject I knew very little about, and the tips and tricks explained in class really helped me out during the assigment, even though it is a very complex and empirical process. The concept of admissability is also very interesting, as I had never heard about it before, and I found that taking admisssability into account when designing an heuristic function really does help to discard non-viable options, and helps focusing on the elements that are important.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I've learned from this module is that it is difficult 
+to mimic human intelligence, and as a result, in artificial intelligence there will 
+always be a tradeoff between performance and accuracy when searching for a solution. 
+More specifically, this tradeoff can exist in the complexity/type of the heuristics 
+you want to use, as well as the search algorithm itself. I also learned that sometimes
+"doing nothing" can even be a good heuristic in some cases.
+
+For example, when checking if some state is certain to never yield a solution, I initially 
+thought that it would be beneficial to check: if a box is on a wall and there is a storage
+point on that wall, then I must also check if there is an obstacle in between which would
+prevent that box from ever reaching that store (since boxes on walls can never be pushed 
+inward, they must always remain on that wall). However, a simplified version was the better
+choice as the extra check for obstacles along the wall was not rewarding enough compared
+to the time it took to calculate it. Thus, I decided to keep the simplified version, which
+was only to flag the state as 'unsolvable' if there were no stores on the same wall, and don't
+even check if there are obstacles in the way. Thus, the heuristic is still admissible, but
+comes with the cost of some accuracy with the gain of performance.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+In this assignment, I learned about the practical aspect of search algorithms, and I became more comfortable with programming them. Up to this point in CSC384, I have only learned about the theory behind search algorithms, but I haven’t had the chance to implement them. This assignment gave me more experience with that. While I did not allocate enough time to finish the assignment completely, after completing a subset of the tasks assigned to us, as well as reading over the starter code, I have a better idea of how one would program a search algorithm.
+
+In addition, while I did not end up creating my own heuristic, I did attempt to. After being taught about different heuristics in class, it was nice to gain experience experimenting for myself what a good heuristic may be for a given problem.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think the most important thing is that you can't have a heuristic that does
+everything for you. No matter what, it will be slow on some edge cases and you
+can't make it fast without introducing other slow cases.
+Also, you can see intuitively how you would solve the puzzle, but it is
+hard to express the amount of moves it would take to do that.
+You have an intuitive idea oh how you yourself would solve the puzzle,
+but it is hard to "design a magnet" so the AI does what you would do.
+Such as placing boxes in order, using certain robots if they are closers,
+making sure you don't trap any boxes. I have a bigger understanding
+about this now.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned from this search module is how to improve a heuristic using domain specific information. The improvements I made to the Manhattan heuristic were due to utilizing specifics related to the Sokoban game. For example, I figured out that even before reaching the end of a search space, certain box placements would lead to a dead state where further expansion would be futile in trying to find a solution. This modification is only useful in Sokoban, but it is because it is so niche that incorporating it led to many extra boards being solved by the search engine. A robust heuristic is not possible in the context of search problems, simply because each search problem has unique rules that need to be followed in order to reach the goal of the problem. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most important thing I learned is that fact that when doing search algorithms, there can be so many
+factors involved when trying to optimize the solutions. Without even one of them, like the path/cycle checking,
+the runtime of the resulting search can get exponentially long. But of course, none of the search strategies will work
+without a good heuristic function. I've learned through lectures and this assignment that building a good and considerate
+heuristic takes a lot of thought for complex problems. For the sokoban problem alone, there were so many edge cases that
+would terminate the search, I couldn't even get all of them because of the way robots have to move around the boxes, etc.
+For the heuristic I built for this assignment, it is in no way monotonic or even admissible, but the rough estimates
+I made to calculate the "true" distance for each box (using the obstacles/walls and the robot distance as factors), was
+enough for me to get 14/20 on most of the tests. I guess this is reflective hard it is to get a perfectly good heuristic
+function in real life.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The main thing I learned was that it is harder than I expected to make a very good heuristic. I managed to make one that was decent rather quickly
+but trying to make it solve all 20 in under 2 seconds was more complicated than I anticipated.
+
+Another significant thing I learned was how small details really impacted performance of the algorithms. I had under 14 solved in 2 seconds for both 
+iterative weighted a star and iteravtive GBFS until I moved a singular if statement out of the main loop and it suddenly became all 20 in under 2 
+seconds. There were other improvements to speed I had done before but they didn't impact the result directly and it was the if that tipped the
+scale which was really cool to see.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+There are many different types of search algorithms that can be used to solve a problem. The heuristic search is an
+interesting option that allows a search to have extra information. However, from the assignment it became clear that
+finding a good, admissible heuristic can be quite difficult as search problems increase in complexity. Encoding the
+distance to the goal from a certain state is difficult to conceptualize and requires some heavy thinking. Aside from
+the heuristic search, the uninformed search algorithms were each well suited for separate problem types, for example
+depth first search is best to reduce memory usage. Its interesting to see how to decide what might be the best search
+algorithm to use for a particular problem.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+When I first heard of A* search, I thought that A* was the same for every implementation.
+This project showed me that it's actually more similar to quicksort, where there is a 
+ton of research and discussion regarding how to pick the best heuristic. There is also
+a balancing act at play, where you want your heuristic to be informative enough about
+the future cost of a given path, but also not have such a high runtime that the search
+takes longer than it needs to. It's such a wide space for research and it's been really
+interesting seeing into it for the first time.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+One of the significant things I learned from the Search module is the importance of hashing. 
+It utilizes the hashing technique effectively so that each state has an immutable and unique representation. 
+This allows us to implement cycle checking (i.e., check whether the same states have been already visited or not) easily. 
+On the other hand, if we don't use the hashing technique and the state doesn't have a unique representation, 
+there is no way to compare the equivalence of the two states. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+The most significant thing that I have learned is that this course is hard and I should start assignments sooner. I also
+learned how pretty and interesting it is to code ai. I've learned how rewarding it can be to solve problems these ways.
+And I think it is probably the most significant thing that I learned thus far. I am not very passionate about computer
+science. But, from what I have learned in this course, I could probably change that. In summary, searching is very inte-
+resting and it has very fun to learn how computers work when searching.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The whole concept of introducing heurstics into our search algorithms was really interesting
+and mind-blowing. I didn't realize how adding a heuristics to our search can improve our search 
+result times by so much. What is more interesting is how applicable these heuristics are in 
+real life scenerios like games, maps, etc. This is a concept that I will differently try to 
+utilize in my future projects to get the best possible performance. Further, to balance 
+time and space using concepts like iterative deeping was a totally new concept to me and although
+simple, it is so useful. Usually I thought about either using BFS or DFS, but iterative deepining
+showed me a 3rd method which combines the two and takes the best of both searches to create 
+something really useful#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned how unique to a specific problem a heuristic can be. The manhattan heuristic was fairly general, but attempting to improve on it,
+I found many different approaches that did not work given our time constraints. For example, in trying to allot boxes to a unique storage, but also the absolute closest
+storage such that the total cost would be the lowest possible with every box in a unique storage, the algorithm i wrote ended up being far too costly to be worth doing in most cases.
+I settled on simply assigning each box to the closest storage in the order that they're in inside the frozenset. There may be a faster way to do this, in fact, I found papers
+which may hold the key, although I did not read them to avoid any plaigarism.
+I also wrote an algorigthm that could predict if a box would get stuck on the way to its storage before it even encountered obstacles, but that proved too costly as well.
+The most interesting find was when I realized two things:
+    1. If a box is on the edge of the board, it can only be moved to a storage that is on the edge as well
+    2. A storage space can get cornered and blocked if it is surrounderd by other storage spaces and boxes are placed there (this can happen in problem 10, 16, 17, 18, 19)
+Implenting code to handle these situations lead to 15/20 solves with iterative weighted a star, but less solves with gbfs.
+Since, we are marking based on both gbfs and weighted a star, I left this code out, but I would love to revisit this.
+I cannot wait to see if there is a better heuristic for this.  ﻿#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+
+The most significant thing I have learned from the search module is how different searching algorithms work in real-life coding scenarios. At first glance at these searching algorithms after implementing the heuristic function, I have no idea what to start with. Then I started thoroughly reading through the given files, search.py. I learned that you need to initialize a search engine first and then use the search function to search for solutions, so weighted A* is easily implemented. However, when it comes to iterative weighted A* and gbf, I was stuck for a while since I was ignorant of what condition to stop searching, so I learned about the OS time and set a time bound for the ending point of searching. Then I set some variables such as cost bound, weight and update them for potential better results of the search algorithm. So this is the whole process of how I went through the search algorithm part of the project.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The search module was extremely interesting. I feel I have a solid basis both in the theoretical and practical components, though I do feel a touch more comfortable with the theory.
+I feel like the assignment was, at times, confusingly worded, even with help looking at piazza I wasn't sure what to do. For example, the assignment calls for iterative_weighted_astar, while the starter code only provides for iterative_astar. I saw on Piazza that these are intended to be separate, but I have no understanding of how they're meant to differ, and how they're meant to work together. I also felt confused regarding GBFS, because it feels to me that if the same (best) options are chosen each time, we'll never get iterative improvement. Unless the goal was not to use the Search engine provided, but that brings a whole host of other problems.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+    From the implementation of this assignment, I learned that trade-off on the
+runtime and accuracy takes a big part of the search algorithm.
+    For the perspective on implementing the heuristic, we need to be careful on
+the runtime in the estimation. An accurate estimation may cost a higher runtime.
+Since the heuristic function is repeatedly running in the whole search algorithm,
+we need to test if this approach is really saving time in the whole search
+algorithm for us.
+    For the perspective of the whole search algorithm, we need to figure out
+whether finding solutions for most cases is more important or finding the
+optimal solutions is more significant. When we want to approach the optimal path,
+like set a lower weight in weight A* and use iterative versions, our codes need
+more time to terminate.  The iterative search algorithms take a high priority on
+the timebound. In most cases, the code can find a solution, but it may take
+higher costs. The normal A* guarantees to find the optimal solution, but it
+cannot terminate in 2 seconds in most of the examples.
+    In conclusion, when we are doing an Artificial Intelligence project, we need
+to decide the methods based on if we are focus on the quality of the solutions
+or the quantity of the solutions. After that, we implement the heuristic with a
+balance on the runtime and the accuracy.
+
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think what I learned the most was how difficult it is to design a proper heuristic for
+such a simple sounding game as Sokoban. It seems to be a super simple idea but it took
+me a long time to design a heuristic that worked even remotely well because there are so
+many simple things that as a human player I never would have considered could happen. When
+would the box ever get stuck in a corner? Well, when it's AI with no brain. Even after completing
+my heuristic it is still not perfect by any means and not very good in my opinion. I can only
+imagine how difficult it must be for other things and am even more impressed about projects I
+have seen in the past such as Chess and Go bots and especially OpenAI's DOTA 2 project.The most important thing that I learned from this assignment is the importance of heuristics. I understood the content, but until implementing both search functions and the molding my heuristic, it really sinked in how a heuristic affects the outcome of a search. By simply adding a bad check to my heuristic, my search results tanked compared to when I removed that check. I also realized how hard it is to make a heuristic better past a point. It was tricky making the heuristic good to begin with, but getting it over a certain point is even harder. A heuristic can really make or break the efficiency of a search.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I have learnt that this sokoban game is actually very popular and there have been 
+many research done on this game. I have learnt that finding the optimal solution 
+for heur alternate is very similar to the problem minimum cost perfect matching for 
+a bipartite graph. This is where we are trying to find a lowest cost and have to 
+connect each box to each storage point. Hence this creates a bipartite graph where 
+the boxes are one section and the storage are the second section. This heuristics 
+has a time complexity of O(n^3 * log_(2+n/4)n). I learnt this information from an 
+article published by Andreas Junghanns from University of Alberta. Although I was not 
+able to fully understand the implementation of minimum cost perfect matching algorithm, 
+I was able to understand the relationship and how it could improve the search for sokoban. 
+This is a very fascinating game with lots of unique and interesting possibilities.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I've learned is how many edge cases you have to handle in sokoban, I tried thinking of all cases but wasn't able to account for them all. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned is that when programming a heuristics algorithm,
+making optimistic calculations is never desirable because most of the times you will get wrong
+estimation.
+Therefore, we need to aim for more realistic results. However, in order to get a good estimation,
+we need to take a lot of edgecases and situations into consideration. For example, when programming
+heur_alternate() function I took into consideration heuristics of the path of each robot to the boxes that
+were closest to them. Then, I checked if the boxes were trapped on the map - because in that case there is no point 
+to proceed since there will be no solution. Making sure that each box must be stored at individual storage location was
+another constraint. 
+In order to get the best estimate we need to take as many as possible situations.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think the most significant I learned from this assignment was that implementing algorithms that 
+we've been learning for the past two years, isn't as hard as I thought. I also really enjoyed seeing first-hand
+how complex time complexity is. There were points in the alternative distance code, where I wrote a function
+that iterated through another set, but through it's findings I was able to cut down on overall runtime AND get
+more accurate values. I really enjoyed this assignment, it seemed very scary in the beginning but after I 
+started working on it I realized how simple it is. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+Before beginning, I thought Artificial Intelligence could only be acheived
+through Machine Learning but it turns out this process of using search
+algorithms is actually more logic based than mathematical based. I have found
+that solving these kinds of problems is all about becoming well aquainted with
+the problem and finding a good way of representing it. This enables you to
+choosegood heuristics and, in turn, following a few logic steps, some
+iterations and recursion, you can tell the computer to do all the heavy lifting.
+
+To sum up, I've found that solving a problem becomes as simple as you make the
+problem.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I think the different searching techniques is the most important thing I've learned. Intelligent search such as A star, weight A star, greedy best first search, uniform cost search, and the different heuristics that are used in tangent with some of these search methodologies. Heuristics in particular make a lot of sense now. They almost incentivize which states should be used during a search, and take advantage of knowledge of the search space, state space and its attributes. For example, during A1 we took advantage of the coordinates of robots, boxes, and storage, as well, I used obstacles and walls in my logic to prevent boxes from getting stuck. These generic but powerful search algorithms can be applied to any problem, given that you implement some functions (and a class like Sokoban) and implement your own heuristic. It really opens up what can be done with search to me, and I'm excited to apply it to my own personal projects!#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+What is the most significant thing you have learned from the search module?
+
+One of the more important things I learnt was the concept of heuristics and
+how they can be applied to create a variety of differences in your search
+algorithm along with the versatility of search algorithms.Before this module
+when I thought of search algorithms I would think of things like pathfinding to a
+certain location or finding a certain object in a state space. I didn’t think
+it could be applied to solving a puzzle like we did in the Sokoban game assignment.
+Learnt how to create search algorithms and the differences between them,
+how we can trade cost for speed or optimality of our solution.
+The idea/concept of a state space and how to begin creating/using a search.
+This is a concept that can later be applied in other fields on cs and feels
+like an important building block to have in your arsenal
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+To build a good heuristic function, we need consider about following point:
+1. Check whether it's a goal state, h(goal_state) must be zero. 
+If we overestimated the h-value for goal state, it will more likely stay in the frontier and get extracted at the end.
+
+2. We need check whether it's a dead state, which means that we will never reach the goal as long as we entered this dead state. The h-value of dead state should be infinite since we will never reach the goal thought out this state.
+
+3. Now, we need consider the h-value for hopeful inner state. Even thought there are a bunch of ways to calculate much accuracy heuristic value, it's always very expensive to make this kind of calculation. Thus, we need deal with "Is it necessary to calculate based on these attribute(such as obstacles, boxes, and robots that between the boxes and target storage)".
+
+Search is very interesting for me and useful in the industries. I'm willing to do more study based on the search algorithm if I have opportunity in the future. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+One of the most significant things I learned from this module is the difficulty involved
+with properly rationing accuracy vs speed for these kinds of search algorithms. The part
+that I struggled with the most in this assignment was definitely creating the alternate
+heuristic function. While I could easily see the problem with investing entirely in speed
+(given the results of running the search engines with the simplest heuristics function),
+I was having a lot of trouble with battering down the accuracy and not wasting so much
+time trying to compute better accuracy. I had severely underestimated how many iterations
+would be run for each kind of search algorithm and just how costly my implementations were
+in my desire for just a bit more accuracy. In the end, while I was able to get a better
+implementation with a more workable accuracy vs speed ratio, it's still not the best, and
+so I'm curious what the better implementation actually is.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+What I learned from this assignment is that there will always be trade-offs between
+the efficiency and accuracy of a search problem. Often times, if we want the optimal
+solution, we must sacrifice efficiency in order to explore the search space completely.
+In the case of Sokoban, the search space is extremely vast, which results in longer
+search times. 
+
+To account for this, we use iterative search methods to gradually strengthen our bounds
+(cost, heuristic, f_val) in order to potentially reach our goal state with lower costs. 
+Furthermore, it is possible to sacrifice optimality and settle for sub-optimality with
+a non-admissible heuristic if prioritizing efficiency over accuracy, although it may affect
+iterative implementtations. (piazza @50)
+
+What I found most challenging was coming up with a heuristic that remains admissable whilst
+not introducing too much complexity to the computation of the heuristic. My initial approach
+ignored obstacles, whilst attempting to calculate the most realistic manhattan distances between
+each box and storage. It was significantly more complex, and resulted in multiple box-to-box comparisons in order to ensure no two boxes were on the same storage space, whilst still calculating the manhattan distance of each box to its nearest (un-occupied) storage space. This proved to be too complex of a heuristic and only 4 problems were solved, much worse than the benchmark.
+
+My second attempt took into account obstacles present in the SokobanState, hence allowing the
+pruning of states which were deadlocked in a sense, with no ability to reach a final goal state
+if even one box is deadlocked. This approach was also less computationally taxing, as it mostly
+utilized searching in a set (avg. O(1)), reducing the complexity significantly and allowing more
+cases to pass. 
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+In this search module, the significant things I believe is the accuracy the heuristic function
+and the efficiency of search method. We want to have a result in a quick and accuracy way. Although
+BF or uniform-cost search will search through a path, but it almost exhausts a complete possible path
+to get the most optimal one. As a result, the search must have a balance between accuracy and speed.
+To trade off, weight a* method use f(n) = g(n) + w*h(n), by adjusting weight,
+the method can produce an optimal solution with only having a partial search. And if time, we can loop through to find h with smaller weight
+
+However, even with great search method, a bad heuristic function will screw everything up. Putting more weight on a bad
+h(n) will cause inaccurate result and takes longer time to find a path.
+
+Conclusion, heuristic function and search method are very significant, a search can not be efficient without both.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned from the search module is how to make good search algorithms.
+I learned about differnt types of searches like hueristic searches, uniform cost search, and A*.
+I learned about what conditions make a good search like admissibility and consistency and how making an algorithm iterative can save time and space.
+I learned how to prove when certain algorithms will give an optimal solution, how much storage it will take, and what the runtime will be.
+Another thing that I learned which helps me make search algorithms is how to pick good heuristics by picking a heuristic that solves a simpler problem.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+From doing this assignment, I learned how difficult it is to come up with an improved heuristic function. 
+This was my main lesson because it was counterintuitive to sink more time into the calculation of the Heuristic 
+function so that you can account for more variables so that the improved heuristic can reduce the overall runtime 
+of the search algorithm. Initially, I tried changing the way I measured distance between the boxes, though it didn’t 
+give much of an improvement at all, but increasing the number of things I accounted for yielded a great improvement.
+So I learned that heuristics need not be novel things, but we can incrementally better them carefully while taking
+into account the overall runtime of the heuristic. I also learned how useful caching and hashing is for speed savings.
+Though the way I implemented it takes worst case up to every state on the board, which is exponential memory cost.
+Perhaps in other attempts, I’ll figure out a way to reduce the overall memory cost for hashing, and storing previous states.
+
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+Mostly how to use the search module. Being a module, it's very modular. All it really requires is the a heuristics function
+and an f-function. The search itself just needs to be initiated, and then run with the proper time and cost bounds. The state node
+object is accessible to see your search, and the search stats allow you to see the amount of paths pruned and the time it took to 
+run. For this assignment, the search module made it very easy to get the iterative A, weighted A, and iterative greedy search to work.
+Out of all the questions, the longest was by far making the heuristics function. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most important things I learned in the search module was the A* algorithm as 
+well as how to design, test and improve heuristics. Before taking this course, I 
+had already learned about some of the search algorithms covered in this class such 
+as BFS, DFS and greedy best-first. Yet, I had no knowledge of how A* was implemented 
+despite having prior interest in learning this algorithm for a personal project I was 
+creating (pathfinding algorithm visualizer). Now I have learned another algorithm which 
+can be applied to other problems I encounter and projects I want to develop. Another 
+important thing I learned was to work with developing and improving heuristics. Through 
+assignment 1, I have gained practical experience in designing a heuristic. Which has 
+given me the capability to improve heuristics through studying different test cases 
+and applying new conditions on heuristics (similar to what we did on the assignment). 
+Going forward, I feel confident in my ability to create heuristics for other problems.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing that I have learned from the module is the importance of a
+well made heuristic. The heuristic is basically the brain of the AI. 
+Making a heuristic too large and complicated only "clouds" up the AI's "thinking". 
+So outside the box thinking has to be used to create better heuristics. 
+Heuristics can always be made better but making them better requires quite a bit of thought.  
+One more thing that I took away was a deeper understanding and appreciation of how beautifully 
+complicated these programs can be. Which gave me a tremendous respect to the people who originally 
+came up with such ideas and innovation.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+I have learned he importance of having a good heuristic. Taking into consideration
+a search's surroundings and how they impact the path to solution, has been eye opening.
+As well, realizing when a search must end and when no possible solutions are available,
+is a powerful tool that can be widely applied. This module has taught me to think
+from multiple perspectives as opposed to just one. By doing so, a clear image of
+the problem can be formulated allowing for better curated solutions. This module
+has also shown me that different kinds of searches as better for different problems.
+As well, it has shown me how there could be several different solutions to a problem
+that lead to the same end result (i.e. reaching the bench mark, but having a different
+solution). 
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most important thing I learned about the search module is that when
+choosing a search algorithm there are many things that should be taken
+into consideration, such as time constraints, number of iterations, storage
+used, depth traversed, and others. It is important to note that it is
+required to make decisions because you may want to use a storage efficient
+algorithm such as Depth First Search, which does not necessarily give
+the shortest path to the solution. So, there is always a trade-off and
+as developers we need to be aware and choose the one that has the
+characteristics that are important for the problem being solved.
+Something that emphasizes even more this idea of being aware of the
+trade-offs, is the checking that is done to remove nodes if some condition
+is satisfied, using DFS as an example again, it would not be interesting
+to use cycle checking with DFS, because cycle checking requires a lot of
+space, which goes against the main idea of DFS (to be space efficient).
+So, I think the most important thing that I learned from the search module
+is being aware of the trade-offs of each algorithm and the types of
+checking to be able to achieve the expected result.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I've learned from the search module is how
+important heuristics can be for search problems. Many of the simpler search
+problems that are often shown as examples in CS courses can be solved fairly
+well (optimal solution and within a reasonable amount of time) by just using
+the appropriate search strategy (e.g. BFS, DFS, UCS, etc.). However, this
+course made me realize that more practical search problems like the Sokoban
+puzzle require more than just a good search strategy. These search problems
+can be very specific and complex in terms of what the most optimal step to
+take is. For example, in Sokoban puzzles, you need to consider how the robots,
+boxes, storage spots, and obstacles interact throughout possible steps to find
+the optimal path (or even any path).#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+I learned a lot about heuristics, gval (cost of getting to this state), hval (the
+estimated distance from a state to a goal state), fval. I also learned that
+a search can get stuck on a certain state if your heuristic is insufficient.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I always imagined pathfinding in my head to be something that worked really similar to how A star works, but I now learned the exact process of how it functions, and that there are different versions of it. I also learned why its important to take both the current state and the cost of getting to another state into account when deciding what the next move should be. In practicality, its given me a better insight as to how bots in video games function and path find for certain objectives. I also tried playing sokoban, and realized the simple looking game has a lot more strategy involved than I originally thought and that its easy to get into a state where the puzzle is no longer completable, and so a lot of the simple search algorithms likely hit a lot of dead ends.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned from the search module is that developing a search algorithm can be 
+based on optimizations humans make when searching. After playing a few rounds of Sokoban, for instance, I learned
+several tricks I could implement in my alternate heuristic. For example in Sokoban, if an object is in a corner, 
+it cannot be moved back out and is stuck there. Therefore, unless there is a storage location in that spot, corners must be 
+avoided. I also decided to focus on the distances between the robots and boxes, and the storage location and boxes in relation
+to the space around them. Printing out a run, and seeing how the basic AI solved the problem compared to me was 
+very useful and I think this can apply to other search problems too. For instance, I saw robots wander around 
+aimlessly (which made me implement a robot removal once it was done with its job) and almost put different boxes 
+in the same storage location at different points. 
+Instead, a person could see that it would be easier to put one box there, and then remove that storage location from the
+viable locations list. A human brain would automatically have removed it, but the AI needs to be told to. Not assuming 
+these basic rules and checking for them instead is important. 
+
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+After A1, I learned that I am not good at writing heuristics. I was not very good at the sokoban game so it was very hard
+for me to determine whether or not a particular state was good. I had created a heuristic that was very simple
+My heuristic had two main components; one was to compute smallest manhattan distance from a box -> storage. 
+The other component was to penalize a box ending up in a corner. I attempted to incorporate robots into my 
+heuristic but none of them were working very well so I just stuck with this one which worked best.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+The most significant thing I have learned is the importance of a heuristic function. The heuristic function must encorporate many things
+and must also have checks for deadlocks. I think this assignment especially has taught me how to create a good heuristic function. The key
+is to start off with a simple base function and add simple low time complex check. I also saw the difference a good heuristic function could have.
+For example the first heuristic function we had did not solve much, now once I got rid of unessesary loops, I imporved it. At the end the most important
+thing is to check for deadlocks and this was the one that helped push the problems solved into 14+ range.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I found while working on this assignment is how we can
+use a general class like StateSpace in order to develop a complicated search problem 
+like Sokoban or even the water jugs problem. Sokoban has to consider so many possible 
+states with the robots and there are different possible paths, but still, the basic 
+search algorithms like A*, greedy best-first search can be used to find a possible 
+path for this problem. I also found the process of finding an alternate heuristic 
+very fascinating since it is so open-ended and we have so much flexibility on how we 
+want to improve our search heuristic. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I found that most significant thing in our search module is finding the "good" heuristics. Because I found it quite tricky 
+and heuristics play an important role. Our implementations for different modules, astar or gbf search, all depends on 
+how well we implemented the heuristics function. A  good heuristics function helps the AI find the optimal solution quickly 
+while a bad heuristics makes our module runs slowly and may be get stuck. Of course, wirting the heursitics function 
+cost me most of the time. For each problem which did not produce a solution within the time interval, I needed to 
+debug it and print out states and acitons and analyze at which step, according to the heursitics, lead to our robot went 
+wrong.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+The learned a lot from this module. One of the things I learned is making even a tiny change to a
+heuristic can result in a drastically different search. But the most significant thing I learned was
+the importantce of not complicating a heuristic. I implemented a solution that would push a box into a storage
+and move any boxes neccessary and limit it to one box per storage and made sure to keep track of all that data. 
+However that solution got less cases right than my BFS solution and my Manhatten solution. This is because
+by putting so many constraints we are limiting what can actually be called a good state and we make it harder for 
+the search.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned from the search module was how to implement proper search functions.
+In particular the search module helped immensely with weighted_astar and iterative_weighted_astar. Initially, I
+wasn't  sure how to approach these problems, but after looking at the search module I was able to see how search
+functions were supposed to be used and their helpful and necessary methods. The search module also hepled me understand
+the assignment handout better. In the handout, things such as pruning, costbound, etc. were mentioned and not clarified,
+but after reading through the search.py I was able to understand what these meant and why they were important. This
+helped me implement my iterative functions.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned that the most important part of a search algorithm is the heuristic. The more accurate the 
+heuristic is, the faster and more accurate the search can be. However, it is extremely difficult to create
+an accurate heuristic. Creating the search algorithms is fairly simple and straight forward, whereas
+when it comes to the heuristic it is more about trial an error. During the assignment I spent hours, trying
+different heuristics and in the end, the final heuristic could still have been better. While doing the 
+assignment, I realized that an accurate heuristic is key because it allows the search algorithm to know what
+state to expand next. For example, for the a* search we expand the state with the smallest f value, if the
+h value isn't even close to accurate we could end up expanding the unnecessary states which waste time. 
+This can be seen for the Manhattan distance heuristic since it only checks the distance from each box to the 
+target. It does not take into account the position of the robots. So, h-value doesn't change until a box is moved, 
+which means until then the search algorithm treats every successor state equally. Overall, I learned that 
+performing an effective search for a solution comes down to the heuristic function. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+I learned alot about heuristics during this module. I think the most significant thing I learned
+was that a more detailed heurstic does not always lead to a better solution. It seems obvious in retrospect
+but I had assumed that if we caluclate more and more we would keep getting better and better models, and with
+infinite computation time this is probably true. But somethings are just to insignificant and the time spent
+to factor it in isn't worth it. When I started my heuristic for a1 I tried to have like 5 different things being
+checked but this slowed down computation to the point that nothing was been calucalted. Instead finding one 
+specific parameter and focusing on it yeilded the best results.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+In this assignment, we came across several types of searches, their advantages, and disadvantages. The most significant thing I
+learned is when to use one search over the other. In the case of heuristic search, we use heuristic value
+such that we attain an approximate measure of how close we are to finding our solution. Using manhattan 
+distance as a heuristic, we attain the distance between a box and the closest storage, adding them up. 
+This heuristic assumes the other obstacles and edge cases are not worth considering. Thus, we have an admissible, 
+but flawed heuristic. Our alternate heuristic, which we write in the assignment, bridges the flaws and reduces
+the time required for the search, providing better approximates. Weighted a-star search, on the other hand, 
+introduces a weight such that f(node) = g(node) + weight(h(node)), where g(node) is the cost of reaching the node
+and h(node) is the heuristic value of each node. Iterative weighted a-star search is one step ahead of weighted a-star search.
+We alter the weights such that we return the optimum path with the least f(node) value. In iterative gbfs search,
+we return the optimum path with the least g(node), improving the quality of a regular greedy first search 
+(that only expands node with the lowest h-value). #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I learned how to identify key characteristics of a problem and recurring problems that the algorithm suffered from,
+which helped me in improving my alternate heuristic. As I went through each test case that I was failing, I saw all the
+places where my alternate heuristic was failing and identified patterns that repeated through these cases
+(for example, walls and other obstacles blocking the path of a box, a box hogging a storage which blocks
+another storage location from being accessible, and others). Some of these problems I was able to work through, however,
+some of these I struggled with for days, and I ultimately could not solve.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant I learned from the search module that using simple pruning rules are usually more effective than using more complex pruning rules.
+For example I tried various mappings such as mapping the closest storage point to its closest box then mapping that closest box to its closest robot but this
+was not effective < 7 solved with the way I had implemented it. I also tried to penalize the distance between the robot and the box but this was not effective either
+as for some game states the it thought it was best to move back and forth near the box instead of moving the box towards storage. Thing the helped me find my heuristics 
+was playing the game trying to solve the puzzles myself.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I have developed a much deeper understanding of the different Artificial Intelligence algorithms used to
+find the solution to a given problem, and how to make that solution more time/space efficient.
+
+Uniform Cost Search (or an algorithm with heuristic fn returning 0 for all cases) is guaranteed to return
+the best, lowest cost path at the cost of efficiency as it will have to expand many more states to find the 
+best solution.
+
+Iterative Greedy Best First search is bound to be extremely performance efficient at the cost of accuracy
+as the algorithm is solely reliant on the heuristic function for guidance, which simply gives a rough cost
+estimate.
+
+Iterative or Weighted A* are like the middle ground between the two, which results in much better performance
+efficiency compared to UCS and much better accuracy compared to GBFS, however the accuracy and efficiency of
+the algorithm is still reliant on how accurate the heuristic function is.
+
+A heuristic function helps in boosting the efficiency of algorithms by estimating the cost of reaching the
+goal state from a certain state. This allows the algorithm to expand paths that are estimated to be
+lower in cost first in order to not have to expand paths that are inefficient/unsolvable and find the
+solution faster. The accuracy & efficiency of an algorithm is reliant on how accurately a heuristic models
+the states. However, the more accurate you try to make the heuristic the slower it gets. Hence, there reaches
+a point of diminishing returns / increasing losses as you try to increase the accuracy of the heuristic.
+
+Therefore, for an algorithm to both be accurate and efficient, it must use Iterative / Weighted A* search
+with a heuristic function that is in the sweet spot of being both accurate and fast.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned from this search module is that designing optimal
+heuristic functions are difficult. I had to draw out multiple Sokoban boards and think of
+multiple conditions in order to get more problems to pass. I was forced to think creatively
+and outside my comfortzone, which is a similar feeling I encounter in most math clases with
+proofs. It is really cool how even a slight change in heuristic functions can impact how
+the search runs completely differently. I had a lot of fun testing and designing multiple
+heuristic functions and it was definitely a rewarding experience seeing more and more problems
+being solved as I improved upon my heuristic function.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+From this search module, the most significant thing that I learnt is the variety of different search algorithm that can be
+used and tweaked to achieve different things or achieve something better than original. Also search module helped me to learn
+the concept of AI with algorithmic thinking.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?]]
+
+The most significant thing I have learned is that there are many different ways to search
+that have pros and cons. Even the most straightforward and seemingly efficient searches can
+take longer times than more complex searches such as BFS being worse (on average) then IDA.
+I have also learned that there are many variations of searches such as A* search that can have
+different results. Iterative A* search can be used to find a good weight and make the most optimal
+choices. Weighted search also helps to combine the heuristic value with the g value to produce a 
+more accurate search. The hardest part for me is finding a good heuristic function. To choose a good
+heuristic function, it must be both admissible and monotonic. The closer the heuristic is to the 
+optimal function, the better. However it is hard to do this, since we just want
+an estimate and also don't want to take too long.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learnt from the search module is the significance of
+a good heuristic. Heuristics can greatly influence the decision making process for the
+search and the optimality of the algorithm. Similarly to approximation algorithms,
+heuristic algorithms prioritize speed over accuracy so when they are written well, they
+are like a shortcut to the solution. There are no 'bad' heuristics, as a heuristic may
+be optimal for one type of problem but are not effective for other problems. They really
+make you think about your problem and all its edge cases and how far a certain state is
+from the solution.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+The most significant thing I have learned in this module, was the idea and concept of heuristics. Up until now, I always
+thought that searches had to be brute force, and would check every possibility. Now I understand that searches can be
+optimized with heuristics. I also learned ways of implementing, and analyzing said heuristics.I also learned different
+ways of using heuristics, as there are different forms of search functions which can weigh heuristics in different
+schemes. I learned the properties of these different schemes and how they affect the performance of a search function.
+I also gained an appreciation for how difficult it is to implement a proper heuristic. It is not as easy as it looks
+sadly.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned is how to improve upon a solution that I developed just Like the iterative A* search. 
+I found out that inorder to tackle the more difficult edge cases and improve efficiency, simply coding isn't enough. 
+Through developing my heuristic, I ran into many obstacles and sometimes my improvements does nothing at all. 
+In the end, many improvements that wored were developed through actually playing the game and trying to think like a computer.
+I try to play the board in the worst way possible and putting the boxes in the worst positions.
+This way I am able to translate it into my code and use heuristics to help the search algorithm to avoid tyhese situations.In general, the most important thing I know is if a heuristic function is not implemented
+well, then it will not help on searching at all.
+
+If the heuristic function overestimates the cost, sometimes it will cause a lot of trouble.
+
+We should also implement the heuristic function as smart as possible. By that I mean be as much 
+accurate as you can to esticate the cost from the state to the goal.
+
+Also, before I only know bfs and dfs and dijkstra, and I think they are already really efficient,
+but there are a lot of eye opening things to me in search module.
+
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+When listening to lectures about searching algorithms, they are all theories.
+When I was doing this assignment, I actually found pseudocode in algorithm
+is pretty different from codes in hands-on assignment.
+
+The most important part is that accuracy is not all of the algorithm. When implementing
+heur_alternate, it was a difficult time to find both efficient and accurate
+way to implement it. Make it accurate enough will increase the complexity and thus does not
+comply with the time limit. It was pretty interesting to explore and test though.
+
+Besides, those weekly quizzes are very useful and helpful for me to summarize the week's learning.
+For example, questions like finding out where the iteration terminates gives me opportunity to
+practice the algorithm for different ways of searching.#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+Student: Ping Yen
+Student Number: 1004727263
+UTORid: yenping
+
+CSC384 Self-Assessment 
+Date: 02/03/2022
+
+	The most significant thing I learned from working on this assignment is that it is important to design a good heuristic function that can reflect the real-world scenario while retain the concept of "heuristic". Initially, I aimed to construct a heuristic that best represent the current state, but it turned out that the heuristic was actually "solving" the problem and became too complex. After few more trials, I observed the performance improving as I lowered the standard of my heuristic implementation, and I also gradually understood the concept of heuristic. Eventually, I successfully constructed a heuristic that performed better than the benchmarks. I learn two essential points of constructing heuristics from this process. First, considering the hard requirements or limitations of the problem can decrease the problem complexity, so try to incorporate as much requirements as possible. Second, observe the causes that block ideal optimal solutions, and incorporate a simpler version of such causes in heuristic value computation to better interpret the actual scenario.  #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The search module taught me a lot about how ai algorithms find solutions. Heuristic functions
+in particular, were very significant in reducing the time it takes to find solutions. Search
+algorithms without heuristics can take a significant amount of time even with short depths
+due to exponential complexity. For heuristic functions, the effectiveness of the heuristic
+is crucial as it needs to allow an optimal solution to be found while still reducing the time
+to find it. Thus, I found that the emphasis on a heuristic function to be the most significant
+thing I learned from the search module as it entails the hardest detail (the skeleton
+of the algorithms is the same across different problems while heuristics are unique to the
+problem).#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned is the way to improve a search algorithm.
+Different ways of optimize the algorithm will result different outcomes. Depending
+on our preference, we can choose different method to meet our needs, For instance,
+we could use Iterative Depending A* Search to save memory usage. Or we could use
+greedy search to get a solution faster, but the solution may not be optimal one.
+Like what we have done during this assignment, we can even run a search algorithm
+iteratively and using the previous result to keep improving the solution. This is
+something I never thought about before. When we build an application, we want it
+to show some content faster to improve user's experience. If the customer has more
+powerful machine,we can keep search for a better solution. By using this concept,
+we can effectively eliminate long blank screen time.
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned is that it is difficult/costly to timebound limit a program. We can return an error if final time exceeds the bound when completed, which means actual runtime still exceeded the limit, or check in intervals, which would require greater overhead to pause and resume the search. For my implementation I tried to give some breathing room for the program to complete it's last run but it does not mean that I have effectively stopped before the time bound. Although I can see how a kernel program can manage and kill this one with a given time limit.
+
+Adjusting weights too little in the beginning led me to the wrong understanding about the impact of weights. I had thought that dividing by 2 would be significant but it was not enough. #In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned from the search module is that there isn't 
+one type of search method that is good for all searches, there are different trade offs
+to consider depending on the what you are searching like if there is a cost involved. 
+Another thing I learned particuarly from working on this assignment is that 
+its hard to come up with a good heuristic and theres a lot of edge cases to consider and 
+sometimes adding more/certain constraints that seem like it would improve the heuristic will sometimes 
+even make the search slower than how it was before. :(

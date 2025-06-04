@@ -1,0 +1,10 @@
+In the games unit, I learned how large (i.e. the number of possible states)
+that even a simple game of Othello has at small board sizes. Although the amount
+of free spaces decreases as you go deeper in the search tree, the amount of 
+possible states does not necesarrily decrease with it. This is because cells
+that are not empty can still be flipped in the future based on what the next move
+might be. This made me realize the power that good heuristics can have in terms
+of obtaining better results, and performance too. I also learned how much research
+has gone into development the methods we learned in the games unit, and that the
+results have been both promising and interesting in that we may have hit a wall
+as far as how efficient we can make our search algorithms.

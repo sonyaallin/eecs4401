@@ -1,0 +1,9 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learnt how AI is actually created in games between two players. I thought it was some magical, 
+difficult thing but it turned out to be quite easy. The different algorithms show how efficiency 
+plays such a big part in making an Ai usable for production. It is also interesting to see how cashing 
+and ordering affect the program. Although I didn’t have the time to complete my own heuristic, I’ve 
+thought of a few ways I would have done it and it truly was difficult to create something that was
+both efficient and smart. Proper respect goes to the geniuses who create these cool heuristics!

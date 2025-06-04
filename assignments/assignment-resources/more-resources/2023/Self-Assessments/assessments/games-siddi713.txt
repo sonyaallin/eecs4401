@@ -1,0 +1,9 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+What I learned in the games unit reinforced my learning from A1. Simple/ A combination of simple heuristics
+out performs complex heuristics. I was trying to implement a heuristic that would take future mobility into account
+but that would result in the code timing out. I decided to go with a simpler one that just factored in the current boards
+mobility and with the addition of my other 2 heuristics (try to play in corners and maximize captures) I was able to get a
+working heuristic that would work for an 8x8 board. This also gave me an insight into how chess algorithms are most likely designed as 
+I have seen some chess engines that ask for parameters such as depth limit.

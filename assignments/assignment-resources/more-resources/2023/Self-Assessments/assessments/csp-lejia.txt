@@ -1,0 +1,13 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+This module showed me how various real-life problems can be solved by converting them
+to a CSP. When completing this assignment, I realized when running FC using n-ary constraints
+that it is possible for FC to take exponentially longer to solve a CSP compared to GAC.
+Whereas, GAC checks all constraints which results in a lot more pruning and a narrower search tree
+which explains how it reaches a satisfactory solution quicker. 
+
+Furthermore, I realized when implementing the cage constraints why pre-processing checks for 
+consistency are beneficial as it allowed me to detect issues with my constraint implementation
+prior to the search even running, which saved a lot of time. 
+

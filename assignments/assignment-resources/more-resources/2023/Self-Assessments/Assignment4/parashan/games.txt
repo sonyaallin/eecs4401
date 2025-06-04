@@ -1,0 +1,14 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+After A4, I learned that I am not good at writing heuristics. I was not very good at the othello game so it was very hard
+for me to determine whether or not a particular state was good. I had created a heuristic that was very simple
+My heuristic had two main components:
+Compute heuristic description:
+
+1. Count # of corners owned by a player
+    - +1 score for each corner
+2. Count # of lines owned by a player
+    - +board_size -1 for each line from a corner
+
+Then I compute two scores, one for ai color and one for opponent color and subtract (ai_score - opponent_score) to compute the heuristic value

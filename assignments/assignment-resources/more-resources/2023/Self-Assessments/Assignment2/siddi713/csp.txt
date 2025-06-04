@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I learned from the CSP module was that domain wipe out case is very important.
+I initially forgot this case and it took over a 1000sec to solve problem 5. Then I refered to the lecture
+slides and realized that I had missed that case. After implementing the domain wipe out case, I was able to
+decrease the time to 2.5sec, but I still could not solve problem 6. It took implementing old_mrv to solve
+problem 6 and it drastically reduced the time to solve problem 5 as well to 0.07sec. This taught that ordering
+of variables is crucial as well.

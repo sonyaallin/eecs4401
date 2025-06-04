@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The CSP module's most important/significant topic to me was actually being able to build the environment, establishing variables, constraints, and their scopes.
+Learning about how we build CSPs in the game Sudoku during lecture made it easier to understand working with funpuzz, and now I believe that I could implement
+a CSP problem for other board games which require different sets of game constraints with variables over iterative states like we would see in the previous search 
+module. Leaning about Forward Checking as well as GAC was also very useful, especially implementing the functions, which allowed me to discover how to work around the 
+constraints (although being given the CSPbase.py file made things very helpful). Overall, I would say this project (including A1 for it's module) really helped me understand
+what everything meant, as it forced me to learn about the pieces in order to put it all together. The past two assignments have been structured very well!

@@ -1,0 +1,12 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I learnt that adding an ordering heuristic makes a big differene in time taken to find a solution. 
+
+Before I had added the ord_mrv heuristic, my forward checking could not complete the funpuzz model for the 6x6 
+in automarker.py. It was also extremely slow for 5x5, it would take about 1 minute to solve. 
+However as soon as I implemented ord_mrv, it found the solution very quickly. 
+
+The intuition i learned is that with this particular heuristic, variables with the smallest domain are locked in place 
+before we go on to try other variables with much larger domains. This means that in many cases we decrease the search space
+significantly by prioritizing the locking down of the variables that are easy to assign a value for.

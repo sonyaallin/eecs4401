@@ -1,0 +1,5 @@
+The most significant thing I have learned from the Bayesian Network module is how we can use hmms to make predictions.
+I learned about algorithms like the Viterbi or forward pass which allows us to make good predictions even with uncertainty involved.
+In the assignment I learned how to train an hmm and gained experience on how implement a prediction algorithm to use the hmm to make POS predictions 
+on the words. Another useful thing I learned while doing the assignment is about the advantages of using log probabilities instead since multiplying 
+small probabilities often lead to zero probability an bad predictions.

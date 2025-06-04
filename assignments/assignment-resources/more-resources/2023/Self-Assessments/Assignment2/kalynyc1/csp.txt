@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Most interesting part of the CSP module was the practical application of the theory.
+How relatively easy we can solve complex puzzles like sudoku, queens problem and etc. where 
+each step involves some sort of constraint in the big picture.
+Most significant part was the GAC-based pruning technique.
+Very powerful technique as it considers all CSP problems on each step.

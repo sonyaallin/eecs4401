@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+In the beginning I was testing FC and GAC with binary_ne_grid and nary_ad_grid since I didn't have funpuzz
+solver finished. My tester was not able to solve CSP6 with nary_ad and FC, and when it did with other combinations of
+propagators and grids it took much longer than a second to solve. I thought the problem lied in FC, but after hours
+of trying to debug I gave up - I exactly followed the lecture's pseudocode and I still couldn't get it to work. In order
+to salvage some marks I decided to finish funpuzz, turns out once I got a functioning funpuzz generator everything
+worked. This led me to the conclusion that I had too few constraints in the case I failed, which made the grid too
+open ended and impossible to solve in a reasonable/fast time (I was waiting for upwards of 5 minutes for my algorithm to
+solve before I finished funpuzz and it still would not finish running).

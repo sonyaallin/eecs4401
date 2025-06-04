@@ -1,0 +1,67 @@
+1. 
+
+I got the result of questions are:
+
+91.3087726440057
+40.62684801892371
+9.11866476694484
+28.612260989552535
+27.51882760024425
+59.32387147644393
+
+The probability is not high. The fairness of Bayes model should be able to
+accurately predict the probability for different datasets. In other word,
+the model should not favor on some characterstic such like work, education,
+occupation and gender etc. The bayes model I wrote cannot predict with high
+accuracy. Hence, I would not use my model to recommend starting salaries for 
+employees at a firm. This is because any model is only as good as the data it
+is trained on. My model is trained with the prior variable "Salary". It has 
+biased. So, I will not use my model to recommend starting salaries for 
+employees at a firm.
+
+
+2. 
+
+First, I write the five operations will be used in the variable elimination.
+It is difficult to start. After I kept trying to print values and understand 
+all the classes, the operations started to get easier. The Factor.recursive_print_value()
+method is really helpful. So, I can assign value to any variables recursively like
+a tree. Actually, it is a static question. If I set value to the a variable, how
+many permutation of remaining variables there are is the core idea.
+
+For the min_fill_herusitic, the core idea is to calculate how many edges connect
+to the queryvar. 
+
+It is good to think hard on these operations. This is because I found that it easy
+to implement variable elimination. Based on the lecture slide, I actually every steps
+what should I do.
+
+The model function is hard to start, too. It is really empty. 
+
+The basic idea of model function is what factor I need to compute P(a|b).
+So, we need P(a intersection b) and P(b).
+
+Since the handout said b is Salary, I create the factor for Salary to calculate
+P("<50K") and P(">=50K"). Then, I create P(a|Salay) factors. After understanding
+the static formula, it easy to implement the model function.
+
+For the last part, I think the most difficult part is to use the correct dataset.
+I am not sure on this part. So, I have no idea about the correctness of this explore
+function. 
+
+Overall, the biggest help of this assignment is to understand every step of variable
+elimination and the structure of Bayes model.
+
+3.
+I think the exercise question is very good. It actually helps me understand the concept
+deeply.
+
+The suggestions are:
+1. More detailed docstring and handout.
+2. More pre-exercise of assignment on lab section.
+
+This is because it is hard to start. Just for me. For A3 and A4, the handout is
+not clear for some parts(There are few sentences.) I can understand. 
+Handouts and docstrings that are too long can scare students. HAHAHA:)
+
+Everything is good. The course is very nice and interesting! Thanks!

@@ -1,0 +1,6 @@
+﻿#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+
+The most significant thing you have learned from the csp module is how to implement
+GAC propagator, MRV and different constraints model, and I have a better understanding for each concept in terms of coding. For the GAC propagator, I used a self-defined queue and followed the code template taught in lectures. This implementation took relatively less time than other functions in the project. For MRV, it is also simple as I first checked the variable that had the least amount of domain size, if any of them had the same size, then checked which one had the most constraints related to it. For the three constraints model, I struggled most of my time on the binary not equal constraints. The implementation is space-consuming since we need to store all possible pairs of values in satisfying tuples. Once the tuples are set, the rest becomes straight forward.

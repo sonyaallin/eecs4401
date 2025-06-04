@@ -1,0 +1,3 @@
+The csp module has taught me an extremely generalizable way of solving problems. I somewhat struggle with the underlying concepts of Forward checking, but I find GACs quite intuitive.
+
+Forward checking caused me a lot of difficulty before I wrote it myself. I didn't understand how it was better than just moving forward, but this gave me a much better perspective on it.

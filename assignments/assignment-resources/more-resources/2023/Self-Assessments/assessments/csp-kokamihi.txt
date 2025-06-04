@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The idea of how to encode a constraint satisfaction problem in a way that allows us to give it to a machine to solve. We were first introduced to csps in csc373 but didn’t delve much deeper into the topic.
+The requirements required to write out a csp formally is personally the most significant thing learnt as it can be used to think of other problems as CSP problems to solve. Since csp in np complete if a sol is found we can reduce other problems to a csp to solve in poly time, which is an interesting idea.
+
+I also enjoyed learning about propagators and the different kind of ways to solve a csp, BT, FC, GAC and how they work
+

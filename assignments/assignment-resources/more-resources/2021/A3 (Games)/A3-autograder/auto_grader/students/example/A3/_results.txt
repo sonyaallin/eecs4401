@@ -1,0 +1,62 @@
+####################
+# Assignment 3
+####################
+
+Overall: 69.4/90
+====================
+Test Case: [function=test_alphabeta_max_node_1]	[5.0/5]
+	You computed correct alpha-beta max moves for 3 of 3 boards
+You computed correct alpha-beta max values for 3 of 3 boards
+====================
+Test Case: [function=test_alphabeta_max_node_2]	[5.0/5]
+	You computed correct alpha-beta max moves for 3 of 3 boards
+You computed correct alpha-beta max values for 3 of 3 boards
+====================
+Test Case: [function=test_alphabeta_min_node_1]	[4.5/5]
+	You computed correct alpha-beta min moves for 4 of 5 boards
+You computed correct alpha-beta min values for 5 of 5 boards
+====================
+Test Case: [function=test_caching_big]	[2.8000000000000003/4]
+	Move choice with and without caching is the same for 5 of 5 boards
+State caching improved the time of your alpha-beta for 2 of 5 boards
+====================
+Test Case: [function=test_caching_xl]	[3.5999999999999996/6]
+	State caching improved the time of your alpha-beta for 3 of 5 boards
+Move choice with and without caching is the same for 3 of 5 boards
+A runtime error occurred while testing test_caching_xl: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/Winter2021/games-resources/A3-autograder/auto_grader/student_grader/assignment/A3_tests.py", line 282, in test_caching_xl\n    with_cache = stu_solution.select_move_alphabeta(xlboards[i], 1, 8, 1)\n  File "students//example/A3/agent.py", line 187, in select_move_alphabeta\n    result = alphabeta_max_node(board, color, alpha, beta, limit, caching, ordering)\n  File "students//example/A3/agent.py", line 154, in alphabeta_max_node\n    node = alphabeta_min_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 127, in alphabeta_min_node\n    node = alphabeta_max_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 154, in alphabeta_max_node\n    node = alphabeta_min_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 127, in alphabeta_min_node\n    node = alphabeta_max_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 154, in alphabeta_max_node\n    node = alphabeta_min_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 127, in alphabeta_min_node\n    node = alphabeta_max_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 154, in alphabeta_max_node\n    node = alphabeta_min_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 127, in alphabeta_min_node\n    node = alphabeta_max_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 144, in alphabeta_max_node\n    moves = get_possible_moves(board, color)\n  File "/Users/JaglalLab/Desktop/Winter2021/games-resources/A3-autograder/auto_grader/students/example/A3/.tmpy/othello_shared.py", line 48, in get_possible_moves\n    lines = find_lines(board,i,j,player)\n  File "/Users/JaglalLab/Desktop/Winter2021/games-resources/A3-autograder/auto_grader/students/example/A3/.tmpy/othello_shared.py", line 24, in find_lines\n    while u >= 0 and u < len(board) and v >= 0 and v < len(board):\nKeyboardInterrupt\n'
+A runtime error occurred while testing test_caching_xl: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/Winter2021/games-resources/A3-autograder/auto_grader/student_grader/assignment/A3_tests.py", line 277, in test_caching_xl\n    no_cache = stu_solution.select_move_alphabeta(xlboards[i], 1, 8)\n  File "students//example/A3/agent.py", line 187, in select_move_alphabeta\n    result = alphabeta_max_node(board, color, alpha, beta, limit, caching, ordering)\n  File "students//example/A3/agent.py", line 154, in alphabeta_max_node\n    node = alphabeta_min_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 127, in alphabeta_min_node\n    node = alphabeta_max_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 154, in alphabeta_max_node\n    node = alphabeta_min_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 127, in alphabeta_min_node\n    node = alphabeta_max_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 154, in alphabeta_max_node\n    node = alphabeta_min_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 127, in alphabeta_min_node\n    node = alphabeta_max_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 154, in alphabeta_max_node\n    node = alphabeta_min_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 127, in alphabeta_min_node\n    node = alphabeta_max_node(new_board, color, alpha, beta, limit - 1, caching, ordering)\n  File "students//example/A3/agent.py", line 144, in alphabeta_max_node\n    moves = get_possible_moves(board, color)\n  File "/Users/JaglalLab/Desktop/Winter2021/games-resources/A3-autograder/auto_grader/students/example/A3/.tmpy/othello_shared.py", line 48, in get_possible_moves\n    lines = find_lines(board,i,j,player)\n  File "/Users/JaglalLab/Desktop/Winter2021/games-resources/A3-autograder/auto_grader/students/example/A3/.tmpy/othello_shared.py", line 27, in find_lines\n    elif board[v][u] == player:\nKeyboardInterrupt\n'
+====================
+Test Case: [function=test_compute_utility]	[5.0/5]
+	You computed correct utilities for 6 of 6 boards
+====================
+Test Case: [function=test_depth]	[2/10]
+	Calculated correct moves at varying depths 2/10 times
+====================
+Test Case: [function=test_minimax_max_node_1]	[5.0/5]
+	You computed correct minimax max moves for 3 of 3 boards
+You computed correct minimax max values for 3 of 3 boards
+====================
+Test Case: [function=test_minimax_max_node_2]	[5.0/5]
+	Test 2: You computed correct minimax max values for 3 of 3 boards
+Test 2: You computed correct minimax max moves for 3 of 3 boards
+====================
+Test Case: [function=test_minimax_min_node_1]	[4.5/5]
+	You computed correct minimax min values for 5 of 5 boards
+You computed correct minimax min moves for 4 of 5 boards
+====================
+Test Case: [function=test_ordering_1]	[3/5]
+	Move choice with and without ordering is the same for 5 of 5 boards
+Node ordering improved the run time of your alpha-beta for 3 of 5 boards
+====================
+Test Case: [function=test_ordering_2]	[5/5]
+	Move choice with and without ordering is the same for 5 of 5 boards
+Node ordering improved the run time of your alpha-beta for 5 of 5 boards
+====================
+Test Case: [function=test_select_move_alphabeta]	[8/10]
+	Calculated correct alphabeta moves 8/10 times
+====================
+Test Case: [function=test_select_move_equal]	[3/5]
+	Same alphabeta strategy as minimax 3/5 times
+====================
+Test Case: [function=test_select_move_minimax]	[8/10]
+	Calculated correct minimax moves 8/10 times

@@ -1,0 +1,11 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learnt about minimax algorithm and the alpha beta pruning. I have been a huge 
+fan of chess (I have been playing chess since I was 6 years old) and computer chess 
+and I have wondered how stockfish (previous best chess computer) works. It was 
+extrememly fascinating to learn about these algorithms and how it is possible to 
+implement this algorithm in various discrete, finite games. I truly enjoyed learning 
+about all these algorithms and I am thrilled to employ this algorithm on chess after 
+this course. This course was very well taught by prof Sonya Allin and would like to 
+thank her for this experience.

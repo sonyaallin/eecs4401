@@ -1,0 +1,12 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I think one of the big takeways is how over-caching can actually slow down your code. I attempted to cache more than what was asked by looking
+at parallel states (eg mirrored or rotated) which required some matrix operations. Unfortunately, the cost of adding the operations was too 
+large and it ended up slowing the code down instead of speeding it up. Thus, I ended with just storing the basic state. 
+Also out of all the improvements we tried, alpha-beta pruning definitely had a big impact and was pretty cool to see, but I personally liked
+caching the best as it allowed to go from not being able to do something at all to solving it in seconds!
+When making my heuristic I also learned that sometimes what I think will be good additions to the heuristic end up making it worse. This was
+interesting because I based what I did on the strategy guide for Othello and to see some of their strategies not improve the AI was unexpected.
+After looking at it, I think it may have to do with the weighting of that piece of the strategy relative to the others and so it is important to 
+test different impact sizes.

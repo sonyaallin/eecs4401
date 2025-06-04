@@ -1,0 +1,17 @@
+I learned how the emissions are important to help us understand and make
+assumptions of what happened in a previous state in the process that we are
+analyzing. Another important thing that I learned in this topic is the
+"Blocking" in Baye's Nets. Blocking is important to be accounted for because
+if you are not given information about a certain node that connects to other
+nodes it could mean that we would have a block or not, in other words, having
+information about a node or not, could lead to two other nodes being
+independent or not. I found that really fascinating because I had never noticed
+this behavior where for example if we do not know that whether your body aches,
+the fact that you have Flu or Malaria are independent, now if we know that your
+body aches, now those two conditions become dependent. I will probably not look
+at Siri the same way, now I understand the amount of data that she needs to
+keep track of in order to better perform speech recognition. I also noticed
+that HMM could also be used in touch screen keyboards, because since the keys
+are so small they usually need to predict what are the most likely next key to
+be pressed so that they increase that key's touch area, creating a better user
+experience, instead of users always pressing the wrong keys.

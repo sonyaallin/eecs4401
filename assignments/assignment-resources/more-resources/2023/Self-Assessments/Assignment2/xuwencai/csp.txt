@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+Well, I already know the backtracking algorithm one or two years ago when I was practicing leetcode, to solve
+those permutations, combinations question, and I know backtracking is kind of a brute force solution.
+After learning this module, I know a lot of ideas to improve on it, forward checking, GAC, MRV, etc.
+The most significant one is propagation, Propagation has to be applied during the search, potentially at every node of the
+search tree, and if the propagation itself is slow, then it won't help, it will slow 
+down the entire search tree. So algorithm is the most important, if you pick the correct 
+algorithm, then it will save you a lot of time.

@@ -1,0 +1,9 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+The most significant thing I have learned in this module, was the idea and concept of heuristics. Up until now, I always
+thought that searches had to be brute force, and would check every possibility. Now I understand that searches can be
+optimized with heuristics. I also learned ways of implementing, and analyzing said heuristics.I also learned different
+ways of using heuristics, as there are different forms of search functions which can weigh heuristics in different
+schemes. I learned the properties of these different schemes and how they affect the performance of a search function.
+I also gained an appreciation for how difficult it is to implement a proper heuristic. It is not as easy as it looks
+sadly.

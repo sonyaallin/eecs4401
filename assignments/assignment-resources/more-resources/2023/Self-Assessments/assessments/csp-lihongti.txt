@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+csp module provides the search with efficiency mostly depends on domain
+Normal BT search has no consideration for domain, result in a fat and long ass search tree.
+However, with FC, it reduces the possibility of assigning domain. Which increase efficient.
+And last, GAC, reduce domain and reduce size of search tree, which can highly improve from the backTracking
+search. Conclusion, csp module will be fast if pruned value in domain.

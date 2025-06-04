@@ -1,0 +1,3 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+
+The most significant thing I have learned form the Bayesian Network module is how to implement and use the Viterbi Algorithm to train an HMM. Specifically, how to handle emission values where the observation and emission pair do not exist in the emission CPT. By setting the emission value to be close to 0 in that situation, the Viterbi Algorithm was able to achieve almost 100% accuracy on grader.py compared to less than 50% when the emission value was 1.  Additionally, I was also able to learn how to construct the prior, transition and emission CPTs from a training dataset and how to construct Trellis tables for use in the Viterbi Algorithm.

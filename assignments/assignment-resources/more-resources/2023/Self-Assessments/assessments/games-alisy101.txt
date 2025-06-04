@@ -1,0 +1,11 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I saw many algorithms that help computers and AI win games against real users.
+This gave me an insight on how the many games that I play that involve a computer
+player operate. The most significant thing that I learned was how heuristics can
+be used to make the AI make even smarter moves. For example, in this assignment
+I made states that had the players pieces on walls or corners worth more, and 
+this created an AI that was almost undefeatable. The cool thing is, there are
+many other heuristics I could've incorporated to make the AI even smarter. This
+is how computer games probably incorporate difficulty into the game. 

@@ -1,0 +1,13 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+Before beginning, I thought Artificial Intelligence could only be acheived
+through Machine Learning but it turns out this process of using search
+algorithms is actually more logic based than mathematical based. I have found
+that solving these kinds of problems is all about becoming well aquainted with
+the problem and finding a good way of representing it. This enables you to
+choosegood heuristics and, in turn, following a few logic steps, some
+iterations and recursion, you can tell the computer to do all the heavy lifting.
+
+To sum up, I've found that solving a problem becomes as simple as you make the
+problem.

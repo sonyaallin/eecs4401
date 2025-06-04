@@ -1,0 +1,14 @@
+#You can use this file for the purpose of your self-assessment exercise.
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I cemented my knowledge that a good working model can be a solid foundation for
+several things. For example, the model of having an initial state, a state
+space, a set of actions, and a goal is a very good model for all kinds of
+artificial intelligence and machine learning models. This is why we can apply
+this model when doing a search problem but we can also apply it here in the game
+problem.
+
+As someone whose hobby is to develop games, I was hoping we might get to cover
+an AI model for something like a robot in a first person shooter. While we may
+not have covered it explicitly, I can apply the concept of taking one model and
+applying it elsewhere to other areas of game development as well.

@@ -1,0 +1,6 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+In this assignment, I learned about the practical aspect of search algorithms, and I became more comfortable with programming them. Up to this point in CSC384, I have only learned about the theory behind search algorithms, but I haven’t had the chance to implement them. This assignment gave me more experience with that. While I did not allocate enough time to finish the assignment completely, after completing a subset of the tasks assigned to us, as well as reading over the starter code, I have a better idea of how one would program a search algorithm.
+
+In addition, while I did not end up creating my own heuristic, I did attempt to. After being taught about different heuristics in class, it was nice to gain experience experimenting for myself what a good heuristic may be for a given problem.

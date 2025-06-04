@@ -1,0 +1,8 @@
+I found this assignment to be very interesting and relevant to what we
+see around us every day. NLP is a popular concept you hear about every day 
+but actually implementing a subset of that, was something that was very 
+fascinating to me.  Trying to predict states from observations is a ubiquitous 
+problem AI agents are faced with every day, like Siri, robots, etc. and we see 
+them solve these problems very easily in just a few seconds, but through Bayesian 
+networks, I was able to understand the whole process and technicalities that go 
+behind such a categorization or prediction process. 

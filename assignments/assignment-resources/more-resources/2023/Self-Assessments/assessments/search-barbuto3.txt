@@ -1,0 +1,20 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I've learned from this module is that it is difficult 
+to mimic human intelligence, and as a result, in artificial intelligence there will 
+always be a tradeoff between performance and accuracy when searching for a solution. 
+More specifically, this tradeoff can exist in the complexity/type of the heuristics 
+you want to use, as well as the search algorithm itself. I also learned that sometimes
+"doing nothing" can even be a good heuristic in some cases.
+
+For example, when checking if some state is certain to never yield a solution, I initially 
+thought that it would be beneficial to check: if a box is on a wall and there is a storage
+point on that wall, then I must also check if there is an obstacle in between which would
+prevent that box from ever reaching that store (since boxes on walls can never be pushed 
+inward, they must always remain on that wall). However, a simplified version was the better
+choice as the extra check for obstacles along the wall was not rewarding enough compared
+to the time it took to calculate it. Thus, I decided to keep the simplified version, which
+was only to flag the state as 'unsolvable' if there were no stores on the same wall, and don't
+even check if there are obstacles in the way. Thus, the heuristic is still admissible, but
+comes with the cost of some accuracy with the gain of performance.

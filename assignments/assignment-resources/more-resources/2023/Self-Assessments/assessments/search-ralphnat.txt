@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I learned from the search module was how to implement proper search functions.
+In particular the search module helped immensely with weighted_astar and iterative_weighted_astar. Initially, I
+wasn't  sure how to approach these problems, but after looking at the search module I was able to see how search
+functions were supposed to be used and their helpful and necessary methods. The search module also hepled me understand
+the assignment handout better. In the handout, things such as pruning, costbound, etc. were mentioned and not clarified,
+but after reading through the search.py I was able to understand what these meant and why they were important. This
+helped me implement my iterative functions.

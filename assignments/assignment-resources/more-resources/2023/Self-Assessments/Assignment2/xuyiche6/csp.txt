@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+In my opinion, solving a CSP problem is like finding an equilibrium for all questions where each question is satisfied, just like parents taking care of babies.
+For this assignment, it is pretty annoying and time consuming that when implementing the three models, it took me a lot of time finding out why there were all None in solution and why my code entered with DWO.
+As the way I implemented the funpuzz_csp_model, I chose to use binary non equal, which is easier for me to understand and it also gives me better performance.
+From this module, the most important thing i learnt is the constraint propagation, which is Generalized Arc Consistency.
+Similar to forward checking, it can detect conflict earlier than FC and therefore saves us run time.

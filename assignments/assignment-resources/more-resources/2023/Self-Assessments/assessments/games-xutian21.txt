@@ -1,0 +1,4 @@
+The biggest thing I have learned is the complexity of making a search algorithm efficient. It takes a lot of finesse
+trying to make my search algorithm behaved like a human instead of brute forcing. As a result It really opened my eyes
+about what can AI do and how they achieve it. I found a well developed AI algorithm is really close to how a human
+brain works. It takes estimates and work based on those estimates but it's much faster and efficient.

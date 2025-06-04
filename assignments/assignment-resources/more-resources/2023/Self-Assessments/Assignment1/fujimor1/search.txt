@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+One of the significant things I learned from the Search module is the importance of hashing. 
+It utilizes the hashing technique effectively so that each state has an immutable and unique representation. 
+This allows us to implement cycle checking (i.e., check whether the same states have been already visited or not) easily. 
+On the other hand, if we don't use the hashing technique and the state doesn't have a unique representation, 
+there is no way to compare the equivalence of the two states. 

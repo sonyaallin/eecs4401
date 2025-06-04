@@ -1,0 +1,10 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+One significant thing I learned while working on this assignment is that I focus on a player at a time. Initially I intended
+to model both players within the recursive calls, but I soon realize that it will be too complicated and redundant since
+I am working with a zero-sum game model. Additionally, discover a method to reduce search space is very crucial. It is 
+necessary to have high responsiveness for a game AI, and thus discovering a fine search space reduction method is important.
+Last but not least, I learn that finding features that critically determine the game result is important for the game AI.
+Different features may affect the game outcomes differently, and weighting those features appropriately in the heuristic
+allows us to build a smarter game AI.

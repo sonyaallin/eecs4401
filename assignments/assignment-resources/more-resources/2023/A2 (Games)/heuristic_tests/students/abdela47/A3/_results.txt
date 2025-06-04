@@ -1,0 +1,60 @@
+####################
+# Assignment 3
+####################
+
+Overall: 90.0/90
+====================
+Test Case: [function=test_alphabeta_max_node_1]	[5.0/5]
+	You computed correct alpha-beta max moves for 3 of 3 boards
+You computed correct alpha-beta max values for 3 of 3 boards
+====================
+Test Case: [function=test_alphabeta_max_node_2]	[5.0/5]
+	You computed correct alpha-beta max moves for 3 of 3 boards
+You computed correct alpha-beta max values for 3 of 3 boards
+====================
+Test Case: [function=test_alphabeta_min_node_1]	[5.0/5]
+	You computed correct alpha-beta min moves for 5 of 5 boards
+You computed correct alpha-beta min values for 5 of 5 boards
+====================
+Test Case: [function=test_caching_big]	[4.0/4]
+	Move choice with and without caching is the same for 5 of 5 boards
+State caching improved the time of your alpha-beta for 5 of 5 boards
+====================
+Test Case: [function=test_caching_xl]	[6.0/6]
+	Move choice with and without caching is the same for 5 of 5 boards
+State caching improved the time of your alpha-beta for 5 of 5 boards
+====================
+Test Case: [function=test_compute_utility]	[5.0/5]
+	You computed correct utilities for 6 of 6 boards
+====================
+Test Case: [function=test_depth]	[10/10]
+	Calculated correct moves at varying depths 10/10 times
+====================
+Test Case: [function=test_minimax_max_node_1]	[5.0/5]
+	You computed correct minimax max values for 3 of 3 boards
+You computed correct minimax max moves for 3 of 3 boards
+====================
+Test Case: [function=test_minimax_max_node_2]	[5.0/5]
+	Test 2: You computed correct minimax max values for 3 of 3 boards
+Test 2: You computed correct minimax max moves for 3 of 3 boards
+====================
+Test Case: [function=test_minimax_min_node_1]	[5.0/5]
+	You computed correct minimax min moves for 5 of 5 boards
+You computed correct minimax min values for 5 of 5 boards
+====================
+Test Case: [function=test_ordering_1]	[5/5]
+	Move choice with and without ordering is the same for 3 of 5 boards
+Node ordering improved the run time of your alpha-beta for 5 of 5 boards
+====================
+Test Case: [function=test_ordering_2]	[5/5]
+	Move choice with and without ordering is the same for 3 of 5 boards
+Node ordering improved the run time of your alpha-beta for 5 of 5 boards
+====================
+Test Case: [function=test_select_move_alphabeta]	[10/10]
+	Calculated correct alphabeta moves 10/10 times
+====================
+Test Case: [function=test_select_move_equal]	[5/5]
+	Same alphabeta strategy as minimax 5/5 times
+====================
+Test Case: [function=test_select_move_minimax]	[10/10]
+	Calculated correct minimax moves 10/10 times

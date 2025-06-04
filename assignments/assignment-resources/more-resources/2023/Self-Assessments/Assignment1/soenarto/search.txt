@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned from this search module is that designing optimal
+heuristic functions are difficult. I had to draw out multiple Sokoban boards and think of
+multiple conditions in order to get more problems to pass. I was forced to think creatively
+and outside my comfortzone, which is a similar feeling I encounter in most math clases with
+proofs. It is really cool how even a slight change in heuristic functions can impact how
+the search runs completely differently. I had a lot of fun testing and designing multiple
+heuristic functions and it was definitely a rewarding experience seeing more and more problems
+being solved as I improved upon my heuristic function.

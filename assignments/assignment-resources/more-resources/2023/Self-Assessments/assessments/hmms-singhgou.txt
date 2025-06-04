@@ -1,0 +1,20 @@
+# In this file, please provide 100-250 words in answer to the following question:
+# What is the most significant thing you have learned from the hmm module?
+
+The most significant thing I've learnt is how Natural Language Processing works. It gave me a new perspective
+of how Siri and other virtual assistants make sense of what we tell them. I believe they use HMMs and the 
+Viterbi algorithm, though a much more complex and accurate version, to do so. And this assignment and the
+hmm module gave me a much deeper understanding of how they work together.
+
+For Task 1, we found the probability tables based on the training data. The prior table is a 1-dimensional
+array that contains the probability of a sentence starting with the respective index. The transition table
+is a 2-dimensional array that contains the probability of a word being a certain tag, given it is preceded
+by a respective tag (eg: transition[a][b] will give the prob of tag b following tag a in a sentence). The
+emission table is a dictionary with (TAG, word) tuples as keys and the probability as their values. The
+emission table contains the prob of word given TAG (eg: Pr(word|TAG) values).
+
+For Task 2, we develop an algorithm inspired by Viterbi that predicts the tag of a given word in sentences
+based on the probability values obtained from the training data set. We use Bayes' Theorem: 
+Pr(TAG|word) = Pr(word|TAG)*Pr(TAG)/Pr(word). From this theorem and the values we got from Task 1, we can
+accurately predict the tag that belongs to a given word in sentences.
+

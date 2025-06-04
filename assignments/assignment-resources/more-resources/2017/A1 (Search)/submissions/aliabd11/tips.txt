@@ -1,0 +1,11 @@
+1. Check for states in which the snowball would be deadlocked, such as corners that you can't get out of and edges. Set these to an arbitrarily high value (ex. infinity) in order to help out your heuristic.
+
+2. Another idea is caching states you've already seen in a hash table potentially. This can help speed up your search as you can pull up heuristic values for states already seen quickly.
+
+3. Use an alternate distance calculataion. Try euclidean or even the hungarian algorithm as another way to calculate distance rather than Manhattan.
+
+4. Consider tunnel macros. This can save time precalculating tunnels where the snowball location does not change.
+
+5. Another idea is to prefer paths that are along the straight line from the starting point to the goal. This can be done using a vector cross product calculation between start to goal and current to goal (when vectors don't line up, cross product will be larger so preference to path that lies along straight line path)
+
+

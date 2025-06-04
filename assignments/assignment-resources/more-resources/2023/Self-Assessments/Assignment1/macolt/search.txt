@@ -1,0 +1,8 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+Mostly how to use the search module. Being a module, it's very modular. All it really requires is the a heuristics function
+and an f-function. The search itself just needs to be initiated, and then run with the proper time and cost bounds. The state node
+object is accessible to see your search, and the search stats allow you to see the amount of paths pruned and the time it took to 
+run. For this assignment, the search module made it very easy to get the iterative A, weighted A, and iterative greedy search to work.
+Out of all the questions, the longest was by far making the heuristics function. 

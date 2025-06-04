@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+One of the things I learned was how modular CSP's actually are. As seen in cspbase.py, there are a lot of super short
+methods. Moreover I noticed that the code is easily reusable. All that needs to be done is to modify the funpuzz file
+to create problem applicable constraints. This is very cool to me as it is a global solution which we discussed in class
+but now I got to see it hands on.
+Another thing I learned was that even though GAC is usually considered better, depending on the board FC sometimes
+did better. I believe this is due to checking constraints that do not need to be checked as they may lead to nowhere.
+Another thing may be that with GAC we are testing more tuples whereas in FC we know exactly what tuples to play.

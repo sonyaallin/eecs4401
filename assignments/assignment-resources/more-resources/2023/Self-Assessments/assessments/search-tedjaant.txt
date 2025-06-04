@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learnt from the search module is the significance of
+a good heuristic. Heuristics can greatly influence the decision making process for the
+search and the optimality of the algorithm. Similarly to approximation algorithms,
+heuristic algorithms prioritize speed over accuracy so when they are written well, they
+are like a shortcut to the solution. There are no 'bad' heuristics, as a heuristic may
+be optimal for one type of problem but are not effective for other problems. They really
+make you think about your problem and all its edge cases and how far a certain state is
+from the solution.

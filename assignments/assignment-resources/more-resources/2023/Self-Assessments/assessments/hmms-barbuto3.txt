@@ -1,0 +1,7 @@
+I learned that Bayesian networks are really useful in representing real-life scenarios and problems as events 
+that allow us to reason about the likelihood of those events. One of the powerful concepts of Bayesian nets,
+and more specifically, Hidden Markov Models is its structure. That is, its sequential structure and direction of
+events allows us to make inferences about events given likelihood or knowledge of previous events in concise ways.
+I learned that Natural Language Processing (and tools like Siri) is not as obscure of a concept as it may seem, 
+and I for sure will not look at Siri the same way, and overall, learning about Bayesian networks has changed 
+the way I view prediction-based models and AI in general.

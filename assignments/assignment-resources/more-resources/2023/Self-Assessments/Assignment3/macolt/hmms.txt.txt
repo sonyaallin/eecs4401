@@ -1,0 +1,11 @@
+On a practical level, I've learned the theory and implementation of the hidden markov model, in both 
+training the tables, and using them to make predictions. I've come to make many realizations on the
+HMM, in that it can't be used to garantee prediction as there is always a chance of error in random. 
+When trying to generate the data, it was easy to see how small errors in calculations can lead to larger
+differences in the end, and when you want data for training, you'd hope that most of the probabilities
+are very different so the predictions can be more accurate. I noticed when reading through some
+different predictions, that alot of the errors can be found at the start and the end of sentances. I
+believe that this is because there is less information for words at the beggining and end as either no
+words come before or no words after. When initially starting this unit, I'd thought that this would
+be more akin to linear models and machine learning, but I've been presently suprised that I didn't
+have to do that kind of stuff once again. 

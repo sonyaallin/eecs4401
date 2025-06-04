@@ -1,0 +1,6 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most significant thing I have learned is that it is difficult/costly to timebound limit a program. We can return an error if final time exceeds the bound when completed, which means actual runtime still exceeded the limit, or check in intervals, which would require greater overhead to pause and resume the search. For my implementation I tried to give some breathing room for the program to complete it's last run but it does not mean that I have effectively stopped before the time bound. Although I can see how a kernel program can manage and kill this one with a given time limit.
+
+Adjusting weights too little in the beginning led me to the wrong understanding about the impact of weights. I had thought that dividing by 2 would be significant but it was not enough. 

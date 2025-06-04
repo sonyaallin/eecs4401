@@ -1,0 +1,7 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I learned that minimaxing is a really effctive way to create an AI for 2 player games   
+with finite state space. I always assumed AIs for games like that used some really 
+advanced heuristics and didn't know how they could predict what move the other player
+would make. But using minimaxing makes a lot of sense and I will keep it in mind
+in case I make an AI for a 2 player game in the future.

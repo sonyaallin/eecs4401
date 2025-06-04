@@ -1,0 +1,10 @@
+ 
+1. Read the starter code and make sure you undestand how the search engine works and what it does, all its different arguments.
+
+2. For the alternative heuristic understand how the robot moves, and remember that it can only push the snowballs. 
+
+3. For a more advance alternative heuristic funtions make sure to understand the role of the obstacles.
+
+4. Be aware of corners and deadlocks for any heuristics that care about distance in grids
+
+5. Remember the power of using multiple basic heuristics, use them as building blocks. Individual basic heuristics might not be that usefull by themselves, but if put together they can become much more usefull/informational.

@@ -1,0 +1,16 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+I really enjoyed this module in the course especially since CSP's were new to me.
+It was really fascinating to see how incorporating all the different techniques to the 
+original backtracking search algorithm was able to improve the time complexity 
+of the overall search. Some significant things that I was able to learn and confirm
+through the assignment was that forward checking does improve on backtracking for the most
+part and similarly GAC improved on forward checking when it came to time of the search.
+Furthermore, I remembered from tutorial that binary constraints tend to be better than 
+nary constraints since they are less expensive to compute. At the time, I just assumed this to 
+be true but had a hard time confirming if it was true. But after doing the assignment, i was really
+intrigued to test different nary constraint implementations against binary constraints and i tested
+how binary constraints would perform against trinary...nary constraints. In the end, it confirmed the
+original hypothesis that for the most part that the binary constraints implementation had a 
+faster search.

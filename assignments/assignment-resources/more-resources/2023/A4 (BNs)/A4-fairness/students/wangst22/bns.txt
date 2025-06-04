@@ -1,0 +1,24 @@
+1. In 100-250 words or less, explain what the calculations above might tell you (or might not tell you!) about the "fairness" of your Naive Bayesian network.  
+Would you be willing to use your model to recommend starting salaries for employees at a firm?  Why or why not?
+
+ANS: While the above calculations told us how gender had not affected a particular subset in terms of prediction, it has not shown if gender affects any other evidence subset.
+so how much gender alters our calculations are still inconclusive. However, we see do see the prediction for both gerders nominally have the same accuracy range, 
+with around 1% uncertainty.
+While the prediction for both gerders roughly match; The network predicts higher incomes in men around 6% more than it does women. So no, 
+there is bias, most likey in the data, toawards male salary, the firm should not use my model, atleast not untill it can be trained with more data.
+
+2. Then, in 100-250 words, respond to the question "What is the most significant thing you have learned from the Bayesian Network module, overall?".  
+This will complete our final "self-assessment exercise" for the term (and will be worth 0.25% of the course mark).
+
+ANS: The most important thing I have learned is the importance of correctly assessing correlation and causation. Our probabilitiy model hinges on
+inferred relations, or failing that, a series of predictive algorithms to approximate a relation. This of course causes problems of our own. Too
+large a sample size could introduce noise to our data, rendering our predictions homogenous. Yet too little could introduce bias present with the 
+data, as with our model above. Ferther still is the ethical debate, should we introduce data points like gender to our data points, would they not
+contain societal biases present, how about nationality or race? When can we sacrifice accuracy for ethics? Who is to decide what is correlation and
+what is causation?
+
+3. Last thing .... please let us know (briefly) if the self-assessment exercises have been of any value!!  Should we continue the exercise next term?  
+Is there anything we can do to make them better the next time around?
+
+ANS: The self-assessment helped me refect on what I learned, and serves as a good grounding end point for my work. I think it should be countinued,
+with more prompts like the one above, to encourage alternative thinking.

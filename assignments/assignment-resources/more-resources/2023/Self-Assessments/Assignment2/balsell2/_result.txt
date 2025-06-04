@@ -1,0 +1,83 @@
+
+******************************
+TESTING MODEL 1
+******************************
+0 out of 10 boards modeled and solved correctly using model 1
+
+******************************
+TESTING MODEL 2
+******************************
+0 out of 10 boards modeled and solved correctly using model 2
+
+******************************
+TESTING MODEL 3
+******************************
+0 out of 10 boards modeled and solved correctly using model 3
+
+******************************
+TESTING FC
+******************************
+---starting test_simple_FC---
+Failed simple FC test: variable domains don't match expected results
+[]
+---finished test_simple_FC---
+
+---starting three_queen_FC---
+Failed three queens FC test: variable domains don't match expected results
+[]
+---finished three_queen_FC---
+
+
+4x4 KenKen Puzzle Model:
+Error occurred: None
+
+5x5 KenKen Puzzle Model:
+Error occurred: None
+
+6x6 KenKen Puzzle Model:
+Error occurred: None
+
+******************************
+TESTING GAC
+******************************
+---starting test_simple_GAC---
+Failed simple GAC test: variable domains don't match expected results.
+[]
+---finished test_simple_GAC---
+
+---starting three_queen_GAC---
+Failed three queens GAC test: variable domains don't match expected results
+[]
+---finished three_queen_GAC---
+
+
+4x4 KenKen Puzzle Model:
+Error occurred: None
+
+5x5 KenKen Puzzle Model:
+Error occurred: None
+
+6x6 KenKen Puzzle Model:
+Error occurred: None
+
+******************************
+TESTING MRV
+******************************
+No Variable Returned from Ord MRV
+No Variable Returned from Ord MRV
+No Variable Returned from Ord MRV
+No Variable Returned from Ord MRV
+Passed 0 out of 4 MRV tests
+
+
+******************************
+SUMMARY SCORE FOR ASSIGNMENT 2:
+******************************
+Model1 Score: 0/10
+Model2 Score: 0/10
+Model3 Score: 0.0/20
+FC Score: 0.0/25
+GAC Score: 0.0/25
+MRV Score: 0.0/10
+******************************
+TOTAL Score: 0.0/100

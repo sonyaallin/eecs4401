@@ -1,0 +1,10 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I found that most significant thing in our search module is finding the "good" heuristics. Because I found it quite tricky 
+and heuristics play an important role. Our implementations for different modules, astar or gbf search, all depends on 
+how well we implemented the heuristics function. A  good heuristics function helps the AI find the optimal solution quickly 
+while a bad heuristics makes our module runs slowly and may be get stuck. Of course, wirting the heursitics function 
+cost me most of the time. For each problem which did not produce a solution within the time interval, I needed to 
+debug it and print out states and acitons and analyze at which step, according to the heursitics, lead to our robot went 
+wrong.

@@ -1,0 +1,13 @@
+I learned several things in the CSP module. The first is that forward-checking
+is a valuable optimization that can be made, and it's rather lightweight. I also
+learned about Generalized Arc Consistency, and I became curious about when one
+might be beneficial over the other. Generalized Arc Consistency is a stronger
+form of standard forward-checking, but it requires doing more work, and so it
+ends up taking more time to run than standard forward-checking. However, it
+might make up for it depending on how many more values it prunes, so it's an
+interesting trade-off. The second, and probably the most significant, is that
+heuristics can aid in reducing the number of bad assignments made when searching
+for a valid set of assignments. Using MRV made a significant impact on the
+number of assignments made in the provided tester. This made me curious about
+how much impact value-selection heuristics could make on the number of
+assignments made.

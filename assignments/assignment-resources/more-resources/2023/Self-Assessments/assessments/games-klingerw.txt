@@ -1,0 +1,8 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+I learned about the idea of two player games and the strategies behind them, particularily minmax and alphabeta, which make use of seeing into future decisions 
+and making best choices in hopes to worsen the opponents possible moves or increase our scores for our own moves. This assignment taught me a lot on the 
+roles of minmax, and the use of heuristics at the end was a nice tie and nod to the beginning of the semester. The recursive nature of minmax and alphabeta
+makes sense as well, as each recursion is taking a step down a level of the tree, into an internal node or leaf node and deciding the best action to take in the mind
+of either the opponent or the player.

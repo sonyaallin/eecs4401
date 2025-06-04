@@ -1,0 +1,14 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+
+The games unit was really fun. I learned that I cannot even begin to beat my own ai.
+I also learned that changing function and adding features later is really difficult, as
+it is very easy to forget to implement the new feature correctly everywhere. My state caching
+was only implented in minimax. I did not notice that it was not implemented in alphabeta until
+9 pm on the last day.
+
+Other than that, I really enjoyed the formalization of turn-based games that the minimax algorithm makes.
+I had know about game-playing AIs, but learning about how they were able to formalize a complex game and develop
+an algorithm for it was insane. The intuition I've gained in this course about how to take problems and formalize them
+into something much easier to work with is something I am sure will help me in the future. Especially since I develop games
+as a hobby. (or at least I try to)

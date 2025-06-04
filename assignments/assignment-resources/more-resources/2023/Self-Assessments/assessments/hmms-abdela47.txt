@@ -1,0 +1,9 @@
+What is the most significant thing you have learned from the Bayesian Network module?
+
+This module has shown me that HMMs are everywhere. This had made me
+think differently about voice assistants overall. That voice assistants definitely work using probability more than voice
+recognition as i have seen that they are sometimes way off with there interpretation of what was said. Another thing is
+that they would never be done training, everytime you correct what was said would alter the data. As individual correcting
+data points they would not correct the data by much however in the grand scheme with all users over several years the
+corrections will certainly take a more influential part.
+

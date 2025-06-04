@@ -1,0 +1,144 @@
+####################
+# Assignment 4
+####################
+
+Overall: 25/32
+====================
+Test Case: [function=multiply_factors_test_1]	[1/1]
+	P(smoker) = 0.5 P(non-smoker) = 0.5
+MF Test 1 ....
+multiply_factors_test_1: 
+passed.
+====================
+Test Case: [function=multiply_factors_test_2]	[1/1]
+	MF Test 2 ....
+P(visit,smoker) = 0.005 P(no-visit,smoker) = 0.005 P(visit,non-smoker) = 0.495 P(no-visit,non-smoker) = 0.495
+multiply_factors_test_2: 
+passed.
+====================
+Test Case: [function=multiply_factors_test_3]	[1/1]
+	MF Test 3 ....
+multiply_factors_test_3: 
+passed.
+F1 x F5 = [0.006, 0.003, 0.004, 0.006999999999999999, 0.594, 0.297, 0.396, 0.693]
+====================
+Test Case: [function=old_VE_tests]	[8/8]
+	P(g|s,w) = 0.5 P(-g|s,w) = 0.5 P(g|s,-w) = 0.5 P(-g|s,-w) = 0.5
+Test 8 ....
+OVE Test 4 ....
+OVE Test 1 ....
+OVE Test 5 ....
+OVE Test 7 ....
+P(g) = 0.04950000000000001 P(-g) = 0.9505
+P(g|s) = 0.5 P(-g|s) = 0.5 P(g|-s) = 0.0 P(-g|-s) = 1.0
+P(g|w) = 0.15265998457979954 P(-g|w) = 0.8473400154202004 P(g|-w) = 0.01336753983256819 P(-g|-w) = 0.9866324601674318
+P(s|g) = 1.0 P(-s|g) = 0.0
+OVE Test 3 ....
+P(g|-s,w) = 0.0 P(-g|-s,w) = 1.0 P(g|-s,-w) = 0.0 P(-g|-s,-w) = 1.0
+passed.
+P(e) = 0.1 P(-e) = 0.9
+OVE Test 2 ....
+OVE Test 6 ....
+old_VE_tests: 
+P(w|b,-e) = 0.68 P(-w|b,-e) = 0.32
+====================
+Test Case: [function=old_multiply_factors_tests]	[3/3]
+	P(e,s,b) = 0.09000000000000001 P(-e,s,b) = 0.010000000000000002 P(e,-s,-b) = 0.020000000000000004 P(-e,s,-b) = 0.08000000000000002
+old_multiply_factors_tests: 
+OMF Test 1 ....
+P(e) = 0.1 P(-e) = 0.9
+passed.
+OMF Test 2 ....
+OMF Test 3 ....
+P(e,b) = 0.010000000000000002 P(-e,b) = 0.09000000000000001 P(e,-b) = 0.09000000000000001 P(-e,-b) = 0.81
+====================
+Test Case: [function=old_restrict_factor_tests]	[3/3]
+	P(S=-s|E=-e,B=b) = 0.2
+old_restrict_factor_tests: 
+P(G=-g|S=s) = 1
+ORF Test 3 ....
+ORF Test 2 ....
+ORF Test 1 ....
+P(E=e) = 0.1
+passed.
+====================
+Test Case: [function=old_sum_out_variable_tests]	[2/2]
+	P(S = s | B = b) = 1.7000000000000002 P(S = s | B = -b) = 0.2 P(S = -s | B = b) = 0.30000000000000004 P(S = -s | B = -b) = 1.8
+OSOV Test 2 ....
+OSOV Test 1 ....
+old_sum_out_variable_tests: 
+passed.
+sum_e P(e) = 1.0
+====================
+Test Case: [function=restrict_factor_test_1]	[1/1]
+	RF Test 1 ....
+restrict_factor_test_1: 
+P(VisitAsia=visit) = 0.01
+passed.
+
+Restrict Factor Tests
+====================
+Test Case: [function=restrict_factor_test_2]	[1/1]
+	restrict_factor_test_2: 
+P(Bronchitis=absent|Smoking=non-smoker) = 0.7
+passed.
+RF Test 2 ....
+====================
+Test Case: [function=restrict_factor_test_3]	[1/1]
+	restrict_factor_test_3: 
+RF Test 3 ....
+passed.
+P(Dyspnea=absent|TBorCA=true,Bronchitis=present) = 0.1
+====================
+Test Case: [function=sum_out_variable_test_1]	[1/1]
+	sum P(VisitAsia) = 1.0
+sum_out_variable_test_1: 
+SOV Test 1 ....
+passed.
+====================
+Test Case: [function=sum_out_variable_test_2]	[1/1]
+	sum_out_variable_test_2: 
+P(Cancer = present) = 0.11 P(Cancer = absent) = 1.8900000000000001 
+passed.
+SOV Test 2 ....
+====================
+Test Case: [function=sum_out_variable_test_3]	[1/1]
+	P(TBorC = true) = 3.0 P(TBorC = false) = 1 
+sum_out_variable_test_3: 
+passed.
+SOV Test 3 ....
+====================
+Test Case: [function=ve_test_1]	[0/1]
+	VE Test 1 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 30, in ve_test_1\n    probs = stu_solution.VE(Asia, Bronchitis, [Smoking])\n  File "students//utamast1/A4/bnetbase.py", line 556, in VE\n    factors_to_compute = multiply_factors(factors_to_compute)\n  File "students//utamast1/A4/bnetbase.py", line 384, in multiply_factors\n    new_factor.add_values(values_to_add)\n  File "students//utamast1/A4/bnetbase.py", line 171, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//utamast1/A4/bnetbase.py", line 69, in value_index\n    return self.dom.index(value)\nValueError: 0.010400000000000001 is not in list\n'
+ve_test_1: 
+====================
+Test Case: [function=ve_test_2]	[0/1]
+	ve_test_2: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 63, in ve_test_2\n    probs = stu_solution.VE(Asia, Dyspnea, [Tuberculosis])\n  File "students//utamast1/A4/bnetbase.py", line 556, in VE\n    factors_to_compute = multiply_factors(factors_to_compute)\n  File "students//utamast1/A4/bnetbase.py", line 384, in multiply_factors\n    new_factor.add_values(values_to_add)\n  File "students//utamast1/A4/bnetbase.py", line 171, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//utamast1/A4/bnetbase.py", line 69, in value_index\n    return self.dom.index(value)\nValueError: 0.03 is not in list\n'
+VE Test 2 ....
+====================
+Test Case: [function=ve_test_3]	[0/1]
+	A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 95, in ve_test_3\n    probs = stu_solution.VE(Asia, Dyspnea, [TBorCA])\n  File "students//utamast1/A4/bnetbase.py", line 556, in VE\n    factors_to_compute = multiply_factors(factors_to_compute)\n  File "students//utamast1/A4/bnetbase.py", line 384, in multiply_factors\n    new_factor.add_values(values_to_add)\n  File "students//utamast1/A4/bnetbase.py", line 171, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//utamast1/A4/bnetbase.py", line 69, in value_index\n    return self.dom.index(value)\nValueError: 0.010400000000000001 is not in list\n'
+VE Test 3 ....
+ve_test_3: 
+====================
+Test Case: [function=ve_test_4]	[0/1]
+	ve_test_4: 
+VE Test 4 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 129, in ve_test_4\n    probs = stu_solution.VE(Asia, TBorCA, [VisitAsia, Smoking])\n  File "students//utamast1/A4/bnetbase.py", line 556, in VE\n    factors_to_compute = multiply_factors(factors_to_compute)\n  File "students//utamast1/A4/bnetbase.py", line 384, in multiply_factors\n    new_factor.add_values(values_to_add)\n  File "students//utamast1/A4/bnetbase.py", line 171, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//utamast1/A4/bnetbase.py", line 69, in value_index\n    return self.dom.index(value)\nValueError: 0.05 is not in list\n'
+====================
+Test Case: [function=ve_test_5]	[0/1]
+	ve_test_5: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 163, in ve_test_5\n    probs = stu_solution.VE(Asia, TBorCA, [Xray])\n  File "students//utamast1/A4/bnetbase.py", line 556, in VE\n    factors_to_compute = multiply_factors(factors_to_compute)\n  File "students//utamast1/A4/bnetbase.py", line 384, in multiply_factors\n    new_factor.add_values(values_to_add)\n  File "students//utamast1/A4/bnetbase.py", line 171, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//utamast1/A4/bnetbase.py", line 69, in value_index\n    return self.dom.index(value)\nValueError: 0.03 is not in list\n'
+VE Test 5 ....
+====================
+Test Case: [function=ve_test_6]	[0/1]
+	VE Test 6 ....
+ve_test_6: 
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 193, in ve_test_6\n    probs = stu_solution.VE(Asia, Cancer, [])\n  File "students//utamast1/A4/bnetbase.py", line 556, in VE\n    factors_to_compute = multiply_factors(factors_to_compute)\n  File "students//utamast1/A4/bnetbase.py", line 384, in multiply_factors\n    new_factor.add_values(values_to_add)\n  File "students//utamast1/A4/bnetbase.py", line 171, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//utamast1/A4/bnetbase.py", line 69, in value_index\n    return self.dom.index(value)\nValueError: 0.03 is not in list\n'
+====================
+Test Case: [function=ve_test_7]	[0/1]
+	ve_test_7: 
+VE Test 7 ....
+A runtime error occurred: 'Traceback (most recent call last):\n  File "/Users/JaglalLab/Desktop/A4/autograder/auto_grader/student_grader/assignment/A4_tests.py", line 227, in ve_test_7\n    probs1 = stu_solution.VE(Asia, Smoking, [Dyspnea])\n  File "students//utamast1/A4/bnetbase.py", line 556, in VE\n    factors_to_compute = multiply_factors(factors_to_compute)\n  File "students//utamast1/A4/bnetbase.py", line 384, in multiply_factors\n    new_factor.add_values(values_to_add)\n  File "students//utamast1/A4/bnetbase.py", line 171, in add_values\n    index = index * v.domain_size() + v.value_index(t[0])\n  File "students//utamast1/A4/bnetbase.py", line 69, in value_index\n    return self.dom.index(value)\nValueError: 0.010400000000000001 is not in list\n'

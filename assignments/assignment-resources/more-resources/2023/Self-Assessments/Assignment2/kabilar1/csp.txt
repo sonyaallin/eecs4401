@@ -1,0 +1,11 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the csp module?
+
+The most significant thing I have learnt in this assignment is the efficiency and speed
+of FC and GAC on CSP problems. In the past I have used back tracking to solve regular 
+sudoku I realized that it was extremely slow and I concluded that back tracking was almost 
+pointless. After this class I have realized that implementation of propagators such as FC 
+and GAC with MRV makes this problem so efficient. This entire idea of back tracking, FC, GAC 
+is so fascinating and impresive. In addition to this the concept of FC and GAC was very well 
+taught by prof sonya allin I was able to easy code FC and GAC. This was a very fun assignment 
+to work on.

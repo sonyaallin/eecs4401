@@ -1,0 +1,12 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+To build a good heuristic function, we need consider about following point:
+1. Check whether it's a goal state, h(goal_state) must be zero. 
+If we overestimated the h-value for goal state, it will more likely stay in the frontier and get extracted at the end.
+
+2. We need check whether it's a dead state, which means that we will never reach the goal as long as we entered this dead state. The h-value of dead state should be infinite since we will never reach the goal thought out this state.
+
+3. Now, we need consider the h-value for hopeful inner state. Even thought there are a bunch of ways to calculate much accuracy heuristic value, it's always very expensive to make this kind of calculation. Thus, we need deal with "Is it necessary to calculate based on these attribute(such as obstacles, boxes, and robots that between the boxes and target storage)".
+
+Search is very interesting for me and useful in the industries. I'm willing to do more study based on the search algorithm if I have opportunity in the future. 

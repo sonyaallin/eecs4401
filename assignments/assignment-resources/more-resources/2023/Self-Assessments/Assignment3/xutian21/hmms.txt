@@ -1,0 +1,4 @@
+The most significant thing I've learned is how using tool efficiently helps with accomplishing. In the beginning I tried to brute force the
+algorithm without using counter and numpy, which outputs an acceptable answer but it ruins slowly. After reading the documentation of counter
+and numpy carefullt I was able to use the different functions given by packages and make my runtime faster. It extends to real life as brute
+forcing is really inefficient and stresses you out. But if you can do things smart it makes a huge difference.

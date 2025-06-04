@@ -1,0 +1,10 @@
+This homework really opened my eyes and deepened my understanding of algorithms again. 
+As long as a game meets specific requirements, the computer can violently calculate the
+ best algorithm. As computer students, what we really need to think about is not the 
+ possibility or impossibility that ordinary people think, but the speed at which I can 
+ crack a game violently. . For example, using puring can greatly speed up the cracking 
+ speed, which is really amazing. I have to say that there are many similar things that 
+ I believe can be cracked, not just games. In fact, many games are closely related to 
+ game theory, and game theory is used and practiced everywhere in life. I really look 
+ forward to how many problems that we seem to be impossible to calculate with computers 
+ can also be solved with the development. Brute force. Algorithms are everything! ! !

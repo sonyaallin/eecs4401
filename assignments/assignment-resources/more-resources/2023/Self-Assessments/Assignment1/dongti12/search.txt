@@ -1,0 +1,13 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+The most important thing I learned is that fact that when doing search algorithms, there can be so many
+factors involved when trying to optimize the solutions. Without even one of them, like the path/cycle checking,
+the runtime of the resulting search can get exponentially long. But of course, none of the search strategies will work
+without a good heuristic function. I've learned through lectures and this assignment that building a good and considerate
+heuristic takes a lot of thought for complex problems. For the sokoban problem alone, there were so many edge cases that
+would terminate the search, I couldn't even get all of them because of the way robots have to move around the boxes, etc.
+For the heuristic I built for this assignment, it is in no way monotonic or even admissible, but the rough estimates
+I made to calculate the "true" distance for each box (using the obstacles/walls and the robot distance as factors), was
+enough for me to get 14/20 on most of the tests. I guess this is reflective hard it is to get a perfectly good heuristic
+function in real life.

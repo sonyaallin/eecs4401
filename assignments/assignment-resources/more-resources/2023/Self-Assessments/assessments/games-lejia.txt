@@ -1,0 +1,12 @@
+What did I learn from the games module?
+
+I learned about the MiniMax strategy which maximises a player's potential payoff 
+while minimizing his/her opponents'. This strategy can be employed in a variety of
+two-player zero sum games such as Chess, Go, and Othello. I also learned that checkers, 
+a childhood game of mine, has been solved, which means that assuming both sides play
+perfectly, the game's outcome can be correctly predicted from any position. The recursive
+nature of "solving" games is what makes it one of my favourite topics of AI. The fact that
+we must play based on our opponent, who plays based on how we play and so on. This was
+certainly my favourite topic in this course! 
+
+As a side note, Othello also brings back fun memories of CSC207 :D

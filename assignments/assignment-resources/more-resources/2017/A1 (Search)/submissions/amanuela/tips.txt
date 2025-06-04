@@ -1,0 +1,9 @@
+1. Check for states that in which finding a solution would be impossible. For example corners and walls.
+
+2. Weigh the distances of each snowball from the goal differently so that the search tries to move the larger snowball first.
+
+3. The distance between the robot and the goal is also important to keep track of, but not as important as the snowballs. It a good idea to put a weight < 1 on this distance
+
+4. Check to see if the current state puts the medium or small snowball in the goal first. This state generally should be avoided although it is not a dead state.
+
+5. Make sure that you are not in a previously visited states as they are redudant and guarantee that you will not find the most efficient solution.

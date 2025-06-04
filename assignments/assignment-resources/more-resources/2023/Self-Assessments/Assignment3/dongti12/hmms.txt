@@ -1,0 +1,5 @@
+For this module, i learned a lot about probability, from how markov models work in bayesian networks and why how the
+conditional independence only requires the previous state. This property makes it so the hidden markov model can populate
+ the initial, transistion and emission states much easier, so now P(X1:XN,E1:XN) can be computed easier. With the
+ viterbi algorithm, the maximization of P(X1:XN,E1:XN) given only observables and a training files to compute the P(X1)
+ can be done O(S^2*O), which is very fast compared to the exponential brute force solution.

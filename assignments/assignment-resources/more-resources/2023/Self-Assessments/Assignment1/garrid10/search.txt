@@ -1,0 +1,7 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+The most significant thing that I have learned is that this course is hard and I should start assignments sooner. I also
+learned how pretty and interesting it is to code ai. I've learned how rewarding it can be to solve problems these ways.
+And I think it is probably the most significant thing that I learned thus far. I am not very passionate about computer
+science. But, from what I have learned in this course, I could probably change that. In summary, searching is very inte-
+resting and it has very fun to learn how computers work when searching.

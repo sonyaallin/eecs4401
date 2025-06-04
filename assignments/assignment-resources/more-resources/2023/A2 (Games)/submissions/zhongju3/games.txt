@@ -1,0 +1,3 @@
+﻿What is the most significant thing you have learned from this exercise?
+    
+    The most significant thing I learned from this exercise is implementing the Minimax algorithm itself. I first thought it was just simply passing the game board to the other player after making a move, and based on whether the player is a MAX player or a MIN player, pick the highest or lowest score from the recursion. However, just by doing this, I was only able to pass 2/20 tests. Then I came to realize that, either player, on their own turns, should treat themselves as the MAX player and pick the move that can maximize itself’s score. Another thing I did to make this algorithm work is to also save the game board when it reaches the maximum depth or reaches the terminal state.

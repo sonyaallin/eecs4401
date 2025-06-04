@@ -1,0 +1,8 @@
+#You can use this file for the purpose of your self-assessment exercise.  
+#In 100-250 words, answer the question: what did I learn in the games unit?
+I learned a lot on this assignment, the main thing I learned was how AI's work in games. I learned about the different ways 
+an AI can choose a move like minimax, alphabeta and many more. There are also way to improve the performance by pruning branches 
+and even keeping track of things you have encountered before. I also learned again how important heuristics are, and a good heuristics 
+can make or break your AI. I did not know heuristics played such a big part in AI. I also learned how AIs in games somewhat work and why
+some times AIs break, and why people are able to make AIs so powerful and hard to beat because it literally will make the best move possible and
+will also thing of future outcomes as well.

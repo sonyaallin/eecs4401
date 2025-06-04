@@ -1,0 +1,14 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+I have learnt that this sokoban game is actually very popular and there have been 
+many research done on this game. I have learnt that finding the optimal solution 
+for heur alternate is very similar to the problem minimum cost perfect matching for 
+a bipartite graph. This is where we are trying to find a lowest cost and have to 
+connect each box to each storage point. Hence this creates a bipartite graph where 
+the boxes are one section and the storage are the second section. This heuristics 
+has a time complexity of O(n^3 * log_(2+n/4)n). I learnt this information from an 
+article published by Andreas Junghanns from University of Alberta. Although I was not 
+able to fully understand the implementation of minimum cost perfect matching algorithm, 
+I was able to understand the relationship and how it could improve the search for sokoban. 
+This is a very fascinating game with lots of unique and interesting possibilities.

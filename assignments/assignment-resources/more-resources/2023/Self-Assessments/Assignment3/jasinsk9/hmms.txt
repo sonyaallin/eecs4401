@@ -1,0 +1,9 @@
+The most important I learned this assignment was not to procrastinate and lose motivation...
+Seriously though, the most important I learned was the power of probability. It seems like such a
+simple tool: "How likely is this to occur?" But when you combine it with training data, 
+multiple, conditional and joint probabilities you can create a complicated that is amazing at
+predicting certain things. I also worked a lot with probability is CSC311 last semester and it
+still amazes me how well it works. I also read up on the application a hidden Markov model has in
+cryptanalysis. I'm not in info security but the base level decoding is super cool and its crazy that
+probability can help decrypt something. Most of the stuff is too high level for me but still, pretty
+awesome.

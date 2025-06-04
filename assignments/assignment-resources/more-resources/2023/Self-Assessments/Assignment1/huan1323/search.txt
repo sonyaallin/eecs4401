@@ -1,0 +1,23 @@
+#In this file, please provide 100-250 words in answer to the following question:
+#What is the most significant thing you have learned from the search module?
+
+    From the implementation of this assignment, I learned that trade-off on the
+runtime and accuracy takes a big part of the search algorithm.
+    For the perspective on implementing the heuristic, we need to be careful on
+the runtime in the estimation. An accurate estimation may cost a higher runtime.
+Since the heuristic function is repeatedly running in the whole search algorithm,
+we need to test if this approach is really saving time in the whole search
+algorithm for us.
+    For the perspective of the whole search algorithm, we need to figure out
+whether finding solutions for most cases is more important or finding the
+optimal solutions is more significant. When we want to approach the optimal path,
+like set a lower weight in weight A* and use iterative versions, our codes need
+more time to terminate.  The iterative search algorithms take a high priority on
+the timebound. In most cases, the code can find a solution, but it may take
+higher costs. The normal A* guarantees to find the optimal solution, but it
+cannot terminate in 2 seconds in most of the examples.
+    In conclusion, when we are doing an Artificial Intelligence project, we need
+to decide the methods based on if we are focus on the quality of the solutions
+or the quantity of the solutions. After that, we implement the heuristic with a
+balance on the runtime and the accuracy.
+
