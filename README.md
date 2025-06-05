@@ -25,6 +25,10 @@ See https://www.cs.toronto.edu/~hector/PublicKRSlides.pdf for Levesque's KR slid
 See https://www.eecs.yorku.ca/~lesperan/Roma24GradCourse/ for Lesperance's course on planning in KR 
 (with lecture videos/slides) 
 
+
+Causation Lectures:
+https://www.youtube.com/watch?v=ci3muJMEYho&list=PLlDG_zCuBub7tkJVUE__LU6vGWih0_MTk
+
 Answer Set Programming lectures 
 https://www.youtube.com/watch?v=iL7SCofdEck
 https://www.youtube.com/watch?v=VZ2q3DsHvqU
